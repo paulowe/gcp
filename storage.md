@@ -9,5 +9,11 @@
 - Finer grained control using ACL rules
     - ACL: Scope (who can perform certain actions), and Permission (What actions can be performed, read/write, etc)
 
-### gsutil
+### gsutil to create a bucket
+In Cloud Shell, the DEVSHELL_PROJECT_ID environment variable contains your project ID. Enter this command to make a bucket named after your project ID:
+```gsutil mb -l $LOCATION gs://$DEVSHELL_PROJECT_ID```
+
+### Modify ACL
+Modify the Access Control List of the object you just created so that it is readable by everyone:
+```gsutil acl ch -u allUsers:R gs://$DEVSHELL_PROJECT_ID/my-excellent-blog.png```
 
