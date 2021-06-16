@@ -10,4 +10,8 @@ Cloud SQL is a fully managed relational DB that offers MySQL or PostgreSQL as a 
 - Scales vertically and horizontally (read replicas only)
 - Includes network firewalls and encryption
 
-### Create a Cloud SQL instance
+### Create a Cloud SQL connections
+
+You need to add/authorize a network connection for your Database engine. 
+You can do this by adding the public IP address of your web server followed by /32 , /24 , or whatever your network identifier is
+
