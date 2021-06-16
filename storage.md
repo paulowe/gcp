@@ -11,7 +11,14 @@
 
 ### gsutil to create a bucket
 In Cloud Shell, the DEVSHELL_PROJECT_ID environment variable contains your project ID. Enter this command to make a bucket named after your project ID:
+
 ```gsutil mb -l $LOCATION gs://$DEVSHELL_PROJECT_ID```
+
+DEVSHELL_PROJECT_ID environment variable contains your project ID so, we are essentially creating a bucket with the user-defined, globally unique project ID.
+
+### Copy file from remote Cloud Storage location
+
+```gsutil cp gs://cloud-training/gcpfci/my-excellent-blog.png my-excellent-blog.png```
 
 ### Modify ACL
 Modify the Access Control List of the object you just created so that it is readable by everyone:
