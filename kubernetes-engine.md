@@ -51,3 +51,34 @@ nginx --port=80
 ```
 Kubernetes then creates a service with a fixed IP address. A service is the fundamental way Kubernetes represents a load balancer.
 This is a Network Load balancer 
+
+#### Services
+
+A service groups a set of pods (contained in nodes/VMs) together and provides a stable endpoint for acessing your application.
+- Great because it embraces failure of nodes as part of normal operations. By having a stable IP we maintain high availability even if some of our pods were to go down and reboot with a new public IP.
+
+```
+kubectl get services
+```
+This command shows you your Load balancer's Public IP address. Clients can use this to hit your application remotely
+
+#### Scaling your deployments
+
+You can simly scale using the 
+ ```
+ kubectl scale nginx --replicas=3
+ ```
+ and your app will now have 3 redundant instances all running behind a stable IP address provided by the LB service
+ 
+ #### Autoscaling based on CPU usage
+ ```
+ kubectl autoscale 
+ nginx --min=10 
+```
+In this case, we define the
+- min, and max number of pods and 
+- the criteria for scaling up. We scale up once cpu usage reaches 80% of capacity
+
+
+ 
+  
