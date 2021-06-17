@@ -95,3 +95,4 @@ In this case, we define the autoscale deployment with
 gcloud container clusters create webfrontend
 --zone $ZONE --num-nodes 2
 ```
+
