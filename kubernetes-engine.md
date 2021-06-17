@@ -83,8 +83,9 @@ In this case, we define the autoscale deployment with
 - provide config files and use them as management tools
 - easily change and present the new version to kubernetes to update
 - track deployments using source control systems to see how your deployment environment/infrastructure has changed over time
+- define update strategies
 
+#### Update strategy
+1. Rolling updates - are a quick way to push out a new version of your application while sparing users the downtime while your app rebuilds and redeploys
 
-
- 
-  
+Kubernetes creates new versions of the pods one after the other before destroying 
