@@ -13,4 +13,33 @@ App Engine takes care of a lot of standard operations you would require ina typi
 These are all handled by App engine. You only have to code your application to take advantage of the App engine service.
 
 ### Use case
-App engine is especially suited for applications where the workload is highly variable like Web Apps and Mobile backends
+App Engine will scale your application automatically in response to the amount of traffic it receives. That’s why App Engine is especially suited for applications where the workload is highly variable, like Web Apps and Mobile backends.
+
+### Environments
+1. App Engine Standard Environment
+2. App Engine Flexible Environment
+
+#### Standard Environment
+- Low utilization can run at no charge
+- SDKs are available for local testing before deployment. They also include simple commands for deployment
+
+In the Standard environment, restrictions are enforced for your code to be run on a Sandbox.
+
+Sandbox is a software construct that's independent of the hardware, OS or physical location of the server it runs on. 
+
+This is one of the reasons why App Engine Standard Environment can scale and manage your application in a very fine grained way.
+
+Sandbox constraints:
+ - No writing to local files
+ - All request time out at 60s
+ - Limits on third party software
+ 
+#### Runtimes
+Java, Python, PHP and Go are supported
+
+#### Flexible Environment
+- Allows you to run other runtime environments
+- Lets you specify the container your app runs in and 
+- App Engine will manage these compute engine VMs, health checks
+- You choose where they run
+- Slower instance startup compared to Standard Environment
