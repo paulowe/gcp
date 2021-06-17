@@ -89,3 +89,9 @@ In this case, we define the autoscale deployment with
 1. Rolling updates - are a quick way to push out a new version of your application while sparing users the downtime while your app rebuilds and redeploys
 
 2. Kubernetes creates new versions of the pods one after the other before destroying 
+
+## Create a Kubernetes cluster managed by Kubernetes Engine
+```
+gcloud container clusters create webfrontend
+--zone $ZONE --num-nodes 2
+```
