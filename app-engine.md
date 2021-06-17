@@ -37,8 +37,10 @@ Sandbox constraints:
 Java, Python, PHP and Go are supported
 
 #### Flexible Environment
-- Allows you to run other runtime environments
+- Allows a wide range of choices for application language ( runtime environments)
 - Lets you specify the container your app runs in and 
 - App Engine will manage these compute engine VMs, health checks
-- You choose where they run
-- Slower instance startup compared to Standard Environment
+- Ability to ssh in
+- Choice of geographic region
+
+Flexible environmens however have a Slower instance startup compared to the Standard Environment
