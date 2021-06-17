@@ -68,16 +68,22 @@ You can simly scale using the
  ```
  kubectl scale nginx --replicas=3
  ```
- and your app will now have 3 redundant instances all running behind a stable IP address provided by the LB service
+ and your app will now have 3 nginx instances all running behind a stable IP address provided by the LB service
  
  #### Autoscaling based on CPU usage
  ```
  kubectl autoscale 
  nginx --min=10 
 ```
-In this case, we define the
+In this case, we define the autoscale deployment with
 - min, and max number of pods and 
 - the criteria for scaling up. We scale up once cpu usage reaches 80% of capacity
+
+### Declarative environments
+- provide config files and use them as management tools
+- easily change and present the new version to kubernetes to update
+- track deployments using source control systems to see how your deployment environment/infrastructure has changed over time
+
 
 
  
