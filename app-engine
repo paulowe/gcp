@@ -1,0 +1,16 @@
+App Engine is a Platform as a Service.
+Allows you to focus on the your app
+It makes deployment mainteneace, and scalability easy
+
+Includes standard operations
+- NoSQL Dbs,
+- In memory dbs
+- Health checks,
+- Load balancing, 
+- Authentication, 
+- Networking, 
+- Caching 
+
+These are all handled by App engine. You only have to code your application to take advantage of App engine.
+
+App engine is especially suited for applications where the workload is highly variable like Web Apps and Mobile backends
