@@ -88,4 +88,4 @@ In this case, we define the autoscale deployment with
 #### Update strategy
 1. Rolling updates - are a quick way to push out a new version of your application while sparing users the downtime while your app rebuilds and redeploys
 
-Kubernetes creates new versions of the pods one after the other before destroying 
+2. Kubernetes creates new versions of the pods one after the other before destroying 
