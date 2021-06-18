@@ -1,4 +1,5 @@
 [Overview](https://github.com/paulowe/gcp/blob/main/readme.md)
+
 [Next](https://github.com/paulowe/gcp/blob/main/comparing-storage-options.md)
 ## Google offers customer friendly pricing
 1. Per second billing for IaaS offerings such as Compute Engine, Kubernetes Engine
