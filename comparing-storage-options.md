@@ -16,10 +16,10 @@
 
 ### Cloud Storage
 - Type: Large Object store
-= Transactions: No
-= Complex queries: No
-= Capacity: PB
-= Unit size: 5TB/object
+- Transactions: No
+- Complex queries: No
+- Capacity: PB
+- Unit size: 5TB/object
 
 ### Cloud SQL
 - Type: Relational (OLTP)
