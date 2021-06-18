@@ -6,6 +6,8 @@ Global infrastructure
 
 [VPC and Networking concepts](https://github.com/paulowe/gcp/blob/main/vpc-networks.md)
 
+[Cloud Load Balancing](https://github.com/paulowe/gcp/blob/main/vpc-cloud-load-balancers.md)
+
 Shared Responsibility Model
 
 [Pricing innovations](https://github.com/paulowe/gcp/blob/main/pricing.md)
