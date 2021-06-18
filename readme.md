@@ -1,4 +1,4 @@
-[Next](https://github.com/paulowe/gcp/blob/main/pricing.md)
+[Next](https://github.com/paulowe/gcp/blob/main/vpc-networks.md)
 ## Overview                                                                                                                                          
 Overview of GCP Study sessions
 ### General
@@ -6,7 +6,7 @@ Global infrastructure
 
 [VPC and Networking concepts](https://github.com/paulowe/gcp/blob/main/vpc-networks.md)
 
-[Cloud Load Balancing](https://github.com/paulowe/gcp/blob/main/vpc-cloud-load-balancers.md)
+[Cloud Load Balancing](https://github.com/paulowe/gcp/blob/main/cloud-load-balancer.md)
 
 Shared Responsibility Model
 
