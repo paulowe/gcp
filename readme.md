@@ -4,7 +4,7 @@ Overview of GCP Study sessions
 ### General
 Global infrastructure
 
-VPC and Networking concepts
+[VPC and Networking concepts](https://github.com/paulowe/gcp/blob/main/vpc-networks.md)
 
 Shared Responsibility Model
 
