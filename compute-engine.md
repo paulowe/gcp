@@ -22,7 +22,8 @@ Create durable snapshot of disks for backups or migration
 - Ensure you have a mechanism for start/stop jobs
 
 **How big can you create a VM?**
-Welll 96VCPUs, 624GB RAM - **Big VMs** are great for in-memory DBs and CPU intensive analytics (Vertical scaling)
+
+Welll 96 vCPUs, 624GB RAM - **Big VMs** are great for in-memory DBs and CPU intensive analytics (Vertical scaling)
 
 Horizontal Scaling - Typically what you would try first 
 
