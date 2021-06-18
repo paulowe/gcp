@@ -1,14 +1,25 @@
 [Overview](https://github.com/paulowe/gcp/blob/main/readme.md)
 
 [Next](https://github.com/paulowe/gcp/blob/main/kubernetes-engine.md)
-## Important Compute Engine commands to remember
+## Compute Engine
+Lets you create and run VMs in the cloud
+- No upfront investment
+- Fast and consistent performance
+- Run images from Google or third party
+- Machine type: Determine Memory and VCPUs or
+- Create custom VM types to meet your compute needs perfectly
 
-### Configure default zones
+Storage for VMs
+- Standard SSD (Persistent, Low performance)
+- Local SSD (Temporary, High perfromance
+### Important Compute Engine commands to remember
+
+#### Configure default zones
 ```gcloud config set compute/zone northamerica-northeast1-a```
 
-### Create compute engine
+#### Create compute engine
 
-#### Basic
+##### Basic
 ```
 gcloud compute instances create "my-vm" \
 --machine-type "n1-standard-1" \
@@ -17,7 +28,7 @@ gcloud compute instances create "my-vm" \
 --subnet "default" 
 ```
 
-#### Intermediate 
+##### Intermediate 
 ``` 
 gcloud beta compute --project=projectName \
 instances create my-vm-1 --zone=northamerica-northeast1-a --machine-type=e2-medium \
