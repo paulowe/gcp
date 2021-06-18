@@ -7,11 +7,12 @@ Lets you create and run VMs in the cloud
 - Fast and consistent performance
 - Run images from Google or third party
 - Machine type: Determine Memory and VCPUs or
-- Create custom VM types to meet your compute needs perfectly
+- Create **custom VM types** to meet your compute needs perfectly
 
-Storage for VMs
+**Storage for VMs**
 - Standard SSD (Persistent, Low performance)
-- Local SSD (Temporary, High perfromance
+- Local SSD (Temporary - OnVMTerminate, High perfromance)
+- 
 ### Important Compute Engine commands to remember
 
 #### Configure default zones
