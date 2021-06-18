@@ -18,6 +18,6 @@ Overview of GCP Study sessions
       - [Anthos]  
 ### Applications
       - [App Engine]
-      - [Cloud Endpoints](https://github.com/paulowe/gcp/blob/main/cloud-endpoints.md)
+   [Cloud Endpoints](https://github.com/paulowe/gcp/blob/main/cloud-endpoints.md)
 ### Personal research
-      - [Snapshots](https://github.com/paulowe/gcp/blob/main/snapshots.md)
+[Snapshots](https://github.com/paulowe/gcp/blob/main/snapshots.md)
