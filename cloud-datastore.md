@@ -5,3 +5,5 @@ Unlike BigTable however, Cloud Datastore
 - Supports transactions (that affect multiple rows)
 - Can write SQL like queries
 - Includes a free daily quota
+
+Cloud Datastore can span App Engine and Compute Engine applications
