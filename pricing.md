@@ -1,4 +1,5 @@
-[Overview](https://github.com/paulowe/gcp/blob/main/readme.md)[Next](https://github.com/paulowe/gcp/blob/main/comparing-storage-options.md)
+[Overview](https://github.com/paulowe/gcp/blob/main/readme.md)
+[Next](https://github.com/paulowe/gcp/blob/main/comparing-storage-options.md)
 ## Google offers customer friendly pricing
 1. Per second billing for IaaS offerings such as Compute Engine, Kubernetes Engine
     - Fine grained billing is the best cost savings for workloads that are bursting (Bursting workloads reduce overload on existing infrastructure by 
