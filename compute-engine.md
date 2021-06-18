@@ -35,7 +35,8 @@ Welll 96 vCPUs, 624GB RAM - **Big VMs** are great for in-memory DBs and CPU inte
 
 Horizontal Scaling - Typically what you would try first 
 
-Compute Engine also supports Autoscaling and Load balancers
+Compute Engine also supports **Autoscaling and Load balancers**
+
 ### Important Compute Engine commands to remember
 
 #### Configure default zones
