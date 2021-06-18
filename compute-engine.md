@@ -7,12 +7,26 @@ Lets you create and run VMs in the cloud
 - Fast and consistent performance
 - Run images from Google or third party
 - Machine type: Determine Memory and VCPUs or
-- Create **custom VM types** to meet your compute needs perfectly
-
+Create **custom VM types** to meet your compute needs perfectly
 **Storage for VMs**
 - Standard SSD (Persistent, Low performance)
 - Local SSD (Temporary - OnVMTerminate, High perfromance)
-- 
+**Boot Image**
+Linux or Windows
+**Startup Script**
+Pass startup scripts and other metadata
+**Snapshots**
+Create durable snapshot of disks for backups or migration
+**Preemptible VMs**
+- For interruptible workloads e.g. Batch jobs
+- Ensure you have a mechanism for start/stop jobs
+
+**How big can you create a VM?**
+Welll 96VCPUs, 624GB RAM - **Big VMs** are great for in-memory DBs and CPU intensive analytics (Vertical scaling)
+
+Horizontal Scaling - Typically what you would try first 
+
+Compute Engine also supports Autoscaling and Load balancers
 ### Important Compute Engine commands to remember
 
 #### Configure default zones
