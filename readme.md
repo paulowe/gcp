@@ -1,5 +1,5 @@
 ## Overview                                                                                                                                          
-                                                                                                                                           [Next](https://github.com/paulowe/gcp/blob/main/pricing.md)
+                                                                                   [Next](https://github.com/paulowe/gcp/blob/main/pricing.md)
 Overview of GCP Study sessions
 ### General
       - Global infrastructure
