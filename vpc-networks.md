@@ -29,13 +29,14 @@ Monitors the health status of your VMs
 Highly available
 
 ### 4. VPC Peering
+
 Recall: VPCs belong to projects
+
 Use VPC Peering for VPC to interconnect/exchange traffic across GCP projects
 
 ### 5. Shared VPC
 
-For finer grained control of who/what in one project can interact with a VPC in another use
-**Shared VPC**
+For finer grained control of who/what in one project can interact with a VPC in another using IAM
 
 Use Shared VPC to share a netowrk or individual subnets, with other GCP projects
 ### Quickstart
