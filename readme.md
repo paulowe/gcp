@@ -1,7 +1,7 @@
 [Next](https://github.com/paulowe/gcp/blob/main/vpc-networks.md)
 ## Overview                                                                                                                                          
 Overview of GCP Study sessions
-### General
+### Fundamentals
 Global infrastructure
 
 [VPC and Networking concepts](https://github.com/paulowe/gcp/blob/main/vpc-networks.md)
@@ -11,6 +11,8 @@ Global infrastructure
 Shared Responsibility Model
 
 [Pricing innovations](https://github.com/paulowe/gcp/blob/main/pricing.md)
+
+[Interconnect Options](https://github.com/paulowe/gcp/blob/main/interconnect-options.md)
 ### Storage
 [Comparing storage options](https://github.com/paulowe/gcp/blob/main/comparing-storage-options.md) 
 
