@@ -15,7 +15,7 @@ Shared Responsibility Model
 [Cloud SQL](https://github.com/paulowe/gcp/blob/main/cloud-sql.md)
 [Cloud Datastore](https://github.com/paulowe/gcp/blob/main/cloud-datastore.md)
 ### VMs
-[Compute Engine]((https://github.com/paulowe/gcp/blob/main/compute-engine.md)
+[Compute Engine](https://github.com/paulowe/gcp/blob/main/compute-engine.md)
 ### Containers
 [Kubernetes Engine](https://github.com/paulowe/gcp/blob/main/kubernetes-engine.md)
 [Anthos](https://github.com/paulowe/gcp/blob/main/anthos.md)  
