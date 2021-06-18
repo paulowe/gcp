@@ -5,19 +5,19 @@ Overview of GCP Study sessions
       - Global infrastructure
       - VPC and Networking concepts
       - Shared Responsibility Model
-      - Pricing innovations
+      - [Pricing innovations]
 ### Storage
-      - Comparing storage options 
-      - Cloud Storage
-      - Cloud SQL
-      - Cloud Datastore
+      - [Comparing storage options] 
+      - [Cloud Storage]
+      - [Cloud SQL]
+      - [Cloud Datastore]
 ### VMs
-      - Compute Engine
+      - [Compute Engine]
 ### Containers
-      - Kubernetes Engine
-      - Anthos  
+      - [Kubernetes Engine]
+      - [Anthos]  
 ### Applications
-      - App Engine
-      - Cloud Endpoints 
+      - [App Engine]
+      - [Cloud Endpoints](https://github.com/paulowe/gcp/blob/main/cloud-endpoints.md)
 ### Personal research
-      - Snapshots
+      - [Snapshots](https://github.com/paulowe/gcp/blob/main/snapshots.md)
