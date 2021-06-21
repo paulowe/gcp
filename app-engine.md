@@ -44,7 +44,7 @@ This is one of the reasons why App Engine Standard Environment can scale and man
 Sandbox constraints:
  - No writing to local files
  - All request time out at 60s
- - Limits on third party software
+ - Limits on third party software/binaries
  
 #### Runtimes
 Java, Python, PHP and Go are supported
