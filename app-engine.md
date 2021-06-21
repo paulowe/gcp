@@ -18,6 +18,7 @@ These are all handled by App engine. You only have to code your application to t
 ## gcloud commands
 
 ``` gcloud app deploy``` while youre inside your virtual environment, with all requirements specified in the app.yaml file
+
 ``` gcloud app browse``` to browse your live app
 
 ### Use case
