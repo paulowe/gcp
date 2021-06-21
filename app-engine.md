@@ -21,6 +21,10 @@ These are all handled by App engine. You only have to code your application to t
 
 ``` gcloud app browse``` to browse your live app
 
+Disabling an app will
+- Stop serving requests to users but
+- Preserve state and finish running task queries
+
 ### Use case
 App Engine will scale your application automatically in response to the amount of traffic it receives. That’s why App Engine is especially suited for applications where the workload is highly variable, like Web Apps and Mobile backends.
 
