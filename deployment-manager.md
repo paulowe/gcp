@@ -22,7 +22,7 @@ Enables repeatable deployments
         initializeParams:
           sourceImage: https://www.googleapis.com/compute/v1/projects/debian-cloud/global/images/debian-9-stretch-v20180806
       networkInterfaces:
-      - network: https://www.googleapis.com/compute/v1/projects/PROJECT/global/networks/default
+      - network: https://www.googleapis.com/compute/v1/projects/PROJECT_ID/global/networks/default
         accessConfigs:
         - name: External NAT
           type: ONE_TO_ONE_NAT
