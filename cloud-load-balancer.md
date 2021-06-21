@@ -22,3 +22,9 @@
 4. Global TCP Proxy - For Layer 4; load balancing of non SSL TCP traffic; Supported on specific port numbers only
 5. Regional - For load balancing of any traffic (TCP/UDP); Supported on any port number
 6. Regional Internal - For load balancing of traffic inside a VPC; Useful for internal multi-tier apps
+
+## To create CPU artificial load
+
+``` dd if=/dev/urandom | gzip -9 >> /dev/null &```
+
+It does so by forcing the CPU to continuousy attempt to compress random data
