@@ -32,6 +32,6 @@ Shared Responsibility Model
 ### Applications
 [App Engine](https://github.com/paulowe/gcp/blob/main/app-engine.md)
 
-[Cloud Endpoints](https://github.com/paulowe/gcp/blob/main/cloud-endpoints.md)
+[Apigee & Cloud Endpoints](https://github.com/paulowe/gcp/blob/main/apigee_cloud-endpoints.md)
 ### Personal research
 [Snapshots](https://github.com/paulowe/gcp/blob/main/snapshots.md)
