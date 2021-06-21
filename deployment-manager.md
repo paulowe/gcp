@@ -39,3 +39,8 @@ You can also access this file directly from a Google managed Cloud Storage bucke
 export MY_ZONE=northamerica-northeast1-a 
 sed -i -e "s/ZONE/$MY_ZONE/" mydeploy.yaml
 ```
+### Create and Update Deployments
+
+``` gcloud deployment-manager deployments create my-first-depl --config mydeploy.yaml```
+
+```gcloud deployment-manager deployments update my-first-depl --config mydeploy.yaml```
