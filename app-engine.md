@@ -15,6 +15,11 @@ App Engine takes care of a lot of standard operations you would require ina typi
 
 These are all handled by App engine. You only have to code your application to take advantage of the App engine service.
 
+## gcloud commands
+
+``` gcloud app deploy``` while youre inside your virtual environment, with all requirements specified in the app.yaml file
+``` gcloud app browse``` to browse your live app
+
 ### Use case
 App Engine will scale your application automatically in response to the amount of traffic it receives. That’s why App Engine is especially suited for applications where the workload is highly variable, like Web Apps and Mobile backends.
 
@@ -47,3 +52,4 @@ Java, Python, PHP and Go are supported
 - Choice of geographic region
 
 Flexible environmens however have a Slower instance startup compared to the Standard Environment
+
