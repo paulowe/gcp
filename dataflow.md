@@ -1,8 +1,8 @@
 ## Cloud Dataflow offers managed piplines
-It is unified programming model and a managed service that enables you to execute a wide range of **very expressive** data processing patterns such as
-- ETL
-- Batch computations
-- Continuous computaitons
+It is unified programming model and a managed service that enables you to execute a wide range of **very expressive** data processing patterns. Cloud Dataflow
+- General purpose ETL tool
+- Supports Batch computations
+- Supports Continuous computations (streaming)
 
 The service **automatically scales, with no instance provisioning required**.
 This frees users from operational tasks such as resoure management and optimizations.
@@ -14,3 +14,9 @@ This reduces the need to worry about **Hot keys** - situations where disproporti
 - Use Dataflow to build data piplines
 - Batch/Realtime data
 - Unpredictable size or rate
+
+## Applications
+- Fraud detection in Financial services
+- Healthcare
+- IoT devices
+- Segmentation analysis in Retail
