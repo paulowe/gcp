@@ -43,5 +43,10 @@ Shared Responsibility Model
 
 [Big Query](https://github.com/paulowe/gcp/blob/main/bigquery.md)
 
+### gcloud and gsutil 
+[gcloud](https://github.com/paulowe/gcp/blob/main/gcloud.md)
+
+[gsutil](https://github.com/paulowe/gcp/blob/main/gsutil.md)
+
 ### Personal research
 [Snapshots](https://github.com/paulowe/gcp/blob/main/snapshots.md)
