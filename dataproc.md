@@ -1,5 +1,5 @@
 ## Cloud Dataproc - Supercomputing Platform
-Hadoop is a supercomputing platform consisting of HDFS for distributed storage of data and YARN for parallel processing
+Hadoop is a supercomputing platform consisting of HDFS for distributed storage of data and YARN for scheduling parallel processing jobs
 
 Hadoop follows a programming model called MapReduce where
 - "Map" function runs in parallel with a massive data set to produce intermediate results and
