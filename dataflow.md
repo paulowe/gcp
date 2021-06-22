@@ -4,7 +4,7 @@ It is unified programming model and a managed service that enables you to execut
 - Batch computations
 - Continuous computaitons
 
-The service **automatically scales, with no instance provisioning required**
+The service **automatically scales, with no instance provisioning required**.
 This frees users from operational tasks such as resoure management and optimizations.
 
 Furthermore, Cloud Dataflow has automated and optimized work partitioning built in, which can **dynamically rebalance lagging work**.
