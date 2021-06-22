@@ -4,6 +4,12 @@ The fastest and best use of data is a critical source of competitive advantage.
 
 Google technologies for getting the most out of data
 
+## Big Data and ML on GCP
+The big data services on GCP are
+- Fully managed 
+- Serverless
+- Integrated so that services work together
+
 ### Overview of solutions
 Cloud Dataproc - Managed Hadoop MapReduce, Spark, Pig, and Hive service
 
