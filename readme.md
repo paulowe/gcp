@@ -36,8 +36,11 @@ Shared Responsibility Model
 
 ### Big Data and ML
 [Big Data and ML in GCP](https://github.com/paulowe/gcp/blob/main/big_data_ml.md)
+
 [Cloud Dataproc](https://github.com/paulowe/gcp/blob/main/dataproc.md)
+
 [Cloud Dataflow](https://github.com/paulowe/gcp/blob/main/dataflow.md)
+
 [Big Query](https://github.com/paulowe/gcp/blob/main/bigquery.md)
 
 ### Personal research
