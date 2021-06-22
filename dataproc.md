@@ -13,4 +13,4 @@ Hadoop follows a programming model called MapReduce where
 - Can be used with preemptible VMs (you have to make sure your jobs can be restarted cleanly)
 - Billed by the second
 - Although cost of running the VMs takes the bulk of Dataproc charges, it is **not the only cost**
-- You can use Spark Machine Learning Libraries (MLlib)
+- You can use Spark Machine Learning Libraries (MLlib) to perform data mining
