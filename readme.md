@@ -33,5 +33,12 @@ Shared Responsibility Model
 [App Engine](https://github.com/paulowe/gcp/blob/main/app-engine.md)
 
 [Apigee & Cloud Endpoints](https://github.com/paulowe/gcp/blob/main/apigee_cloud-endpoints.md)
+
+### Big Data and ML
+[Big Data and ML in GCP](https://github.com/paulowe/gcp/blob/main/big_data_ml.md)
+[Cloud Dataproc](https://github.com/paulowe/gcp/blob/main/dataproc.md)
+[Cloud Dataflow](https://github.com/paulowe/gcp/blob/main/dataflow.md)
+[Big Query](https://github.com/paulowe/gcp/blob/main/bigquery.md)
+
 ### Personal research
 [Snapshots](https://github.com/paulowe/gcp/blob/main/snapshots.md)
