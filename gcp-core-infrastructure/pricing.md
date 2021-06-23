@@ -1,6 +1,6 @@
 [Overview](https://github.com/paulowe/gcp/blob/main/readme.md)
 
-[Next](https://github.com/paulowe/gcp/blob/main/interconnect-options.md)
+[Next](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/interconnect-options.md)
 ## Google offers customer friendly pricing
 1. Per second billing for IaaS offerings such as Compute Engine, Kubernetes Engine
     - Fine grained billing is the best cost savings for workloads that are bursting (Bursting workloads reduce overload on existing infrastructure by 

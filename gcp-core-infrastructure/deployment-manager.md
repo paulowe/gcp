@@ -1,7 +1,7 @@
 
 [Overview](https://github.com/paulowe/gcp/blob/main/readme.md)
 
-[Next](https://github.com/paulowe/gcp/blob/main/cloud-functions.md)
+[Next](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/cloud-functions.md)
 
 ## Deployment Manager
 Enables repeatable deployments
