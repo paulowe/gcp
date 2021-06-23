@@ -34,12 +34,17 @@ Shared Responsibility Model
 
 [Apigee & Cloud Endpoints](https://github.com/paulowe/gcp/blob/main/apigee_cloud-endpoints.md)
 
+### Developing, Deploying and Monitoring in the Cloud
+[Deployment Manager](https://github.com/paulowe/gcp/blob/main/deployment-manager.md)
+
 ### Big Data and ML
 [Big Data and ML in GCP](https://github.com/paulowe/gcp/blob/main/big_data_ml.md)
 
 [Cloud Dataproc](https://github.com/paulowe/gcp/blob/main/dataproc.md)
 
 [Cloud Dataflow](https://github.com/paulowe/gcp/blob/main/dataflow.md)
+
+[Cloud Pub/Sub](https://github.com/paulowe/gcp/blob/main/cloud-pubsub.md)
 
 [Big Query](https://github.com/paulowe/gcp/blob/main/bigquery.md)
 
