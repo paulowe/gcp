@@ -76,3 +76,29 @@ Stackdriver
 ### Resource Monitoring
 
 ## 3. Cloud Infrastructure: Scaling and Automation
+### Interconnecting Networks
+
+### Load Balancing and Autoscaling
+
+### Infrastructure Automation
+
+### Managed Services
+
+## 4. Reliable Cloud Infrastructure: Design and Process
+### Defining Services
+
+### Microservice Design and Architecture
+
+### DevOps Automation
+
+### Choosing Storage Solutions
+
+### Google Cloud and Hybrid Network Architectures
+
+### Deploying Applications to GCP
+
+### Designing Reliable Systems
+
+### Security
+
+### Maintenance and Monitoring
