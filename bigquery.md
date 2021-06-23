@@ -10,6 +10,7 @@
 ## Use Cases
 
 Startups: Free monthly quotas
+
 Large organization: Seamless scaling
 
 ##  BigQuery runs on Google's gloabl infrastructure
