@@ -24,6 +24,6 @@ Large organization: Seamless scaling
 ``` 
 bq query "select fieldA, count(*) as counts \
 from dataset.tablename \
-group by fieldA counts 
+group by fieldA counts \
 order by counts desc"
 ```
