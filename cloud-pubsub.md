@@ -1,4 +1,6 @@
-## Cloud Pub/Sub is a sclable, reliable messaging
+## Cloud Pub/Sub 
+
+Cloud Pub/Sub is a managed service for scalable and reliable messaging 
 
 ## Use cases
 - Stream analytics
