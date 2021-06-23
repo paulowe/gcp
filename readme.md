@@ -66,3 +66,13 @@ Stackdriver
 ### Virtual Networks
 
 ### Virtual Machines
+
+### Cloud IAM
+
+### Storage and Database Services
+
+### Resource Management
+
+### Resource Monitoring
+
+## 3. Cloud Infrastructure: Scaling and Automation
