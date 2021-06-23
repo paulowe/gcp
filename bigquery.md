@@ -1,4 +1,4 @@
-## Big Query is a fully managed data warehouse
+## BigQuery is a fully managed data warehouse
 
 - Supports ad hoc queries
 - Use SQL
