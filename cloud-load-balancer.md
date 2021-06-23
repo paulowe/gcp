@@ -8,8 +8,9 @@
 
 ### Types of traffic
 1. HTTP(S)
-2. TCP and SSL
-3. UDP
+2. TCP/SSL
+3. TCP (non SSL)
+5. UDP
 
 ### Features
 - Cross region load balancing - A single **Anycast IP** frontends all your backend instances **globally**
