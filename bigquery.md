@@ -1,3 +1,7 @@
+[Overview](https://github.com/paulowe/gcp/blob/main/readme.md)
+
+[Next](https://github.com/paulowe/gcp/blob/main/gcloud.md) 
+
 ## BigQuery is a fully managed data warehouse
 
 - Supports ad hoc queries on PB-scale data
