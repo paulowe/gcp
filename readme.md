@@ -1,4 +1,4 @@
-[Next](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/gcp-core-infrastructure/vpc-networks.md)
+[Next](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/vpc-networks.md)
 ## GCP Core Infrastructure                                                                                                                                           
 Overview of GCP Study sessions
 ### Fundamentals
