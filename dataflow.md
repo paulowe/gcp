@@ -11,7 +11,8 @@ Furthermore, Cloud Dataflow has automated and optimized work partitioning built 
 This reduces the need to worry about **Hot keys** - situations where disproportionately large chunks of your input get mapped to the same cluster
 
 ## Use cases
-- Use Dataflow to build data piplines
+- Use Dataflow to build data piplines (ETL)
+- Orchestration
 - Batch/Realtime data
 - Unpredictable size or rate
 
