@@ -1,8 +1,9 @@
 ## Cloud Pub/Sub is a sclable, reliable messaging
 
-# Use cases
+## Use cases
 - Stream analytics
 - Great for building **decoupled applications that scale independently**
+- IoT applications
 
 ## Features
 - Supports many-to-many asynchronous messaging
