@@ -37,6 +37,8 @@ Shared Responsibility Model
 ### Developing, Deploying and Monitoring in the Cloud
 [Deployment Manager](https://github.com/paulowe/gcp/blob/main/deployment-manager.md)
 
+[Stackdriver](https://github.com/paulowe/gcp/blob/main/stackdriver.md)
+
 ### Big Data and ML
 [Big Data and ML in GCP](https://github.com/paulowe/gcp/blob/main/big_data_ml.md)
 
