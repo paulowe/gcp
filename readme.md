@@ -1,61 +1,61 @@
-[Next](https://github.com/paulowe/gcp/blob/main/vpc-networks.md)
+[Next](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/gcp-core-infrastructure/vpc-networks.md)
 ## GCP Core Infrastructure                                                                                                                                           
 Overview of GCP Study sessions
 ### Fundamentals
 Global infrastructure
 
-[VPC and Networking concepts](https://github.com/paulowe/gcp/blob/main/vpc-networks.md)
+[VPC and Networking concepts](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/vpc-networks.md)
 
-[Cloud Load Balancing](https://github.com/paulowe/gcp/blob/main/cloud-load-balancer.md)
+[Cloud Load Balancing](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/cloud-load-balancer.md)
 
 Shared Responsibility Model
 
-[Pricing innovations](https://github.com/paulowe/gcp/blob/main/pricing.md)
+[Pricing innovations](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/pricing.md)
 
-[Interconnect Options](https://github.com/paulowe/gcp/blob/main/interconnect-options.md)
+[Interconnect Options](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/interconnect-options.md)
 ### Storage
-[Comparing storage options](https://github.com/paulowe/gcp/blob/main/comparing-storage-options.md) 
+[Comparing storage options](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/comparing-storage-options.md) 
 
-[Cloud Storage](https://github.com/paulowe/gcp/blob/main/storage.md)
+[Cloud Storage](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/storage.md)
 
-[Cloud SQL](https://github.com/paulowe/gcp/blob/main/cloud-sql.md)
+[Cloud SQL](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/cloud-sql.md)
 
-[Cloud Datastore](https://github.com/paulowe/gcp/blob/main/cloud-datastore.md)
+[Cloud Datastore](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/cloud-datastore.md)
 ### Compute
 
 #### VMs
-[Compute Engine](https://github.com/paulowe/gcp/blob/main/compute-engine.md)
+[Compute Engine](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/compute-engine.md)
 #### Containers
-[Kubernetes Engine](https://github.com/paulowe/gcp/blob/main/kubernetes-engine.md)
+[Kubernetes Engine](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/kubernetes-engine.md)
 
-[Anthos](https://github.com/paulowe/gcp/blob/main/anthos.md)  
+[Anthos](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/anthos.md)  
 ### Applications
-[App Engine](https://github.com/paulowe/gcp/blob/main/app-engine.md)
+[App Engine](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/app-engine.md)
 
-[Apigee & Cloud Endpoints](https://github.com/paulowe/gcp/blob/main/apigee_cloud-endpoints.md)
+[Apigee & Cloud Endpoints](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/apigee_cloud-endpoints.md)
 
 ### Developing, Deploying and Monitoring in the Cloud
-[Deployment Manager](https://github.com/paulowe/gcp/blob/main/deployment-manager.md)
+[Deployment Manager](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/deployment-manager.md)
 
 Cloud Functions
 
 Stackdriver
 
 ### Big Data and ML
-[Big Data and ML in GCP](https://github.com/paulowe/gcp/blob/main/big_data_ml.md)
+[Big Data and ML in GCP](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/big_data_ml.md)
 
-[Cloud Dataproc](https://github.com/paulowe/gcp/blob/main/dataproc.md)
+[Cloud Dataproc](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/dataproc.md)
 
-[Cloud Dataflow](https://github.com/paulowe/gcp/blob/main/dataflow.md)
+[Cloud Dataflow](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/dataflow.md)
 
-[Cloud Pub/Sub](https://github.com/paulowe/gcp/blob/main/cloud-pubsub.md)
+[Cloud Pub/Sub](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/cloud-pubsub.md)
 
-[Big Query](https://github.com/paulowe/gcp/blob/main/bigquery.md)
+[Big Query](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/bigquery.md)
 
 ### CLI tools on GCP 
-[gcloud](https://github.com/paulowe/gcp/blob/main/gcloud.md)
+[gcloud](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/gcloud.md)
 
-[gsutil](https://github.com/paulowe/gcp/blob/main/gsutil.md)
+[gsutil](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/gsutil.md)
 
 ### Personal research
-[Snapshots](https://github.com/paulowe/gcp/blob/main/snapshots.md)
+[Snapshots](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/snapshots.md)
