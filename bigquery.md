@@ -1,6 +1,6 @@
 ## BigQuery is a fully managed data warehouse
 
-- Supports ad hoc queries
+- Supports ad hoc queries on PB-scale data
 - Use SQL
 - Pay as you go
 - OLAP
