@@ -1,6 +1,6 @@
 [Overview](https://github.com/paulowe/gcp/blob/main/readme.md)
 
-[Next](https://github.com/paulowe/gcp/blob/main/compute-engine.md)
+[Next](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/compute-engine.md)
 ## Cloud Datastore is a horizontally scalable NoSQL DB
 Its main use case is to store structured data from App Engine and is Designed for application backends
 

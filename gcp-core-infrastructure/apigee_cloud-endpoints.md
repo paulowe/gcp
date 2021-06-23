@@ -1,6 +1,6 @@
 [Overview](https://github.com/paulowe/gcp/blob/main/readme.md)
 
-[Next](https://github.com/paulowe/gcp/blob/main/deployment-manager.md)
+[Next](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/deployment-manager.md)
 ## Cloud Endpoints helps you create and maintain APIs
 
 - Control access and validate calls with JSON Web Tokens and Google API keys

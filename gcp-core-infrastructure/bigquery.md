@@ -1,6 +1,6 @@
 [Overview](https://github.com/paulowe/gcp/blob/main/readme.md)
 
-[Next](https://github.com/paulowe/gcp/blob/main/gcloud.md) 
+[Next](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/gcloud.md) 
 
 ## BigQuery is a fully managed data warehouse
 
