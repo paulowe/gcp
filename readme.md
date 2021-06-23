@@ -1,5 +1,5 @@
 [Next](https://github.com/paulowe/gcp/blob/main/vpc-networks.md)
-## Architecting with GCE                                                                                                                                           
+## GCP Core Infrastructure                                                                                                                                           
 Overview of GCP Study sessions
 ### Fundamentals
 Global infrastructure
