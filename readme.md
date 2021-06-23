@@ -1,6 +1,8 @@
 [Next](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/vpc-networks.md)
-## GCP Core Infrastructure                                                                                                                                           
-Overview of GCP Study sessions
+
+This is an overview of all notes, courses and submodules I covered for the GCP Architect certification track
+
+## 1. GCP Core Infrastructure                                                                                                                                           
 ### Fundamentals
 Global infrastructure
 
@@ -59,3 +61,46 @@ Stackdriver
 
 ### Personal research
 [Snapshots](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/snapshots.md)
+
+## 2. Essential Cloud Infrastructure
+### Introduction 
+
+### Virtual Networks
+
+### Virtual Machines
+
+### Cloud IAM
+
+### Storage and Database Services
+
+### Resource Management
+
+### Resource Monitoring
+
+## 3. Cloud Infrastructure: Scaling and Automation
+### Interconnecting Networks
+
+### Load Balancing and Autoscaling
+
+### Infrastructure Automation
+
+### Managed Services
+
+## 4. Reliable Cloud Infrastructure: Design and Process
+### Defining Services
+
+### Microservice Design and Architecture
+
+### DevOps Automation
+
+### Choosing Storage Solutions
+
+### Google Cloud and Hybrid Network Architectures
+
+### Deploying Applications to GCP
+
+### Designing Reliable Systems
+
+### Security
+
+### Maintenance and Monitoring
