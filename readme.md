@@ -43,7 +43,7 @@ Shared Responsibility Model
 
 [Big Query](https://github.com/paulowe/gcp/blob/main/bigquery.md)
 
-### gcloud and gsutil 
+### CLI tools on GCP 
 [gcloud](https://github.com/paulowe/gcp/blob/main/gcloud.md)
 
 [gsutil](https://github.com/paulowe/gcp/blob/main/gsutil.md)
