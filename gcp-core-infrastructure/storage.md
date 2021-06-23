@@ -1,6 +1,6 @@
 [Overview](https://github.com/paulowe/gcp/blob/main/readme.md)
 
-[Next](https://github.com/paulowe/gcp/blob/main/cloud-sql.md)
+[Next](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/cloud-sql.md)
 ## Cloud Storage
 
 ### Cloud Storage summary:

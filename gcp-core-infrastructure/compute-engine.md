@@ -1,6 +1,6 @@
 [Overview](https://github.com/paulowe/gcp/blob/main/readme.md)
 
-[Next](https://github.com/paulowe/gcp/blob/main/kubernetes-engine.md)
+[Next](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/kubernetes-engine.md)
 ## Compute Engine
 Lets you create and run VMs in the cloud
 - No upfront investment

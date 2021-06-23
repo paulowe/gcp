@@ -1,6 +1,6 @@
 [Overview](https://github.com/paulowe/gcp/blob/main/readme.md)
 
-[Next](https://github.com/paulowe/gcp/blob/main/cloud-pubsub.md)
+[Next](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/cloud-pubsub.md)
 
 ## Cloud Dataflow offers managed piplines
 It is unified programming model and a managed service that enables you to execute a wide range of **very expressive** data processing patterns. Cloud Dataflow

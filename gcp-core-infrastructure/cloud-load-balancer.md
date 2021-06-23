@@ -1,6 +1,6 @@
 [Overview](https://github.com/paulowe/gcp/blob/main/readme.md)
 
-[Next](https://github.com/paulowe/gcp/blob/main/pricing.md)
+[Next](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/pricing.md)
 ## Cloud Load Balancing
 - Fully distributed
 - Software defined 
