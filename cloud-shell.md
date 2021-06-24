@@ -49,9 +49,12 @@ The Console:
 - Provides a fast way to perform tasks.
 - Presents options to you, instead of requiring you to know them.
 - Performs behind-the-scenes validation before submitting the commands.
+- Keep track of context of config
+- Can notify you what commands are valid
 
 Cloud Shell provides:
 
 - Detailed control
 - A complete range of options and features
 - A path to automation through scripting
+- Script and automate activities
