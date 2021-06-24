@@ -10,6 +10,8 @@
 
 ```$DEVSHELL_PROJECT_ID ``` always contains your project ID
 
+```gcloud compute regions list``` to list available regions and view their health status
+
 ### Instances
 
  ```gcloud compute instances list ``` list VMs
