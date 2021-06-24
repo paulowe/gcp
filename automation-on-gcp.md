@@ -24,7 +24,7 @@ Its web interface provides an easy way to manage and test your applications befo
 ## Jenkins Certified by Bitnami
 This image bundles the latest versions of community-recommended plugins, including pipelines and Git integration. This open source solution is packaged by Bitnami. Learn how to install, configure, and manage it at docs.bitnami.com. For deployment issues, reach out our support team at community.bitnami.com.
 
-## Managing Jenkins
+## Managing the Jenkins Server
 Running on the deployed Jenkins VM (controller node), you can
 - Configure system - global settings and paths
 - Configure tools and their location 
