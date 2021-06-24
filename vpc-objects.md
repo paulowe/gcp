@@ -58,5 +58,9 @@ You can define fine-grained policies for resources between GCP VPCs, On-prem or 
 **Note :** You can convert an Auto Mode network -> Custom network, but not the other way around
 
 VMs in the same network **can communicate with each other using Internal IPs** (Regardless of whether they ar ein separate regions)
+    - The VMs take advantage of Google's global Fibre network
+    - Appear as though they are on the same rack
 
 VMs in separate networks **cannot communicate with each other using Internal Ips** (Regardless of whether they are in the same region)
+    - By default VMs must communicate using External IP
+    - **Traffic is not going through the internet**, but is going through **Google's Edge Routers**. *This has billing and security ramifications
