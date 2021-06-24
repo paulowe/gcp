@@ -3,3 +3,7 @@
 [Next](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/snapshots.md)
 
 ## gsutil
+
+```gsutil mb -l us gs://bucketname```
+
+```g```
