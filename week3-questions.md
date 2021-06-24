@@ -8,3 +8,6 @@ Can you have access to the deployment manager YAML file of GCP marketplace solut
 You are charged at higher rate for requesting static IP address that are not in use compared to Ephemeral or Static IP addresses that are in use. How does pricing differ between Ephemeral and Static IPs that Are in use?
 
 Which scenario would call for having this kind of network topology - two subnets in the same region on a single Auto Mode network?
+
+In the case above, can you apply firewall rules that differ between two subnets in the same region?
+  - For example: make one of the subnets in the same region private (Dbs), and another public (Web servers)
