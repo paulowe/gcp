@@ -11,3 +11,6 @@ Which scenario would call for having this kind of network topology - two subnets
 
 In the case above, can you apply firewall rules that differ between two subnets in the same region?
   - For example: make one of the subnets in the same region private; no external IP (Dbs), and another public; with assigned external IP (Web servers)
+
+
+Can you have an instance that does not have an external IP address in the same subnet as one that does have an external IP? If yes are there any security concerns for those instances you want to be "private", but are forced to be in the same subnet (becuase of regional constraints with data) that has a firewall rule that allows internet traffic  
