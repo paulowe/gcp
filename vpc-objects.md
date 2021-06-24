@@ -71,3 +71,26 @@ VMs in separate networks **cannot communicate with each other using Internal Ips
     
     - Traffic is not going through the internet, but is going through Google's Edge Routers. 
       This has billing and security ramifications
+      
+On-prem communication to your GCP network can be done using a single **VPN Gateway**. 
+
+    - Reduces cost
+    
+    - Reduces Network management complexity
+   
+   
+**Subnet cross-zones**
+
+A subnet is simply an IP address you can use within a defined range
+
+    - VMs can be on the same subnet but different zones
+    
+    - A single firewall rule can apply to both VMs in a subnet. Regardless of their zone
+    
+**Expand subnets without re-creating instances**
+
+Expand IP address range without workload interruption 
+
+
+
+
