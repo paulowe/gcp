@@ -47,3 +47,13 @@ You can define fine-grained policies for resources between GCP VPCs, On-prem or 
 
   Its 2^11 because we use the first 9 bits as a network-id or "CIDR block", and we have 7 bits in the 2nd byte remaining and 4 bits from the third byte to compute 2^11         unique subnet-ids
   
+  **Custom Mode**
+  
+  - **Complete control** over subnets and IP ranges
+  - No default subnets created
+  - Decide which subnets to create and in which region
+  - Using customer specified **IP ranges within the RFC 1918 adress space**
+  - IP ranges cannot overlap between subnets of the same network
+
+
+   **Note :** You can convert an Auto Mode network -> Custom network, but not the other way around
