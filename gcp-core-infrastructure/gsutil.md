@@ -6,4 +6,6 @@
 
 ```gsutil mb -l us gs://bucketname```
 
-```g```
+#### Copy file from Cloud Shell to Cloud Storage
+
+```gsutil cp [MY_FILE] gs://[BUCKET_NAME]```
