@@ -10,5 +10,9 @@
 
 ```$DEVSHELL_PROJECT_ID ``` always contains your project ID
 
+### Instances
+
+ ```gcloud instances list ``` list VMs
+
 
 
