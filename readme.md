@@ -36,10 +36,12 @@ Shared Responsibility Model
 
 [Apigee & Cloud Endpoints](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/apigee_cloud-endpoints.md)
 
-### Developing, Deploying and Monitoring in the Cloud
-[Deployment Manager](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/deployment-manager.md)
+#### Function as a Service
 
 Cloud Functions
+
+### Deploying and Monitoring in the Cloud
+[Deployment Manager](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/deployment-manager.md)
 
 Stackdriver
 
