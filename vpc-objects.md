@@ -89,7 +89,16 @@ A subnet is simply an IP address you can use within a defined range
     
 **Expand subnets without re-creating instances**
 
-Expand IP address range without workload interruption 
+    - Expand IP address range without workload interruption 
+
+    - Cannot overlap with other subnets in the same network, in any region
+
+    - Can expand but not shrink
+
+    - Must be in the RFC 1918 address space / range
+
+    - Avoid large, wasteful subnets 
+      May cause CIDR range collisions even when working with VPC Network Peering or when configuring a VPN connections to an On-prem network
 
 
 
