@@ -16,3 +16,24 @@ Cloud Shell provides the following
 - Built in authorization for access to resources and instances
 
 After 1 hour of inactivity Cloud Shell instances are recycled. Only the /home directory persists. Any changes made to the system config, including environment variables are lost betweeen sessions
+
+## Easily manage your Cloud Shell environment variables
+
+In the cloud shell cli, you can do the following 
+
+```
+mkdir project1Env
+
+touch project1Env/config
+
+echo REGION=northamerica-northeast1-a >> project1Env/config
+
+PROJECTID=$DEVSHELL_PROJECT_ID >> project1Env/config
+
+source project1Env/config
+
+```
+
+If this file is in the /home dir, then it will persist and whenever you return to your Cloud Shell you can quickly set up your environment
+
+
