@@ -25,13 +25,13 @@ Shared Responsibility Model
 [Cloud Datastore](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/cloud-datastore.md)
 ### Compute
 
-#### VMs
+#### VMs (IaaS)
 [Compute Engine](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/compute-engine.md)
-#### Containers
+#### Containers (Hybrid)
 [Kubernetes Engine](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/kubernetes-engine.md)
 
 [Anthos](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/anthos.md)  
-#### Applications (PaaS)
+#### Application Framework (PaaS)
 [App Engine](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/app-engine.md)
 
 [Apigee & Cloud Endpoints](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/apigee_cloud-endpoints.md)
