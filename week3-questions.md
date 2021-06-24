@@ -10,4 +10,4 @@ You are charged at higher rate for requesting static IP address that are not in 
 Which scenario would call for having this kind of network topology - two subnets in the same region on a single Auto Mode network?
 
 In the case above, can you apply firewall rules that differ between two subnets in the same region?
-  - For example: make one of the subnets in the same region private (Dbs), and another public (Web servers)
+  - For example: make one of the subnets in the same region private; no external IP (Dbs), and another public; with assigned external IP (Web servers)
