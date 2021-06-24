@@ -50,3 +50,12 @@ Note, building on the controller node can be a security issue. You should set up
 - System log and information
 - Load statistics, and more!
 
+## Inside the Jenkins Server
+
+**Stop all services**
+
+```sudo /opt/bitnami/ctlscript.sh stop```
+
+**Restart Services**
+
+```sudo /opt/bitnami/ctlscript.sh restart```
