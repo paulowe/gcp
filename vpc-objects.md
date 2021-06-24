@@ -57,6 +57,8 @@ You can define fine-grained policies for resources between GCP VPCs, On-prem or 
 
 **Note :** You can convert an Auto Mode network -> Custom network, but not the other way around
 
+### Communication in VPC Networks
+
 VMs in the same network **can communicate with each other using Internal IPs** (Regardless of whether they ar ein separate regions)
 
     - The VMs take advantage of Google's global Fibre network
