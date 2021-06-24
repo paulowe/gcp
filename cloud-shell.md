@@ -36,4 +36,8 @@ source project1Env/config
 
 If this file is in the /home dir, then it will persist and whenever you return to your Cloud Shell you can quickly set up your environment
 
+To avoid always activating your environment using the ```source``` command,
 
+Create a persistent state in Cloud Shell by editing the *.profile* config file and add 
+
+```source project1Env/config``` at the end of the file. This will automatically activate your environment whenever Cloud Shell is reset and restarted
