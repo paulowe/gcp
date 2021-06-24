@@ -20,8 +20,10 @@ You can define fine-grained policies for resources between GCP VPCs, On-prem or 
 
 **Projects**
 
-- Associates objects and services with billling
-- Contains networks (up to 5) that can be shared/peered. You may request to increase this default quota
+- Associates objects and services with **billing**
+- **Contain entire networks** (up to 5) that 
+- Can be **shared/peered with projects in other networks**. 
+- You may **request to increase this default quota** in the Google Cloud Console
 
 **Networks**
 
@@ -34,3 +36,9 @@ Default Networks
 - Every project has one
 - One subnet per region with **non-overlapping CIDR blocks**
 - Default firewall rules that allow ingress traffic from ICMP (ping traffic) SSH, and all internal network traffic on any port
+
+Auto mode networks
+- One subnet per region
+- Default network is an Auto Mode network
+- Regional IP allocation
+- Fixed /20 Subnet per
