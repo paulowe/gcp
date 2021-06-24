@@ -24,6 +24,18 @@ Its web interface provides an easy way to manage and test your applications befo
 ## Jenkins Certified by Bitnami
 This image bundles the latest versions of community-recommended plugins, including pipelines and Git integration. This open source solution is packaged by Bitnami. Learn how to install, configure, and manage it at docs.bitnami.com. For deployment issues, reach out our support team at community.bitnami.com.
 
+**Why use Bitnami Certified Apps?**
+
+Bitnami certifies that our images are secure, up-to-date, and packaged using industry best practices.
+
+With Bitnami, you can trust what is in the app you're launching. We monitor all the applications we package for vulnerabilities, outdated components and libraries, and application updates. When any of these are identified, we patch and release every affected listing within a couple of days.
+
+**Pricing**
+
+Bitnami **does not charge usage fees**.
+
+You only pay for the infrastructure costs and you have the flexibility of editing the configurations after deployment
+
 ## Managing the Jenkins Server
 Running on the deployed Jenkins VM (controller node), you can
 - Configure system - global settings and paths
@@ -38,15 +50,3 @@ Note, building on the controller node can be a security issue. You should set up
 - System log and information
 - Load statistics, and more!
 
-
-**Why use Bitnami Certified Apps?**
-
-Bitnami certifies that our images are secure, up-to-date, and packaged using industry best practices.
-
-With Bitnami, you can trust what is in the app you're launching. We monitor all the applications we package for vulnerabilities, outdated components and libraries, and application updates. When any of these are identified, we patch and release every affected listing within a couple of days.
-
-**Pricing**
-
-Bitnami **does not charge usage fees**.
-
-You only pay for the infrastructure costs and you have the flexibility of editing the configurations after deployment
