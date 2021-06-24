@@ -11,7 +11,7 @@ F3
 
 Compared to manual configuration this automation drastically **reduces your setup time from a couple of hours/days to a few minutes**
 
-## Configuring and Launching an Automation Server
+## Launching an Automation Server
 Jenkins is an **open source automation server** that helps you automate the 
 - building, 
 - testing, and 
@@ -23,6 +23,21 @@ Its web interface provides an easy way to manage and test your applications befo
 
 ## Jenkins Certified by Bitnami
 This image bundles the latest versions of community-recommended plugins, including pipelines and Git integration. This open source solution is packaged by Bitnami. Learn how to install, configure, and manage it at docs.bitnami.com. For deployment issues, reach out our support team at community.bitnami.com.
+
+## Managing Jenkins
+Running on the deployed Jenkins VM (controller node), you can
+- Configure system - global settings and paths
+- Configure tools and their location 
+- Manage plugins - add, remove, enable or disable plugins that extend Jenkins
+- **Manage Nodes and Clouds** - add, remove, control and monitor the various nodes that Jenkins runs jobs on
+
+Note, building on the controller node can be a security issue. You should set up distributed builds
+
+- Confifgure security
+- Manage users adn credentials
+- System log and information
+- Load statistics, and more!
+
 
 **Why use Bitnami Certified Apps?**
 
