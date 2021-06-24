@@ -32,13 +32,13 @@ You can define fine-grained policies for resources between GCP VPCs, On-prem or 
 - Contain subnets
 - Available as default, auto, or custom netwok types
 
-  **Default Networks**
+**Default Networks**
   
 - Every project has one
 - One subnet per region with **non-overlapping CIDR blocks**
 - Default firewall rules that allow ingress traffic from ICMP (ping traffic) SSH, and all internal network traffic on any port
 
-  **Auto Mode Networks**
+**Auto Mode Networks**
   
 - **One subnet per region** is automatically created within the AM network
 - The automatically created **subnets use a set of predefined IP ranges with a /20 mask** (2^12 available IPs/devices; 4 IPs reserved in each subnet) (a mask is simply the "subnet-id" in an IP address) 
@@ -47,7 +47,7 @@ You can define fine-grained policies for resources between GCP VPCs, On-prem or 
 
   Its 2^11 because we use the first 9 bits as a network-id or "CIDR block", and we have 7 bits in the 2nd byte remaining and 4 bits from the third byte to compute 2^11         unique subnet-ids
   
-  **Custom Mode**
+**Custom Mode**
   
   - **Complete control** over subnets and IP ranges
   - No default subnets created
@@ -55,5 +55,4 @@ You can define fine-grained policies for resources between GCP VPCs, On-prem or 
   - Using customer specified **IP ranges within the RFC 1918 adress space**
   - IP ranges cannot overlap between subnets of the same network
 
-
-   **Note :** You can convert an Auto Mode network -> Custom network, but not the other way around
+**Note :** You can convert an Auto Mode network -> Custom network, but not the other way around
