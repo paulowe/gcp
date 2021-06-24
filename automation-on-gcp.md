@@ -29,3 +29,8 @@ This image bundles the latest versions of community-recommended plugins, includi
 Bitnami certifies that our images are secure, up-to-date, and packaged using industry best practices.
 
 With Bitnami, you can trust what is in the app you're launching. We monitor all the applications we package for vulnerabilities, outdated components and libraries, and application updates. When any of these are identified, we patch and release every affected listing within a couple of days.
+
+**Pricing**
+Bitnami does not charge usage fees.
+
+You only pay for the infrastructure costs and you have the flexibility of editing the configurations after deployment
