@@ -56,3 +56,7 @@ You can define fine-grained policies for resources between GCP VPCs, On-prem or 
   - IP ranges cannot overlap between subnets of the same network
 
 **Note :** You can convert an Auto Mode network -> Custom network, but not the other way around
+
+VMs in the same network **can communicate with each other using Internal IPs** (Regardless of whether they ar ein separate regions)
+
+VMs in separate networks **cannot communicate with each other using Internal Ips** (Regardless of whether they are in the same region)
