@@ -41,3 +41,17 @@ To avoid always activating your environment using the ```source``` command,
 Create a persistent state in Cloud Shell by editing the *.profile* config file and add 
 
 ```source project1Env/config``` at the end of the file. This will automatically activate your environment whenever Cloud Shell is reset and restarted
+
+## In summary
+
+The Console:
+
+- Provides a fast way to perform tasks.
+- Presents options to you, instead of requiring you to know them.
+- Performs behind-the-scenes validation before submitting the commands.
+
+Cloud Shell provides:
+
+- Detailed control
+- A complete range of options and features
+- A path to automation through scripting
