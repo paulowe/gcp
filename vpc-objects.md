@@ -97,10 +97,8 @@ A subnet is simply an IP address you can use within a defined range
 
     - Must be in the RFC 1918 address space / range
 
-    - Avoid large, wasteful subnets 
-      May cause CIDR range collisions even when working with VPC Network Peering or 
-      
-      when configuring a VPN connections to an On-prem network
+    - Avoid large, wasteful subnets - This may cause CIDR range collisions when working
+      with VPC Network Peering or when configuring a VPN connections to an On-prem network
 
 
 
