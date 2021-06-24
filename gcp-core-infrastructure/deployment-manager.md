@@ -4,6 +4,8 @@
 [Next](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/cloud-functions.md)
 
 ## Deployment Manager
+Deployment Manager is a Google Cloud service that uses templates written in a combination of YAML, python, and Jinja2 to automate the allocation of Google Cloud resources and perform setup tasks
+
 Enables repeatable deployments
 
 ### Sample YAML file for deploying a Compute Engine
