@@ -65,7 +65,12 @@ Stackdriver
 [Snapshots](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/snapshots.md)
 
 ## 2. Essential Cloud Infrastructure
-### Introduction 
+### Introduction
+[Interacting with GCP](https://github.com/paulowe/gcp/blob/main/interacting-with-gcp.md)
+
+[Cloud Shell](https://github.com/paulowe/gcp/blob/main/cloud-shell.md)
+
+[Automation on GCP](https://github.com/paulowe/gcp/blob/main/automation-on-gcp.md)
 
 ### Virtual Networks
 
