@@ -31,7 +31,7 @@ Shared Responsibility Model
 [Kubernetes Engine](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/kubernetes-engine.md)
 
 [Anthos](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/anthos.md)  
-### Applications
+#### Applications (PaaS)
 [App Engine](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/app-engine.md)
 
 [Apigee & Cloud Endpoints](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/apigee_cloud-endpoints.md)
