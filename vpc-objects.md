@@ -67,4 +67,5 @@ VMs in separate networks **cannot communicate with each other using Internal Ips
 
     - By default VMs must communicate using External IP
     
-    - **Traffic is not going through the internet**, but is going through **Google's Edge Routers**. *This has billing and security ramifications
+    - Traffic is not going through the internet, but is going through Google's Edge Routers. 
+      This has billing and security ramifications
