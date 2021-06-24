@@ -1,3 +1,5 @@
+F2
+
 ## Cloud Shell
 
 You can use the Cloud Shell to manage projects and resources via command line without having to install the Cloud SDK and other tools on your computer.
