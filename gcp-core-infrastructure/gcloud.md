@@ -8,7 +8,17 @@
 
 ``` gcloud auth list``` to list active account
 
+```gcloud config set account 'ACCOUNT' ``` to switch accounts
+
+### Project Management
+
+```gcloud config list project``` list currently active project
+
+```gcloud config set project $PROJECT_iD``` switch active project used in Cloud Shell
+
 ```$DEVSHELL_PROJECT_ID ``` always contains your project ID
+
+### Infrastructure regions and health status
 
 ```gcloud compute regions list``` to list available regions and view their health status
 
