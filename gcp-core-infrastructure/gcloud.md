@@ -12,7 +12,7 @@
 
 ### Instances
 
- ```gcloud instances list ``` list VMs
+ ```gcloud compute instances list ``` list VMs
 
 
 
