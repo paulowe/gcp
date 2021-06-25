@@ -2,7 +2,7 @@
 
 [Next](https://github.com/paulowe/gcp/blob/main/cloud-shell.md)
 
-There are four ways to interact with GCP
+### There are four ways to interact with GCP
 
 1. GCP Console - Web based GUI
 2. Cloud Shell and Cloud SDK - gcloud CLI
