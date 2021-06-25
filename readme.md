@@ -1,6 +1,6 @@
 [Next](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/vpc-networks.md)
 
-This is a summary of all my notes for the Architecting with Google Compute Engine course
+This is a summary of all my notes for the Google Cloud Platform professional architect track
 
 ## 1. GCP Core Infrastructure                                                                                                                                           
 ### Fundamentals
