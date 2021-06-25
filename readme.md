@@ -73,6 +73,7 @@ Stackdriver
 [Automation on GCP](https://github.com/paulowe/gcp/blob/main/automation-on-gcp.md)
 
 ### Virtual Networks
+[VPC Objects](https://github.com/paulowe/gcp/blob/main/vpc-objects.md)
 
 ### Virtual Machines
 
