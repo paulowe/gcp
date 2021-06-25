@@ -1,6 +1,6 @@
 [Overview](https://github.com/paulowe/gcp/blob/main/readme.md)
 
-[Next](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/interacting-with-gcp.md)
+[Next](https://github.com/paulowe/gcp/blob/main/interacting-with-gcp.md)
 
 ## External research on GCP
 This markdown is dedicated to interesting/misc topics and knowledge outside the GCP course
