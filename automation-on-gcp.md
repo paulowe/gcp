@@ -3,7 +3,7 @@
 
 [Next](https://github.com/paulowe/gcp/blob/main/automation-on-gcp.md)
 
-## This document demonstrates the power of Automation on GCP through the Marketplace
+## The power of Automation on GCP through the Marketplace
 
 ### Task 
 - Configure a Jenkins CI environment using GCP marketplace
