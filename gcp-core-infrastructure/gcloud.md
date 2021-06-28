@@ -26,5 +26,7 @@
 
  ```gcloud compute instances list ``` list VMs
 
+## VPC Networks
 
+```gcloud compute networks create privatenet --subnet-mode=custom``` to create a custom mode VPC network called privatenet 
 
