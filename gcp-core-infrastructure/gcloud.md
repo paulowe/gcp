@@ -30,3 +30,4 @@
 
 ```gcloud compute networks create privatenet --subnet-mode=custom``` to create a custom mode VPC network called privatenet 
 
+```gcloud compute networks subnets create privatesubnet-eu --network=privatenet --region=europe-west1 --range=172.20.0.0/20``` to create a subnet in europe-west1 region and assigning it a range of internal IP address
