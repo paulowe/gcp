@@ -49,6 +49,9 @@ You can define fine-grained policies for resources between GCP VPCs, On-prem or 
 
   Its 2^11 because we use the first 9 bits as a network-id or "CIDR block", and we have 7 bits in the 2nd byte remaining and 4 bits from the third byte to compute 2^11         unique subnet-ids
   
+  
+   Auto mode networks are easy to set up and use because they automatically create subnets in each region. However, you don't have complete control over the subnets created in your VPC network, including regions and IP address ranges used. Feel free to explore more [considerations for choosing an auto mode network](https://cloud.google.com/vpc/docs/vpc#auto-mode-considerations)
+   
 **Custom Mode**
   
   - **Complete control** over subnets and IP ranges
