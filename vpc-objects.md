@@ -74,6 +74,14 @@ Default (implied) Firewall rules
 -  Block all incoming connections and 
 -  Allow all outgoing connections.
 
+ 4 Ingress firewall rules for the default network:
+
+default-allow-icmp
+default-allow-rdp
+default-allow-ssh
+default-allow-internal
+These firewall rules allow ICMP, RDP, and SSH ingress traffic from anyw
+
 ### Communication in VPC Networks
 
 VMs in the same network **can communicate with each other using Internal IPs** (Regardless of whether they ar ein separate regions)
