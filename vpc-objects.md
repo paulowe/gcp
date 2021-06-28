@@ -60,11 +60,19 @@ You can define fine-grained policies for resources between GCP VPCs, On-prem or 
 **Note :** You can convert an Auto Mode network -> Custom network, but not the other way around
 
 **Routes**
+
 Routes tell VM instances and the VPC network how to send traffic from ann instance to a destination, either inside the network or outside Google Cloud.
 
 Default routes: 
 - Route ttraffic among subnets
 - Send traffic from eligible instances to the internet
+
+**Firewall Rules**
+Firewall rules allow you to control which packets are allowed to travel to which destinations
+
+Default (implied) Firewall rules
+-  Bock all incoming connections and 
+-  Alow all outgoing connections.
 
 ### Communication in VPC Networks
 
