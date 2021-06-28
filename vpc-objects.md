@@ -37,6 +37,8 @@ You can define fine-grained policies for resources between GCP VPCs, On-prem or 
 - Every project has one
 - One subnet per region with **non-overlapping CIDR blocks**
 - Default firewall rules that allow ingress traffic from ICMP (ping traffic) SSH, and all internal network traffic on any port
+- Each subnet is associated with a **private RFC 1918 CIDR block** for its internal IP addresses range and 
+- A gateway
 
 **Auto Mode Networks**
   
