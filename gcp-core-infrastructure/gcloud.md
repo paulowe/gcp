@@ -35,3 +35,5 @@
 ```gcloud compute networks subnets list``` list available networks in current gcp project
 
 ```gcloud compute networks subnets list --sort-by=NETWORK``` list subnets and order by networks it belongs to
+
+```gcloud compute firewall-rules create privatenet-allow-icmp-ssh-rdp --direction=INGRESS --priority=1000 --network=privatenet --action=ALLOW --rules=icmp,tcp:22,tcp:3389 --source-ranges=0.0.0.0/0``` create firewall rules that allows inbound tcp, and icmp traffic from anywhere
