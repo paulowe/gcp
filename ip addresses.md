@@ -8,5 +8,5 @@ Symbolic VM name + IP are registeres with network scoped DNS
 
 VM doesnt know external IP; It is mapped to the internal IP
 
-**Note** Although you can create large network sizes that can accomodate a lot of attachable IPs, in GCP there is a limit to the number of instances you can provision per network - 15,000 VMs (as of 28 June 2021)
+**Note** Although you can create large network sizes that can accomodate a lot of attachable IPs, in GCP there is a limit to the number of instances you can provision per network - 15,000 VMs (as of 28 June 2021). Further hardware limitations may exist based on the region/zone. 
 
