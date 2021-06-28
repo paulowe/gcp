@@ -4,7 +4,7 @@
 
 Symbolic VM name + IP are registeres with network scoped DNS
 
-2. External IP addresses are (optionally) allocated to VMs that are externally facing from a pool (ephemeral). Alternatively, you have the option to reserved IP address (static). Static IPs that are not allocated to a forwarding rule / a running VM resource are billed more.
+2. **External IP addresses** are (optionally) allocated to VMs that are externally facing from a pool (ephemeral). Alternatively, you have the option to reserved IP address (static). Static IPs that are not allocated to a forwarding rule / a running VM resource are billed more.
 
 VM doesnt know external IP; It is mapped to the internal IP
 
