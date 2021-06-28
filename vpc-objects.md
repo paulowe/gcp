@@ -71,8 +71,8 @@ Default routes:
 Firewall rules allow you to control which packets are allowed to travel to which destinations
 
 Default (implied) Firewall rules
--  Bock all incoming connections and 
--  Alow all outgoing connections.
+-  Block all incoming connections and 
+-  Allow all outgoing connections.
 
 ### Communication in VPC Networks
 
