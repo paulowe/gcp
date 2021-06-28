@@ -80,10 +80,11 @@ Default (implied) Firewall rules
 
  4 Ingress firewall rules for the default network:
 
-default-allow-icmp
-default-allow-rdp
-default-allow-ssh
-default-allow-internal
+- default-allow-icmp - allows ping traffic to reach a VM's external IP address
+- default-allow-rdp
+- default-allow-ssh - ssh into machine for admin purposes
+- default-allow-internal - allow local traffic for instances within the VPC to reach other instances using internal ip
+
 These firewall rules allow ICMP, RDP, and SSH ingress traffic from anyw
 
 ### Communication in VPC Networks
@@ -128,7 +129,6 @@ A subnet is simply an IP address you can use within a defined range
 
     - Avoid large, wasteful subnets - This may cause CIDR range collisions when working
       with VPC Network Peering or when configuring a VPN connections to an On-prem network
-
 
 
 
