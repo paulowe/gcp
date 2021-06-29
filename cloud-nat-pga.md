@@ -18,6 +18,8 @@ Google Cloud Router dynamically exchanges routes between your Virtual Private Cl
 
 The NAT mapping section allows you to choose the subnets to map to the NAT gateway. You can also manually assign static IP addresses that should be used when performing NAT. Do not change the NAT mapping configuration in this lab.
 
+The Cloud NAT gateway implements outbound NAT, but not inbound NAT. In other words, hosts outside of your VPC network can only respond to connections initiated by your instances; they cannot initiate their own, new connections to your instances via NAT.
+
 **Private Google Access** - enables such instances to communicate with other GCP APIs, services and resources 
 
 Enabled at the subnet level
