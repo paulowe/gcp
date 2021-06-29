@@ -68,3 +68,7 @@ gcloud compute --project=projectName firewall-rules create default-allow-http --
 --rules=tcp:80 --source-ranges=0.0.0.0/0 --target-tags=http-server 
 ```
 
+##### SSH by Tunneling through IAP TCP Forwarding
+
+``` gcloud compute ssh <instance-name or FQDN> --zone=$ZONE --tunnel-through-iap ```
+
