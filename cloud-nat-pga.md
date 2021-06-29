@@ -10,6 +10,8 @@ Scenario: For instances without and external IP
 
 Using Cloud NAT, these instances can access the internet for updates and patches, and in some cases, for bootstrapping. As a managed service, Cloud NAT provides high availability without user management and intervention.
 
+**Cloud NAT is a regional resource.** You can configure it to allow traffic from all ranges of all subnets in a region, from specific subnets in the region only, or from specific primary and secondary CIDR ranges only.
+
 **Private Google Access** - enables such instances to communicate with other GCP APIs, services and resources 
 
 Enabled at the subnet level
