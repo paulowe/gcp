@@ -1,6 +1,6 @@
 [Overview](https://github.com/paulowe/gcp/blob/main/readme.md)
 
-[Next](https://github.com/paulowe/gcp/blob/main/compute-engine.md)
+[Next](https://github.com/paulowe/gcp/blob/main/compute-processing-options.md)
 
 The focus is on traditional VMs (IaaS) because it provides the utmost flexibility
 
