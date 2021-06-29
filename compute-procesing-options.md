@@ -10,6 +10,8 @@ The focus is on traditional VMs (IaaS) because it provides the utmost flexibilit
 
 **Scaling :** Server Autoscaling
 
-**Primary use case :** General workloads
+**Primary use case :** General workloads - Especially enterprise infrastructure designed to run on servers. 
+
+This makes those workloads portable and easy to run in the cloud
 
 ## GCP compute and processing options
