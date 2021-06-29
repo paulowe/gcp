@@ -6,19 +6,20 @@ VM instances without external IP addresses are isolated from external networks.
 
 Scenario: For instances without and external IP
 
-**Cloud NAT gateway** - enables instances to create egress (outbound) connections to internet clients outside the Google Network
+**Cloud NAT gateway** - The Cloud NAT gateway implements outbound NAT, but not inbound NAT. In other words, hosts outside of your VPC network can only respond to connections initiated by your instances; they cannot initiate their own, new connections to your instances via NAT.
 
 Using Cloud NAT, these instances can access the internet for updates and patches, and in some cases, for bootstrapping. As a managed service, Cloud NAT provides high availability without user management and intervention.
 
-**Cloud NAT is a regional resource.** You can configure it to allow traffic from all ranges of all subnets in a region, from specific subnets in the region only, or from specific primary and secondary CIDR ranges only.
+Cloud NAT uses NAT gateway to manage those connections. **A NAT gateway is region- and VPC network-specific.** If you have VM instances in multiple regions, you'll need to create a NAT gateway for each region. 
 
-Cloud NAT uses NAT gateway to manage those connections. A NAT gateway is region- and VPC network-specific. If you have VM instances in multiple regions, you'll need to create a NAT gateway for each region
+Furthermore,  You can configure Cloud NAT to allow traffic from 
+- all ranges of all subnets in a region, 
+- from specific subnets in the region only, or 
+- from specific primary and secondary CIDR ranges only.
 
-Google Cloud Router dynamically exchanges routes between your Virtual Private Cloud (VPC) and on-premises networks by using Border Gateway Protocol (BGP)
+The NAT mapping section allows you to choose the subnets to map to the NAT gateway. You can also manually assign static IP addresses that should be used when performing NAT. 
 
-The NAT mapping section allows you to choose the subnets to map to the NAT gateway. You can also manually assign static IP addresses that should be used when performing NAT. Do not change the NAT mapping configuration in this lab.
-
-The Cloud NAT gateway implements outbound NAT, but not inbound NAT. In other words, hosts outside of your VPC network can only respond to connections initiated by your instances; they cannot initiate their own, new connections to your instances via NAT.
+**Google Cloud Router** dynamically exchanges routes between your Virtual Private Cloud (VPC) and on-premises networks by using Border Gateway Protocol (BGP)
 
 **Private Google Access** - enables such instances to communicate with other GCP APIs, services and resources 
 
