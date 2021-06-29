@@ -16,6 +16,8 @@ Cloud NAT uses NAT gateway to manage those connections. A NAT gateway is region-
 
 Google Cloud Router dynamically exchanges routes between your Virtual Private Cloud (VPC) and on-premises networks by using Border Gateway Protocol (BGP)
 
+The NAT mapping section allows you to choose the subnets to map to the NAT gateway. You can also manually assign static IP addresses that should be used when performing NAT. Do not change the NAT mapping configuration in this lab.
+
 **Private Google Access** - enables such instances to communicate with other GCP APIs, services and resources 
 
 Enabled at the subnet level
