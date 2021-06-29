@@ -12,6 +12,8 @@ Using Cloud NAT, these instances can access the internet for updates and patches
 
 **Cloud NAT is a regional resource.** You can configure it to allow traffic from all ranges of all subnets in a region, from specific subnets in the region only, or from specific primary and secondary CIDR ranges only.
 
+Google Cloud Router dynamically exchanges routes between your Virtual Private Cloud (VPC) and on-premises networks by using Border Gateway Protocol (BGP)
+
 **Private Google Access** - enables such instances to communicate with other GCP APIs, services and resources 
 
 Enabled at the subnet level
