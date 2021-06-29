@@ -16,3 +16,6 @@ These firewall rules allow ICMP, RDP, and SSH ingress traffic from anywhere (0.0
 and all TCP, UDP and ICMP traffic within the network (10.128.0.0/9)
 
 **Why is there this contradiction??**
+
+
+How is traffic routed between VMs and Google services when using Private Google Access
