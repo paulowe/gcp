@@ -1,7 +1,7 @@
 
 [Overview](https://github.com/paulowe/gcp/blob/main/readme.md)
 
-[Next](https://github.com/paulowe/gcp/blob/main/automation-on-gcp.md)
+[Next](https://github.com/paulowe/gcp/blob/main/vpc-objects.md)
 
 ## The power of Automation on GCP through the Marketplace
 
