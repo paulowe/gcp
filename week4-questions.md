@@ -19,3 +19,6 @@ and all TCP, UDP and ICMP traffic within the network (10.128.0.0/9)
 
 
 How is traffic routed between VMs and Google services when using Private Google Access
+
+
+Which one has highest priority Private Google Access enabled on subnet OR service account permission enabled on VM instance
