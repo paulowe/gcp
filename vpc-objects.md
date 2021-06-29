@@ -85,7 +85,11 @@ Default (implied) Firewall rules
 - default-allow-ssh - ssh into machine for admin purposes
 - default-allow-internal - allow local traffic for instances within the VPC to reach other instances using internal ip
 
-These firewall rules allow ICMP, RDP, and SSH ingress traffic from anyw
+These firewall rules allow ICMP, RDP, and SSH ingress traffic from anywhere
+
+**One benefit of applying firewall rules by tag rather than by address** is that when a VM is created with a matching tag, the firewall rules apply irrespective og the IP address it is assigned.
+
+When a VM is created the ephemeral external IP address is assigned from a pool. There is no way to predict which address will be assigned, so there is no way to write a rule that will match that VM's IP address before it is assigned. Tags allow a symbolic assignment that does not depend on order in the IP addresses. It makes for simpler, more general, and easier to maintain, firewall rules.
 
 ### Communication in VPC Networks
 
