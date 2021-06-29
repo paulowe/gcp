@@ -1,5 +1,7 @@
 ## Cloud NAT and Private Google Access
 
+[]()
+
 VM instances without external IP addresses are isolated from external networks.
 
 Scenario: For instances without and external IP
