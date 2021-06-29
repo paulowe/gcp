@@ -16,12 +16,20 @@ This makes those workloads portable and easy to run in the cloud
 
 ## Compute Engine
 Physical servers running in GCP with a variety of configurations.
+    
+**Machine Types**
+
+Compute Engine provides a variety of machine types; You may also create custom machine types that are tailored to fit you specific use case
 
 Predefined or custom machine types allow you to choose
 - vCPUs (cores) and Memory (RAM)
 - Persistent disks: HDD, SSD, and Local SSD
 - Configure Networking interface
 - Linux or Windows machines
+
+Your choice of CPU will affect your network throughput.
+- Network throughput scales 2Gbps per vCPU core; **Except** for instances with 2 and 4 vCPUs which receive up to 10Gbps bandwidth.
+- Theoretical 
 
 **Important topics covered along with Compute Engine include**
 
@@ -40,5 +48,3 @@ Predefined or custom machine types allow you to choose
     - Sustained use discounts
     - Committed use discounts
     - Preemptible VMs
-    
-
