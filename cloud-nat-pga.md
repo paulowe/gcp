@@ -19,6 +19,14 @@ Furthermore,  You can configure Cloud NAT to allow traffic from
 
 The NAT mapping section allows you to choose the subnets to map to the NAT gateway. You can also manually assign static IP addresses that should be used when performing NAT. 
 
+**Cloud NAT Logging** - allows you to log NAT connections and errors.
+
+When Cloud NAT logging is enabled, one log entry can be registered when
+- a network connection using NAT is created
+- a packet is dropped because no port was available for NAT
+
+You may log one or both events. Logs are sent to *Cloud Logging*
+
 **Google Cloud Router** dynamically exchanges routes between your Virtual Private Cloud (VPC) and on-premises networks by using Border Gateway Protocol (BGP)
 
 **Private Google Access** - enables such instances to communicate with other GCP APIs, services and resources 
@@ -38,3 +46,7 @@ In order to connect to your private instance using SSH, you need to
 - IAP connections come from a specific set of IP addresses (35.235.240.0/20). Therefore, you can limit the firewall rule to this CIDR range.
 
 When instances do not have external IP addresses, they can only be reached by other instances on the network via a managed VPN gateway or via a Cloud IAP tunnel. Cloud IAP enables context-aware access to VMs via SSH and RDP without bastion hosts
+
+IAP uses your existing project roles and permissions when you connect to VM instances. By default, instance owners are the only users that have the IAP Secured Tunnel User role. If you want to allow other users to access your VMs using IAP tunneling, you need to grant this role to those users.
+
+
