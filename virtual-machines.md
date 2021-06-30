@@ -84,3 +84,15 @@ All Disk types provide the same size options when choosing a persistent disk. So
           
           - Performance of disk scales with each GB of space allocated
 
+### Networking
+
+- Default, AM, Custom networks
+- Inbound/Outbound firewall rules
+        - IP based
+        - Instance/group tags
+- Regional HTTPS load balancing
+- Network load balancing
+        - **Does not require pre-warming** because a load balancer is not a hardware device that needs to analyze your traffic
+          but rather a set of traffic engineering rules that are coming into the Google network and VPC is applying rules destined for your 
+          IP address subnet range
+- Global and multi regional subnetworks  
