@@ -56,21 +56,30 @@ All Disk types provide the same size options when choosing a persistent disk. So
 
 **Performance vs Cost**
 
-- **Standard** - Sized up to 64TB/instance. 
-               - Performance of disk scales with each GB of space allocated
+- **Standard** 
 
-- **SSD persistent disk** - Provide Higher iops/dollar spent
+                           - Sized up to 64TB/instance.
+                           
+                           - Performance of disk scales with each GB of space allocated
+
+- **SSD persistent disk** 
+     
+                          - Provide Higher iops/dollar spent
 
                           - Sized up to 64TB/instance
 
                           - Performance of disk scales with each GB of space allocated
                          
-- **Local SSD (temporary)** - Provide even higher throughput and lower latecny because they are attached to the physical hardware. 
+- **Local SSD (temporary)** 
 
+                            - Provide even higher throughput and lower latecny because they are attached to the physical hardware.
+                            
                             - Persist data until you stop/delete the instance. Typically these disks are used as a swap disk
 
                             - You can create instances with up to 8 separate 375GB local SSD partitions for a total of 3TB local SSD space for each instance
-- **HDD** - Sized up to 64TB/instance
+- **HDD** 
 
+          - Sized up to 64TB/instance
+          
           - Performance of disk scales with each GB of space allocated
 
