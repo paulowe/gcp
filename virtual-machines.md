@@ -56,7 +56,7 @@ All Disk types provide the same size options when choosing a persistent disk. So
 
 **Performance vs Cost**
 
-- **Standard** 
+- **Standard (HDD) persistent disk** 
 
                            - Sized up to 64TB/instance.
                            
@@ -78,11 +78,6 @@ All Disk types provide the same size options when choosing a persistent disk. So
 
                         - You can create instances with up to 8 separate 375GB local SSD partitions
                           for a total of 3TB local SSD space for each instance
-- **HDD** 
-
-          - Sized up to 64TB/instance
-          
-          - Performance of disk scales with each GB of space allocated
 
 ### Networking
 
