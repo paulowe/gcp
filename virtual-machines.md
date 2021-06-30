@@ -72,11 +72,12 @@ All Disk types provide the same size options when choosing a persistent disk. So
                          
 - **Local SSD (temporary)** 
 
-                            - Provide even higher throughput and lower latecny because they are attached to the physical hardware.
-                            
-                            - Persist data until you stop/delete the instance. Typically these disks are used as a swap disk
+                        - Provide even higher throughput and lower latecny because they are attached to the physical hardware.
 
-                            - You can create instances with up to 8 separate 375GB local SSD partitions for a total of 3TB local SSD space for each instance
+                        - Persist data until you stop/delete the instance. Typically these disks are used as a swap disk
+
+                        - You can create instances with up to 8 separate 375GB local SSD partitions
+                          for a total of 3TB local SSD space for each instance
 - **HDD** 
 
           - Sized up to 64TB/instance
