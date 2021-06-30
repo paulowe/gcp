@@ -24,3 +24,8 @@ How is traffic routed between VMs and Google services when using Private Google 
 Which one has highest priority Private Google Access enabled on subnet OR service account permission enabled on VM instance
 
 Cloud NAT - The NAT mapping section allows you to choose the subnets to map to the NAT gateway. You can also manually assign static IP addresses that should be used when performing NAT. Do not change the NAT mapping configuration in this lab. **What is NAT mapping?**
+
+
+What is a Standard persistent disk? (I know SSD and HDD and Local SSD)
+
+How do you make a persistent disk regional? (Arent all disks supposed to operate based on the zone instead?)
