@@ -1,6 +1,14 @@
 ## VM states
 
 
+Stopped (Terminated) VM
+- No charge for stopped VM
+- Charged for attached disks and IPs
+
+Actions
+- Change machine type (but not the image)
+- Migrate the VM to another network
+- 
 ## Once an instance is running you can:
 
 - reset (instance remains running) - console, gcloud, API , OS
