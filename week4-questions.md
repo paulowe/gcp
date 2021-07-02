@@ -35,4 +35,4 @@ What is the difference between reset and reboot? in terms of changes in your run
 reset (remains running, no shutdown script time) - console, gcloud, API, OS
 reboot (running -> running , ~90 sec shutdown time) - OS: sudo reboot
 
-
+What is the difference between Machine type vs Image? (Why can you change MT but not Image when an instance is terminated?) 
