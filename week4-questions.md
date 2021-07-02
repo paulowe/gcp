@@ -20,12 +20,19 @@ and all TCP, UDP and ICMP traffic within the network (10.128.0.0/9)
 
 How is traffic routed between VMs and Google services when using Private Google Access
 
-
 Which one has highest priority Private Google Access enabled on subnet OR service account permission enabled on VM instance
 
 Cloud NAT - The NAT mapping section allows you to choose the subnets to map to the NAT gateway. You can also manually assign static IP addresses that should be used when performing NAT. Do not change the NAT mapping configuration in this lab. **What is NAT mapping?**
 
-
+## Storage
 What is a Standard persistent disk? (I know SSD and HDD and Local SSD)
 
 How do you make a persistent disk regional? (Arent all disks supposed to operate based on the zone instead?)
+
+## VM Lifecycle and states
+
+What is the difference between reset and reboot? in terms of changes in your running applications 
+reset (remains running, no shutdown script time) - console, gcloud, API, OS
+reboot (running -> running , ~90 sec shutdown time) - OS: sudo reboot
+
+
