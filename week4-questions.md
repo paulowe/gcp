@@ -39,6 +39,8 @@ Is one type of firewall or two types
 
 Do they have state/stateless? 
 
+Why would Compute Engine such a firewall rule - Allow HTTP traffic to flow into your instance that does not have an External IP assigned? Does this operation alter Firewall rules for that particular VM you are creating or for the entire subnet?
+
 **Communication for Instances without an external IP**
 Cloud NAT - The NAT mapping section allows you to choose the subnets to map to the NAT gateway. You can also manually assign static IP addresses that should be used when performing NAT. Do not change the NAT mapping configuration in this lab. **What is NAT mapping?**
 
