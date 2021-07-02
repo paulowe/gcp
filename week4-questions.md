@@ -25,6 +25,10 @@ Which one has highest priority Private Google Access enabled on subnet OR servic
        - Applications running on the VM use the service account to call Google Cloud APIs. 
          Use Permissions on the console menu to create a service account or use the 
          default service account if available.
+         
+        - Allow scopes : Select the type and level of API access to grant the VM.
+        
+          Default: read-only access to Storage and Service Management, write access to Stackdriver Logging and Monitoring, read/write access to Service Control
 
 Cloud NAT - The NAT mapping section allows you to choose the subnets to map to the NAT gateway. You can also manually assign static IP addresses that should be used when performing NAT. Do not change the NAT mapping configuration in this lab. **What is NAT mapping?**
 
