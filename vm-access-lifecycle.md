@@ -6,7 +6,7 @@
 
 **3. Running**
 
-**Stopped (Terminated) VM**
+**4. Stopped (Terminated) VM**
 - Before an instance enters the Stopped/Terminated phase you have the option to run shutdown scripts
 - No charge for stopped VM
 - Charged for attached disks and IPs
