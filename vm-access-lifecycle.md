@@ -1,14 +1,24 @@
 ## VM states
 
+**1. Provisioning**
 
-Stopped (Terminated) VM
+**2. Staging**
+
+**3. Running**
+
+**Stopped (Terminated) VM**
+- Before an instance enters the Stopped/Terminated phase you have the option to run shutdown scripts
 - No charge for stopped VM
 - Charged for attached disks and IPs
 
 Actions
-- Change machine type (but not the image)
+- Change machine type (but not the image) or Modify custom VM
 - Migrate the VM to another network
-- 
+- Add/remove attached disks
+- Remove or set a new static IP
+- Modify VM availability policy (*can also be done while instance is in the running state*)
+- Cant change the image of a stopped VM
+
 ## Once an instance is running you can:
 
 - reset (instance remains running) - console, gcloud, API , OS
