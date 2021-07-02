@@ -20,6 +20,7 @@ and all TCP, UDP and ICMP traffic within the network (10.128.0.0/9)
 
 How is traffic routed between VMs and Google services when using Private Google Access
 
+**Compute Engine Config**
 Which one has highest priority Private Google Access enabled on subnet OR service account permission enabled on VM instance.
 What if PGA is not enabled on a subnet. Does the Service Account setting (when configuring a Compute Engine VM still hold?
 
@@ -31,6 +32,14 @@ What if PGA is not enabled on a subnet. Does the Service Account setting (when c
         
           Default: read-only access to Storage and Service Management, write access to Stackdriver Logging and Monitoring, read/write access to Service Control
 
+**Traffic Flow in and out of your VPC**
+Does the Firewall setting (when configuring instance VMs) affect/alter any firewall configurations made at the subnet level?
+
+Is one type of firewall or two types
+
+Do they have state/stateless? 
+
+**Communication for Instances without an external IP**
 Cloud NAT - The NAT mapping section allows you to choose the subnets to map to the NAT gateway. You can also manually assign static IP addresses that should be used when performing NAT. Do not change the NAT mapping configuration in this lab. **What is NAT mapping?**
 
 ## Storage
