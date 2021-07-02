@@ -11,7 +11,8 @@
 - No charge for stopped VM
 - Charged for attached disks and IPs
 
-  Actions
+  **Actions**
+ 
 - Change machine type (but not the image) or Modify custom VM
 - Migrate the VM to another network
 - Add/remove attached disks
