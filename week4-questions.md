@@ -33,6 +33,8 @@ What if PGA is not enabled on a subnet. Does the Service Account setting (when c
           Default: read-only access to Storage and Service Management, write access to Stackdriver Logging and Monitoring, read/write access to Service Control
 
 **Traffic Flow in and out of your VPC**
+Can HTTP/HTTPS traffic be allowed at the subnet level but denied at the instance level? Maybe because certain VMs in the region are private whereas others need to be public?
+
 Does the Firewall setting (when configuring instance VMs) affect/alter any firewall configurations made at the subnet level?
 
 Is one type of firewall or two types
