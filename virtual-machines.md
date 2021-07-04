@@ -1,6 +1,6 @@
 [Overview](https://github.com/paulowe/gcp/blob/main/readme.md)
 
-[Next](https://github.com/paulowe/gcp/blob/main/machine-types.md)
+[Next](https://github.com/paulowe/gcp/blob/main/vm-access-lifecycle.md)
 
 # Virtual Machines 
 The focus is on traditional VMs (IaaS) because it provides the utmost flexibility
