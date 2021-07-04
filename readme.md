@@ -74,8 +74,11 @@ Stackdriver
 
 ### Virtual Networks
 [VPC Objects](https://github.com/paulowe/gcp/blob/main/vpc-objects.md)
+
 [IP Addresses](https://github.com/paulowe/gcp/blob/main/ip-addresses.md)
+
 [Cloud NAT and Private Google Access](https://github.com/paulowe/gcp/blob/main/cloud-nat-pga.md)
+
 ### Virtual Machines
 
 ### Cloud IAM
