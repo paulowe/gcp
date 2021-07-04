@@ -81,6 +81,12 @@ Stackdriver
 
 ### Virtual Machines
 
+[Virtual Machines Overview](https://github.com/paulowe/gcp/blob/main/virtual-machines-overview.md)
+
+[Virtual Machines](https://github.com/paulowe/gcp/blob/main/virtual-machines.md)
+
+[Virtual Machines Access and Lifecycle](https://github.com/paulowe/gcp/blob/main/vm-access-lifecycle.md)
+
 ### Cloud IAM
 
 ### Storage and Database Services
