@@ -1,6 +1,6 @@
 [Overview](https://github.com/paulowe/gcp/blob/main/readme.md)
 
-[Next](https://github.com/paulowe/gcp/blob/main/compute-processing-options.md.md)
+[Next](https://github.com/paulowe/gcp/blob/main/virtual-machines.md)
 
 # Virtual Machines - An Overview
 ## Agenda
