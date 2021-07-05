@@ -171,3 +171,18 @@ Limitations:
 - Memory must be between **0.9 - 6.5GB per vCPU (default)**
 - Total memory **must be a multiple of 256MB**
 - At yet an **additonal cost you can get more memory per vCPU** beyond 6.5GB. This is called **Extended memory**
+
+# Factors that influence choice of Region/Zones
+
+1. Location where you want to run your resources / Where your users are 
+
+2. Processor Microarchtectures supported
+
+Each zone supports a combination of: 
+
+a. Sandy Bridge Processor: (microarchitecture, 2nd gen, Intel core processor)
+b. Ivy Bridge (microarchitecture, 3rd gen, Intel core processor)
+c. Haswell : (microarchitecture, 4th gen, Intel core processor)
+d. Broadwell : (microarchitecture, 5th gen, Intel core processor)
+d. Skylake Processor: (microarchitecture, 6th gen, Intel core processor)
+e. There are newer architectures than 2015's Skylake (Willow Cove '20 , Cypress Cove '21 but does Google Cloud Support these architectures?)
