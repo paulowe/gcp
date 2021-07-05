@@ -4,4 +4,5 @@
 2. Sustained Use Discounts
 
 ![Sustained use discounts](captures/Capture 3.PNG)
+
 3. Preemptible VMs
