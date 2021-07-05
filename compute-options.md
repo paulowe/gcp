@@ -176,7 +176,9 @@ Limitations:
 
 1. Location where you want to run your resources / Where your users are 
 
-2. Processor Microarchtectures supported
+2. [Processor Microarchtectures](https://www.allaboutcircuits.com/technical-articles/what-is-a-microarchitecture-processor-register-files-ARM-core/#:~:text=A%20microarchitecture%20%28sometimes%20written%20as%20%22micro-architecture%22%29%20is%20the,blocks.%20All%20of%20this%2C%20together%2C%20forms%20the%20processor.) supported
+
+A microarchitecture (sometimes written as "micro-architecture") is the digital logic that allows an instruction set to be executed. It is the combined implementation of registers, memory, arithmetic logic units, multiplexers, and any other digital logic blocks. All of this, together, forms the processor.
 
 **Each zone** supports a combination of **[Intel's x86-64bit microarchitectures](https://en.wikipedia.org/wiki/List_of_Intel_CPU_microarchitectures#:~:text=x86%20microarchitectures%20%20%20%20Year%20%20,%20%201500%20%2029%20more%20rows%20)**: 
 
