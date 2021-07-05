@@ -148,7 +148,7 @@ These instances are **cost effective** in running **small and non-resource inten
 
 **Machine names:**
 
-f1 - micro - 0.2
+f1 - micro - 0.2 (offer bursting capabilities for a short period of time, by opportunitstically take advantage of available CPUs)
 
 g1 - small - 0.5
 
@@ -157,3 +157,17 @@ g1 - small - 0.5
 **Max # PD:** 16
 
 **Max PD size:** 3TB
+
+## Custom Machine TYPE
+
+When to use custom:
+- No good fit in the available predefined machine types
+- Way more memory than CPU / Way more CPU than Memory but dont require the upgrades provided when scaling predefined MTs
+
+Custom VMs **Cost slightly more** than predfined ones
+
+Limitations:
+- Only **1 or even numbere of vCPUs** allowed
+- Memory must be between **0.9 - 6.5GB per vCPU (default)**
+- Total memory **must be a multiple of 256MB**
+- At yet an **additonal cost you can get more memory per vCPU** beyond 6.5GB. This is called **Extended memory**
