@@ -178,11 +178,16 @@ Limitations:
 
 2. Processor Microarchtectures supported
 
-Each zone supports a combination of: 
+**Each zone** supports a combination of: 
 
 a. Sandy Bridge Processor: (microarchitecture, 2nd gen, Intel core processor)
+
 b. Ivy Bridge (microarchitecture, 3rd gen, Intel core processor)
+
 c. Haswell : (microarchitecture, 4th gen, Intel core processor)
+
 d. Broadwell : (microarchitecture, 5th gen, Intel core processor)
+
 d. Skylake Processor: (microarchitecture, 6th gen, Intel core processor)
-e. There are newer architectures than 2015's Skylake (Willow Cove '20 , Cypress Cove '21 but does Google Cloud Support these architectures?)
+
+e. There are newer architectures than 2015's Skylake (Willow Cove '20 , Cypress Cove '21 but does any GCP zone support the newest architectures first? e.g us-central1-a)
