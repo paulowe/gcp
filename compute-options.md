@@ -190,4 +190,4 @@ d. Broadwell : (microarchitecture, 5th gen, Intel core processor)
 
 d. Skylake Processor: (microarchitecture, 6th gen, Intel core processor)
 
-e. There are newer architectures than 2015's Skylake (Willow Cove '20 (first core to include acceleration for SHA hashing algorithms) , Cypress Cove '21 but does any GCP zone support the newest architectures first? e.g us-central1-a)
+e. There are newer architectures than 2015's Skylake (**Willow Cove '20** (first core to include acceleration for SHA hashing algorithms) , **Cypress Cove '21** but does any GCP zone typically support the newest architectures first?)
