@@ -178,7 +178,7 @@ Limitations:
 
 2. Processor Microarchtectures supported
 
-**Each zone** supports a combination of **Intel's x86-64bit microarchitectures**: 
+**Each zone** supports a combination of **[Intel's x86-64bit microarchitectures](https://en.wikipedia.org/wiki/List_of_Intel_CPU_microarchitectures#:~:text=x86%20microarchitectures%20%20%20%20Year%20%20,%20%201500%20%2029%20more%20rows%20)**: 
 
 a. Sandy Bridge Processor: (microarchitecture, 2nd gen, Intel core processor)
 
