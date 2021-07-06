@@ -33,7 +33,7 @@ Persistent disks are
 - Data doesnt survive an instance stop / terminate, but can survive instance reset.
 - Cannot be reattached to a different VM
 
-# RAM Disk
+## RAM Disk
 - Use tmpfs for in memory data storage of small data structures. It's recommended to use high memory VM if you need to take advantage of such features Along with a PD to backup the RAM data
 - Volatile/ Ephemeral: erase on stop/restart
 - Low latency and Low risk of data loss
