@@ -13,7 +13,7 @@ Image types
    - Premium images (p) - Vary according to MT. But prices are global
 2. Custom images
    - Create new image from VM; pre-configured and installed
-   - Import images from On-prem, other cloud providers
+   - Import images from On-prem, other cloud providers by simply installing an agent
 
 ## Machine Images
 Machine images store config, metadata, permissions and data from **one or more disks, required to create a VM.** 
