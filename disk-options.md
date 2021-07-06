@@ -35,10 +35,19 @@ Persistent disks are
 - Cannot be reattached to a different VM
 
 ## RAM Disk
+- Highest performance
 - Use tmpfs for in memory data storage of small data structures. It's recommended to use high memory VM if you need to take advantage of such features Along with a PD to backup the RAM data
 - Volatile/ Ephemeral: erase on stop/restart
 - Low latency and Low risk of data loss
 - Faster than Local disk; Slower than memory
     - Use when your application expects a file system structure and cannot directly store its data in memory
     - Fast cache / scratch disk  
+
+
+Shared core: Max 16 disk
+
+Standard, High mem, High CPU, Memory optimized, Compute optimized - 128 disk
+
+Note : All your disk share the same network throughput as the rest of your egress / ingress traffic. If you attach a lot of disks because of higher iops keep this in mind
  
+![Traditional Disks vs. Cloud Persistend Disk](/captures/ Capture 5.png)
