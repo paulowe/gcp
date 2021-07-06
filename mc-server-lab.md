@@ -74,4 +74,9 @@ This command opens a new crontable and instructs cron to run the shell script ev
 
 This creates about 300 backups a month in Cloud Storage, so you will want to regularly delete them to avoid charges. Cloud Storage offers the Object Lifecycle Management feature to set a Time to Live (TTL) for objects, archive older versions of objects, or "downgrade" storage classes of objects to help manage costs
 
+# Automate server maintenance
+Edit instance custom metadata to include
 
+[startup-script-url](https://storage.googleapis.com/cloud-training/archinfra/mcserver/startup.sh)
+
+[shutdown-script-url](https://storage.googleapis.com/cloud-training/archinfra/mcserver/shutdown.sh)
