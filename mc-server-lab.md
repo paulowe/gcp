@@ -70,7 +70,7 @@ Automate backups with cronjob
 sudo crontab -e
 0 */4 * * * /home/minecraft/backup.sh
 ``` 
-This command opens crontable and instructs cron to run the shell script every 4 hours.
+This command opens a new crontable and instructs cron to run the shell script every 4 hours.
 
 
 
