@@ -16,3 +16,4 @@ Image types
    - Import images from On-prem, other cloud providers
 
 Machine images
+Is a resource that stores config, metadata, permissions and data from one or more hard disks
