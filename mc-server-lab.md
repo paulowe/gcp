@@ -37,3 +37,11 @@ sudo screen -S mcs java -Xmx1024M -Xms1024M -jar server.jar nogui
 ```
 
 To detatch and keep server running -> **CTRL+A ; CTRL+D**
+
+https://mcsrvstat.us/server/[your-instance-external-ip] to test connectivity
+
+## Scheduling Backups
+
+Backing up your application data is a common activity. 
+
+Configure the system to back up a single persistent disk to Cloud Storage.
