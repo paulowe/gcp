@@ -40,7 +40,7 @@ sudo screen -S mcs java -Xmx1024M -Xms1024M -jar server.jar nogui
 
 **To reattach** ``` sudo screen -r mcs```
 
-https://mcsrvstat.us/server/[your-instance-external-ip] to test connectivity
+[your-instance-external-ip] to test connectivity
 
 ## Scheduling Backups
 
@@ -54,5 +54,11 @@ Configure the system to back up a single persistent disk to Cloud Storage.
 2. Create a backup script
 
 ```
-
+#!/bin/bash
+screen -r mcs -X stuff '/save-all\n/save-off\n'
+/usr/bin/gsutil cp -R ${BASH_SOURCE%/*}/world gs://${YOUR_BUCKET_NAME}/$(date "+%Y%m%d-%H%M%S")-world
+screen -r mcs -X stuff '/save-on\n'
 ```
+Save script
+
+```sudo chmod 755 /home/minecraft/backup.sh``` chmod 755 gives Execute permissions to the shell script 
