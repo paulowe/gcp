@@ -50,4 +50,4 @@ Standard, High mem, High CPU, Memory optimized, Compute optimized - 128 disk
 
 Note : All your disk share the same network throughput as the rest of your egress / ingress traffic. If you attach a lot of disks because of higher iops keep this in mind
  
-![Traditional Disks vs. Cloud Persistend Disk](captures/Capture 5.PNG)
+<img src="https://github.com/paulowe/gcp/blob/main/captures/Capture%205.PNG" />
