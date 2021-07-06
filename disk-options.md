@@ -11,9 +11,33 @@ A base image is loaded onto root disk during first boot
 ## Persistent Disks
 
 Persistent disks are 
-- Attached to the VM through the Network Interface. This is network storage appearing as a block device
+- Attached to the VM **through the Network Interface**. This is network storage appearing as a block device
 - Durable: Can survive VM terminate
-- Bootable
+- Bootable: You can attach to a VM
 - Snapshots: incremental backups
 - Performance: Scales with size
-- HDD (magnetic) or SSD (faster; solid-state) 
+- HDD (cheaper; magnetic;) or SSD (faster; solid-state) 
+- Dynamically resize
+- Can be attached in read-only mode to multiple VMs (allows you to share static data between instances, which is cheaper than replicating data to unique disks)
+- Zonal PD or Regional (synchronously replicated; active-active disk replication across 2 zones; high-availability;)
+      - pd-standard (backed by HDD)
+      - pd-balanced (backed by SSD; Balance performance and cost)
+      - pd-ssd (backed by SSD) 
+
+- All data at rest is encrypted
+
+## Local SSD disks are physically attached to the VM
+- Ephemeral
+- High iops and low latency
+- Attach up to 8 Local SSD with 375GB max per disk for a total of 3TB
+- Data doesnt survive an instance stop / terminate, but can survive instance reset.
+- Cannot be reattached to a different VM
+
+# RAM Disk
+- Use tmpfs for in memory data storage of small data structures. It's recommended to use high memory VM if you need to take advantage of such features Along with a PD to backup the RAM data
+- Volatile/ Ephemeral: erase on stop/restart
+- Low latency and Low risk of data loss
+- Faster than Local disk; Slower than memory
+    - Use when your application expects a file system structure and cannot directly store its data in memory
+    - Fast cache / scratch disk  
+ 
