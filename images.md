@@ -15,7 +15,7 @@ Image types
    - Create new image from VM; pre-configured and installed
    - Import images from On-prem, other cloud providers
 
-## Machine iImages
+## Machine Images
 Machine images store config, metadata, permissions and data from **one or more disks, required to create a VM.** 
 
 Machine images can be used in many scenarios
