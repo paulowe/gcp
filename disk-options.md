@@ -49,5 +49,6 @@ Shared core: Max 16 disk
 Standard, High mem, High CPU, Memory optimized, Compute optimized - 128 disk
 
 Note : All your disk share the same network throughput as the rest of your egress / ingress traffic. If you attach a lot of disks because of higher iops keep this in mind
- 
+
+## Traditional Hardware disks vs Cloud Persistent Disk
 <img src="https://github.com/paulowe/gcp/blob/main/captures/Capture%205.PNG" />
