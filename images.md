@@ -15,7 +15,10 @@ Image types
    - Create new image from VM; pre-configured and installed
    - Import images from On-prem, other cloud providers
 
-Because machine images stores config, metadata, permissions and data from one or more disks, required to create a VM, they can be used in many scenarios
+## Machine iImages
+Machine images store config, metadata, permissions and data from **one or more disks, required to create a VM.** 
+
+Machine images can be used in many scenarios
 
 **Use cases:**
 - Single disk backup  (PD snapshots; Custom images; can achieve this as well)
@@ -23,3 +26,5 @@ Because machine images stores config, metadata, permissions and data from one or
 - Differential backup (PD snapshots; can achieve this as well)
 - Instance cloning and replication ( Custom image; Instance template; can achieve this as well)
 - VM instance confiuration (Instance template; can achieve this as well)
+
+<img src="https://github.com/paulowe/gcp/blob/main/captures/Capture%204.PNG" height="200" width="200" />
