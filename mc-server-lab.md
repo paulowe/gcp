@@ -56,9 +56,12 @@ Configure the system to back up a single persistent disk to Cloud Storage.
 ```
 #!/bin/bash
 screen -r mcs -X stuff '/save-all\n/save-off\n'
-/usr/bin/gsutil cp -R ${BASH_SOURCE%/*}/world gs://${YOUR_BUCKET_NAME}/$(date "+%Y%m%d-%H%M%S")-world
+/usr/bin/gsutil cp -R {Path-to-root-backup-folder} gs://${YOUR_BUCKET_NAME}/$(date "+%Y%m%d-%H%M%S")-backup
 screen -r mcs -X stuff '/save-on\n'
 ```
 Save script
 
 ```sudo chmod 755 /home/minecraft/backup.sh``` chmod 755 gives Execute permissions to the shell script 
+
+Execute
+
