@@ -63,5 +63,15 @@ Save script
 
 ```sudo chmod 755 /home/minecraft/backup.sh``` chmod 755 gives Execute permissions to the shell script 
 
-Execute
+Automate backups with cronjob
+
+
+```
+sudo crontab -e
+0 */4 * * * /home/minecraft/backup.sh
+``` 
+This command opens crontable and instructs cron to run the shell script every 4 hours.
+
+
+
 
