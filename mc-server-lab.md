@@ -19,4 +19,21 @@ Mount the disk
 
 ```
 sudo mount -o discard,defaults /dev/disk/by-id/google-minecraft-disk /home/minecraft
+
 ```
+
+Create a virtual terminal screen to start the application server.
+
+To avoid your application server being tied to the life of your SSH session (that is, if you close your SSH terminal, the server is also terminated) you can use ```screen```, an application that allows you to create a virtual terminal that can be "detached," becoming a background process, or "reattached," becoming a foreground process. When a virtual terminal is detached to the background, it will run whether you are logged in or not.
+
+```
+sudo apt-get install -y screen
+```
+
+To start your application server in a screen virtual terminal, run the following command: (Use the -S flag to name your terminal mcs)
+
+```
+sudo screen -S mcs java -Xmx1024M -Xms1024M -jar server.jar nogui
+```
+
+To detatch and keep server running -> **CTRL+A ; CTRL+D**
