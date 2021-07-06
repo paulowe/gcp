@@ -26,7 +26,8 @@ Persistent disks are
 
 - All data at rest is encrypted
 
-## Local SSD disks are physically attached to the VM
+## Local SSD disks 
+- Physically attached to the VM
 - Ephemeral
 - High iops and low latency
 - Attach up to 8 Local SSD with 375GB max per disk for a total of 3TB
