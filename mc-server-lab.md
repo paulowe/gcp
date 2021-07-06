@@ -80,3 +80,5 @@ Edit instance custom metadata to include
 [startup-script-url](https://storage.googleapis.com/cloud-training/archinfra/mcserver/startup.sh)
 
 [shutdown-script-url](https://storage.googleapis.com/cloud-training/archinfra/mcserver/shutdown.sh)
+
+**Summary of lab :**  you created a customized virtual machine instance by installing base software (a headless JRE) and application software (a Minecraft game server). You customized the VM by attaching and preparing a high-speed SSD data disk, and you reserved a static external IP so the address would remain consistent. Then you verified availability of the gaming server online. You set up a backup system to back up the server's data to a Cloud Storage bucket, and you tested the backup system. Then you automated backups using cron. Finally, you set up maintenance scripts using metadata for graceful startup and shutdown of the server.
