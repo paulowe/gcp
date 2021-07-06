@@ -30,13 +30,15 @@ To avoid your application server being tied to the life of your SSH session (tha
 sudo apt-get install -y screen
 ```
 
-To start your application server in a screen virtual terminal, run the following command: (Use the -S flag to name your terminal mcs)
+To **start your application server in a screen virtual terminal**, run the following command: (Use the -S flag to name your terminal mcs)
 
 ```
 sudo screen -S mcs java -Xmx1024M -Xms1024M -jar server.jar nogui
 ```
 
-To detatch and keep server running -> **CTRL+A ; CTRL+D**
+**To detatch** and keep server running -> **CTRL+A ; CTRL+D**
+
+**To reattach** ``` sudo screen -r mcs```
 
 https://mcsrvstat.us/server/[your-instance-external-ip] to test connectivity
 
@@ -45,3 +47,12 @@ https://mcsrvstat.us/server/[your-instance-external-ip] to test connectivity
 Backing up your application data is a common activity. 
 
 Configure the system to back up a single persistent disk to Cloud Storage.
+
+1. Create Cloud storage bucket
+``` gsutil mb -l us gs://[globally-unique-bucket-name]```
+
+2. Create a backup script
+
+```
+
+```
