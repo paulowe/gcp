@@ -72,6 +72,6 @@ sudo crontab -e
 ``` 
 This command opens a new crontable and instructs cron to run the shell script every 4 hours.
 
-
+This creates about 300 backups a month in Cloud Storage, so you will want to regularly delete them to avoid charges. Cloud Storage offers the Object Lifecycle Management feature to set a Time to Live (TTL) for objects, archive older versions of objects, or "downgrade" storage classes of objects to help manage costs
 
 
