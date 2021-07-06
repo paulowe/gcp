@@ -27,4 +27,4 @@ Machine images can be used in many scenarios
 - Instance cloning and replication ( Custom image; Instance template; can achieve this as well)
 - VM instance confiuration (Instance template; can achieve this as well)
 
-<img src="https://github.com/paulowe/gcp/blob/main/captures/Capture%204.PNG" height="200" width="200" />
+<img src="https://github.com/paulowe/gcp/blob/main/captures/Capture%204.PNG" />
