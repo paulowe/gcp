@@ -1,6 +1,6 @@
 [Overview](https://github.com/paulowe/gcp/blob/main/readme.md)
 
-[Next](https://github.com/paulowe/gcp/blob/main/virtual-machines.md)
+[Next](https://github.com/paulowe/gcp/blob/main/images.md)
 
 ## Compute Options (vCPU and Memory)
 
