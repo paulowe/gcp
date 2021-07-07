@@ -35,7 +35,7 @@ You may log one or both events. Logs are sent to *Cloud Logging*
 
 **Private Google Access** - enables such instances to communicate with other GCP APIs, services and resources 
 
-<img src="https://github.com/paulowe/gcp/blob/main/captures/Capture%206.PNG" width="600" height="600" />
+<img src="https://github.com/paulowe/gcp/blob/main/captures/Capture%206.PNG" width="700" height="500" />
 
 Enabled at the subnet level
 
