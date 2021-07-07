@@ -14,7 +14,7 @@ Using Cloud NAT, these instances can access the internet for updates and patches
 
 Cloud NAT uses NAT gateway to manage those connections. **A NAT gateway is region- and VPC network-specific.** If you have VM instances in multiple regions, you'll need to create a NAT gateway for each region. 
 
-<img src="https://github.com/paulowe/gcp/blob/main/captures/Capture%207.PNG" width="300" height="200" />
+<img src="https://github.com/paulowe/gcp/blob/main/captures/Capture%207.PNG" width="700" height="400" />
 
 Furthermore,  You can configure Cloud NAT to allow traffic from 
 - all ranges of all subnets in a region, 
@@ -35,7 +35,7 @@ You may log one or both events. Logs are sent to *Cloud Logging*
 
 **Private Google Access** - enables such instances to communicate with other GCP APIs, services and resources 
 
-<img src="https://github.com/paulowe/gcp/blob/main/captures/Capture%206.PNG" width="300" height="200" />
+<img src="https://github.com/paulowe/gcp/blob/main/captures/Capture%206.PNG" width="700" height="600" />
 
 Enabled at the subnet level
 
