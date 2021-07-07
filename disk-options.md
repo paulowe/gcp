@@ -1,6 +1,6 @@
 [Overview](https://github.com/paulowe/gcp/blob/main/readme.md)
 
-[Next](https://github.com/paulowe/gcp/blob/main/compute-engine-actions.md)
+[Next](https://github.com/paulowe/gcp/blob/main/vm-pricing-special-configs.md)
 
 ## Disk options
 
