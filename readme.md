@@ -87,6 +87,16 @@ Stackdriver
 
 [Virtual Machines Access and Lifecycle](https://github.com/paulowe/gcp/blob/main/vm-access-lifecycle.md)
 
+[Compute Options (vCPU and Memory)](https://github.com/paulowe/gcp/blob/main/compute-options.md)
+
+[Images](https://github.com/paulowe/gcp/blob/main/images.md)
+
+[Disk Options](https://github.com/paulowe/gcp/blob/main/disk-options.md)
+
+[Common Compute Engine Actions](https://github.com/paulowe/gcp/blob/main/compute-engine-actions.md)
+
+[Advanced Compute Engine Config and Server management](https://github.com/paulowe/gcp/blob/main/mc-server-lab.md)
+
 ### Cloud IAM
 
 ### Storage and Database Services
