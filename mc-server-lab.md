@@ -1,3 +1,9 @@
+[Overview](https://github.com/paulowe/gcp/blob/main/readme.md)
+
+[Next](https://github.com/paulowe/gcp/blob/main/images.md)
+
+# Advanced Compute Engine Configuration and Server Management Techniques
+
 ## Mount Persistent disk to VM file system
 
 Create the disk's root directory. -p means create minecraft directory and any other parent directories if necessary
