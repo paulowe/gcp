@@ -1,6 +1,6 @@
 [Overview](https://github.com/paulowe/gcp/blob/main/readme.md)
 
-[Next](https://github.com/paulowe/gcp/blob/main/images.md)
+[Next](https://github.com/paulowe/gcp/blob/main/cloud-iam.md)
 
 # Advanced Compute Engine Configuration and Server Management Techniques
 
