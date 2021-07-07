@@ -93,6 +93,8 @@ Stackdriver
 
 [Disk Options](https://github.com/paulowe/gcp/blob/main/disk-options.md)
 
+[Compute Pricing and Special Configurations](https://github.com/paulowe/gcp/blob/main/vm-pricing-special-configs.md)
+
 [Common Compute Engine Actions](https://github.com/paulowe/gcp/blob/main/compute-engine-actions.md)
 
 [Advanced Compute Engine Config and Server management](https://github.com/paulowe/gcp/blob/main/mc-server-lab.md)
