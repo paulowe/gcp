@@ -139,4 +139,4 @@ A subnet is simply an IP address you can use within a defined range
       with VPC Network Peering or when configuring a VPN connections to an On-prem network
 
 
-
+<img src="https://github.com/paulowe/gcp/blob/main/captures/vpc.png" />
