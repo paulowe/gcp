@@ -9,3 +9,5 @@ Machine image contain - Stores all configuration metadata, permissions, from one
 
 
 2. Is the metadata server an actual separate VM that gets created / or is it metadata service part of the machine image (consisting or Boot disk image, and potentially more network attached disks)
+
+3. Clarification for Disk formatting and mounting commands on VMs.
