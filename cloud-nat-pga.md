@@ -1,3 +1,7 @@
+[Overview](https://github.com/paulowe/gcp/blob/main/readme.md)
+
+[Next](https://github.com/paulowe/gcp/blob/main/virtual-machines-overview.md)
+
 ## Cloud NAT and Private Google Access
 
 []()
@@ -49,4 +53,4 @@ When instances do not have external IP addresses, they can only be reached by ot
 
 IAP uses your existing project roles and permissions when you connect to VM instances. By default, instance owners are the only users that have the IAP Secured Tunnel User role. If you want to allow other users to access your VMs using IAP tunneling, you need to grant this role to those users.
 
-
+Review Course 2: Implementing Private Google Access and Cloud NAT Lab
