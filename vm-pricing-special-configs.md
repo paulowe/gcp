@@ -15,17 +15,17 @@ This way of adding images doesnt let you customize height and width. Simply use 
 
 <img src="https://github.com/paulowe/gcp/blob/main/captures/Capture%203.PNG" alt="Sustained use discount" height="400" width="400"/>
 
-3. Preemptible VMs - Up to 80% discount 
+3. **Preemptible VMs** 
+                   - Up to 80% discount 
                    - Can be terminated at any time
                    - Live up to 24 hours max
                    - No live migrations, but you can create monitoring and load balancers to keep restoring Prreemptible VMs
                    - Batch processing jobs (jobs can slow down, when PVMs get terminated)
 
 
-
 ## Special VM Configurations
 
-4. (More expensive) Sole tenant nodes physically isolate workloads. You can bring your own license. Sole tenat can be used for a payment processing applications.
+4. (More expensive) **Sole tenant nodes physically isolate workloads**. You can bring your own license. Sole tenat can be used for a payment processing applications.
 
 5. Shielded VMs - Offer verifiable integrity using
                 - Secure boot
