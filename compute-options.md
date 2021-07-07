@@ -1,3 +1,7 @@
+[Overview](https://github.com/paulowe/gcp/blob/main/readme.md)
+
+[Next](https://github.com/paulowe/gcp/blob/main/virtual-machines.md)
+
 ## Compute Options (vCPU and Memory)
 
 **You have 3 options for configuring a VM. 1. Console 2. Cloud Shell 3. REST APIs**
