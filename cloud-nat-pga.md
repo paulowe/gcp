@@ -4,8 +4,6 @@
 
 ## Cloud NAT and Private Google Access
 
-[]()
-
 VM instances without external IP addresses are isolated from external networks.
 
 Scenario: For instances without and external IP
@@ -15,6 +13,8 @@ Scenario: For instances without and external IP
 Using Cloud NAT, these instances can access the internet for updates and patches, and in some cases, for bootstrapping. As a managed service, Cloud NAT provides high availability without user management and intervention.
 
 Cloud NAT uses NAT gateway to manage those connections. **A NAT gateway is region- and VPC network-specific.** If you have VM instances in multiple regions, you'll need to create a NAT gateway for each region. 
+
+[]()
 
 Furthermore,  You can configure Cloud NAT to allow traffic from 
 - all ranges of all subnets in a region, 
@@ -34,6 +34,8 @@ You may log one or both events. Logs are sent to *Cloud Logging*
 **Google Cloud Router** dynamically exchanges routes between your Virtual Private Cloud (VPC) and on-premises networks by using Border Gateway Protocol (BGP)
 
 **Private Google Access** - enables such instances to communicate with other GCP APIs, services and resources 
+
+[]()
 
 Enabled at the subnet level
 
