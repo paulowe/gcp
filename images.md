@@ -1,4 +1,9 @@
-## What is a (boot disk) image?
+[Overview](https://github.com/paulowe/gcp/blob/main/readme.md)
+
+[Next](https://github.com/paulowe/gcp/blob/main/disk-options.md)
+
+# IMAGES
+## 1. What is a (boot disk) image?
 
 - Boot loader
 - OS
@@ -15,7 +20,7 @@ Image types
    - Create new image from VM; pre-configured and installed
    - Import images from On-prem, other cloud providers by simply installing an agent
 
-## Machine Images
+## 2. Machine Images
 Machine images store config, metadata, permissions and data from **one or more disks, required to create a VM.** 
 
 Machine images can be used in many scenarios
