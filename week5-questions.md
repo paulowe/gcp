@@ -14,3 +14,8 @@ Machine image contain - Stores all configuration metadata, permissions, from one
 
 4. Users/Groups can be assigned a Service Account role and whihc permits them to perform all actions granted to the Service account role. Are service accounts assigned to users only if the have access to a specific VM or can they be effectively assigned to users/groups independent of whether or not a VM (with that Service account attached on it) is provisioned ?
 
+5. Feature of Cloud Storage: Time to first byte in milliseconds? What does that mean?
+
+6. Access control for Cloud Storage: SignedURLs
+
+7.
