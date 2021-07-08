@@ -1,6 +1,6 @@
 # Cloud Storage: ACLs and Signed URLs
 
-### Access control
+### Access control options
 <img src="https://github.com/paulowe/gcp/blob/main/captures/Capture%209.PNG" />
 
 All these options provide fine-grained control over access and operations happening within you bucket.
