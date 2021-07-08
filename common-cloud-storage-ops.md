@@ -34,7 +34,19 @@ Advanced Encryption Standard is built from three block ciphers: AES-128, AES-192
 - Symmetric block cipher; 
 - Used by American government to encrypt sensitive data ; 
 - Used by Individuals and corporaions to lock away classified, valuable information
-A. 
+
+A. Create a key
+
+```python3 -c 'import base64; import os; print(base64.encodebytes(os.urandom(32)))'```
+
+B. Save the key generated between ```b'``` and ```\n'```
+
+C. Modify .boto file
+
+  - ls hidden files :   ```ls -al```
+  - If no boto file exists - ```gsutil config -n``` will generate one
+  - If it exists, lets edit it to uncomment; paste our encryption key where ```# encryption_key=``` is in the doc ;
+
 
 **Implement version controls**
 
