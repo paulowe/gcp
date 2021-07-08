@@ -44,6 +44,10 @@ Archive
   - 99.95% (multi/dual) ; 99.90% (region) ; Availability SLA
   - Durability (9 11's)
 
+### Choosing a storage class
+
+<img src="" />
+
 ### Location Types
 Each of the storage classes provide **3 location types**
 
@@ -72,3 +76,5 @@ Objects stored in a Multi-region or Dual region are **geo-redundant**
 - **Location types**: Regional -> Multi/Dual region and vice-versa is not allowed
 - Objects can be moved from bucket to bucket
 - **Object Lifecycle Management** can manage the classes of objects
+
+
