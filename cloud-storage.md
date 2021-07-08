@@ -46,7 +46,7 @@ Archive
 
 ### Choosing a storage class
 
-<img src="" />
+<img src="https://github.com/paulowe/gcp/blob/main/captures/Capture%2010.PNG" />
 
 ### Location Types
 Each of the storage classes provide **3 location types**
