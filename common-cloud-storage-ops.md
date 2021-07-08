@@ -25,6 +25,17 @@ Recall that an ACL may have one or more entries and each entry contains two piec
 
 **Use your own encryption keys**
 
+Using your own keys is known as **CSEK - Customer Supplied Encryption Keys**
+
+We can generate an **AES-256 base 64 key** with the following steps.
+
+**About the Advanced Encryption Standard (AES) :** 
+Advanced Encryption Standard is built from three block ciphers: AES-128, AES-192, and [AES-256](https://www.cyclonis.com/what-is-aes-256-encryption/). Each of these encrypts and decrypts data in chunks of 128 bits by using cryptographic keys of 128-, 192- or 256-bits
+- Symmetric block cipher; 
+- Used by American government to encrypt sensitive data ; 
+- Used by Individuals and corporaions to lock away classified, valuable information
+A. 
+
 **Implement version controls**
 
 **Use directory synchronization**
