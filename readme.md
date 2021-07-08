@@ -102,6 +102,21 @@ Stackdriver
 ### Cloud IAM
 
 ### Storage and Database Services
+[Cloud Storage and Filestore](https://github.com/paulowe/gcp/blob/main/cloud-.md)
+
+[Lab](https://github.com/paulowe/gcp/blob/main/cloud-.md)
+
+[Cloud SQL](https://github.com/paulowe/gcp/blob/main/cloud-.md)
+
+[Lab](https://github.com/paulowe/gcp/blob/main/cloud-.md)
+
+[Cloud Spanner](https://github.com/paulowe/gcp/blob/main/cloud-.md)
+
+[Cloud Firestore](https://github.com/paulowe/gcp/blob/main/cloud-.md)
+
+[Cloud Bigtable](https://github.com/paulowe/gcp/blob/main/cloud-.md)
+
+[Cloud Memorystore](https://github.com/paulowe/gcp/blob/main/cloud-.md)
 
 ### Resource Management
 
