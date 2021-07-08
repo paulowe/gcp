@@ -44,6 +44,7 @@ Archive
   - 99.95% (multi/dual) ; 99.90% (region) ; Availability SLA
   - Durability (9 11's)
 
+### Location Types
 Each of the storage classes provide **3 location types**
 
 - Multi-region - Large geographic region (such as US) that contains two or more geographic places
