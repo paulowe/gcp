@@ -31,6 +31,17 @@
         - Flexible, and
         - More cost-effective   
 
-6. Data import
+6. Data import services
 
-7. Strong consistency
+For large data import to Cloud Storage (TB, PB scale data)
+
+   - Transfer Appliance: Hardware appliance to transfer **from 100 TB - 1 PB** ; Rack, capture and then ship your data to Google Cloud
+   - Storage Transfer Service - Enables high perfomrance imports of **online data** ; **Data source:** S3, Web source or even another Cloud storage bucket
+   - Offline Media Import - Third party service where physical media is sent to a provider who uploads the data
+
+7. Strong global consistency
+    - Read-after-write
+    - Read-after-metadata-update
+    - Read-after-delete
+    - Bucket listing
+    - Object listing
