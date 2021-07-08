@@ -52,3 +52,26 @@ Each of the storage classes provide **3 location types**
 - Region -  Specific geographic place (such as London)
 
 Objects stored in a Multi-region or Dual region are **geo-redundant**
+
+## Cloud Storage overview
+
+### Buckets
+- Globally unique name
+- Buckets cannot be nested
+
+### Objects
+- Inherit storage class of bucket when created
+- No minimum size; Unlimited storage
+
+### Access
+- gsutil command
+- (RESTful) JSON / XML API
+
+### Changing default storage classes
+- **Default storage class** is applied to new objects
+- **Location types**: Regional -> Multi/Dual region and vice-versa is not allowed
+- Objects can be moved from bucket to bucket
+- **Object Lifecycle Management** can manage the classes of objects
+
+### Access control
+<img src="" />
