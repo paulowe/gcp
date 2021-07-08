@@ -13,11 +13,15 @@
 
 - Set ACL of object to be private
 ``` gsutil acl set private gs://$BUCKET_NAME/setup.html```
+
 (you can verify by getting the acl assigned to your object again and checking the new acl text file)
 
 - Set ACL of object to be **publicly readable** to AllUsers entity (all users on the internet regardless of whether they are authenticated or have a google account)
 ``` gsutil acl ch -u AllUsers:R gs://$BUCKET_NAME/setup.html```
+
 (you can verify by getting the acl assigned to your object again and checking the new acl text file)
+
+Recall that an ACL may have one or more entries and each entry contains two pieces of information - Scope (who); Permissions (Read, Write,...)
 
 **Use your own encryption keys**
 
