@@ -74,4 +74,8 @@ Objects stored in a Multi-region or Dual region are **geo-redundant**
 - **Object Lifecycle Management** can manage the classes of objects
 
 ### Access control
-<img src="" />
+<img src="https://github.com/paulowe/gcp/blob/main/captures/Capture%209.PNG" />
+
+All these options provide fine-grained control over access and operations happening within you bucket.
+
+
