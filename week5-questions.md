@@ -25,3 +25,5 @@ Are you charged for equivalently to provisioning two single region databases if 
 Why does network performance scale terribly on Cloud SQL instances compared to Compute engine?
 CSQL : 250Mbps network throughput cap. Each additional core increases network cap up to a theoretical max of 2000 Mbps
 CE : Scales at 2Gbps per vCPU provisioned
+
+Difference between PGA and Private services access (Private services access is a private connection between your VPC network and a network owned by Google or a third party.)
