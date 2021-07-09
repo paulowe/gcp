@@ -62,3 +62,6 @@ Review Course 2: Implementing Private Google Access and Cloud NAT Lab
 - Are per VPC network and can be used across all managed services such as Memorystore, Tensorflow and SQL.
 - Are between your VPC network and network owned by Google using a VPC peering, enabling your instances and services to communicate exclusively by using internal IP addresses.
 - Create an isolated project for you on the service-producer side, meaning no other customers share it. You will be billed for only the resources you provision.
+
+<img src="https://ssl.gstatic.com/pantheon/images/networking/private-service-connection-diagram-9pt.svg" />
+
