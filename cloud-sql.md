@@ -25,4 +25,4 @@
 
 ### Connecting to a Cloud SQL
 
-<img src="" />
+<img src="https://github.com/paulowe/gcp/blob/main/captures/Capture%2011.PNG" />
