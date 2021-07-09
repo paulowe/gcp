@@ -32,6 +32,8 @@ Downloading and making the Cloud SQL proxy executable on a VM
 
 ```wget https://dl.google.com/cloudsql/cloud_sql_proxy.linux.amd64 -O cloud_sql_proxy && chmod +x cloud_sql_proxy```
 
+```./cloud_sql_proxy -instances=$SQL_CONNECTION=tcp:3306 &``` to let the proxy start listening on port 3306 (default port for MySQL protocol)
+
 ## Startup script for Wordpress servers
 
 ```
