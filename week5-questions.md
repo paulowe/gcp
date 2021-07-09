@@ -18,4 +18,5 @@ Machine image contain - Stores all configuration metadata, permissions, from one
 
 6. Access control for Cloud Storage: SignedURLs
 
-7.
+7. When you configure a vm to run a proxy (for private cloud sql connections), what does that mean?
+Are you charged for equivalently to provisioning two single region databases if you choose the multi-region Cloud sql setup ?
