@@ -4,7 +4,10 @@
 
 ## Cloud Bigtable
 
+- High read write and low latency
 - Supports Apache HBASE API
 - Processing is separated from storage 
-- Storage is on Colossus file system
+- Data storage is massively scalable (scales up well)
 - Minimum 3 nodes required
+- Operational and Analytical apps because it supports high throughput and low latency
+- Linear scaling throughput performance per Bigtable node added
