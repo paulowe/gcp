@@ -28,7 +28,7 @@ CE : Scales at 2Gbps per vCPU provisioned
 
 9. Difference between PGA and Private services access (Private services access is a private connection between your VPC network and a network owned by Google or a third party.)
 
-10. Why is failover behavior not considered as High availability for Relational DBs (whereas Spanner and NoSql offerings are considered HA). Are stand-by instances restricted to one region in Cloud SQL?
+10. Why is failover behavior not considered as High availability for Relational DBs (whereas Spanner and NoSql offerings are considered HA). Are stand-by instances restricted to one region / is there a max number of Stand by instances you can launch in Cloud SQL?
 
 <img src="https://github.com/paulowe/gcp/blob/main/captures/Capture%2012.PNG" />
 
