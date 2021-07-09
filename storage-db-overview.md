@@ -1,3 +1,7 @@
+[Overview](https://github.com/paulowe/gcp/blob/main/readme.md)
+
+[Next](https://github.com/paulowe/gcp/blob/main/cloud-storage.md)
+
 ## Storage and database decision chart
 
 1. Cloud Storage and Filestore
