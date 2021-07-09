@@ -20,3 +20,8 @@ Machine image contain - Stores all configuration metadata, permissions, from one
 
 7. When you configure a vm to run a proxy (for private cloud sql connections), what does that mean?
 Are you charged for equivalently to provisioning two single region databases if you choose the multi-region Cloud sql setup ?
+
+
+Why does network performance scale terribly on Cloud SQL instances compared to Compute engine?
+CSQL : 250Mbps network throughput cap. Each additional core increases network cap up to a theoretical max of 2000 Mbps
+CE : Scales at 2Gbps per vCPU provisioned
