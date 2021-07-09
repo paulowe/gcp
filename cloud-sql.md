@@ -34,6 +34,10 @@ Downloading and making the Cloud SQL proxy executable on a VM
 
 ```./cloud_sql_proxy -instances=$SQL_CONNECTION=tcp:3306 &``` to let the proxy start listening on port 3306 (default port for MySQL protocol)
 
+## Query metadata service for external ip
+
+```curl -H "Metadata-Flavor: Google" http://169.254.169.254/computeMetadata/v1/instance/network-interfaces/0/access-configs/0/external-ip && echo```
+
 ## Startup script for Wordpress servers
 
 ```
