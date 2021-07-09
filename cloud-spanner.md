@@ -9,4 +9,4 @@
     - Multi-regional: 99.999% (five 9s HA) ; Offers the best performance
     - Regional: 99.9% (three 9s HA)
 
-<img src="" />
+<img src="https://github.com/paulowe/gcp/blob/main/captures/Capture%2012.PNG" />
