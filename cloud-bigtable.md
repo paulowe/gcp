@@ -1,6 +1,6 @@
 [Overview](https://github.com/paulowe/gcp/blob/main/readme.md)
 
-[Next](https://github.com/paulowe/gcp/blob/main/cloud-memstore.md)
+[Next](https://github.com/paulowe/gcp/blob/main/week5-questions.md)
 
 ## Cloud Bigtable
 
