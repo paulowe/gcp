@@ -1,6 +1,6 @@
 [Overview](https://github.com/paulowe/gcp/blob/main/readme.md)
 
-[Next](https://github.com/paulowe/gcp/blob/main/cloud-storage.md)
+[Next](https://github.com/paulowe/gcp/blob/main/cloud-storage-access.md)
 
 ## Cloud Storage features
 
