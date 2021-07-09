@@ -1,3 +1,8 @@
+[Overview](https://github.com/paulowe/gcp/blob/main/readme.md)
+
+[Next](https://github.com/paulowe/gcp/blob/main/cloud-spanner.md)
+
+# Cloud SQL tips to remember
 Machine type is permanent
 
 Shared core machines are good for prototyping and are not covered by Cloud SLA
