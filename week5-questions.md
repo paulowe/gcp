@@ -1,3 +1,9 @@
+[Overview](https://github.com/paulowe/gcp/blob/main/readme.md)
+
+[Start of Weekly learning](https://github.com/paulowe/gcp/blob/main/mc-server-lab.md)
+
+## Week 5 questions - Jul 9, 2021
+
 Boot disk images contain - OS, File system, Boot loader, Preconfigured software 
 
 Machine image contain - Stores all configuration metadata, permissions, from one or more disks 
