@@ -1,0 +1,12 @@
+## Cloud Spanner combines the benefits of relational database structure with non-relational horizontal scale
+
+**Features :**
+- Scale to petabytes
+- Maintain strong consistency
+- High availability
+- Used for financial and inventory applications
+- Monthly uptime
+    - Multi-regional: 99.999% (five 9s HA) ; Offers the best performance
+    - Regional: 99.9% (three 9s HA)
+
+<img src="" />
