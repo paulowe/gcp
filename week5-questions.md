@@ -22,8 +22,13 @@ Machine image contain - Stores all configuration metadata, permissions, from one
 Are you charged for equivalently to provisioning two single region databases if you choose the multi-region Cloud sql setup ?
 
 
-Why does network performance scale terribly on Cloud SQL instances compared to Compute engine?
+8. Why does network performance scale terribly on Cloud SQL instances compared to Compute engine?
 CSQL : 250Mbps network throughput cap. Each additional core increases network cap up to a theoretical max of 2000 Mbps
 CE : Scales at 2Gbps per vCPU provisioned
 
-Difference between PGA and Private services access (Private services access is a private connection between your VPC network and a network owned by Google or a third party.)
+9. Difference between PGA and Private services access (Private services access is a private connection between your VPC network and a network owned by Google or a third party.)
+
+10. Why is there no failover for Relational DBs (whereas there is Spanner and NoSql offerings). What are stand-by instances for in Cloud SQL?
+
+<img src="https://github.com/paulowe/gcp/blob/main/captures/Capture%2012.PNG" />
+
