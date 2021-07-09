@@ -101,22 +101,29 @@ Stackdriver
 
 ### Cloud IAM
 
+
 ### Storage and Database Services
-[Cloud Storage and Filestore](https://github.com/paulowe/gcp/blob/main/cloud-.md)
+[Cloud Storage](https://github.com/paulowe/gcp/blob/main/cloud-storage.md)
 
-[Lab](https://github.com/paulowe/gcp/blob/main/cloud-.md)
+[Cloud Filestore](https://github.com/paulowe/gcp/blob/main/cloud-filestore.md)
 
-[Cloud SQL](https://github.com/paulowe/gcp/blob/main/cloud-.md)
+[Cloud Storage Features](https://github.com/paulowe/gcp/blob/main/cloud-storage-features.md)
 
-[Lab](https://github.com/paulowe/gcp/blob/main/cloud-.md)
+[Cloud Storage Access](https://github.com/paulowe/gcp/blob/main/cloud-storage-access.md)
 
-[Cloud Spanner](https://github.com/paulowe/gcp/blob/main/cloud-.md)
+[Common Cloud Storage Operations](https://github.com/paulowe/gcp/blob/main/common-cloud-storage-ops.md)
 
-[Cloud Firestore](https://github.com/paulowe/gcp/blob/main/cloud-.md)
+[Cloud SQL](https://github.com/paulowe/gcp/blob/main/cloud-sql.md)
 
-[Cloud Bigtable](https://github.com/paulowe/gcp/blob/main/cloud-.md)
+[Cloud SQL Tips](https://github.com/paulowe/gcp/blob/main/cloud-sql-tips.md)
 
-[Cloud Memorystore](https://github.com/paulowe/gcp/blob/main/cloud-.md)
+[Cloud Spanner](https://github.com/paulowe/gcp/blob/main/cloud-spanner.md)
+
+[Cloud Firestore](https://github.com/paulowe/gcp/blob/main/cloud-firestore.md)
+
+[Cloud Bigtable](https://github.com/paulowe/gcp/blob/main/cloud-bigtable.md)
+
+[Cloud Memorystore](https://github.com/paulowe/gcp/blob/main/cloud-memstore.md)
 
 ### Resource Management
 
