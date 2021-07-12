@@ -11,6 +11,7 @@
 - Data storage is massively scalable (scales up well)
 - Minimum 3 nodes required
 - Operational and Analytical apps because it supports high throughput and low latency
+- Learns to **adjust to frequent access patterns** and evenly distribute workloads among nodes
 - Linear scaling throughput performance per Bigtable node added
 
 
@@ -23,4 +24,4 @@
 A Cloud Bigtable table is sharded in **block of contiguous rows called Tablets** to help balance the workload of queries
 
 Tablets are stored in **Colossus file system** which is an **SS table**. 
-An SS table provides *persistent; ordered; immutable* map from keys to values
+An SS table provides *persistent; ordered; immutable* map from keys to values where both key and value are arbitrary byte strings
