@@ -34,4 +34,4 @@ Native mode introduces new features such as:
 - **Real-time updates** (Only in native mode)
 - **Supports Mobile and web clinet libraries** (Only in native mode)
 
-
+<img src="https://github.com/paulowe/gcp/blob/main/captures/firestore.PNG" />
