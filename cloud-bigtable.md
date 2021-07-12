@@ -2,7 +2,7 @@
 
 [Next](https://github.com/paulowe/gcp/blob/main/week5-questions.md)
 
-## Cloud Bigtable
+## Cloud Bigtable (NoSQL; Wide-table DB)
 
 - Petabyte scale
 - High read write throughput at low latency
