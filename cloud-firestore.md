@@ -33,3 +33,5 @@ Native mode introduces new features such as:
 - **New Collection and document data model** (Only in native mode)
 - **Real-time updates** (Only in native mode)
 - **Supports Mobile and web clinet libraries** (Only in native mode)
+
+
