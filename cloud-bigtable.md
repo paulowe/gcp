@@ -9,11 +9,10 @@
 - Supports Apache HBASE API
 - Processing is separated from storage 
 - Data storage is massively scalable (scales up well)
-- Minimum 3 nodes required
 - Operational and Analytical apps because it supports high throughput and low latency
 - Learns to **adjust to frequent access patterns** and evenly distribute workloads among nodes
-- Linear scaling throughput performance per Bigtable node added
-
+- Big Table **scales up** well. Linear scaling throughput performance per Bigtable node added.
+- Smallest Bigtable cluster has **Minimum of 3 nodes** (can handle 30,000 operations/s). You pay for 3 nodes whether in use or not.
 
 ## Cloud Bigtable storage model
 
