@@ -17,7 +17,7 @@
 
 It is backwardly compatible with Cloud Datastore. It can operate in 2 modes
 
-### Datastore mode (server projects)
+### Datastore mode (recommended for: new server projects)
 
 Removes some older limitations
 
@@ -25,7 +25,7 @@ Removes some older limitations
 - Strong consistency 
 - **No entity group limits**. Transactions are no longer limited to 25 entity groups and writes to an entity group are no longer limited to 1 Write/s
 
-### Native mode (mobile and web apps)**
+### Native mode (recommended for: new mobile and web apps)
 
 Native mode introduces new features such as:
 
