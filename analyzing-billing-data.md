@@ -48,3 +48,44 @@ GROUP BY
   product
 ORDER BY billing_records DESC
 ```
+
+8. To find the most frequently used product costing more than 1 dollar 
+ ```
+ SELECT
+  product,
+  COUNT(*) AS billing_records
+FROM
+  `cloud-training-prod-bucket.arch_infra.billing_data`
+WHERE
+  cost > 1
+GROUP BY
+  product
+ORDER BY
+  billing_records DESC
+  ```
+9. To find the most commonly charged unit of measure
+
+```
+SELECT
+  usage_unit,
+  COUNT(*) AS billing_records
+FROM
+  `cloud-training-prod-bucket.arch_infra.billing_data`
+WHERE cost > 0
+GROUP BY
+  usage_unit
+ORDER BY
+  billing_records DESC
+```
+10. To find the product with the highest aggregate cost
+```
+SELECT
+  product,
+  ROUND(SUM(cost),2) AS total_cost
+FROM
+  `cloud-training-prod-bucket.arch_infra.billing_data`
+GROUP BY
+  product
+ORDER BY
+  total_cost DESC
+  ```
