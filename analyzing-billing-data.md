@@ -36,7 +36,8 @@ ORDER BY end_time DESC
 LIMIT
   100
   ```
-To find the product with the most records in the billing data  
+
+7. To find the product with the most records in the billing data  
 ```  
 SELECT
   product,
