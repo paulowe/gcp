@@ -6,7 +6,7 @@
 
 **Features :**
 - Scale to petabytes
-- Maintain strong consistency
+- Maintain strong transactional consistency
 - High availability
 - Used for financial and inventory applications
 - Monthly uptime
