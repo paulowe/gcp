@@ -36,3 +36,14 @@ ORDER BY end_time DESC
 LIMIT
   100
   ```
+To find the product with the most records in the billing data  
+```  
+SELECT
+  product,
+  COUNT(*) AS billing_records
+FROM
+  `cloud-training-prod-bucket.arch_infra.billing_data`
+GROUP BY
+  product
+ORDER BY billing_records DESC
+```
