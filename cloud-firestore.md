@@ -7,8 +7,8 @@
 - Live sync and offline support
 - For Mobile, web and iot apps
 - Flexible schema
-- Scale down to 0
-- Scale up to TBs
+- **Scale down to 0**
+- **Scale up to TBs**
 - Powerful query engine
 - ACID transactions supported
 
