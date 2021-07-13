@@ -2,9 +2,9 @@
 
 ## Interconnecting Networks
 
-[Cloud VPN](https://github.com/paulowe/gcp/blobl/main/3.scaling%20and%20automation/cloud-vpn.md)
+[Cloud VPN](https://github.com/paulowe/gcp/blob/main/3.scaling%20and%20automation/cloud-vpn.md)
 
-[Lab]
+Lab
 
 [Cloud Interconnect and Peering](https://github.com/paulowe/gcp/blobl/main/3.scaling%20and%20automation/cloud-interconnect-peering.md)
 
