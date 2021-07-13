@@ -1,4 +1,4 @@
-[Overview](https://github.com/paulowe/gcp/blob/main/readme.md)
+[Resource Monitoring Overview](https://github.com/paulowe/gcp/blob/main/resource-monitoring.md)
 
 [Next](https://github.com/paulowe/gcp/blob/main/stackdriver-debugger.md)
 
