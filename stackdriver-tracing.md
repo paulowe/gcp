@@ -1,4 +1,4 @@
-# Stackdriver Tracing
+# Stackdriver Trace (Cloud Trace)
 
 Stackdriver Trace is a distributed tracing system that **collects latency data from your applications and diplays it in the GCP console**
 
