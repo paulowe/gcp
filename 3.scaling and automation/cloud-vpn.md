@@ -51,7 +51,7 @@ For example : Adding a new **regional subnet** in your VPC or a new subnet in yo
 To automatically propagate any network configuration changes the VPN tunnel uses Cloud ROuter to **establish a BGP session between the VPC and the on-prem VPN gateway (whihc must support BGP)**. The new subnets are then seamlessly advertised between networks and traffic can flow across all new subnets immediately
 
 **BGP Setup uses Link-local IP addresses**
-- To set up BGP an additional **[link-local IP address](https://en.wikipedia.org/wiki/Link-local_address)** (belonging to 169.254.0.0/16) must be assigned to each end of the tunnel. 
+- To set up BGP two additional **[link-local IP address](https://en.wikipedia.org/wiki/Link-local_address)** (belonging to 169.254.0.0/16) must be assigned to each end of the tunnel. 
 - The link-local IP addresses are **not part of the IP address space of either networks** and are used exclusively for establishing a BGP session
 
 <img src="https://github.com/paulowe/gcp/blob/main/captures/vpn-dynamic-routing.PNG" width="800" height="500" />
