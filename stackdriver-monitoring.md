@@ -48,4 +48,21 @@ descriptor = client.metric_descriptor('custom.googleapis.com/my_metric',
              description = 'Sample custom metric by Paul' )
 descriptor.create()
 ```
-       
+### Metrics Explorer
+The Metrics Explorer allows you to examine resources and metrics without having to create a chart on a dashboard
+
+**CPU Usage Metric**
+
+Metric: compute.googleapis.com/instance/cpu/usage_time
+
+Description: Delta vCPU usage for all vCPUs, in vCPU-seconds. To compute the per-vCPU utilization fraction, divide this value by (end-start)*N, where end and start define this value's time interval and N is `compute.googleapis.com/instance/cpu/reserved_cores` at the end of the interval. This value is reported by the hypervisor for the VM and can differ from `agent.googleapis.com/cpu/usage_time`, which is reported from inside the VM.
+
+Resource type: gce_instance
+
+**CPU Utilization Metric**
+
+Metric: compute.googleapis.com/instance/cpu/utilization
+
+Description: Fractional utilization of allocated CPU on this instance. Values are typically numbers between 0.0 and 1.0 (but some machine types allow bursting above 1.0). Charts display the values as a percentage between 0% and 100% (or more). This metric is reported by the hypervisor for the VM and can differ from `agent.googleapis.com/cpu/utilization`, which is reported from inside the VM.
+
+Resource type: gce_instance
