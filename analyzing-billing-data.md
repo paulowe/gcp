@@ -1,6 +1,6 @@
 [Overview](https://github.com/paulowe/gcp/blob/main/readme.md)
 
-[Next](https://github.com/paulowe/gcp/blob/main/resource-monitoring-overview.md)
+[Next](https://github.com/paulowe/gcp/blob/main/resource-monitoring.md)
 
 ## Analyzing Billing Data
 
