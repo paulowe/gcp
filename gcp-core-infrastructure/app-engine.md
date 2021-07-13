@@ -59,7 +59,7 @@ Java, Python, PHP and Go are supported
 Flexible environmens however have a Slower instance startup compared to the Standard Environment
 
 ## Error reporting and Debugging lab
-[Jump to topic]((https://github.com/paulowe/gcp/blob/main/stackdriver.md)
+[Jump to topic](https://github.com/paulowe/gcp/blob/main/stackdriver.md)
 
 #### Deploying to app engine
 1. Copy files/repo from Cloud storage or github to Cloud Shell instance
