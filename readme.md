@@ -132,6 +132,8 @@ Stackdriver
 
 [Resource Manager](https://github.com/paulowe/gcp/blob/main/resource-manager.md)
 
+[Analyzing Billing Data with BigQuery](https://github.com/paulowe/gcp/blob/main/analyzing-billing-data.md)
+
 ### Resource Monitoring
 [Overview](https://github.com/paulowe/gcp/blob/main/resource-monitoring.md)
 
