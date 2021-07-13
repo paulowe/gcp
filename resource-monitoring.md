@@ -1,4 +1,4 @@
-[Overview](https://github.com/paulowe/gcp/blob/main/overview.md)
+[Overview](https://github.com/paulowe/gcp/blob/main/readme.md)
 
 [Next](https://github.com/paulowe/gcp/blob/main/stackdriver-monitoring.md)
 
