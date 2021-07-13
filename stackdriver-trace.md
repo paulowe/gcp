@@ -1,6 +1,6 @@
 [Overview](https://github.com/paulowe/gcp/blob/main/readme.md)
 
-[Next](https://github.com/paulowe/gcp/blob/main/stackdriver-debugging.md)
+[Next](https://github.com/paulowe/gcp/blob/main/stackdriver-debugger.md)
 
 # Stackdriver Trace (Cloud Trace)
 
