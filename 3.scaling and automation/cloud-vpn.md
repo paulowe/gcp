@@ -21,7 +21,7 @@ Cloud VPN does not support connections where a client computers need to dial in 
 
 ## VPN Topology
 
-<img src="" />
+<img src="https://github.com/paulowe/gcp/blob/main/captures/vpn-topology.PNG" />
 
 
 **VPN Gateways**
@@ -54,5 +54,5 @@ To automatically propagate any network configuration changes the VPN tunnel uses
 - To set up BGP an additional **link-local IP address** (belonging to 169.254.0.0/16) must be assigned to each end of the tunnel. 
 - The link-local IP addresses are **not part of the IP address space of either networks** and are used exclusively for establishing a BGP session
 
-
+<img src="https://github.com/paulowe/gcp/blob/main/captures/vpn-dynamic-routing.PNG" />
 
