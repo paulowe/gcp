@@ -128,6 +128,11 @@ Stackdriver
 [Cloud Memorystore](https://github.com/paulowe/gcp/blob/main/cloud-memstore.md)
 
 ### Resource Management
+[Resource Management overview](https://github.com/paulowe/gcp/blob/main/resource-mgt-overview.md)
+
+[Resource Manager](https://github.com/paulowe/gcp/blob/main/resource-manager.md)
+
+### Resource Monitoring
 [Overview](https://github.com/paulowe/gcp/blob/main/resource-monitoring.md)
 
 [Stackdriver Monitoring](https://github.com/paulowe/gcp/blob/main/stackdriver-monitoring.md)
@@ -139,8 +144,6 @@ Stackdriver
 [Stackdriver Trace](https://github.com/paulowe/gcp/blob/main/stackdriver-trace.md)
 
 [Stackdriver Debugger](https://github.com/paulowe/gcp/blob/main/stackdriver-debugger.md)
-
-### Resource Monitoring
 
 ## 3. Cloud Infrastructure: Scaling and Automation
 ### Interconnecting Networks
