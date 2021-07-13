@@ -1,10 +1,10 @@
 # Stackdriver Tracing
 
-Trace Is a distributed tracing system that **collects latency data from your applications and diplays it in the GCP console
+Stackdriver Trace is a distributed tracing system that **collects latency data from your applications and diplays it in the GCP console**
 
 You can track how requests propagate in your app and **Generate near realtime performance insights**
 
-Can capture performance degredations across all your Apps
+Stackdriver Trace can **capture performance degredations** across all your Apps
 
 Capture traces (latency data) from
 - App Engine
