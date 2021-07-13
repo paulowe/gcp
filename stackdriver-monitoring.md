@@ -8,11 +8,12 @@ Stackdriver Features
 - Generate insights through dashboards, charts, alerts
 - Configure uptime/health checks
 
+Dashboards visualize utilization and network traffic of VM instances
+
 ## Workspace is the root entity that holds monitoring and configuration information
 
-Each workspace can have between 1 - 100 monitored projects (across GCP and AWS accounts)
-GCP projects and AWS accounts **cannot be monitored by more than one workspace**
-
+- Each workspace can have between 1 - 100 monitored projects (across GCP and AWS accounts)
+- GCP projects and AWS accounts **cannot be monitored by more than one workspace**
 
 Workspaces contain
 - Dashboards
@@ -20,16 +21,17 @@ Workspaces contain
 - Configurations
 - Needs a hosting project (name of your workspace as well)
 
-### Dashboards visualize utilization and network traffic of VM instances
-### Charts are customizable 
+
 ### Alerting policies can notify you of certain conditions (e.g Network egress goes above a threshold for a specific time period
 - Define conditions (recommended: Alert on symptoms
 - Chose notification channels (recommended: setup multiple channels such as Email and SMS)
 - Document (describe actionable alerts) 
+
 ### Monitoring agent
 - Stackdriver can access **some** metrics without the use of a monitoring agent (e.g CPU utilization, Disk traffic metrics, Netowrk traffic and Uptime info)
 - To access additional metrics you need to install the agent
 - Supported on EC2 and Compute Engine instances
+
 ### Installing the agent (Linux VM)
 ```
 curl -sSo https://d1.google.com/cloudagents/add-monitoring-agent-repo.sh
