@@ -128,15 +128,17 @@ Stackdriver
 [Cloud Memorystore](https://github.com/paulowe/gcp/blob/main/cloud-memstore.md)
 
 ### Resource Management
-[Overview]
+[Overview](https://github.com/paulowe/gcp/blob/main/resource-monitoring.md.md)
 
-[Resource Manager]
+[Stackdriver Monitoring](https://github.com/paulowe/gcp/blob/main/stackdriver-monitoring.md)
 
-[Stackdriver overview]
+[Stackdriver Logging](https://github.com/paulowe/gcp/blob/main/stackdriver-logging.md)
 
-[Stackdriver Logging]
+[Stackdriver Error Reporting](https://github.com/paulowe/gcp/blob/main/stackdriver-error-reporting.md)
 
-[Monitoring]
+[Stackdriver Trace](https://github.com/paulowe/gcp/blob/main/stackdriver-trace.md)
+
+[Stackdriver Debugger](https://github.com/paulowe/gcp/blob/main/stackdriver-debugger.md)
 
 ### Resource Monitoring
 
