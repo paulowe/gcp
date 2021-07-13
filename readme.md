@@ -128,6 +128,15 @@ Stackdriver
 [Cloud Memorystore](https://github.com/paulowe/gcp/blob/main/cloud-memstore.md)
 
 ### Resource Management
+[Overview]
+
+[Resource Manager]
+
+[Stackdriver overview]
+
+[Stackdriver Logging]
+
+[Monitoring]
 
 ### Resource Monitoring
 
