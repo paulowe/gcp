@@ -2,7 +2,7 @@
 
 Monitoring is at the base of Site Reliability engineering for ultra-scalable and highly reliable software systems
 
-Stackdriver Features
+**Stackdriver Features**
 - Dynamic config and intelligent defaults
 - Monitor platform, system and application metrics
 - Generate insights through dashboards, charts, alerts
