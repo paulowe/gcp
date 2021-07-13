@@ -128,7 +128,7 @@ Stackdriver
 [Cloud Memorystore](https://github.com/paulowe/gcp/blob/main/cloud-memstore.md)
 
 ### Resource Management
-[Overview](https://github.com/paulowe/gcp/blob/main/resource-monitoring.md.md)
+[Overview](https://github.com/paulowe/gcp/blob/main/resource-monitoring.md)
 
 [Stackdriver Monitoring](https://github.com/paulowe/gcp/blob/main/stackdriver-monitoring.md)
 
