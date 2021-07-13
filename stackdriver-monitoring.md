@@ -1,6 +1,6 @@
 ## Stackdriver Monitoring
 
-Monitoring is at the base of Site Reliability engineering for ultra-scalable and highly reliable software systems
+Monitoring is very important because it is at the base of Site Reliability Engineering which incorporates software engineering and applies that to operations whose goals are to create ultra-scalable and highly reliable software systems.
 
 **Stackdriver Features**
 - Dynamic config and intelligent defaults
