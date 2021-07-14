@@ -1,5 +1,11 @@
 14 July 2021 
 
+Guides used
+
+[Taking a practical approach to BigQuery cost monitoring](https://cloud.google.com/blog/products/data-analytics/taking-a-practical-approach-to-bigquery-cost-monitoring)
+
+[Cost optimization best practices for BigQuery](https://cloud.google.com/blog/products/data-analytics/cost-optimization-best-practices-for-bigquery)
+
 **Project description :** Client has been using BigQuery and wants to analyze the cost associated with BQ to reduce their BQ spending.  Visualization of the cost incurred is needed.  Client should be able to group and filter data by cost, who ran the queries, query’s similarity and datetime.  
 
 **Consideration:** GCP resources are organized hierarchically. Services such as BigQuery are organized by projects. Projects can be contained in folders, all the way up to the organization node at the root. One consideration to make is whether the client would like to analyze the cost associated with BQ in a specific project or, across two or more projects. 
