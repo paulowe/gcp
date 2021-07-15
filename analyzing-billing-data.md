@@ -4,7 +4,7 @@
 
 ## Analyzing Billing Data
 
-[Sample billing dataset](gs://cloud-training/archinfra/export-billing-example.csv) can be found on that gcp bucket
+Sample billing dataset can be found on that gcp bucket :  gs://cloud-training/archinfra/export-billing-example.csv 
 
 Learn how to perform the following tasks quickly:
 
