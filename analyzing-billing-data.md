@@ -4,6 +4,8 @@
 
 ## Analyzing Billing Data
 
+[Sample billing dataset](gs://cloud-training/archinfra/export-billing-example.csv) can be found on that gcp bucket
+
 Learn how to perform the following tasks quickly:
 
 1. Export JSON/CSV billing data to Cloud Storage
