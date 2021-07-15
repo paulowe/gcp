@@ -19,3 +19,5 @@ Managed instance groups offer autoscaling capabilities.
     - Load balancing capacity
     - Monitoring metrics
     - Queue-based workload ( Cloud Pub/Sub )
+
+Monitoring your metrics such as CPU utilization is essential to defining good autoscaling policies
