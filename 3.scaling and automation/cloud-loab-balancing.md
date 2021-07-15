@@ -4,6 +4,8 @@
 
 [Managed Instance Groups]()
 
+[Autoscaling and Health checks]()
+
 [HTTP(S) Load Balancing]()
 
 [Lab]()
