@@ -6,6 +6,7 @@
 
 3. Why is Cloud Router Layer 3 and not Layer 2? I thought Layer 3 connection options are restrcted to Public IP whereas layer 2 can communicate using the RFC1918 address space used in private networks and internal hosts?
 
-Why does the type of application (stateless serving or stateful serving) matter when selecting an instance group?
+4. Why does the type of application (stateless serving or stateful serving) matter when selecting an instance group?
 
-Is a proxy part of the services a Loab balancer (distributed system) offers? Because they are both a buffer between Client and Server
+5. Is a proxy part of the services a Loab balancer (distributed system) offers? Because they are both a buffer between Client and Server
+6. How to perform query similarity?
