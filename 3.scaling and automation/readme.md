@@ -14,6 +14,8 @@ Lab
 
 [Cloud Load Balancing overview](https://github.com/paulowe/gcp/blob/main/3.scaling%20and%20automation/cloud-load-balancing.md)
 
+[Managed Instance Groups](https://github.com/paulowe/gcp/blob/main/3.scaling%20and%20automation/managed-instance-groups.md)
+
 [HTTPS Load Balancing](https://github.com/paulowe/gcp/blob/main/3.scaling%20and%20automation/https-load-balancing.md)
 
 ## Infrastructure Automation
