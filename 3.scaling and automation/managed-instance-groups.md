@@ -1,4 +1,4 @@
-[Next](https://github.com/paulowe/gcp/blob/main/3.scaling%20and%20automation/https-load-balancing.md)
+[Next](https://github.com/paulowe/gcp/blob/main/3.scaling%20and%20automation/cloud-load-balancing.md)
 # Managed Instance Groups
 
 - Deploy identical instances based on instance template
