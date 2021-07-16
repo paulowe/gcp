@@ -2,13 +2,9 @@
 
 ## Overview
 
-[Managed Instance Groups]()
+[Managed Instance Groups](https://github.com/paulowe/gcp/blob/main/3.scaling%20and%20automation/managed-instance-groups.md)
 
-[Autoscaling and Health checks]()
-
-[HTTP(S) Load Balancing]()
-
-[Lab]()
+[HTTP(S) Load Balancing](https://github.com/paulowe/gcp/blob/main/3.scaling%20and%20automation/https-load-balancing.md)
 
 [SSL Proxy/TCP Proxy Load Balancing]()
 
