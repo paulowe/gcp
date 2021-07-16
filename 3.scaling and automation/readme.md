@@ -6,11 +6,15 @@
 
 Lab
 
-[Cloud Interconnect and Peering](https://github.com/paulowe/gcp/blobl/main/3.scaling%20and%20automation/cloud-interconnect-peering.md)
+[Cloud Interconnect and Peering](https://github.com/paulowe/gcp/blob/main/3.scaling%20and%20automation/interconnect-peering.md)
 
-[Sharing VPC Networks](https://github.com/paulowe/gcp/blobl/main/3.scaling%20and%20automation/sharing-vpc-networks.md)
+[Sharing VPC Networks](https://github.com/paulowe/gcp/blob/main/3.scaling%20and%20automation/sharing-vpc-networks.md)
 
-## Load Balancing and AUtoscaling
+## Load Balancing and Autoscaling
+
+[Cloud Load Balancing overview](https://github.com/paulowe/gcp/blob/main/3.scaling%20and%20automation/cloud-load-balancing.md)
+
+[HTTPS Load Balancing](https://github.com/paulowe/gcp/blob/main/3.scaling%20and%20automation/https-load-balancing.md)
 
 ## Infrastructure Automation
 
