@@ -1,3 +1,6 @@
+[Overview](https://github.com/paulowe/gcp/blob/main/3.scaling%20and%20automation/cloud-load-balancing.md)
+
+[Next](https://github.com/paulowe/gcp/blob/main/3.scaling%20and%20automation/https-lb-config.md)
 ## Configuring an HTTP Load Balancer with Autoscaling
 
 - Create a health check firewall rule
