@@ -14,19 +14,20 @@
 
 
 # Architecture of an HTTP(S) LB
+1. **Anycast IP** - all requests are directed to this IP
 
-1. **Global Forwarding rule** - Directs incoming requests from internet to a target HTTP proxy
+2. **Global Forwarding rule** - Directs incoming requests from internet to a target HTTP proxy
 
-2. **Target Proxy** - checks each request against a URL map
+3. **Target Proxy** - checks each request against a URL map
 
-3. **URL map** - defines which backend service to route requests to
+4. **URL map** - defines which backend service to route requests to
 
-4. Backend service -> 
+5. **Backend service** 
   - Contains **one or more backends**: same instance group type or different type (audio processing backend (instance group) ; video processing backend (instance group))
   - Backends contain
       - Balancing mode - tells the LB how to determine when backend is at full usage. The balancing mode can be based on requests/s or CPU utilization
       - Capacity scaler - (ceiling % of CPU/ rate targets)
-  - Backend service directs requests to appropriate instance groups based on serving capacity, zone and health checks
+  - Backend service directs requests to appropriate instance groups based on **serving capacity, zone and health checks**
   - Time out setting (30 sec default)
   - Uses a **round-robin algorithm** to distribute requests across instances. Can be overriden with **Session affinity**
 
