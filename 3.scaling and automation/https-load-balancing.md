@@ -1,4 +1,6 @@
+[Overview](https://github.com/paulowe/gcp/blob/main/3.scaling%20and%20automation/cloud-load-balancing.md)
 
+[Next](https://github.com/paulowe/gcp/blob/main/3.scaling%20and%20automation/https-lb-config.md)
 # (Global LBs) HTTP(S) Load balancing 
 
 - Layer 7 or Application Layer of the OSI Model
