@@ -29,3 +29,4 @@ An SSL certificate contains a public key and certificate issuer. Not only can cl
 - Automatic Security patching by GCP
 - SSL policies
 
+<img src="https://github.com/paulowe/gcp/blob/main/captures/ssl-proxy-lb.PNG" />
