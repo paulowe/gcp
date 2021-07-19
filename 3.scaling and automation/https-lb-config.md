@@ -29,5 +29,5 @@
 - Configure an HTTP load balancer with IPv4 and IPv6
 - Stress test an HTTP load balancer
         - Create a new VM to simulate a load on the HTTP load balancer. Then determine whether traffic is balanced across both backends when the load is high.
-        -  ``` export LB_IP=<Enter your [LB_IP_v4] here>``
-        -  ``` ab -n 500000 -c 1000 http://$LB_IP/ ``` to place a load on the LB
+        -  ``` export LB_IP=<Enter your [LB_IP_v4] here>```
+        -  ```ab -n 500000 -c 1000 http://$LB_IP/ ``` to place a load on the LB
