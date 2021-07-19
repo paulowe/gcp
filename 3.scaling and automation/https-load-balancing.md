@@ -3,15 +3,14 @@
 [Next](https://github.com/paulowe/gcp/blob/main/3.scaling%20and%20automation/https-lb-config.md)
 # (Global LBs) HTTP(S) Load balancing 
 
-- Layer 7 or Application Layer of the OSI Model
-- Can handle content based routing if you want to deal with **actual Content of each message** (/default or /video)
 - Global Load balancing
-- Anycast IP address
+- Layer 7 or Application Layer of the OSI Model
+- Anycast IP address 
 - HTTP (port 80 or 8080)
-- HTTPS (port 443)
-- IPv4 or IPv6
+- HTTPS (HTTP + SSL) (port 443)
+- IPv4 or IPv6 clients
 - Autoscaling
-- **Routing decisions** based on URLs
+- **Routing decisions** based on URLs - Can handle content based routing if you want to deal with **actual Content of each message** (/default or /video)
 - Requests are routed to the nearest instance group to users
 
 
