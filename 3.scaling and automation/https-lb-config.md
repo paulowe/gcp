@@ -2,7 +2,7 @@
 
 - Create a health check firewall rule
     - Create target tags to assign your instances
-    - Allow the following Source Ip ranges ```130.211.0.0/22``` and ```35.191.0.0/16```
+    - Allow the following Source Ip ranges ```130.211.0.0/22``` and ```35.191.0.0/16```. Health check probes come from addresses in the ranges so make sure your network firewall rules allow the health check to connect
     - open Port 80 (HTTP LB)
 - Create a NAT configuration using Cloud Router
     - Implements Outbound NAT but not Inbound NAT 
@@ -28,3 +28,6 @@
 - Create two managed instance groups
 - Configure an HTTP load balancer with IPv4 and IPv6
 - Stress test an HTTP load balancer
+        - Create a new VM to simulate a load on the HTTP load balancer. Then determine whether traffic is balanced across both backends when the load is high.
+        -  ``` export LB_IP=<Enter your [LB_IP_v4] here>``
+        -  ``` ab -n 500000 -c 1000 http://$LB_IP/ ``` to place a load on the LB
