@@ -1,6 +1,6 @@
 [Overview](https://github.com/paulowe/gcp/blob/main/3.scaling%20and%20automation/cloud-load-balancing.md)
 
-[Next](https://github.com/paulowe/gcp/blob/main/3.scaling%20and%20automation/https-lb-config.md)
+[Next](https://github.com/paulowe/gcp/blob/main/3.scaling%20and%20automation/http-lb-config.md)
 # (Global LBs) HTTP(S) Load balancing 
 
 - Global Load balancing
