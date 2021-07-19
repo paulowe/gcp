@@ -14,6 +14,8 @@
 
 
 ## Architecture of an HTTP(S) LB
+Google Cloud HTTP(S) load balancing is implemented at the edge of Google's network in Google's points of presence (POP) around the world. User traffic directed to an HTTP(S) load balancer enters the POP closest to the user and is then load-balanced over Google's global network to the closest backend that has sufficient available capacity.
+
 1. **Anycast IP** - all requests are directed to this IP
 
 2. **Global Forwarding rule** - Directs incoming requests from internet to a target HTTP proxy
