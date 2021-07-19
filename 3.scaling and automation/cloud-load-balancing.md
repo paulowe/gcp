@@ -6,6 +6,8 @@
 
 [HTTP(S) Load Balancing](https://github.com/paulowe/gcp/blob/main/3.scaling%20and%20automation/https-load-balancing.md)
 
+[Configuring the HTTP LB with 2 backends](https://github.com/paulowe/gcp/blob/main/3.scaling%20and%20automation/https-lb-config.md)
+
 [SSL Proxy/TCP Proxy Load Balancing]()
 
 [Network Laod Balancing]()
