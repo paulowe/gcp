@@ -19,8 +19,12 @@
     sudo update-rc.d apache2 enable
     ```
     - After reset SSH and confirm Apache is running using ```sudo service apache2 status``` command
-    
+    - Make sure your prevent Boot disk deletion setting is enabled and delete VM
+    - Create a custom image from your boot disk (now you can delete the disk)
+ 
 - Create an instance template based on the custom image
+        - Managed instance groups offer autoscaling capabilities that allow you to automatically add or remove instances from a managed instance group based on increases or decreases in load. Autoscaling helps your applications gracefully handle increases in traffic and reduces cost when the need for resources is lower. You just define the autoscaling policy, and the autoscaler performs automatic scaling based on the measured load.
+     
 - Create two managed instance groups
 - Configure an HTTP load balancer with IPv4 and IPv6
 - Stress test an HTTP load balancer
