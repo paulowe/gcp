@@ -33,3 +33,11 @@
 Note: Changes to a LB conifg may take several minutes before they propagate in your network.
 
 **Cross region load balancing** refers to when traffic from users in one region (e.g EMEA) is routed to a backend (managed instance group) in a different region (e.g US) due to reasons such as failed health checks / unavailable capacity in EMEA backend
+
+### Specific for HTTPS LB
+
+- Requires **at least One signed SSL certificate installed on the Target HTTPS Proxy**
+    - Up to 10 SSL certificate (per target proxy)
+    - Create an SSL certificate resource (only used with LB proxys such as HTTPS and SSL)
+- Client SSL session terminates at the Load balancer
+- Support the QUIC transport layer protocol. **QUIC is a transport layer protocol** which allows **faster client connection intiation**; eliminates head-of-line blocking in multiplex streams; and **supports connection migration when a client's IP address changes**
