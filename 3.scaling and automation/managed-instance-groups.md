@@ -22,3 +22,21 @@ Managed instance groups offer autoscaling capabilities.
     - Queue-based workload ( Cloud Pub/Sub )
 
 Monitoring your metrics such as CPU utilization is essential to defining good autoscaling policies
+
+## Health checks
+Configuring **Health checks** is important for Load balancing and managed instance groups.
+
+A health check is similar to an **uptime check in Stackdriver** monitoring. 
+
+Define :
+- a protocol, 
+- port and 
+- health criteria. 
+
+Based on this Configuration GCP computes a health state for each instance. 
+
+The **health criteria** defines 
+- How often to check whether instances are healthy (Check Interval)
+- How long to wait for a response (Timer)
+- How many Successful attempts are decisive (Health threshold)
+- How many failed attempts are decisive (Unhealthy threshold)
