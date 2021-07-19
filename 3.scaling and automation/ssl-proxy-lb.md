@@ -22,6 +22,7 @@ An SSL certificate contains a public key and certificate issuer. Not only can cl
 - Terminates SSL session at Load balancing layer THEN 
 - Balances connections across your instances using SSL (Recommended) or TCP protocols
 <img src="https://i.stack.imgur.com/bgz04.png" />
+
 - IPv4 or IPv6 clients
 - Intelligent routing - measn LB can route requests to backend locations where there is capacity
 - Certificate management
