@@ -101,5 +101,7 @@ gcloud deployment-manager deployments create dminfra --config=config.yaml --prev
 ```gcloud deployment-manager deployments update dminfra``` 
 
 The update command commits the preview. If you don't preview a configuration, you can directly run the following command:
-```gcloud deployment-manager deployments create dminfra --config=config.yaml
+
+```
+gcloud deployment-manager deployments create dminfra --config=config.yaml
 ```
