@@ -105,3 +105,7 @@ The update command commits the preview. If you don't preview a configuration, yo
 ```
 gcloud deployment-manager deployments create dminfra --config=config.yaml
 ```
+
+If something goes wrong with the preview or creation of the deployment, try to use the error messages to troubleshoot the source of the issue. You must delete the Deployment Manager configuration before you can try deploying it again. This can be achieved with this command in Cloud Shell:
+
+```gcloud deployment-manager deployments delete dminfra```
