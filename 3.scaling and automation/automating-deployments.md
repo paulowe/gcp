@@ -14,3 +14,27 @@ This base configuration is a great starting point for any Google Cloud resource.
 ``` gcloud deployment-manager types list | grep <resource you are searching for>``` to search for resource type values when defining ```type``` in your config 
 
 Full list of types [here](https://cloud.google.com/deployment-manager/docs/configuration/supported-resource-types)
+
+```
+resources:
+# Create the automode network
+- name : mynetwork
+  type : compute.v1.network
+  properties :
+    #RESOURCE properties go here
+    autoCreateSubnetworks: true
+
+# Create the firewall rule
+- name: mynetwork-allow-http-ssh-rdp-icmp
+  type: compute.v1.firewall
+  properties:
+    #RESOURCE properties go here
+    network: $(ref.mynetwork.selfLink)
+    sourceRanges: ["0.0.0.0/0"]
+    allowed:
+    - IPProtocol: TCP
+      ports: [22, 80, 3389]
+    - IPProtocol: ICMP
+    
+```
+CONFIGURING VM INSTANCE TEMPLATE
