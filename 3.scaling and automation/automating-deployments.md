@@ -12,3 +12,5 @@ resources:
 This base configuration is a great starting point for any Google Cloud resource. The name field allows you to name the resource, and the type field allows you to specify the Google Cloud resource that you want to create. You can also define properties, but these are optional for some resources.
 
 ``` gcloud deployment-manager types list | grep <resource you are searching for>``` to search for resource type values when defining ```type``` in your config 
+
+Full list of types [here](https://cloud.google.com/deployment-manager/docs/configuration/supported-resource-types)
