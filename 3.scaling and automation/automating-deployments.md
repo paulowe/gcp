@@ -96,4 +96,10 @@ resources:
 ```
 gcloud deployment-manager deployments create dminfra --config=config.yaml --preview
 ```
-**The --preview flag** gives you a preview of how your configuration is applied before creating it. Previewing a configuration causes Deployment Manager to start creating your deployment but then stop before actually creating any resources.
+**The --preview flag** gives you a preview of how your configuration is applied before creating it. Previewing a configuration causes Deployment Manager to start creating your deployment but then stop before actually creating any resources.  The --preview flag is especially useful when you update a deployment.
+
+```gcloud deployment-manager deployments update dminfra``` 
+
+The update command commits the preview. If you don't preview a configuration, you can directly run the following command:
+```gcloud deployment-manager deployments create dminfra --config=config.yaml
+```
