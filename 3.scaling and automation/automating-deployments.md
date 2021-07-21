@@ -9,7 +9,7 @@ resources:
   properties :
     #RESOURCE properties go here
 ```
-This base configuration is a great starting point for any Google Cloud resource. The name field allows you to name the resource, and the type field allows you to specify the Google Cloud resource that you want to create. You can also define properties, but these are optional for some resources.
+**This base configuration** is a great starting point for any Google Cloud resource. The name field allows you to name the resource, and the type field allows you to specify the Google Cloud resource that you want to create. You can also define properties, but these are optional for some resources.
 
 ``` gcloud deployment-manager types list | grep <resource you are searching for>``` to search for resource type values when defining ```type``` in your config 
 
@@ -62,7 +62,7 @@ resources:
           sourceImage: https://www.googleapis.com/compute/v1/projects/debian-cloud/global/images/family/debian-9
  ```
  
- Back in config.yaml
+ ### Back in config.yaml
  
  - Import template
  ```
@@ -92,3 +92,8 @@ resources:
     subnetwork: regions/europe-west1/subnetworks/mynetwork
  ```
  
+### Deploy
+```
+gcloud deployment-manager deployments create dminfra --config=config.yaml --preview
+```
+**The --preview flag** gives you a preview of how your configuration is applied before creating it. Previewing a configuration causes Deployment Manager to start creating your deployment but then stop before actually creating any resources.
