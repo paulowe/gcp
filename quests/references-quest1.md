@@ -7,3 +7,6 @@
 [Audit logs (Data access, and Activity)](https://cloud.google.com/bigquery/docs/reference/auditlogs/)
 
 [Managing sinks](https://cloud.google.com/logging/docs/export/configure_export_v2)
+
+[Creating clustered tables](https://cloud.google.com/bigquery/docs/creating-clustered-tables#bq_1)
+
