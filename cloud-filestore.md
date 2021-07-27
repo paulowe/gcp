@@ -16,3 +16,5 @@ Use cases
 - Data analytics - Compute complex financial models. These wrkloads are latency senstive. FileStore offers low latency for file operations and as capacity/performance needs change you can easily scale
 - Genomics processing - FileStore offers speed, scalability and security for these type of workloads
 - Web content management - Wordpress hosting
+
+
