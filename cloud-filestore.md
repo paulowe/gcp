@@ -2,7 +2,7 @@
 
 [Next](https://github.com/paulowe/gcp/blob/main/cloud-storage-features.md)
 
-## Filestore is a managed file storage service for applications
+## Filestore is a managed file storage service for applications (nfs NOT compatible with NTFS security)
 
 - Fully managed netowrk attached storage (NAS) for Compute Engine and GKE
 - Predicatble fast perfomrance
