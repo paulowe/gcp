@@ -121,3 +121,15 @@ rm -rf .terraform
 terraform init
 ```
 
+...
+
+## 9. Installing Migrate for Compute Engine (Velostrata)
+We will build
+
+- VPC network (with firewall rules)
+- Connectivity between your VPC and source networks
+- Migrate for Compute Engine Manager
+- Migrate for Compute Engine Backend
+- Migrate for Compute Engine vCenter Plugin
+- Migrate for Compute Engine Cloud Extension (comprised of Edge Nodes)
+
