@@ -151,3 +151,7 @@ This is similar to common configurations in the real world, and allows teams to 
 ..
 
 [Network access configuration for Migrate for Compute Engine documentation](https://cloud.google.com/migrate/compute-engine/docs/4.10/concepts/planning-a-migration/network-access-requirements)
+
+In order for the Migrate for Compute Engine Backend to talk to the Migrate for Compute Engine Manager, it will require a token. You will generate this token in this task. You will also need the latest version of the Migrate for Compute Engine appliance image for VMware
+
+[The Backend virtual appliance](https://cloud.google.com/migrate/compute-engine/docs/4.10/resources/downloads#4101) handles the streaming of data from VM disks to GCP via the Cloud Extensions. It is distributed as an OVF package. Download [Migrate for Compute Engine Backend OVA file](https://cloud.google.com/migrate/compute-engine/docs/4.10/resources/downloads#4101).
