@@ -68,6 +68,7 @@ We've used CloudPhysics to generate a TCO report, and we've used StratoZone to f
 Next step is to examine four case studies, checking for limitations, estimating migration complexity, and lastly picking a first mover.
 
 [Case studies](https://docs.google.com/document/d/1JNlo5bscgMEt8DGBXzQms36TjdMGOy6Tl9xZHLaH4jQ/edit?usp=sharing)
+[Sample Migration discvery app questionnaire answers](https://drive.google.com/file/d/1HU0GrvSeAQ9Eb0YdGn9XRW3gU4W36HPC/view?usp=sharing)
 
 
 
