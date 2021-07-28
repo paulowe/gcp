@@ -150,3 +150,4 @@ We will build
 This is similar to common configurations in the real world, and allows teams to migrate workloads into multiple target projects.
 ..
 
+[Network access configuration for Migrate for Compute Engine documentation](https://cloud.google.com/migrate/compute-engine/docs/4.10/concepts/planning-a-migration/network-access-requirements)
