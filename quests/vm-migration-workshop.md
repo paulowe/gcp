@@ -33,4 +33,29 @@ As stated, StratoZone detects dependencies by connecting to machines via SSH/WMI
 
 Unknown Subnets is a category of unscanned devices known to be outside any scanned subnets.
 
+## 2. Examining datacenter inventory and predicting migration TCO/ROI with CloudPhysics
+Explore some of the criteria used by CloudPhysics when calculating TCO, and will compare TCO and ROI estimates based on several different migration options
 
+- Use CloudPhysics to investigate a vSphere environment
+
+- Use the GCP Cloud Simulator to explore the impact of various rightsizing decisions on predicted GCP TCO
+
+- Quickly compare estimated on-prem TCO with GCP TCO
+
+- Generate a PDF report containing the information you've acquired.
+
+The full analysis document includes
+- vCenter Summary
+- Host Analysis
+- Guest OS analysis
+- Host License inventory
+- On prem IT Cloud simulation
+- GCP Cloud simulation
+- AWS to GCP migration simulation
+- AWS to GCP bill analysis
+- AWS bill analysis
+- Google Cloud VMware engine siumulator 
+- Cost comparison of on pre IT vs Public cloud
+
+
+ 
