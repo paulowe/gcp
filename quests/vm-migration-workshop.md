@@ -72,6 +72,7 @@ Next step is to examine four case studies, checking for limitations, estimating 
 [Sample Application Discovery Questionnaire results doc answers](https://drive.google.com/file/d/1HU0GrvSeAQ9Eb0YdGn9XRW3gU4W36HPC/view?usp=sharing)
 
 
+In the [Migration - Discovery - Data Analysis](https://docs.google.com/document/d/1OLB5BL_n83cmLU29tUEGj9W4a6BvOkfwI8FFtBLBGZ8/edit?usp=sharing&resourcekey=0-TbshcfB_Jfl1-5nBYi4pyg) guide from Google, they offer good advice on several major sources of complexity worth including in your scoring system.
 
 
 
