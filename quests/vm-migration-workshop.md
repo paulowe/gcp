@@ -94,3 +94,21 @@ Terraform is a popular open-source tool for defining and provisioning GCP infras
 The infrastructure Terraform can manage includes low-level components such as compute instances, storage, and networking, as well as high-level components such as DNS entries, SaaS features, etc.
 
 This [GCP Cloud Foundation toolkit](https://github.com/terraform-google-modules) on github has scripts that could be useful when Terraforming your GCP environment. Make sure to check them out!
+
+- Setup GCP access credentials 
+- Create and download default service account access credentials
+
+**Set up remote state**
+
+Terraform stores a mapping between your configuration and created resources in Terraform state. By default, this state is stored in a local file and is used by Terraform to map GCP resources to your configuration, to keep track of metadata, and to improve performance for large infrastructures. As a best GCP practice, storing the state in a GCP bucket is recommended.
+
+Create a new bucket to store Terraform state. A GCS bucket needs to be globally unique, so be sure to prefix its name with your Project ID as shown in the command below:
+
+```gsutil mb gs://$DEVSHELL_PROJECT_ID-state-bucket```
+
+  General process for Terraforming in GCP
+  
+  ![QHbd0WatV+aEQf0DU945lQzQTOt5K+8KHYkUSUw4PQU=](https://user-images.githubusercontent.com/40435982/127352236-18a390a6-0866-4264-991d-4e144c32d592.png)
+  
+  
+
