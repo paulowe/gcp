@@ -133,3 +133,8 @@ We will build
 - Migrate for Compute Engine vCenter Plugin
 - Migrate for Compute Engine Cloud Extension (comprised of Edge Nodes)
 
+![jPqTDp+P+JF43gqtJRL75ULjlP+THqwuMHP60R0LNQ4=](https://user-images.githubusercontent.com/40435982/127384716-42ab1742-351d-4bf2-aa48-5cfc45cb7b66.png)
+
+**VMWare ESXI** VMware ESXi is an enterprise-class, type-1 hypervisor developed by VMware for deploying and serving virtual computers. As a type-1 hypervisor, ESXi is not a software application that is installed on an operating system; instead, it includes and integrates vital OS components, such as a kernel.
+
+
