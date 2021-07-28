@@ -1,0 +1,661 @@
+GCP Cloud Simulator for Google Demo Customer
+,
+Applied Filters
+vCenter,demo.google.com
+Datacenter,Datacenter-2
+VM Match Filter,All Matched VMs
+,
+Card Settings
+GCP Location,Iowa (us-central1)
+Storage Type,Zonal
+Storage Media,Optimal
+Instance CPU,Intel Based
+Match to standard instances only,No
+Exclude E2 instances,No
+Consider GPUs when,GPUs Already in Place
+Match to GPUs providing,Best Performance
+Include Sole Tenant Nodes,Yes
+Allow Oversubscription,Yes
+BYO Microsoft Licenses,Yes
+Exclude Live Migration Nodes,No
+Allow Desktop OS/MSDN,No
+Term Length,3 Years
+Instance Class,Regular
+BYO Linux Licenses,Yes
+,
+Rightsizing Criteria
+Rightsize VMs using,VM as Configured
+,
+Table Data
+VM Name,Tags,VM State,Guest OS,VM Cost / Year ($),Instance Cost Portion ($),Sole Tenant Node Cost Portion ($),GPU Cost Portion ($),OS Cost Portion ($),Storage Cost Portion ($),Instance,Instance vCPU,Instance vRAM (GB),Sole Tenant Node,GCP GPU,Storage Media,vCPU,vCPU Peak Usage (%),vCPU 99th %-ile Usage (%),vCPU 95th %-ile Usage (%),vRAM (GB),vRAM Peak Usage (%),Peak IOPS,Peak Reads,Peak Writes,Peak Latency (ms),vDisk Capacity (GB),vCenter Name,Cluster Name
+VM-40218,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),537,436,0,0,0,101,e2-custom,4,8.00,,0,HDD,4,,,,8.00,,,,,,210.00,demo.google.com,Cluster-c473761
+VM-3296304,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),1011,0,705,0,0,306,n1-custom,2,16.00," Node #1",0,SSD,2,100,69,47,16.00,100,1709,1536,1311,1235,150.00,demo.google.com,Cluster-c473761
+VM-123072,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1124,0,932,0,0,192,n1-custom,4,16.00," Node #12",0,HDD,4,,,,16.00,,,,,,400.00,demo.google.com,Cluster-c473761
+VM-404209,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),242,218,0,0,0,24,e2-custom,2,4.00,,0,HDD,2,,,,4.00,,,,,,50.00,demo.google.com,Cluster-c473761
+VM-2164273,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),443,0,347,0,0,96,n1-custom,2,4.00," Node #12",0,HDD,2,,,,4.00,,,,,,200.00,demo.google.com,Cluster-c344303
+VM-913604,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),741,0,693,0,0,48,n1-custom,4,8.00," Node #1",0,HDD,4,,,,8.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-62889,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),789,0,693,0,0,96,n1-custom,4,8.00," Node #2",0,HDD,4,,,,8.00,,,,,,200.00,demo.google.com,Cluster-c473761
+VM-1791440,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1172,0,1148,0,0,24,n1-custom,8,8.00," Node #3",0,HDD,8,,,,8.00,,,,,,50.00,demo.google.com,Cluster-c344303
+VM-2859238,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1481,0,1063,0,0,418,n1-custom,2,28.00," Node #10",0,HDD,2,,,,28.00,,,,,,870.00,demo.google.com,Cluster-c344303
+VM-444328,PoweredOn,Powered On,Other 2.6.x Linux (64-bit),893,132,0,0,0,761,e2-medium,1,4.00,,0,SSD,2,71,32,9,4.00,97,449,413,73,12131,373.00,demo.google.com,Cluster-c473761
+VM-3296854,PoweredOn,Powered On,Linux 4.7.4Zerto+ Debian GNU/Linux 8.5 (jessie),896,132,0,0,0,764,e2-medium,1,4.00,,0,SSD,1,100,38,5,3.00,99,1996,1533,560,1175,374.52,demo.google.com,Cluster-c473761
+VM-1912506_replica,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),711,0,466,0,0,245,n1-custom,2,8.00," Node #4",0,HDD,2,,,,8.00,,,,,,510.00,demo.google.com,Cluster-c472963
+VM-1229113,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),789,0,693,0,0,96,n1-custom,4,8.00," Node #1",0,HDD,4,,,,8.00,,,,,,201.00,demo.google.com,Cluster-c473761
+VM-1726022,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1162,0,1148,0,0,14,n1-custom,8,8.00," Node #2",0,HDD,8,,,,8.00,,,,,,30.00,demo.google.com,Cluster-c344303
+VM-3300543,PoweredOn,Powered On,Linux 4.7.4Zerto+ Debian GNU/Linux 8.5 (jessie),158,132,0,0,0,26,e2-medium,1,4.00,,0,SSD,1,38,7,4,3.00,82,47,45,4,310,12.50,demo.google.com,Cluster-c473761
+VM-1912536,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),1574,0,921,0,0,653,n1-custom,6,8.00," Node #5",0,SSD,6,100,21,9,8.00,100,2899,2898,2056,3275,320.00,demo.google.com,Cluster-c473761
+VM-122381,Hadoop;PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2003 Standard (32-bit),608,0,567,0,0,41,n1-custom,4,3.75," Node #7",0,SSD,4,100,6,2,3.00,97,475,471,24,1440,20.00,demo.google.com,Cluster-c473761
+VM-1817265,PoweredOn,Powered Off,FreeBSD (64-bit),205,195,0,0,0,10,e2-highcpu-2,2,2.00,,0,HDD,2,,,,2.00,,,,,,20.00,demo.google.com,Cluster-c862031
+VM-122301,Hadoop;PoweredOn,Powered On,CentOS 4/5/6/7 (64-bit),2366,390,0,0,0,1976,e2-highcpu-4,4,4.00,,0,HDD,4,33,4,1,4.00,100,666,660,265,4408,4116.00,demo.google.com,Cluster-c473761
+VM-1454238,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),142,132,0,0,0,10,e2-medium,1,4.00,,0,HDD,1,,,,2.00,,,,,,20.00,demo.google.com,Cluster-c473761
+VM-3111843,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),712,0,466,0,0,246,n1-custom,2,8.00," Node #7",0,HDD,2,,,,8.00,,,,,,512.00,demo.google.com,Cluster-c473761
+VM-3232119,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),3090,0,3035,0,0,55,n1-custom,12,56.00," Node #11",0,HDD,12,,,,56.00,,,,,,115.00,demo.google.com,Cluster-c473761
+VM-1455665,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4338,0,4002,0,0,336,n1-custom,10,96.00," Node #3",0,HDD,10,,,,96.00,,,,,,701.00,demo.google.com,Cluster-c473761
+VM-1495799,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),1511,0,693,0,0,818,n1-custom,4,8.00," Node #10",0,SSD,4,90,56,37,8.00,100,926,508,811,1093,401.00,demo.google.com,Cluster-c473761
+VM-3214649,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),460,436,0,0,0,24,e2-custom,4,8.00,,0,HDD,4,,,,8.00,,,,,,50.00,demo.google.com,Cluster-c473761
+VM-113493,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),849,0,693,0,0,156,n1-custom,4,8.00," Node #9",0,HDD,4,,,,8.00,,,,,,325.00,demo.google.com,Cluster-c472963
+VM-3294939,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1580,0,1148,0,0,432,n1-custom,8,8.00," Node #8",0,HDD,8,,,,8.00,,,,,,900.00,demo.google.com,Cluster-c473761
+VM-641247,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),731,0,693,0,0,38,n1-custom,4,8.00," Node #13",0,HDD,4,,,,8.00,,,,,,80.00,demo.google.com,Cluster-c473761
+VM-316861,PoweredOn,Powered Off,Debian GNU/Linux 6 (64-bit),133,132,0,0,0,1,e2-medium,1,4.00,,0,HDD,1,,,,1.00,,,,,,2.00,demo.google.com,Cluster-c473761
+VM-1699960,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2012,0,932,0,0,1080,n1-custom,4,16.00," Node #13",0,HDD,4,,,,16.00,,,,,,2251.00,demo.google.com,Cluster-c344303
+VM-2010936,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),331,0,317,0,0,14,n1-custom,2,3.00," Node #4",0,HDD,1,,,,3.00,,,,,,30.00,demo.google.com,Cluster-c473761
+VM-1406570,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1170,0,1148,0,0,22,n1-custom,8,8.00," Node #12",0,HDD,8,,,,8.00,,,,,,45.00,demo.google.com,Cluster-c862031
+VM-640366,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),4030,0,705,0,0,3325,n1-custom,2,16.00," Node #2",0,SSD,2,100,99,58,16.00,100,7809,4176,7057,2454,1630.00,demo.google.com,Cluster-c473761
+VM-2677718,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1401,0,1387,0,0,14,n1-custom,8,16.00," Node #6",0,HDD,8,,,,16.00,,,,,,30.00,demo.google.com,Cluster-c473761
+VM-1471027,PoweredOn,Powered Off,Microsoft Windows Server 2016 (64-bit),395,0,347,0,0,48,n1-custom,2,4.00," Node #13",0,HDD,2,,,,4.00,,,,,,100.00,demo.google.com,Cluster-c862031
+VM-113503,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),531,0,406,0,0,125,n1-custom,2,6.00," Node #6",0,HDD,2,,,,6.00,,,,,,260.00,demo.google.com,Cluster-c862031
+VM-1961695,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),1490,1308,0,0,0,182,e2-custom,12,24.00,,0,HDD,12,,,,24.00,,,,,,380.00,demo.google.com,Cluster-c472963
+VM-1991539,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),1299,0,932,0,0,367,n1-custom,4,16.00," Node #8",0,SSD,4,100,50,32,16.00,100,3529,3514,1254,5467,180.00,demo.google.com,Cluster-c473761
+VM-3297124,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),1031,0,705,0,0,326,n1-custom,2,16.00," Node #9",0,SSD,2,100,2,1,16.00,89,1129,1127,440,453,159.87,demo.google.com,Cluster-c473761
+VM-3298183,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),1352,0,1148,0,0,204,n1-custom,8,8.00," Node #11",0,SSD,8,100,17,10,8.00,100,2429,2428,1060,3846,100.00,demo.google.com,Cluster-c473761
+VM-1780934,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),1490,1308,0,0,0,182,e2-custom,12,24.00,,0,HDD,12,,,,24.00,,,,,,380.00,demo.google.com,Cluster-c472963
+VM-122326,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1029,0,813,0,0,216,n1-custom,4,12.00," Node #13",0,HDD,4,,,,12.00,,,,,,450.00,demo.google.com,Cluster-c473761
+VM-744955,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1517,0,1387,0,0,130,n1-custom,8,16.00," Node #10",0,HDD,8,,,,16.00,,,,,,271.00,demo.google.com,Cluster-c473761
+VM-784,PoweredOn,Powered On,Other Linux (64-bit),795,734,0,0,0,61,e2-custom,8,4.00,,0,SSD,8,21,8,7,2.00,100,449,297,245,5900,30.00,demo.google.com,Cluster-c473761
+VM-1991518,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),1218,0,932,0,0,286,n1-custom,4,16.00," Node #7",0,SSD,4,100,28,18,16.00,100,3530,1893,3060,4834,140.00,demo.google.com,Cluster-c473761
+VM-529692,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),514,0,466,0,0,48,n1-custom,2,8.00," Node #6",0,HDD,2,,,,8.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-3126974,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),376,0,347,0,0,29,n1-custom,2,4.00," Node #8",0,HDD,2,,,,4.00,,,,,,60.00,demo.google.com,Cluster-c862031
+VM-1294236,PoweredOn,Powered Off,Other Linux (32-bit),132,132,0,0,0,0,e2-medium,1,4.00,,0,HDD,1,,,,0.13,,,,,,1.00,demo.google.com,Cluster-c473761
+VM-613266,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1877,0,1350,0,0,527,n1-custom,4,30.00," Node #12",0,HDD,4,,,,30.00,,,,,,1097.00,demo.google.com,Cluster-c473761
+VM-428150,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),772,0,466,0,0,306,n1-custom,2,8.00," Node #3",0,SSD,2,100,25,3,8.00,100,992,786,939,2185,150.00,demo.google.com,Cluster-c473761
+VM-515888_replica,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),376,0,347,0,0,29,n1-custom,2,4.00," Node #9",0,HDD,2,,,,4.00,,,,,,60.00,demo.google.com,Cluster-c473761
+VM-292310,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1256,0,944,0,0,312,n1-custom,2,24.00," Node #4",0,HDD,2,,,,24.00,,,,,,650.00,demo.google.com,Cluster-c344303
+VM-122331,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 (32-bit),361,0,347,0,0,14,n1-custom,2,4.00," Node #10",0,HDD,2,,,,4.00,,,,,,30.00,demo.google.com,Cluster-c473761
+VM-122311,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),297,0,287,0,0,10,n1-custom,2,2.00," Node #6",0,HDD,1,,,,2.00,,,,,,20.00,demo.google.com,Cluster-c473761
+VM-1205705,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),376,0,347,0,0,29,n1-custom,2,4.00," Node #7",0,HDD,2,,,,4.00,,,,,,60.00,demo.google.com,Cluster-c862031
+VM-3165996,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),3270,0,3035,0,0,235,n1-custom,12,56.00," Node #1",0,SSD,12,100,100,51,56.00,100,3058,1133,3056,5185,115.00,demo.google.com,Cluster-c473761
+VM-64058,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),765,0,693,0,0,72,n1-custom,4,8.00," Node #4",0,HDD,4,,,,8.00,,,,,,150.00,demo.google.com,Cluster-c473761
+VM-1324114,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),1407,0,693,0,0,714,n1-custom,4,8.00," Node #1",0,SSD,4,90,48,39,8.00,100,8443,8437,3129,2013,350.00,demo.google.com,Cluster-c473761
+VM-122730,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2003 (32-bit),407,0,287,0,0,120,n1-custom,2,2.00," Node #5",0,HDD,1,,,,2.00,,,,,,250.00,demo.google.com,Cluster-c473761
+VM-738447,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),451,0,347,0,0,104,n1-custom,2,4.00," Node #5",0,SSD,2,82,1,1,4.00,100,884,727,672,1252,51.00,demo.google.com,Cluster-c473761
+VM-1223029,Hadoop;PoweredOn,Powered On,FreeBSD (64-bit),173,132,0,0,0,41,e2-medium,1,4.00,,0,SSD,2,100,61,41,2.00,73,811,604,225,4859,20.00,demo.google.com,Cluster-c473761
+VM-1376240,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),736,0,693,0,0,43,n1-custom,4,8.00," Node #2",0,HDD,4,,,,8.00,,,,,,90.00,demo.google.com,Cluster-c473761
+VM-1780998,PoweredOn,Powered Off,Microsoft Windows Server 2016 (64-bit),741,0,693,0,0,48,n1-custom,4,8.00," Node #11",0,HDD,4,,,,8.00,,,,,,101.00,demo.google.com,Cluster-c473761
+VM-1233270,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),361,0,347,0,0,14,n1-custom,2,4.00," Node #3",0,HDD,2,,,,4.00,,,,,,30.00,demo.google.com,Cluster-c473761
+VM-997254,PoweredOn,Powered Off,Other 2.6.x Linux (64-bit),233,218,0,0,0,15,e2-custom,2,4.00,,0,HDD,2,,,,4.00,,,,,,32.00,demo.google.com,Cluster-c473761
+VM-2444293,PoweredOn,Powered Off,Red Hat Enterprise Linux 7 (64-bit),576,528,0,0,0,48,e2-standard-4,4,16.00,,0,HDD,4,,,,16.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-2876293,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),3090,0,3035,0,0,55,n1-custom,12,56.00," Node #2",0,HDD,12,,,,56.00,,,,,,115.00,demo.google.com,Cluster-c473761
+VM-433972,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),980,0,932,0,0,48,n1-custom,4,16.00," Node #5",0,HDD,4,,,,16.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-2859232,PoweredOn,Powered On,Red Hat Enterprise Linux 6 (64-bit),1493,310,0,0,0,1183,e2-custom,2,12.00,,0,SSD,2,100,5,4,12.00,100,947,944,224,6666,580.00,demo.google.com,Cluster-c473761
+VM-123026,PoweredOn,Powered Off,Red Hat Enterprise Linux 5 (32-bit),173,132,0,0,0,41,e2-medium,1,4.00,,0,SSD,2,60,33,29,1.00,99,499,334,499,87,20.00,demo.google.com,Cluster-c344303
+VM-1721311_replica,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),562,0,466,0,0,96,n1-custom,2,8.00," Node #12",0,HDD,2,,,,8.00,,,,,,200.00,demo.google.com,Cluster-c344303
+VM-394946,PoweredOn,Powered On,SUSE Linux Enterprise 11 (64-bit),163,132,0,0,0,31,e2-medium,1,4.00,,0,SSD,1,76,1,1,3.52,100,324,320,46,1987,15.00,demo.google.com,Cluster-c473761
+VM-3296911,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),2634,0,1410,0,0,1224,n1-custom,4,32.00," Node #10",0,SSD,4,100,48,29,32.00,100,4867,4867,1158,1581,600.00,demo.google.com,Cluster-c473761
+VM-847502,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),990,0,932,0,0,58,n1-custom,4,16.00," Node #3",0,HDD,4,,,,16.00,,,,,,120.00,demo.google.com,Cluster-c473761
+VM-515887_replica,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),395,0,347,0,0,48,n1-custom,2,4.00," Node #4",0,HDD,2,,,,4.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-1659314,PoweredOn,Powered Off,FreeBSD (64-bit),205,195,0,0,0,10,e2-highcpu-2,2,2.00,,0,HDD,2,,,,2.00,,,,,,20.00,demo.google.com,Cluster-c862031
+VM-122312,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1172,0,932,0,0,240,n1-custom,4,16.00," Node #4",0,HDD,4,,,,16.00,,,,,,500.00,demo.google.com,Cluster-c473761
+VM-229409,PoweredOn,Powered Off,Other Linux (32-bit),132,132,0,0,0,0,e2-medium,1,4.00,,0,HDD,1,,,,0.13,,,,,,1.00,demo.google.com,Cluster-c473761
+VM-3297571,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),1293,0,705,0,0,588,n1-custom,2,16.00," Node #1",0,SSD,2,100,70,31,16.00,100,1918,1824,1169,3414,288.00,demo.google.com,Cluster-c473761
+VM-122396,Hadoop;PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),1286,0,317,0,0,969,n1-custom,2,3.00," Node #5",0,SSD,2,98,12,5,3.00,100,1261,975,1132,1808,475.00,demo.google.com,Cluster-c473761
+VM-458,PoweredOn,Powered Off,Microsoft Windows Server 2003 Standard (32-bit),706,0,466,0,0,240,n1-custom,2,8.00," Node #13",0,HDD,2,,,,8.00,,,,,,500.00,demo.google.com,Cluster-c473761
+VM-2857443,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1412,0,932,0,0,480,n1-custom,4,16.00," Node #2",0,HDD,4,,,,16.00,,,,,,999.87,demo.google.com,Cluster-c344303
+VM-887281,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4068,0,347,0,0,3721,n1-custom,2,4.00," Node #5",0,HDD,2,,,,4.00,,,,,,7753.00,demo.google.com,Cluster-c472963
+VM-3297777,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),429,0,347,0,0,82,n1-custom,2,4.00," Node #7",0,SSD,2,57,6,2,4.00,87,1327,1218,357,85,40.00,demo.google.com,Cluster-c473761
+VM-427186,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),731,0,693,0,0,38,n1-custom,4,8.00," Node #8",0,HDD,4,,,,8.00,,,,,,80.00,demo.google.com,Cluster-c473761
+VM-122661,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),916,0,705,0,0,211,n1-custom,2,16.00," Node #13",0,HDD,2,,,,16.00,,,,,,440.00,demo.google.com,Cluster-c473761
+VM-3290192,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2385,0,2251,0,0,134,n1-custom,16,14.50," Node #2",0,HDD,16,,,,7.98,,,,,,278.47,demo.google.com,Cluster-c344303
+VM-2882132,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1226,0,1159,0,0,67,n1-custom,6,16.00," Node #12",0,HDD,6,,,,16.00,,,,,,140.00,demo.google.com,Cluster-c344303
+VM-1385265,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),3849,0,3729,0,0,120,n1-custom,16,64.00," Node #1",0,HDD,16,,,,64.00,,,,,,250.00,demo.google.com,Cluster-c473761
+VM-1367529,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1170,0,1148,0,0,22,n1-custom,8,8.00," Node #9",0,HDD,8,,,,8.00,,,,,,45.00,demo.google.com,Cluster-c344303
+VM-475540,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),376,0,347,0,0,29,n1-custom,2,4.00," Node #10",0,HDD,2,,,,4.00,,,,,,60.00,demo.google.com,Cluster-c862031
+VM-3287570,PoweredOn,Powered Off,Microsoft Windows Server 2003 Standard (32-bit),297,0,287,0,0,10,n1-custom,2,2.00," Node #2",0,HDD,1,,,,0.50,,,,,,20.00,demo.google.com,Cluster-c473761
+VM-2634976,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4338,0,4002,0,0,336,n1-custom,10,96.00," Node #5",0,HDD,10,,,,96.00,,,,,,701.00,demo.google.com,Cluster-c472963
+VM-1590939,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),376,0,347,0,0,29,n1-custom,2,4.00," Node #9",0,HDD,2,17,4,3,4.00,100,57,9,50,423,60.00,demo.google.com,Cluster-c473761
+VM-3300581,PoweredOn,Powered On,Linux 4.7.4Zerto+ Debian GNU/Linux 8.5 (jessie),158,132,0,0,0,26,e2-medium,1,4.00,,0,SSD,1,38,4,3,3.00,80,265,260,6,719,12.50,demo.google.com,Cluster-c473761
+VM-1906061,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1220,0,1052,0,0,168,n1-custom,4,20.00," Node #12",0,HDD,4,,,,20.00,,,,,,351.00,demo.google.com,Cluster-c473761
+VM-2466931,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),899,0,693,0,0,206,n1-custom,4,8.00," Node #10",0,SSD,4,100,89,85,8.00,100,1098,1029,920,1505,101.00,demo.google.com,Cluster-c473761
+VM-1451056,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),132,132,0,0,0,0,e2-medium,1,4.00,,0,HDD,1,,,,1.00,,,,,,0.10,demo.google.com,Cluster-c473761
+VM-1454310,PoweredOn,Powered On,Red Hat Enterprise Linux 6 (64-bit),293,264,0,0,0,29,e2-standard-2,2,8.00,,0,HDD,2,20,1,1,8.00,22,8,0,8,40,60.00,demo.google.com,Cluster-c473761
+VM-1991514,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),1218,0,932,0,0,286,n1-custom,4,16.00," Node #11",0,SSD,4,100,44,24,16.00,100,3006,2583,1237,1020,140.00,demo.google.com,Cluster-c473761
+VM-427168,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),385,0,347,0,0,38,n1-custom,2,4.00," Node #8",0,HDD,2,,,,4.00,,,,,,80.00,demo.google.com,Cluster-c473761
+VM-3298337,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),660,0,466,0,0,194,n1-custom,2,8.00," Node #7",0,SSD,2,100,16,2,8.00,65,1280,1269,399,977,95.00,demo.google.com,Cluster-c473761
+VM-2672126,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1292,0,932,0,0,360,n1-custom,4,16.00," Node #6",0,HDD,4,,,,16.00,,,,,,750.00,demo.google.com,Cluster-c472963
+VM-3298667,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),2432,0,1410,0,0,1022,n1-custom,4,32.00," Node #7",0,SSD,4,100,75,50,32.00,100,4393,4297,2461,1812,501.00,demo.google.com,Cluster-c473761
+VM-122760,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2003 Standard (32-bit),292,0,287,0,0,5,n1-custom,2,2.00," Node #3",0,HDD,1,,,,1.00,,,,,,10.00,demo.google.com,Cluster-c473761
+VM-3104113,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),460,0,287,0,0,173,n1-custom,2,2.00," Node #7",0,HDD,1,,,,2.00,,,,,,360.00,demo.google.com,Cluster-c473761
+VM-1699163,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),361,0,347,0,0,14,n1-custom,2,4.00," Node #13",0,HDD,2,,,,4.00,,,,,,30.00,demo.google.com,Cluster-c473761
+VM-3296507,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),1011,0,705,0,0,306,n1-custom,2,16.00," Node #5",0,SSD,2,100,67,36,16.00,98,1619,1520,1296,1876,150.00,demo.google.com,Cluster-c473761
+VM-3298381,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),1313,0,1148,0,0,165,n1-custom,8,8.00," Node #5",0,SSD,8,100,31,17,8.00,100,1430,1296,852,2655,81.00,demo.google.com,Cluster-c473761
+VM-1481532,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1412,0,932,0,0,480,n1-custom,4,16.00," Node #7",0,HDD,4,,,,16.00,,,,,,1000.00,demo.google.com,Cluster-c344303
+VM-2677744,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1401,0,1387,0,0,14,n1-custom,8,16.00," Node #10",0,HDD,8,,,,16.00,,,,,,30.00,demo.google.com,Cluster-c473761
+VM-826262,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),902,0,693,0,0,209,n1-custom,4,8.00," Node #6",0,HDD,4,,,,8.00,,,,,,435.00,demo.google.com,Cluster-c472963
+VM-1594097,PoweredOn,Powered On,Ubuntu Linux (64-bit),458,132,0,0,0,326,e2-medium,1,4.00,,0,SSD,2,57,25,21,2.00,100,1750,632,1281,3027,160.00,demo.google.com,Cluster-c473761
+VM-414310_replica,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),371,0,347,0,0,24,n1-custom,2,4.00," Node #12",0,HDD,2,,,,4.00,,,,,,50.00,demo.google.com,Cluster-c473761
+VM-3165924,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),3090,0,3035,0,0,55,n1-custom,12,56.00," Node #6",0,HDD,12,,,,56.00,,,,,,115.00,demo.google.com,Cluster-c473761
+VM-113492,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),371,0,347,0,0,24,n1-custom,2,4.00," Node #11",0,HDD,1,,,,4.00,,,,,,50.00,demo.google.com,Cluster-c472963
+VM-515883_replica,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),753,0,705,0,0,48,n1-custom,2,16.00," Node #9",0,HDD,2,,,,16.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-3300386,PoweredOn,Powered On,Linux 4.7.4Zerto+ Debian GNU/Linux 8.5 (jessie),158,132,0,0,0,26,e2-medium,1,4.00,,0,SSD,1,23,13,12,3.00,83,277,262,15,277,12.50,demo.google.com,Cluster-c473761
+VM-2998594,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1580,0,1148,0,0,432,n1-custom,8,8.00," Node #3",0,HDD,8,,,,8.00,,,,,,900.00,demo.google.com,Cluster-c473761
+VM-2164330,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2749,0,2365,0,0,384,n1-custom,4,64.00," Node #11",0,HDD,4,,,,64.00,,,,,,801.00,demo.google.com,Cluster-c862031
+VM-1053702,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),657,0,585,0,0,72,n1-custom,2,12.00," Node #12",0,HDD,2,,,,12.00,,,,,,150.00,demo.google.com,Cluster-c473761
+VM-692065,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),1404,0,1159,0,0,245,n1-custom,6,16.00," Node #8",0,SSD,6,100,78,63,16.00,100,2103,1866,783,1053,120.00,demo.google.com,Cluster-c473761
+VM-3298301,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),520,0,347,0,0,173,n1-custom,2,4.00," Node #2",0,SSD,2,82,13,9,4.00,100,1412,1397,364,392,85.00,demo.google.com,Cluster-c473761
+VM-122617,Hadoop;PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),1260,0,1148,0,0,112,n1-custom,8,8.00," Node #4",0,SSD,8,37,11,4,8.00,100,995,707,990,879,55.00,demo.google.com,Cluster-c473761
+VM-1958955,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),765,0,693,0,0,72,n1-custom,4,8.00," Node #1",0,HDD,4,,,,8.00,,,,,,151.00,demo.google.com,Cluster-c473761
+VM-2502780,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),361,0,347,0,0,14,n1-custom,2,4.00," Node #3",0,HDD,2,,,,4.00,,,,,,30.00,demo.google.com,Cluster-c473761
+VM-515885,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),753,0,705,0,0,48,n1-custom,2,16.00," Node #3",0,HDD,2,,,,16.00,,,,,,100.00,demo.google.com,Cluster-c862031
+VM-3166090,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),3270,0,3035,0,0,235,n1-custom,12,56.00," Node #4",0,SSD,12,100,66,46,56.00,100,1917,1080,1916,2293,115.00,demo.google.com,Cluster-c473761
+VM-2383897,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),741,0,693,0,0,48,n1-custom,4,8.00," Node #2",0,HDD,4,,,,8.00,,,,,,101.00,demo.google.com,Cluster-c473761
+VM-414310,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),371,0,347,0,0,24,n1-custom,2,4.00," Node #1",0,HDD,2,,,,4.00,,,,,,50.00,demo.google.com,Cluster-c862031
+VM-1991508,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),1218,0,932,0,0,286,n1-custom,4,16.00," Node #4",0,SSD,4,63,22,6,16.00,100,2324,2321,1384,1134,140.00,demo.google.com,Cluster-c473761
+VM-122659,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),777,0,585,0,0,192,n1-custom,2,12.00," Node #11",0,HDD,2,,,,12.00,,,,,,400.00,demo.google.com,Cluster-c473761
+VM-3298359,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),1311,0,1126,0,0,185,n1-custom,8,7.25," Node #2",0,SSD,8,35,17,8,4.00,100,3583,1452,3041,2028,90.50,demo.google.com,Cluster-c473761
+VM-842568,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),811,0,753,0,0,58,n1-custom,4,10.00," Node #8",0,HDD,4,,,,10.00,,,,,,120.00,demo.google.com,Cluster-c473761
+VM-892358,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1714,0,1637,0,0,77,n1-custom,6,32.00," Node #5",0,HDD,6,,,,32.00,,,,,,160.00,demo.google.com,Cluster-c344303
+VM-1721307,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),722,0,693,0,0,29,n1-custom,4,8.00," Node #5",0,HDD,4,,,,8.00,,,,,,60.00,demo.google.com,Cluster-c473761
+VM-2186373,PoweredOn,Powered On,Red Hat Enterprise Linux 7 (64-bit),669,621,0,0,0,48,e2-custom,4,24.00,,0,HDD,4,56,33,30,24.00,98,16,0,16,951,100.00,demo.google.com,Cluster-c473761
+VM-2183587,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),670,0,466,0,0,204,n1-custom,2,8.00," Node #7",0,SSD,2,100,75,51,8.00,100,1689,1632,1059,1949,100.00,demo.google.com,Cluster-c473761
+VM-1238299,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),302,264,0,0,0,38,e2-standard-2,2,8.00,,0,HDD,1,,,,8.00,,,,,,80.00,demo.google.com,Cluster-c473761
+VM-1464285,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),311,0,287,0,0,24,n1-custom,2,2.00," Node #2",0,HDD,2,,,,2.00,,,,,,50.00,demo.google.com,Cluster-c473761
+VM-1240930,PoweredOn,Powered Off,FreeBSD (64-bit),205,195,0,0,0,10,e2-highcpu-2,2,2.00,,0,HDD,2,,,,2.00,,,,,,20.00,demo.google.com,Cluster-c862031
+VM-2752133,PoweredOn,Powered Off,Ubuntu Linux (64-bit),227,218,0,0,0,9,e2-custom,2,4.00,,0,HDD,2,,,,4.00,,,,,,19.53,demo.google.com,Cluster-c473761
+VM-1714904,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),504,0,466,0,0,38,n1-custom,2,8.00," Node #13",0,HDD,1,,,,8.00,,,,,,80.00,demo.google.com,Cluster-c344303
+VM-123048,PoweredOn,Powered Off,Microsoft Windows Server 2008 (64-bit),1544,0,1410,0,0,134,n1-custom,4,32.00," Node #3",0,HDD,4,,,,32.00,,,,,,280.00,demo.google.com,Cluster-c473761
+VM-606042,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),980,0,932,0,0,48,n1-custom,4,16.00," Node #1",0,HDD,4,,,,16.00,,,,,,101.00,demo.google.com,Cluster-c473761
+VM-2186374,PoweredOn,Powered On,Red Hat Enterprise Linux 7 (64-bit),669,621,0,0,0,48,e2-custom,4,24.00,,0,HDD,4,17,4,3,24.00,97,16,0,16,1231,100.00,demo.google.com,Cluster-c473761
+VM-2058801,PoweredOn,Powered Off,Microsoft Windows Server 2016 (64-bit),741,0,693,0,0,48,n1-custom,4,8.00," Node #10",0,HDD,4,,,,8.00,,,,,,101.00,demo.google.com,Cluster-c473761
+VM-122716,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1448,0,1040,0,0,408,n1-custom,6,12.00," Node #6",0,SSD,6,53,19,4,12.00,100,1588,1346,1064,1665,200.00,demo.google.com,Cluster-c473761
+VM-1053694,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1005,0,765,0,0,240,n1-custom,2,18.00," Node #11",0,HDD,2,,,,18.00,,,,,,501.00,demo.google.com,Cluster-c473761
+VM-122359,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),519,0,466,0,0,53,n1-custom,2,8.00," Node #9",0,HDD,2,,,,8.00,,,,,,110.00,demo.google.com,Cluster-c473761
+VM-2659409,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),752,0,466,0,0,286,n1-custom,2,8.00," Node #8",0,SSD,2,81,60,51,8.00,100,229,9,229,2777,140.00,demo.google.com,Cluster-c473761
+VM-212149,PoweredOn,Powered On,Ubuntu Linux (64-bit),553,390,0,0,0,163,e2-highcpu-4,4,4.00,,0,SSD,4,27,4,3,4.00,80,833,833,21,4480,80.00,demo.google.com,Cluster-c473761
+VM-857193,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2429,0,466,0,0,1963,n1-custom,2,8.00," Node #13",0,HDD,2,,,,8.00,,,,,,4090.48,demo.google.com,Cluster-c473761
+VM-29663,PoweredOn,Powered Off,Other Linux (32-bit),132,132,0,0,0,0,e2-medium,1,4.00,,0,HDD,1,,,,0.13,,,,,,1.00,demo.google.com,Cluster-c473761
+VM-140371,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),765,0,693,0,0,72,n1-custom,4,8.00," Node #12",0,HDD,4,,,,8.00,,,,,,150.00,demo.google.com,Cluster-c473761
+VM-2791618,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1083,0,932,0,0,151,n1-custom,4,16.00," Node #11",0,HDD,4,,,,16.00,,,,,,315.00,demo.google.com,Cluster-c344303
+VM-109678,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),514,0,466,0,0,48,n1-custom,2,8.00," Node #11",0,HDD,2,,,,8.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-3167564,PoweredOn,Powered Off,Other Linux (32-bit),132,132,0,0,0,0,e2-medium,1,4.00,,0,HDD,1,,,,0.13,,,,,,1.00,demo.google.com,Cluster-c473761
+VM-2539196,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),3972,0,2820,0,0,1152,n1-custom,8,64.00," Node #13",0,HDD,8,,,,64.00,,,,,,2400.00,demo.google.com,Cluster-c473761
+VM-1043050,PoweredOn,Powered Off,Other Linux (32-bit),132,132,0,0,0,0,e2-medium,1,4.00,,0,HDD,1,,,,0.13,,,,,,1.00,demo.google.com,Cluster-c473761
+VM-2753857_replica,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),731,0,693,0,0,38,n1-custom,4,8.00," Node #6",0,HDD,4,,,,8.00,,,,,,80.00,demo.google.com,Cluster-c473761
+VM-2521655,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),1228,0,1126,0,0,102,n1-custom,8,7.25," Node #5",0,SSD,8,15,4,1,4.00,100,495,482,104,1756,50.00,demo.google.com,Cluster-c473761
+VM-491139,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),1250,0,1148,0,0,102,n1-custom,8,8.00," Node #3",0,SSD,8,37,11,5,8.00,100,847,613,843,1301,50.00,demo.google.com,Cluster-c473761
+VM-123050,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),557,0,466,0,0,91,n1-custom,2,8.00," Node #12",0,HDD,1,,,,8.00,,,,,,190.00,demo.google.com,Cluster-c473761
+VM-2164267,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),741,0,693,0,0,48,n1-custom,4,8.00," Node #4",0,HDD,4,,,,8.00,,,,,,99.87,demo.google.com,Cluster-c862031
+VM-2753859,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),731,0,693,0,0,38,n1-custom,4,8.00," Node #1",0,HDD,4,,,,8.00,,,,,,80.00,demo.google.com,Cluster-c862031
+VM-122300,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),763,0,585,0,0,178,n1-custom,2,12.00," Node #5",0,HDD,2,,,,12.00,,,,,,370.00,demo.google.com,Cluster-c473761
+VM-603021,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1196,0,1148,0,0,48,n1-custom,8,8.00," Node #2",0,HDD,8,,,,8.00,,,,,,100.00,demo.google.com,Cluster-c862031
+VM-3298352,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),1250,0,1148,0,0,102,n1-custom,8,8.00," Node #11",0,SSD,8,52,24,19,8.00,72,1382,1325,1324,1562,50.00,demo.google.com,Cluster-c473761
+VM-188810,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),789,0,693,0,0,96,n1-custom,4,8.00," Node #12",0,HDD,4,,,,8.00,,,,,,201.00,demo.google.com,Cluster-c473761
+VM-122655,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2003 (64-bit),292,0,287,0,0,5,n1-custom,2,2.00," Node #1",0,HDD,1,,,,1.00,,,,,,10.00,demo.google.com,Cluster-c473761
+VM-2235405,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),717,0,693,0,0,24,n1-custom,4,8.00," Node #13",0,HDD,4,,,,8.00,,,,,,50.00,demo.google.com,Cluster-c473761
+VM-134599,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),151,132,0,0,0,19,e2-medium,1,4.00,,0,HDD,1,,,,2.00,,,,,,40.00,demo.google.com,Cluster-c473761
+VM-316838,PoweredOn,Powered Off,Debian GNU/Linux 6 (64-bit),133,132,0,0,0,1,e2-medium,1,4.00,,0,HDD,1,,,,1.00,,,,,,2.00,demo.google.com,Cluster-c473761
+VM-2444132,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),371,0,347,0,0,24,n1-custom,2,4.00," Node #6",0,HDD,2,,,,4.00,,,,,,50.00,demo.google.com,Cluster-c473761
+VM-1764253,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),980,0,932,0,0,48,n1-custom,4,16.00," Node #12",0,HDD,4,,,,16.00,,,,,,101.00,demo.google.com,Cluster-c473761
+VM-651445,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),325,0,287,0,0,38,n1-custom,2,2.00," Node #11",0,HDD,1,,,,2.00,,,,,,80.00,demo.google.com,Cluster-c473761
+VM-1084859,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),2456,0,1864,0,0,592,n1-custom,8,32.00," Node #4",0,SSD,8,100,14,4,32.00,100,6785,6772,361,1137,290.00,demo.google.com,Cluster-c473761
+VM-163500,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),801,0,705,0,0,96,n1-custom,2,16.00," Node #13",0,HDD,2,,,,16.00,,,,,,200.00,demo.google.com,Cluster-c473761
+VM-3300877,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1344,0,1148,0,0,196,n1-custom,8,8.00," Node #8",0,HDD,8,,,,8.00,,,,,,408.38,demo.google.com,Cluster-c473761
+VM-3004731,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),2706,0,2296,0,0,410,n1-custom,16,16.00," Node #2",0,SSD,16,48,9,5,16.00,100,956,956,914,1912,201.00,demo.google.com,Cluster-c473761
+VM-3188801,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),775,0,693,0,0,82,n1-custom,4,8.00," Node #9",0,SSD,4,82,8,7,8.00,100,1332,1286,110,2459,40.00,demo.google.com,Cluster-c473761
+VM-125422,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),672,0,466,0,0,206,n1-custom,2,8.00," Node #10",0,SSD,2,100,60,3,8.00,100,653,434,653,716,101.00,demo.google.com,Cluster-c473761
+VM-841035,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1843,0,705,0,0,1138,n1-custom,2,16.00," Node #6",0,HDD,2,,,,15.99,,,,,,2370.50,demo.google.com,Cluster-c473761
+VM-1043082,PoweredOn;PowerOn/Win2008R2,Powered On,Microsoft Windows Server 2008 R2 (64-bit),2848,0,1685,0,0,1163,n1-custom,8,26.00," Node #3",0,SSD,8,100,69,55,26.00,100,2263,2085,1156,2661,570.00,demo.google.com,Cluster-c473761
+VM-3300551,PoweredOn,Powered On,Linux 4.7.4Zerto+ Debian GNU/Linux 8.5 (jessie),2198,132,0,0,0,2066,e2-medium,1,4.00,,0,SSD,1,100,97,71,3.00,86,975,810,586,344,1012.53,demo.google.com,Cluster-c473761
+VM-2186160,PoweredOn,Powered Off,Microsoft Windows Server 2016 (64-bit),722,0,693,0,0,29,n1-custom,4,8.00," Node #7",0,HDD,4,,,,8.00,,,,,,60.00,demo.google.com,Cluster-c473761
+VM-383335,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),770,0,693,0,0,77,n1-custom,4,8.00," Node #5",0,HDD,4,,,,8.00,,,,,,160.00,demo.google.com,Cluster-c473761
+VM-1800798,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),741,0,693,0,0,48,n1-custom,4,8.00," Node #6",0,HDD,4,,,,8.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-2644041,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),2075,0,1626,0,0,449,n1-custom,8,24.00," Node #1",0,SSD,8,85,26,17,24.00,100,3297,2283,3297,1689,220.00,demo.google.com,Cluster-c473761
+VM-1991523,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),1162,0,693,0,0,469,n1-custom,4,8.00," Node #3",0,SSD,4,100,28,16,8.00,100,2741,2733,1426,2439,230.00,demo.google.com,Cluster-c473761
+VM-113687,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),373,0,287,0,0,86,n1-custom,2,2.00," Node #1",0,HDD,2,,,,2.00,,,,,,180.00,demo.google.com,Cluster-c344303
+VM-127072,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),746,0,693,0,0,53,n1-custom,4,8.00," Node #4",0,HDD,4,,,,8.00,,,,,,110.00,demo.google.com,Cluster-c473761
+VM-1220472,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),371,0,347,0,0,24,n1-custom,2,4.00," Node #11",0,HDD,2,,,,4.00,,,,,,50.00,demo.google.com,Cluster-c473761
+VM-122309,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1202,0,1159,0,0,43,n1-custom,6,16.00," Node #8",0,HDD,6,,,,16.00,,,,,,90.00,demo.google.com,Cluster-c473761
+VM-515883,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),753,0,705,0,0,48,n1-custom,2,16.00," Node #9",0,HDD,2,,,,16.00,,,,,,100.00,demo.google.com,Cluster-c862031
+VM-306002,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1483,0,1387,0,0,96,n1-custom,8,16.00," Node #10",0,HDD,8,,,,16.00,,,,,,200.00,demo.google.com,Cluster-c473761
+VM-288636,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),765,0,693,0,0,72,n1-custom,4,8.00," Node #1",0,HDD,4,,,,8.00,,,,,,151.00,demo.google.com,Cluster-c473761
+VM-3296345,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),1011,0,705,0,0,306,n1-custom,2,16.00," Node #7",0,SSD,2,100,75,50,16.00,100,1748,1747,940,739,150.00,demo.google.com,Cluster-c473761
+VM-1543064,PoweredOn,Powered Off,Debian GNU/Linux 6 (64-bit),133,132,0,0,0,1,e2-medium,1,4.00,,0,HDD,1,,,,0.25,,,,,,2.00,demo.google.com,Cluster-c862031
+VM-454929,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),395,0,347,0,0,48,n1-custom,2,4.00," Node #4",0,HDD,2,,,,4.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-1518278,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),1240,0,1148,0,0,92,n1-custom,8,8.00," Node #2",0,SSD,8,31,10,5,8.00,78,107,104,52,2208,45.00,demo.google.com,Cluster-c473761
+VM-427167,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),385,0,347,0,0,38,n1-custom,2,4.00," Node #12",0,HDD,2,,,,4.00,,,,,,80.00,demo.google.com,Cluster-c473761
+VM-718579,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1984,0,1864,0,0,120,n1-custom,8,32.00," Node #1",0,HDD,8,,,,32.00,,,,,,251.00,demo.google.com,Cluster-c473761
+VM-2600452,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),3731,0,3683,0,0,48,n1-custom,24,32.00," Node #11",0,HDD,24,,,,32.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-466101,PoweredOn,Powered Off,FreeBSD (64-bit),205,195,0,0,0,10,e2-highcpu-2,2,2.00,,0,HDD,2,,,,2.00,,,,,,20.00,demo.google.com,Cluster-c473761
+VM-641245,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),741,0,693,0,0,48,n1-custom,4,8.00," Node #5",0,HDD,4,,,,8.00,,,,,,99.87,demo.google.com,Cluster-c473761
+VM-122980,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),331,0,317,0,0,14,n1-custom,2,3.00," Node #6",0,HDD,1,,,,3.00,,,,,,30.00,demo.google.com,Cluster-c473761
+VM-122651,Hadoop;PoweredOn;win2008on;windows_power_on,Powered On,Microsoft Windows Server 2008 (32-bit),653,0,347,0,0,306,n1-custom,2,4.00," Node #13",0,SSD,2,100,25,10,4.00,100,1366,1361,1112,1113,150.00,demo.google.com,Cluster-c473761
+VM-160783,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),999,0,693,0,0,306,n1-custom,4,8.00," Node #7",0,SSD,4,50,22,3,8.00,100,635,451,629,3619,150.00,demo.google.com,Cluster-c473761
+VM-1145593,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1042,0,980,0,0,62,n1-custom,6,10.00," Node #9",0,HDD,6,,,,10.00,,,,,,130.00,demo.google.com,Cluster-c472963
+VM-3296907,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),568,0,466,0,0,102,n1-custom,2,8.00," Node #10",0,SSD,2,97,49,2,8.00,98,985,848,980,1472,50.00,demo.google.com,Cluster-c473761
+VM-454931,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),395,0,347,0,0,48,n1-custom,2,4.00," Node #8",0,HDD,2,,,,4.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-1972858,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),1014,0,932,0,0,82,n1-custom,4,16.00," Node #5",0,SSD,4,100,4,2,16.00,100,999,963,823,1177,40.00,demo.google.com,Cluster-c473761
+VM-1295378_replica,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),739,0,585,0,0,154,n1-custom,2,12.00," Node #7",0,HDD,2,,,,12.00,,,,,,320.00,demo.google.com,Cluster-c472963
+VM-775041,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1196,0,1148,0,0,48,n1-custom,8,8.00," Node #9",0,HDD,8,,,,8.00,,,,,,100.00,demo.google.com,Cluster-c472963
+VM-729998,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1576,0,1148,0,0,428,n1-custom,8,8.00," Node #8",0,SSD,8,27,10,3,8.00,100,894,434,890,306,210.00,demo.google.com,Cluster-c472963
+VM-3053071,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),815,0,693,0,0,122,n1-custom,4,8.00," Node #13",0,HDD,4,,,,8.00,,,,,,254.00,demo.google.com,Cluster-c473761
+VM-3166088,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),3090,0,3035,0,0,55,n1-custom,12,56.00," Node #10",0,HDD,12,,,,56.00,,,,,,115.00,demo.google.com,Cluster-c473761
+VM-123047,PoweredOn,Powered Off,Microsoft Windows Server 2008 (64-bit),1456,0,1182,0,0,274,n1-custom,2,32.00," Node #2",0,HDD,2,,,,32.00,,,,,,570.00,demo.google.com,Cluster-c473761
+VM-444,PoweredOn,Powered Off,Microsoft Windows Server 2003 Standard (32-bit),501,0,347,0,0,154,n1-custom,2,4.00," Node #10",0,HDD,1,,,,4.00,,,,,,320.00,demo.google.com,Cluster-c473761
+VM-3298938,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),898,0,693,0,0,205,n1-custom,4,8.00," Node #12",0,SSD,4,70,31,7,8.00,100,1903,1613,1899,291,100.50,demo.google.com,Cluster-c473761
+VM-123052,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),639,0,466,0,0,173,n1-custom,2,8.00," Node #11",0,HDD,2,,,,8.00,,,,,,360.00,demo.google.com,Cluster-c473761
+VM-1540025,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4763,0,2365,0,0,2398,n1-custom,4,64.00," Node #9",0,HDD,4,,,,64.00,,,,,,4995.00,demo.google.com,Cluster-c862031
+VM-2859256,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),316,0,287,0,0,29,n1-custom,2,2.00," Node #10",0,HDD,1,,,,2.00,,,,,,60.00,demo.google.com,Cluster-c344303
+VM-1385264,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1214,0,705,0,0,509,n1-custom,2,16.00," Node #3",0,HDD,2,,,,16.00,,,,,,1060.00,demo.google.com,Cluster-c473761
+VM-3297554,PoweredOn,Powered On,Linux 4.7.4Zerto+ Debian GNU/Linux 8.5 (jessie),158,132,0,0,0,26,e2-medium,1,4.00,,0,SSD,1,100,82,4,3.00,98,1948,1948,6,849,12.50,demo.google.com,Cluster-c473761
+VM-2471959,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),851,0,813,0,0,38,n1-custom,4,12.00," Node #10",0,HDD,4,,,,12.00,,,,,,80.00,demo.google.com,Cluster-c473761
+VM-641234,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2998,0,1410,0,0,1588,n1-custom,4,32.00," Node #13",0,HDD,4,,,,32.00,,,,,,3309.00,demo.google.com,Cluster-c473761
+VM-1308495,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1148,0,1126,0,0,22,n1-custom,8,7.25," Node #7",0,HDD,8,,,,4.00,,,,,,45.00,demo.google.com,Cluster-c344303
+VM-1233262,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),361,0,347,0,0,14,n1-custom,2,4.00," Node #9",0,HDD,2,,,,4.00,,,,,,30.00,demo.google.com,Cluster-c473761
+VM-2635118,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),408,0,347,0,0,61,n1-custom,2,4.00," Node #10",0,SSD,2,88,63,40,4.00,100,57,7,52,209,30.00,demo.google.com,Cluster-c344303
+VM-3292745,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),676,0,574,0,0,102,n1-custom,4,4.00," Node #7",0,SSD,4,100,17,10,4.00,100,1846,1817,791,9307,49.87,demo.google.com,Cluster-c473761
+VM-3054687,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),670,0,466,0,0,204,n1-custom,2,8.00," Node #6",0,SSD,2,100,25,3,8.00,100,2144,1646,2038,1610,100.00,demo.google.com,Cluster-c473761
+VM-2462345,PoweredOn,Powered Off,Red Hat Enterprise Linux 7 (64-bit),504,264,0,0,0,240,e2-standard-2,2,8.00,,0,HDD,2,,,,8.00,,,,,,500.00,demo.google.com,Cluster-c473761
+VM-454918,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),731,0,693,0,0,38,n1-custom,4,8.00," Node #3",0,HDD,4,,,,8.00,,,,,,80.00,demo.google.com,Cluster-c473761
+VM-1429567,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),3577,0,3047,0,0,530,n1-custom,10,64.00," Node #12",0,SSD,10,100,100,100,64.00,100,11494,11065,5367,102,260.00,demo.google.com,Cluster-c344303
+VM-2481206,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),851,0,813,0,0,38,n1-custom,4,12.00," Node #9",0,HDD,4,,,,12.00,,,,,,80.00,demo.google.com,Cluster-c473761
+VM-122719_replica,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1023,0,884,0,0,139,n1-custom,2,22.00," Node #2",0,HDD,2,,,,22.00,,,,,,290.00,demo.google.com,Cluster-c344303
+VM-122632,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),676,0,585,0,0,91,n1-custom,2,12.00," Node #8",0,HDD,2,,,,12.00,,,,,,190.00,demo.google.com,Cluster-c473761
+VM-914830,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),514,0,466,0,0,48,n1-custom,2,8.00," Node #4",0,HDD,2,,,,8.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-411074,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1686,0,1182,0,0,504,n1-custom,2,32.00," Node #6",0,HDD,2,,,,32.00,,,,,,1050.00,demo.google.com,Cluster-c473761
+VM-2416912,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),741,0,693,0,0,48,n1-custom,4,8.00," Node #1",0,HDD,4,,,,8.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-410221,PoweredOn,Powered On,CentOS 4/5/6/7 (64-bit),193,132,0,0,0,61,e2-medium,1,4.00,,0,SSD,1,100,1,0,2.00,93,65,63,39,746,30.00,demo.google.com,Cluster-c473761
+VM-1912518,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),304,0,287,0,0,17,n1-custom,2,2.00," Node #9",0,HDD,1,,,,2.00,,,,,,35.00,demo.google.com,Cluster-c473761
+VM-3097587,PoweredOn,Powered Off,FreeBSD (64-bit),408,264,0,0,0,144,e2-standard-2,2,8.00,,0,HDD,2,,,,8.00,,,,,,299.00,demo.google.com,Cluster-c473761
+VM-316898,PoweredOn,Powered Off,Debian GNU/Linux 6 (64-bit),133,132,0,0,0,1,e2-medium,1,4.00,,0,HDD,1,,,,1.00,,,,,,2.00,demo.google.com,Cluster-c473761
+VM-122626,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2037,0,1864,0,0,173,n1-custom,8,32.00," Node #5",0,HDD,8,,,,32.00,,,,,,360.00,demo.google.com,Cluster-c473761
+VM-867476,PoweredOn,Powered Off,Ubuntu Linux (64-bit),224,218,0,0,0,6,e2-custom,2,4.00,,0,HDD,2,,,,4.00,,,,,,12.00,demo.google.com,Cluster-c473761
+VM-1590940,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),376,0,347,0,0,29,n1-custom,2,4.00," Node #5",0,HDD,2,14,4,2,4.00,100,57,9,52,1499,60.00,demo.google.com,Cluster-c473761
+VM-2727366,PoweredOn,Powered On,Red Hat Enterprise Linux 7 (64-bit),302,264,0,0,0,38,e2-standard-2,2,8.00,,0,HDD,2,28,3,2,8.00,98,66,0,66,1700,80.00,demo.google.com,Cluster-c473761
+VM-1818689,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),1250,0,1148,0,0,102,n1-custom,8,8.00," Node #2",0,SSD,8,40,9,4,8.00,80,541,540,52,2526,50.00,demo.google.com,Cluster-c473761
+VM-473751,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),467,0,347,0,0,120,n1-custom,2,4.00," Node #2",0,HDD,2,,,,4.00,,,,,,250.00,demo.google.com,Cluster-c862031
+VM-2876287,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),599,0,466,0,0,133,n1-custom,2,8.00," Node #11",0,SSD,2,100,41,33,8.00,86,886,877,172,1990,65.00,demo.google.com,Cluster-c473761
+VM-3213330,PoweredOn,Powered Off,Ubuntu Linux (64-bit),446,436,0,0,0,10,e2-custom,4,8.00,,0,HDD,4,,,,8.00,,,,,,20.00,demo.google.com,Cluster-c473761
+VM-2163905,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),385,0,347,0,0,38,n1-custom,2,4.00," Node #1",0,HDD,2,,,,4.00,,,,,,80.00,demo.google.com,Cluster-c344303
+VM-659384,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2151,0,1637,0,0,514,n1-custom,6,32.00," Node #7",0,HDD,6,,,,32.00,,,,,,1070.00,demo.google.com,Cluster-c473761
+VM-2957012,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1544,0,932,0,0,612,n1-custom,4,16.00," Node #4",0,HDD,4,,,,16.00,,,,,,1275.00,demo.google.com,Cluster-c344303
+VM-758114,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),361,0,347,0,0,14,n1-custom,2,4.00," Node #3",0,HDD,2,18,1,1,4.00,100,44,7,42,328,30.00,demo.google.com,Cluster-c473761
+VM-1367553,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1170,0,1148,0,0,22,n1-custom,8,8.00," Node #12",0,HDD,8,,,,8.00,,,,,,45.00,demo.google.com,Cluster-c344303
+VM-1526576,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),371,0,347,0,0,24,n1-custom,2,4.00," Node #6",0,HDD,2,,,,4.00,,,,,,50.00,demo.google.com,Cluster-c473761
+VM-2163900,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),385,0,347,0,0,38,n1-custom,2,4.00," Node #11",0,HDD,2,,,,4.00,,,,,,80.00,demo.google.com,Cluster-c862031
+VM-1721309,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),361,0,347,0,0,14,n1-custom,2,4.00," Node #4",0,HDD,2,,,,4.00,,,,,,30.00,demo.google.com,Cluster-c473761
+VM-2164268,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),731,0,693,0,0,38,n1-custom,4,8.00," Node #13",0,HDD,4,,,,8.00,,,,,,80.00,demo.google.com,Cluster-c344303
+VM-1540021,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4344,0,3178,0,0,1166,n1-custom,8,76.00," Node #6",0,HDD,8,,,,76.00,,,,,,2430.00,demo.google.com,Cluster-c862031
+VM-603018_replica,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1196,0,1148,0,0,48,n1-custom,8,8.00," Node #8",0,HDD,8,,,,8.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-2466932,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),897,0,693,0,0,204,n1-custom,4,8.00," Node #9",0,SSD,4,71,30,27,8.00,100,954,831,914,3301,100.00,demo.google.com,Cluster-c473761
+VM-2383901,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),741,0,693,0,0,48,n1-custom,4,8.00," Node #10",0,HDD,4,,,,8.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-2212446,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),2713,0,1387,0,0,1326,n1-custom,8,16.00," Node #1",0,SSD,8,100,79,68,16.00,100,7124,2958,7085,1476,650.00,demo.google.com,Cluster-c473761
+VM-1800797,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),741,0,693,0,0,48,n1-custom,4,8.00," Node #7",0,HDD,4,,,,8.00,,,,,,101.00,demo.google.com,Cluster-c473761
+VM-1831094,PoweredOn,Powered Off,FreeBSD (64-bit),205,195,0,0,0,10,e2-highcpu-2,2,2.00,,0,HDD,2,,,,2.00,,,,,,20.00,demo.google.com,Cluster-c473761
+VM-122395,Hadoop;PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),378,0,317,0,0,61,n1-custom,2,3.00," Node #5",0,SSD,1,100,22,6,3.00,100,1186,819,1053,2217,30.00,demo.google.com,Cluster-c473761
+VM-112147,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),3325,0,2259,0,0,1066,n1-custom,12,30.00," Node #9",0,HDD,12,,,,30.00,,,,,,2220.00,demo.google.com,Cluster-c473761
+VM-515886_replica,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),753,0,705,0,0,48,n1-custom,2,16.00," Node #2",0,HDD,2,,,,16.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-122689,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),304,0,287,0,0,17,n1-custom,2,2.00," Node #8",0,HDD,1,,,,2.00,,,,,,35.00,demo.google.com,Cluster-c473761
+VM-879748,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),514,0,466,0,0,48,n1-custom,2,8.00," Node #5",0,HDD,2,,,,8.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-1308622,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1170,0,1148,0,0,22,n1-custom,8,8.00," Node #6",0,HDD,8,,,,8.00,,,,,,45.00,demo.google.com,Cluster-c344303
+VM-122709,Hadoop;PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),490,0,347,0,0,143,n1-custom,2,4.00," Node #5",0,SSD,2,100,55,6,4.00,100,2151,2145,1045,2681,70.00,demo.google.com,Cluster-c473761
+VM-1881713,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2003 Standard (32-bit),500,0,347,0,0,153,n1-custom,2,4.00," Node #7",0,SSD,2,100,38,2,4.00,100,774,620,747,1226,75.01,demo.google.com,Cluster-c473761
+VM-789386,PoweredOn,Powered On,Red Hat Enterprise Linux 6 (64-bit),775,734,0,0,0,41,e2-custom,8,4.00,,0,SSD,8,16,2,0,4.00,97,1191,1176,608,643,20.00,demo.google.com,Cluster-c473761
+VM-1294222,PoweredOn,Powered Off,Other Linux (32-bit),132,132,0,0,0,0,e2-medium,1,4.00,,0,HDD,1,,,,0.13,,,,,,1.00,demo.google.com,Cluster-c473761
+VM-6066,PoweredOn,Powered Off,Other Linux (32-bit),132,132,0,0,0,0,e2-medium,1,4.00,,0,HDD,1,,,,0.13,,,,,,1.00,demo.google.com,Cluster-c473761
+VM-1780999,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),741,0,693,0,0,48,n1-custom,4,8.00," Node #3",0,HDD,4,,,,8.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-424801,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2798,0,2365,0,0,433,n1-custom,4,64.00," Node #8",0,HDD,4,,,,64.00,,,,,,902.00,demo.google.com,Cluster-c473761
+VM-1787982,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1172,0,1148,0,0,24,n1-custom,8,8.00," Node #4",0,HDD,8,,,,8.00,,,,,,50.00,demo.google.com,Cluster-c344303
+VM-1399122,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),1240,0,1148,0,0,92,n1-custom,8,8.00," Node #1",0,SSD,8,100,9,5,8.00,82,786,771,136,2316,45.00,demo.google.com,Cluster-c473761
+VM-2859253,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),706,0,466,0,0,240,n1-custom,2,8.00," Node #2",0,HDD,2,,,,8.00,,,,,,500.00,demo.google.com,Cluster-c344303
+VM-2461776,PoweredOn,Powered On,Red Hat Enterprise Linux 7 (64-bit),504,264,0,0,0,240,e2-standard-2,2,8.00,,0,HDD,2,14,1,1,8.00,97,17,0,17,1243,500.00,demo.google.com,Cluster-c473761
+VM-515885_replica,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),753,0,705,0,0,48,n1-custom,2,16.00," Node #13",0,HDD,2,,,,16.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-177781,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),5411,0,1637,0,0,3774,n1-custom,6,32.00," Node #10",0,SSD,6,100,89,81,32.00,100,1439,1431,1423,1398,1850.00,demo.google.com,Cluster-c473761
+VM-3166571,PoweredOn,Powered Off,Other Linux (32-bit),132,132,0,0,0,0,e2-medium,1,4.00,,0,HDD,1,,,,0.13,,,,,,1.00,demo.google.com,Cluster-c473761
+VM-1818686,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),1250,0,1148,0,0,102,n1-custom,8,8.00," Node #5",0,SSD,8,34,8,4,8.00,75,172,170,54,1726,50.00,demo.google.com,Cluster-c473761
+VM-475540_replica,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),376,0,347,0,0,29,n1-custom,2,4.00," Node #10",0,HDD,2,,,,4.00,,,,,,60.00,demo.google.com,Cluster-c473761
+VM-2876291,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),3270,0,3035,0,0,235,n1-custom,12,56.00," Node #7",0,SSD,12,100,72,47,56.00,100,2628,1132,2623,3374,115.00,demo.google.com,Cluster-c473761
+VM-2672134,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1447,0,932,0,0,515,n1-custom,4,16.00," Node #12",0,HDD,4,,,,16.00,,,,,,1072.00,demo.google.com,Cluster-c472963
+VM-1515093,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),610,0,466,0,0,144,n1-custom,2,8.00," Node #1",0,HDD,1,,,,8.00,,,,,,301.00,demo.google.com,Cluster-c344303
+VM-2659403,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),533,0,466,0,0,67,n1-custom,2,8.00," Node #7",0,HDD,2,83,65,51,8.00,100,122,9,117,2564,140.00,demo.google.com,Cluster-c473761
+VM-122289,Hadoop;PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),2327,0,287,0,0,2040,n1-custom,2,2.00," Node #3",0,SSD,2,100,55,55,2.00,100,3918,3904,2002,1668,1000.00,demo.google.com,Cluster-c473761
+VM-1991545,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),1218,0,932,0,0,286,n1-custom,4,16.00," Node #11",0,SSD,4,100,22,9,16.00,100,3384,3374,1183,2250,140.00,demo.google.com,Cluster-c473761
+VM-2164266,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),980,0,932,0,0,48,n1-custom,4,16.00," Node #6",0,HDD,4,,,,16.00,,,,,,100.00,demo.google.com,Cluster-c862031
+VM-2615364,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),951,0,932,0,0,19,n1-custom,4,16.00," Node #5",0,HDD,4,,,,16.00,,,,,,40.00,demo.google.com,Cluster-c473761
+VM-1454037,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),136,132,0,0,0,4,e2-medium,1,4.00,,0,HDD,1,,,,2.00,,,,,,8.00,demo.google.com,Cluster-c473761
+VM-87717,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),587,0,347,0,0,240,n1-custom,2,4.00," Node #9",0,HDD,1,,,,4.00,,,,,,500.00,demo.google.com,Cluster-c344303
+VM-2717121,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),366,0,347,0,0,19,n1-custom,2,4.00," Node #9",0,HDD,2,,,,4.00,,,,,,40.00,demo.google.com,Cluster-c473761
+VM-2850134,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),4162,1954,0,0,0,2208,e2-custom,12,80.00,,0,HDD,12,,,,80.00,,,,,,4600.00,demo.google.com,Cluster-c344303
+VM-2471963,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),3351,0,3274,0,0,77,n1-custom,12,64.00," Node #8",0,HDD,12,,,,64.00,,,,,,160.00,demo.google.com,Cluster-c473761
+VM-3154800,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),3090,0,3035,0,0,55,n1-custom,12,56.00," Node #5",0,HDD,12,,,,56.00,,,,,,115.00,demo.google.com,Cluster-c473761
+VM-182879,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),741,0,693,0,0,48,n1-custom,4,8.00," Node #10",0,HDD,4,,,,8.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-2444133,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),741,0,693,0,0,48,n1-custom,4,8.00," Node #9",0,HDD,4,,,,8.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-742648,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),395,0,347,0,0,48,n1-custom,2,4.00," Node #8",0,HDD,2,,,,4.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-274300,PoweredOn,Powered On,SUSE Linux Enterprise 11 (64-bit),53,47,0,0,0,6,f1-micro,0.2,0.60,,0,SSD,1,28,1,1,0.59,99,77,77,25,36,3.00,demo.google.com,Cluster-c473761
+VM-1647888,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1908,0,1864,0,0,44,n1-custom,8,32.00," Node #9",0,HDD,8,,,,32.00,,,,,,91.00,demo.google.com,Cluster-c344303
+VM-1545961,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),316,0,287,0,0,29,n1-custom,2,2.00," Node #13",0,HDD,1,,,,2.00,,,,,,60.00,demo.google.com,Cluster-c862031
+VM-2789983,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),844,0,693,0,0,151,n1-custom,4,8.00," Node #8",0,HDD,4,,,,8.00,,,,,,315.00,demo.google.com,Cluster-c862031
+VM-515886,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),753,0,705,0,0,48,n1-custom,2,16.00," Node #7",0,HDD,2,,,,16.00,,,,,,100.00,demo.google.com,Cluster-c862031
+VM-3113286,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1186,0,1148,0,0,38,n1-custom,8,8.00," Node #13",0,HDD,8,,,,8.00,,,,,,80.00,demo.google.com,Cluster-c473761
+VM-567855,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1196,0,1148,0,0,48,n1-custom,8,8.00," Node #12",0,HDD,8,,,,8.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-1036344,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),741,0,693,0,0,48,n1-custom,4,8.00," Node #11",0,HDD,4,,,,8.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-2631600,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1028,0,932,0,0,96,n1-custom,4,16.00," Node #10",0,HDD,4,,,,16.00,,,,,,200.00,demo.google.com,Cluster-c473761
+VM-2908762,PoweredOn,Powered Off,Other 2.6.x Linux (32-bit),212,183,0,0,0,29,e2-custom,2,1.00,,0,HDD,2,,,,1.00,,,,,,61.00,demo.google.com,Cluster-c473761
+VM-188809,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),897,0,693,0,0,204,n1-custom,4,8.00," Node #6",0,SSD,4,65,27,2,8.00,100,804,342,760,731,100.00,demo.google.com,Cluster-c473761
+VM-3008472,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),2508,0,2080,0,0,428,n1-custom,12,24.00," Node #11",0,SSD,12,100,35,26,24.00,100,2730,1412,2730,2291,210.00,demo.google.com,Cluster-c473761
+VM-841644,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4181,0,3715,0,0,466,n1-custom,8,94.00," Node #4",0,HDD,8,,,,94.00,,,,,,970.00,demo.google.com,Cluster-c473761
+VM-316849,PoweredOn,Powered Off,Debian GNU/Linux 6 (64-bit),143,132,0,0,0,11,e2-medium,1,4.00,,0,HDD,1,,,,1.00,,,,,,22.00,demo.google.com,Cluster-c473761
+VM-567856,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),765,0,693,0,0,72,n1-custom,4,8.00," Node #3",0,HDD,4,,,,8.00,,,,,,150.00,demo.google.com,Cluster-c473761
+VM-2164214,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),385,0,347,0,0,38,n1-custom,2,4.00," Node #13",0,HDD,2,,,,4.00,,,,,,80.00,demo.google.com,Cluster-c344303
+VM-2859260,PoweredOn,Powered Off,Microsoft Windows Server 2016 (64-bit),449,0,347,0,0,102,n1-custom,2,4.00," Node #12",0,SSD,2,100,18,3,4.00,100,1015,970,253,64,50.00,demo.google.com,Cluster-c344303
+VM-997256,PoweredOn,Powered Off,Other 2.6.x Linux (64-bit),233,218,0,0,0,15,e2-custom,2,4.00,,0,HDD,2,,,,4.00,,,,,,32.00,demo.google.com,Cluster-c473761
+VM-316859,PoweredOn,Powered Off,Debian GNU/Linux 6 (64-bit),133,132,0,0,0,1,e2-medium,1,4.00,,0,HDD,1,,,,1.00,,,,,,2.00,demo.google.com,Cluster-c473761
+VM-1074962,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),724,0,693,0,0,31,n1-custom,4,8.00," Node #4",0,HDD,4,,,,8.00,,,,,,65.00,demo.google.com,Cluster-c472963
+VM-2659414,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),1728,0,932,0,0,796,n1-custom,4,16.00," Node #9",0,SSD,4,100,4,4,16.00,81,2398,2385,1448,2533,390.00,demo.google.com,Cluster-c473761
+VM-1205705_replica,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),376,0,347,0,0,29,n1-custom,2,4.00," Node #2",0,HDD,2,,,,4.00,,,,,,60.00,demo.google.com,Cluster-c473761
+VM-122652,Hadoop;PoweredOn,Powered On,CentOS 4/5/6 (32-bit),57,47,0,0,0,10,f1-micro,0.2,0.60,,0,SSD,1,94,11,10,0.25,100,1809,1806,109,8733,5.00,demo.google.com,Cluster-c473761
+VM-1308494,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),3139,0,2629,0,0,510,n1-custom,10,50.00," Node #3",0,SSD,10,100,100,97,50.00,100,21624,21547,3412,6538,250.00,demo.google.com,Cluster-c473761
+VM-980498,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),524,0,466,0,0,58,n1-custom,2,8.00," Node #1",0,HDD,2,,,,8.00,,,,,,120.00,demo.google.com,Cluster-c473761
+VM-492086,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),306,0,287,0,0,19,n1-custom,2,2.00," Node #12",0,HDD,1,,,,2.00,,,,,,40.00,demo.google.com,Cluster-c473761
+VM-1223024,Hadoop;PoweredOn,Powered On,FreeBSD (64-bit),142,132,0,0,0,10,e2-medium,1,4.00,,0,HDD,2,59,20,12,2.00,90,17,6,17,5573,20.00,demo.google.com,Cluster-c473761
+VM-3266163,PoweredOn,Powered Off,Ubuntu Linux (64-bit),561,436,0,0,0,125,e2-custom,4,8.00,,0,HDD,4,,,,7.81,,,,,,260.19,demo.google.com,Cluster-c473761
+VM-122398,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1177,0,1148,0,0,29,n1-custom,8,8.00," Node #2",0,HDD,8,,,,8.00,,,,,,60.00,demo.google.com,Cluster-c472963
+VM-1912506,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),562,0,466,0,0,96,n1-custom,2,8.00," Node #11",0,HDD,2,,,,8.00,,,,,,200.00,demo.google.com,Cluster-c473761
+VM-2615239,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1124,0,932,0,0,192,n1-custom,4,16.00," Node #8",0,HDD,4,,,,16.00,,,,,,400.00,demo.google.com,Cluster-c473761
+VM-3277408,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4242,0,3058,0,0,1184,n1-custom,8,72.00," Node #2",0,HDD,8,,,,72.00,,,,,,2466.00,demo.google.com,Cluster-c473761
+VM-2834268,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),741,0,693,0,0,48,n1-custom,4,8.00," Node #12",0,HDD,4,,,,8.00,,,,,,100.00,demo.google.com,Cluster-c862031
+VM-291688,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),395,0,347,0,0,48,n1-custom,2,4.00," Node #3",0,HDD,2,,,,4.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-3300385,PoweredOn,Powered On,Linux 4.7.4Zerto+ Debian GNU/Linux 8.5 (jessie),158,132,0,0,0,26,e2-medium,1,4.00,,0,SSD,1,9,2,2,3.00,83,96,95,6,5,12.50,demo.google.com,Cluster-c473761
+VM-59849,PoweredOn,Powered Off,Other Linux (32-bit),132,132,0,0,0,0,e2-medium,1,4.00,,0,HDD,1,,,,0.13,,,,,,1.00,demo.google.com,Cluster-c473761
+VM-122663,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),549,0,347,0,0,202,n1-custom,2,4.00," Node #1",0,HDD,2,,,,4.00,,,,,,420.00,demo.google.com,Cluster-c473761
+VM-122712,Hadoop;PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),449,0,347,0,0,102,n1-custom,2,4.00," Node #6",0,SSD,2,100,17,3,4.00,100,1108,1054,701,3130,50.00,demo.google.com,Cluster-c473761
+VM-1721311,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),562,0,466,0,0,96,n1-custom,2,8.00," Node #13",0,HDD,2,,,,8.00,,,,,,200.00,demo.google.com,Cluster-c473761
+VM-383336,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),419,0,347,0,0,72,n1-custom,2,4.00," Node #11",0,HDD,2,,,,4.00,,,,,,150.00,demo.google.com,Cluster-c473761
+VM-3155028,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2930,0,2330,0,0,600,n1-custom,10,40.00," Node #5",0,HDD,10,,,,40.00,,,,,,1250.00,demo.google.com,Cluster-c473761
+VM-888680,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1714,0,1637,0,0,77,n1-custom,6,32.00," Node #12",0,HDD,6,,,,32.00,,,,,,160.00,demo.google.com,Cluster-c344303
+VM-1367551,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1170,0,1148,0,0,22,n1-custom,8,8.00," Node #8",0,HDD,8,,,,8.00,,,,,,45.00,demo.google.com,Cluster-c344303
+VM-274809,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1207,0,1159,0,0,48,n1-custom,6,16.00," Node #3",0,HDD,6,,,,16.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-1820913,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),933,0,693,0,0,240,n1-custom,4,8.00," Node #9",0,HDD,4,,,,8.00,,,,,,500.00,demo.google.com,Cluster-c473761
+VM-123049,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),639,0,466,0,0,173,n1-custom,2,8.00," Node #10",0,HDD,2,,,,8.00,,,,,,360.00,demo.google.com,Cluster-c473761
+VM-122719,Hadoop;PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),1476,0,884,0,0,592,n1-custom,2,22.00," Node #13",0,SSD,2,100,100,71,22.00,100,3796,3665,2214,1289,290.00,demo.google.com,Cluster-c473761
+VM-727872,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),3848,0,3320,0,0,528,n1-custom,4,96.00," Node #7",0,HDD,4,,,,96.00,,,,,,1100.00,demo.google.com,Cluster-c344303
+VM-2876288,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),599,0,466,0,0,133,n1-custom,2,8.00," Node #7",0,SSD,2,73,7,2,8.00,64,708,679,566,1397,65.00,demo.google.com,Cluster-c473761
+VM-414370,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),874,0,466,0,0,408,n1-custom,2,8.00," Node #5",0,SSD,2,100,31,13,8.00,100,2024,2017,751,991,200.00,demo.google.com,Cluster-c473761
+VM-2429147,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),838,0,634,0,0,204,n1-custom,4,6.00," Node #3",0,SSD,4,100,3,1,6.00,100,924,762,800,1013,100.00,demo.google.com,Cluster-c473761
+VM-1880064,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1270,0,1148,0,0,122,n1-custom,8,8.00," Node #6",0,SSD,8,48,10,6,8.00,100,923,778,918,324,60.00,demo.google.com,Cluster-c472963
+VM-216386,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),587,0,347,0,0,240,n1-custom,2,4.00," Node #4",0,HDD,2,,,,4.00,,,,,,500.00,demo.google.com,Cluster-c344303
+VM-3298827,PoweredOn,Powered Off,Other Linux (32-bit),146,132,0,0,0,14,e2-medium,1,4.00,,0,HDD,1,,,,2.00,,,,,,30.00,demo.google.com,Cluster-c473761
+VM-2859246,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1570,0,944,0,0,626,n1-custom,2,24.00," Node #5",0,HDD,2,,,,24.00,,,,,,1305.00,demo.google.com,Cluster-c344303
+VM-78395,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1936,0,1864,0,0,72,n1-custom,8,32.00," Node #8",0,HDD,8,,,,32.00,,,,,,150.00,demo.google.com,Cluster-c473761
+VM-122319,Hadoop;PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),1238,0,1126,0,0,112,n1-custom,8,7.25," Node #10",0,SSD,8,49,11,5,3.00,100,864,860,673,4691,55.00,demo.google.com,Cluster-c473761
+VM-1399120,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),1170,0,1148,0,0,22,n1-custom,8,8.00," Node #3",0,HDD,8,23,7,3,8.00,88,49,15,47,1940,45.00,demo.google.com,Cluster-c473761
+VM-1308590,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1170,0,1148,0,0,22,n1-custom,8,8.00," Node #4",0,HDD,8,,,,8.00,,,,,,45.00,demo.google.com,Cluster-c344303
+VM-848311,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),789,0,693,0,0,96,n1-custom,4,8.00," Node #1",0,HDD,4,,,,8.00,,,,,,200.00,demo.google.com,Cluster-c473761
+VM-316900,PoweredOn,Powered Off,Debian GNU/Linux 6 (64-bit),133,132,0,0,0,1,e2-medium,1,4.00,,0,HDD,1,,,,1.00,,,,,,2.00,demo.google.com,Cluster-c473761
+VM-877250,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),789,0,693,0,0,96,n1-custom,4,8.00," Node #2",0,HDD,4,,,,8.00,,,,,,201.00,demo.google.com,Cluster-c473761
+VM-29677,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2003 (32-bit),531,0,347,0,0,184,n1-custom,2,4.00," Node #12",0,SSD,2,73,7,3,4.00,94,579,554,146,1218,90.00,demo.google.com,Cluster-c473761
+VM-2880486,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2517,0,2211,0,0,306,n1-custom,10,36.00," Node #13",0,SSD,10,100,78,70,36.00,100,1970,1907,1767,2064,150.00,demo.google.com,Cluster-c473761
+VM-1255749,PoweredOn,Powered Off,Microsoft Windows Server 2008 (32-bit),563,0,347,0,0,216,n1-custom,2,4.00," Node #13",0,HDD,2,,,,4.00,,,,,,450.00,demo.google.com,Cluster-c473761
+VM-2791617,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),521,0,466,0,0,55,n1-custom,2,8.00," Node #5",0,HDD,2,,,,8.00,,,,,,115.00,demo.google.com,Cluster-c344303
+VM-869273,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),5555,0,4684,0,0,871,n1-custom,16,96.00," Node #10",0,HDD,16,,,,96.00,,,,,,1815.00,demo.google.com,Cluster-c473761
+VM-2548537,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),3380,0,3274,0,0,106,n1-custom,12,64.00," Node #12",0,HDD,12,,,,64.00,,,,,,220.00,demo.google.com,Cluster-c473761
+VM-866461,PoweredOn,Powered On,CentOS 4/5/6/7 (64-bit),156,132,0,0,0,24,e2-medium,1,4.00,,0,HDD,1,49,1,1,2.00,99,67,4,67,1130,50.00,demo.google.com,Cluster-c473761
+VM-204675,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),454,0,406,0,0,48,n1-custom,2,6.00," Node #4",0,HDD,2,,,,6.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-1454057,PoweredOn,Powered On,Red Hat Enterprise Linux 6 (64-bit),293,264,0,0,0,29,e2-standard-2,2,8.00,,0,HDD,2,8,1,1,8.00,98,15,2,15,81,60.00,demo.google.com,Cluster-c473761
+VM-606043,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),741,0,693,0,0,48,n1-custom,4,8.00," Node #7",0,HDD,4,,,,8.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-913609,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),741,0,693,0,0,48,n1-custom,4,8.00," Node #10",0,HDD,4,,,,8.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-3166012,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),3090,0,3035,0,0,55,n1-custom,12,56.00," Node #3",0,HDD,12,,,,56.00,,,,,,115.00,demo.google.com,Cluster-c473761
+VM-567854,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1435,0,1387,0,0,48,n1-custom,8,16.00," Node #4",0,HDD,8,,,,16.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-3298980,PoweredOn,Powered On,Other Linux (32-bit),193,132,0,0,0,61,e2-medium,1,4.00,,0,SSD,1,31,1,1,2.00,36,893,867,26,4696,30.00,demo.google.com,Cluster-c473761
+VM-3300550,PoweredOn,Powered On,Linux 4.7.4Zerto+ Debian GNU/Linux 8.5 (jessie),158,132,0,0,0,26,e2-medium,1,4.00,,0,SSD,1,20,3,2,3.00,81,279,274,6,10,12.50,demo.google.com,Cluster-c473761
+VM-2955565,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),371,0,347,0,0,24,n1-custom,2,4.00," Node #8",0,HDD,2,,,,4.00,,,,,,50.00,demo.google.com,Cluster-c473761
+VM-2872248,PoweredOn,Powered On,Other 3.x or later Linux (64-bit),1187,677,0,0,0,510,e2-custom,6,14.00,,0,SSD,6,41,26,21,14.00,100,998,869,477,6552,250.00,demo.google.com,Cluster-c473761
+VM-1261690,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),314,218,0,0,0,96,e2-custom,2,4.00,,0,HDD,2,,,,4.00,,,,,,200.00,demo.google.com,Cluster-c862031
+VM-1962736,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2228,0,2103,0,0,125,n1-custom,8,40.00," Node #7",0,HDD,8,,,,40.00,,,,,,260.00,demo.google.com,Cluster-c473761
+VM-1485235,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2199,0,2103,0,0,96,n1-custom,8,40.00," Node #10",0,HDD,8,,,,40.00,,,,,,200.00,demo.google.com,Cluster-c472963
+VM-1432840,PoweredOn,Powered Off,Debian GNU/Linux 6 (64-bit),133,132,0,0,0,1,e2-medium,1,4.00,,0,HDD,1,,,,0.25,,,,,,2.00,demo.google.com,Cluster-c473761
+VM-113501,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),550,0,466,0,0,84,n1-custom,2,8.00," Node #9",0,HDD,2,,,,8.00,,,,,,175.00,demo.google.com,Cluster-c862031
+VM-62797,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1435,0,1387,0,0,48,n1-custom,8,16.00," Node #1",0,HDD,8,,,,16.00,,,,,,101.00,demo.google.com,Cluster-c473761
+VM-71265,PoweredOn;win2008on;windows_power_on,Powered On,Microsoft Windows Server 2008 (32-bit),3677,0,1637,0,0,2040,n1-custom,6,32.00," Node #3",0,SSD,6,100,100,95,32.00,100,8696,8654,1440,5713,1000.00,demo.google.com,Cluster-c473761
+VM-64060,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),789,0,693,0,0,96,n1-custom,4,8.00," Node #8",0,HDD,4,,,,8.00,,,,,,200.00,demo.google.com,Cluster-c473761
+VM-62887,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1174,0,1126,0,0,48,n1-custom,8,7.25," Node #9",0,HDD,8,,,,4.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-3165806,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2408,0,2353,0,0,55,n1-custom,6,56.00," Node #1",0,HDD,6,,,,56.00,,,,,,115.00,demo.google.com,Cluster-c473761
+VM-454902,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),741,0,693,0,0,48,n1-custom,4,8.00," Node #13",0,HDD,4,,,,8.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-122356,Hadoop;PoweredOn;win2008on;windows_power_on,Powered On,Microsoft Windows Server 2008 (32-bit),338,0,287,0,0,51,n1-custom,2,2.00," Node #4",0,SSD,1,100,67,19,1.00,100,624,510,305,1067,25.00,demo.google.com,Cluster-c473761
+VM-125425,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),837,0,693,0,0,144,n1-custom,4,8.00," Node #12",0,HDD,4,,,,8.00,,,,,,300.00,demo.google.com,Cluster-c473761
+VM-3270565,PoweredOn,Powered On,Linux 3.10.0-957.el7.x86_64 CentOS Linux release 7.8.2003 (Core),234,132,0,0,0,102,e2-medium,1,4.00,,0,SSD,2,89,8,5,4.00,100,383,156,367,10254,50.00,demo.google.com,Cluster-c473761
+VM-122694,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),467,0,347,0,0,120,n1-custom,2,4.00," Node #9",0,HDD,2,,,,4.00,,,,,,250.00,demo.google.com,Cluster-c473761
+VM-1821086,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),813,0,693,0,0,120,n1-custom,4,8.00," Node #11",0,HDD,4,,,,8.00,,,,,,250.00,demo.google.com,Cluster-c473761
+VM-3296509,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),1011,0,705,0,0,306,n1-custom,2,16.00," Node #11",0,SSD,2,100,61,11,16.00,100,1310,1310,918,1033,150.00,demo.google.com,Cluster-c473761
+VM-2752210,PoweredOn,Powered On,Ubuntu Linux (64-bit),141,132,0,0,0,9,e2-medium,1,4.00,,0,HDD,2,5,1,1,4.00,78,12,0,12,2913,19.53,demo.google.com,Cluster-c473761
+VM-1131228,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),142,132,0,0,0,10,e2-medium,1,4.00,,0,HDD,1,,,,2.00,,,,,,20.00,demo.google.com,Cluster-c473761
+VM-167582,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2930,0,2330,0,0,600,n1-custom,10,40.00," Node #11",0,HDD,10,,,,40.00,,,,,,1250.00,demo.google.com,Cluster-c472963
+VM-616420,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),408,0,347,0,0,61,n1-custom,2,4.00," Node #10",0,SSD,2,100,3,2,4.00,100,1376,1374,427,5112,30.00,demo.google.com,Cluster-c473761
+VM-414301,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),753,0,705,0,0,48,n1-custom,2,16.00," Node #12",0,HDD,2,,,,16.00,,,,,,100.00,demo.google.com,Cluster-c862031
+VM-46779,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),938,746,0,0,0,192,e2-custom,6,20.00,,0,HDD,6,,,,20.00,,,,,,400.00,demo.google.com,Cluster-c473761
+VM-27839,PoweredOn,Powered Off,Other Linux (32-bit),132,132,0,0,0,0,e2-medium,1,4.00,,0,HDD,1,,,,0.13,,,,,,1.00,demo.google.com,Cluster-c473761
+VM-931949,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),900,0,693,0,0,207,n1-custom,4,8.00," Node #6",0,HDD,4,,,,8.00,,,,,,432.00,demo.google.com,Cluster-c473761
+VM-113466,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1483,0,1387,0,0,96,n1-custom,8,16.00," Node #13",0,HDD,8,,,,16.00,,,,,,200.00,demo.google.com,Cluster-c344303
+VM-3297133,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),1317,0,705,0,0,612,n1-custom,2,16.00," Node #2",0,SSD,2,100,100,64,16.00,100,1913,1911,1300,3073,300.00,demo.google.com,Cluster-c473761
+VM-1455663,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2199,0,2103,0,0,96,n1-custom,8,40.00," Node #1",0,HDD,8,,,,40.00,,,,,,200.00,demo.google.com,Cluster-c473761
+VM-2163908,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),731,0,693,0,0,38,n1-custom,4,8.00," Node #3",0,HDD,4,,,,8.00,,,,,,80.00,demo.google.com,Cluster-c862031
+VM-2843498,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),789,0,693,0,0,96,n1-custom,4,8.00," Node #4",0,HDD,4,,,,8.00,,,,,,200.00,demo.google.com,Cluster-c472963
+VM-2010963,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1327,0,1159,0,0,168,n1-custom,6,16.00," Node #6",0,HDD,6,,,,16.00,,,,,,350.00,demo.google.com,Cluster-c473761
+VM-1545961_replica,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),316,0,287,0,0,29,n1-custom,2,2.00," Node #4",0,HDD,1,,,,2.00,,,,,,60.00,demo.google.com,Cluster-c473761
+VM-2704876,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),361,0,347,0,0,14,n1-custom,2,4.00," Node #7",0,HDD,2,,,,4.00,,,,,,30.00,demo.google.com,Cluster-c473761
+VM-2908607,PoweredOn,Powered On,Linux 4.19.52 Other Linux 4.x or later kernel,388,264,0,0,0,124,e2-standard-2,2,8.00,,0,SSD,2,100,53,19,8.00,56,187,173,49,5169,61.00,demo.google.com,Cluster-c473761
+VM-3166089,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),3270,0,3035,0,0,235,n1-custom,12,56.00," Node #11",0,SSD,12,100,100,53,56.00,100,2446,1380,1981,1011,115.00,demo.google.com,Cluster-c473761
+VM-2753857,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),731,0,693,0,0,38,n1-custom,4,8.00," Node #1",0,HDD,4,,,,8.00,,,,,,80.00,demo.google.com,Cluster-c862031
+VM-1641542,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),668,0,634,0,0,34,n1-custom,4,6.00," Node #2",0,HDD,4,,,,6.00,,,,,,70.00,demo.google.com,Cluster-c473761
+VM-186812,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),821,0,753,0,0,68,n1-custom,4,10.00," Node #10",0,HDD,3,,,,10.00,,,,,,141.00,demo.google.com,Cluster-c473761
+VM-9209,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),538,0,466,0,0,72,n1-custom,2,8.00," Node #2",0,HDD,2,,,,8.00,,,,,,150.00,demo.google.com,Cluster-c473761
+VM-2998491,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),361,0,347,0,0,14,n1-custom,2,4.00," Node #5",0,HDD,2,12,1,1,4.00,54,51,8,44,502,30.00,demo.google.com,Cluster-c473761
+VM-1084859_replica,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2003,0,1864,0,0,139,n1-custom,8,32.00," Node #4",0,HDD,8,,,,32.00,,,,,,290.00,demo.google.com,Cluster-c344303
+VM-92543,PoweredOn,Powered Off,Ubuntu Linux (64-bit),520,436,0,0,0,84,e2-custom,4,8.00,,0,HDD,4,,,,8.00,,,,,,175.00,demo.google.com,Cluster-c472963
+VM-1906064,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1095,0,1052,0,0,43,n1-custom,4,20.00," Node #8",0,HDD,4,,,,20.00,,,,,,90.00,demo.google.com,Cluster-c473761
+VM-414312,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),371,0,347,0,0,24,n1-custom,2,4.00," Node #2",0,HDD,2,,,,4.00,,,,,,50.00,demo.google.com,Cluster-c862031
+VM-183410,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),897,0,753,0,0,144,n1-custom,4,10.00," Node #7",0,HDD,4,,,,10.00,,,,,,300.00,demo.google.com,Cluster-c473761
+VM-62803,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),1342,0,932,0,0,410,n1-custom,4,16.00," Node #8",0,SSD,4,62,32,4,16.00,100,570,29,570,2946,201.00,demo.google.com,Cluster-c473761
+VM-274816,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1207,0,1159,0,0,48,n1-custom,6,16.00," Node #9",0,HDD,6,,,,16.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-113678,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1374,0,1182,0,0,192,n1-custom,2,32.00," Node #11",0,HDD,2,,,,32.00,,,,,,400.00,demo.google.com,Cluster-c344303
+VM-160780,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1196,0,1148,0,0,48,n1-custom,8,8.00," Node #11",0,HDD,8,,,,8.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-113488,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),928,0,287,0,0,641,n1-custom,2,2.00," Node #6",0,HDD,2,,,,2.00,,,,,,1335.00,demo.google.com,Cluster-c472963
+VM-788297,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2223,0,2103,0,0,120,n1-custom,8,40.00," Node #8",0,HDD,8,,,,40.00,,,,,,251.00,demo.google.com,Cluster-c473761
+VM-728342,PoweredOn,Powered Off,FreeBSD (64-bit),205,195,0,0,0,10,e2-highcpu-2,2,2.00,,0,HDD,2,,,,2.00,,,,,,20.00,demo.google.com,Cluster-c473761
+VM-2186371,PoweredOn,Powered On,Red Hat Enterprise Linux 7 (64-bit),669,621,0,0,0,48,e2-custom,4,24.00,,0,HDD,4,1,0,0,24.00,8,15,0,15,41,100.00,demo.google.com,Cluster-c473761
+VM-783970,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),970,0,634,0,0,336,n1-custom,4,6.00," Node #1",0,HDD,4,,,,6.00,,,,,,700.00,demo.google.com,Cluster-c473761
+VM-1991540,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),1218,0,932,0,0,286,n1-custom,4,16.00," Node #10",0,SSD,4,100,18,8,16.00,100,2476,2472,1478,22958,140.00,demo.google.com,Cluster-c473761
+VM-29655,PoweredOn,Powered Off,Other Linux (32-bit),132,132,0,0,0,0,e2-medium,1,4.00,,0,HDD,1,,,,0.13,,,,,,1.00,demo.google.com,Cluster-c473761
+VM-123079,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),1646,0,932,0,0,714,n1-custom,4,16.00," Node #7",0,SSD,4,100,32,13,16.00,100,9763,9753,901,1099,350.00,demo.google.com,Cluster-c473761
+VM-175067,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1303,0,1111,0,0,192,n1-custom,4,22.00," Node #6",0,HDD,4,,,,22.00,,,,,,400.00,demo.google.com,Cluster-c472963
+VM-122387,Hadoop;PoweredOn;win2008on;windows_power_on,Powered On,Microsoft Windows Server 2008 (32-bit),571,0,347,0,0,224,n1-custom,2,4.00," Node #8",0,SSD,1,100,81,16,4.00,94,1551,1536,787,1035,110.00,demo.google.com,Cluster-c473761
+VM-1428099,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2259,0,2211,0,0,48,n1-custom,10,36.00," Node #2",0,HDD,10,,,,36.00,,,,,,100.00,demo.google.com,Cluster-c472963
+VM-113685,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),991,0,693,0,0,298,n1-custom,4,8.00," Node #12",0,HDD,4,,,,8.00,,,,,,620.00,demo.google.com,Cluster-c344303
+VM-3300832,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),449,0,347,0,0,102,n1-custom,2,4.00," Node #1",0,SSD,2,76,22,2,4.00,100,1668,1542,126,32,50.00,demo.google.com,Cluster-c473761
+VM-1495798,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),1136,0,932,0,0,204,n1-custom,4,16.00," Node #5",0,SSD,4,85,30,29,16.00,100,1360,609,1360,1427,100.00,demo.google.com,Cluster-c473761
+VM-1912517,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),304,0,287,0,0,17,n1-custom,2,2.00," Node #1",0,HDD,1,,,,2.00,,,,,,35.00,demo.google.com,Cluster-c473761
+VM-128769,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),419,0,317,0,0,102,n1-custom,2,3.00," Node #7",0,SSD,1,100,25,3,3.00,100,2252,1465,1337,367,50.00,demo.google.com,Cluster-c473761
+VM-3231989,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),132,132,0,0,0,0,e2-medium,1,4.00,,0,HDD,1,,,,2.00,,,,,,0.10,demo.google.com,Cluster-c473761
+VM-702,PoweredOn,Powered On,Other Linux (32-bit),161,132,0,0,0,29,e2-medium,1,4.00,,0,HDD,1,15,1,0,2.00,99,10,3,10,566,60.00,demo.google.com,Cluster-c473761
+VM-1367533,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1148,0,1126,0,0,22,n1-custom,8,7.25," Node #8",0,HDD,8,,,,4.00,,,,,,45.00,demo.google.com,Cluster-c344303
+VM-3300384,PoweredOn,Powered On,Linux 4.7.4Zerto+ Debian GNU/Linux 8.5 (jessie),158,132,0,0,0,26,e2-medium,1,4.00,,0,SSD,1,92,32,7,3.00,84,2722,2721,7,147,12.50,demo.google.com,Cluster-c473761
+VM-427185,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),980,0,932,0,0,48,n1-custom,4,16.00," Node #3",0,HDD,4,,,,16.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-567857,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),789,0,693,0,0,96,n1-custom,4,8.00," Node #13",0,HDD,4,,,,8.00,,,,,,200.00,demo.google.com,Cluster-c473761
+VM-3111845,PoweredOn,Powered On,"Linux 4.9.194 NAME=Buildroot
+VERSION=2019.02.6
+ID=buildroot
+VERSION_ID=2019.02.6
+PRETTY_NAME=""Buildroot 2019.02.6""
+APPLIANCE_VERSION=""v2.4.0""",270,264,0,0,0,6,e2-standard-2,2,8.00,,0,HDD,2,100,47,8,8.00,100,18,0,18,5637,12.00,demo.google.com,Cluster-c473761
+VM-1962747,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1726,0,1649,0,0,77,n1-custom,4,40.00," Node #12",0,HDD,4,,,,40.00,,,,,,160.00,demo.google.com,Cluster-c473761
+VM-27841,PoweredOn,Powered Off,Other Linux (32-bit),47,47,0,0,0,0,f1-micro,0.2,0.60,,0,HDD,1,100,1,1,0.13,100,0,0,0,0,1.00,demo.google.com,Cluster-c473761
+VM-3008490,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),1228,0,1126,0,0,102,n1-custom,8,7.25," Node #13",0,SSD,8,23,1,1,4.00,100,253,138,252,1216,50.00,demo.google.com,Cluster-c473761
+VM-2716982,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),366,0,347,0,0,19,n1-custom,2,4.00," Node #3",0,HDD,2,,,,4.00,,,,,,40.00,demo.google.com,Cluster-c473761
+VM-1493143,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1172,0,932,0,0,240,n1-custom,4,16.00," Node #4",0,HDD,4,,,,16.00,,,,,,499.87,demo.google.com,Cluster-c344303
+VM-1820994,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1028,0,932,0,0,96,n1-custom,4,16.00," Node #1",0,HDD,4,,,,16.00,,,,,,200.00,demo.google.com,Cluster-c473761
+VM-446044_replica,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),316,0,287,0,0,29,n1-custom,2,2.00," Node #3",0,HDD,1,,,,2.00,,,,,,60.00,demo.google.com,Cluster-c473761
+VM-122619,Hadoop;PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),389,0,287,0,0,102,n1-custom,2,2.00," Node #5",0,SSD,1,100,100,5,2.00,100,1335,1332,1154,14815,50.00,demo.google.com,Cluster-c473761
+VM-515887,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),395,0,347,0,0,48,n1-custom,2,4.00," Node #6",0,HDD,2,,,,4.00,,,,,,100.00,demo.google.com,Cluster-c862031
+VM-140368,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1256,0,1208,0,0,48,n1-custom,8,10.00," Node #5",0,HDD,8,,,,10.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-1827613,PoweredOn,Powered Off,Other Linux (64-bit),928,436,0,0,0,492,e2-custom,4,8.00,,0,HDD,4,,,,8.00,,,,,,1024.00,demo.google.com,Cluster-c473761
+VM-427174,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),980,0,932,0,0,48,n1-custom,4,16.00," Node #2",0,HDD,4,,,,16.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-3154846,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),3090,0,3035,0,0,55,n1-custom,12,56.00," Node #2",0,HDD,12,,,,56.00,,,,,,115.00,demo.google.com,Cluster-c473761
+VM-3077900,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),480,0,466,0,0,14,n1-custom,2,8.00," Node #8",0,HDD,2,,,,8.00,,,,,,30.00,demo.google.com,Cluster-c473761
+VM-2727376,PoweredOn,Powered On,Red Hat Enterprise Linux 7 (64-bit),302,264,0,0,0,38,e2-standard-2,2,8.00,,0,HDD,2,48,5,3,8.00,98,62,0,62,5489,80.00,demo.google.com,Cluster-c473761
+VM-2659415,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),1728,0,932,0,0,796,n1-custom,4,16.00," Node #13",0,SSD,4,79,37,30,16.00,99,762,102,759,1688,390.00,demo.google.com,Cluster-c473761
+VM-2011107,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1684,0,1626,0,0,58,n1-custom,8,24.00," Node #7",0,HDD,8,,,,24.00,,,,,,120.00,demo.google.com,Cluster-c473761
+VM-122380,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),791,0,585,0,0,206,n1-custom,2,12.00," Node #3",0,HDD,2,,,,12.00,,,,,,430.00,demo.google.com,Cluster-c473761
+VM-3285700,PoweredOn,Powered Off,Microsoft Windows Server 2003 (64-bit),2801,0,1864,0,0,937,n1-custom,8,32.00," Node #1",0,HDD,8,,,,31.99,,,,,,1952.11,demo.google.com,Cluster-c473761
+VM-167581,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1004,0,884,0,0,120,n1-custom,2,22.00," Node #9",0,HDD,2,,,,22.00,,,,,,250.00,demo.google.com,Cluster-c472963
+VM-1106428,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),408,264,0,0,0,144,e2-standard-2,2,8.00,,0,HDD,1,,,,8.00,,,,,,300.00,demo.google.com,Cluster-c473761
+VM-1746558,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),741,0,693,0,0,48,n1-custom,4,8.00," Node #9",0,HDD,4,,,,8.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-122750,Hadoop;PoweredOn,Powered Off,Red Hat Enterprise Linux 5 (64-bit),132,132,0,0,0,0,e2-medium,1,4.00,,0,HDD,1,,,,1.00,,,,,,0.10,demo.google.com,Cluster-c473761
+VM-1630754,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),495,0,466,0,0,29,n1-custom,2,8.00," Node #10",0,HDD,2,,,,8.00,,,,,,60.00,demo.google.com,Cluster-c473761
+VM-169416,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),879,0,634,0,0,245,n1-custom,4,6.00," Node #6",0,SSD,3,100,41,10,6.00,100,2550,2526,968,2633,120.00,demo.google.com,Cluster-c473761
+VM-2444291,PoweredOn,Powered On,Red Hat Enterprise Linux 7 (64-bit),576,528,0,0,0,48,e2-standard-4,4,16.00,,0,HDD,4,4,1,0,16.00,60,18,0,18,434,100.00,demo.google.com,Cluster-c473761
+VM-29638,PoweredOn;win2008on;windows_power_on,Powered On,Microsoft Windows Server 2008 (32-bit),449,0,347,0,0,102,n1-custom,2,4.00," Node #11",0,SSD,2,100,56,34,4.00,100,3317,2397,1690,4176,50.00,demo.google.com,Cluster-c473761
+VM-879746,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),371,0,347,0,0,24,n1-custom,2,4.00," Node #4",0,HDD,2,,,,4.00,,,,,,50.00,demo.google.com,Cluster-c473761
+VM-316862,PoweredOn,Powered Off,Debian GNU/Linux 6 (64-bit),133,132,0,0,0,1,e2-medium,1,4.00,,0,HDD,1,,,,1.00,,,,,,2.00,demo.google.com,Cluster-c473761
+VM-428148,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),772,0,466,0,0,306,n1-custom,2,8.00," Node #7",0,SSD,2,100,13,2,8.00,100,598,595,83,1107,150.00,demo.google.com,Cluster-c473761
+VM-1399121,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),1240,0,1148,0,0,92,n1-custom,8,8.00," Node #5",0,SSD,8,35,7,4,8.00,100,105,103,46,3708,45.00,demo.google.com,Cluster-c473761
+VM-86491,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2003 Standard (32-bit),369,0,287,0,0,82,n1-custom,2,2.00," Node #11",0,SSD,2,100,69,50,2.00,100,6263,5057,2039,2293,40.00,demo.google.com,Cluster-c473761
+VM-3300830,PoweredOn,Powered On,Red Hat Enterprise Linux 5 (32-bit),114,73,0,0,0,41,e2-micro,0.25,1.00,,0,SSD,2,16,14,7,1.00,41,157,148,63,21,20.00,demo.google.com,Cluster-c473761
+VM-122302,Hadoop;PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),1095,0,932,0,0,163,n1-custom,4,16.00," Node #12",0,SSD,4,100,6,2,16.00,100,2973,2972,1085,3644,80.00,demo.google.com,Cluster-c473761
+VM-2644048,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),2075,0,1626,0,0,449,n1-custom,8,24.00," Node #10",0,SSD,8,77,20,13,24.00,100,2656,1240,2115,1650,220.00,demo.google.com,Cluster-c473761
+VM-3298913,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),696,0,574,0,0,122,n1-custom,4,4.00," Node #5",0,SSD,4,75,32,4,4.00,100,1717,1653,752,1067,60.00,demo.google.com,Cluster-c473761
+VM-122742,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),460,0,287,0,0,173,n1-custom,2,2.00," Node #6",0,HDD,1,,,,2.00,,,,,,360.00,demo.google.com,Cluster-c473761
+VM-2876289,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),8833,0,1387,0,0,7446,n1-custom,8,16.00," Node #11",0,SSD,8,65,18,12,16.00,100,7846,3676,4740,3253,3650.00,demo.google.com,Cluster-c473761
+VM-2631243,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),3351,0,3274,0,0,77,n1-custom,12,64.00," Node #9",0,HDD,12,,,,64.00,,,,,,160.00,demo.google.com,Cluster-c473761
+VM-1322837,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),419,0,347,0,0,72,n1-custom,2,4.00," Node #7",0,HDD,2,,,,4.00,,,,,,150.00,demo.google.com,Cluster-c473761
+VM-3169289,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),497,0,466,0,0,31,n1-custom,2,8.00," Node #6",0,HDD,2,,,,8.00,,,,,,65.00,demo.google.com,Cluster-c473761
+VM-718580,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),837,0,693,0,0,144,n1-custom,4,8.00," Node #3",0,HDD,4,,,,8.00,,,,,,301.00,demo.google.com,Cluster-c473761
+VM-3300577,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1425,0,813,0,0,612,n1-custom,4,12.00," Node #4",0,SSD,4,37,30,26,12.00,87,602,590,148,38,300.00,demo.google.com,Cluster-c473761
+VM-123054,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1450,0,466,0,0,984,n1-custom,2,8.00," Node #4",0,HDD,2,,,,8.00,,,,,,2050.00,demo.google.com,Cluster-c473761
+VM-34462,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),751,0,693,0,0,58,n1-custom,4,8.00," Node #1",0,HDD,4,,,,8.00,,,,,,120.00,demo.google.com,Cluster-c473761
+VM-414376,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),874,0,466,0,0,408,n1-custom,2,8.00," Node #2",0,SSD,2,100,22,10,8.00,100,932,924,472,2495,200.00,demo.google.com,Cluster-c473761
+VM-2874035,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1172,0,932,0,0,240,n1-custom,4,16.00," Node #6",0,HDD,4,,,,16.00,,,,,,500.00,demo.google.com,Cluster-c473761
+VM-122336,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),627,0,574,0,0,53,n1-custom,4,4.00," Node #10",0,HDD,4,,,,4.00,,,,,,110.00,demo.google.com,Cluster-c473761
+VM-433973,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),741,0,693,0,0,48,n1-custom,4,8.00," Node #5",0,HDD,4,,,,8.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-2950524,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),1034,0,932,0,0,102,n1-custom,4,16.00," Node #5",0,SSD,4,100,39,33,16.00,100,342,334,92,1178,50.00,demo.google.com,Cluster-c473761
+VM-3231883,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),497,0,466,0,0,31,n1-custom,2,8.00," Node #7",0,HDD,2,,,,8.00,,,,,,65.00,demo.google.com,Cluster-c473761
+VM-3279807,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),4162,1954,0,0,0,2208,e2-custom,12,80.00,,0,HDD,12,,,,80.00,,,,,,4600.00,demo.google.com,Cluster-c473761
+VM-113491,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2875,0,1872,0,0,1003,n1-custom,8,32.25," Node #6",0,HDD,8,,,,32.00,,,,,,2090.00,demo.google.com,Cluster-c472963
+VM-473751_replica,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),467,0,347,0,0,120,n1-custom,2,4.00," Node #9",0,HDD,2,,,,4.00,,,,,,250.00,demo.google.com,Cluster-c473761
+VM-122634,Hadoop;PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),389,0,287,0,0,102,n1-custom,2,2.00," Node #7",0,SSD,1,100,5,3,2.00,100,782,537,776,1379,50.00,demo.google.com,Cluster-c473761
+VM-122754,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 (32-bit),297,0,287,0,0,10,n1-custom,2,2.00," Node #12",0,HDD,1,,,,2.00,,,,,,20.00,demo.google.com,Cluster-c473761
+VM-875839,PoweredOn,Powered Off,FreeBSD (64-bit),228,218,0,0,0,10,e2-custom,2,4.00,,0,HDD,2,,,,4.00,,,,,,20.00,demo.google.com,Cluster-c473761
+VM-2716965,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),366,0,347,0,0,19,n1-custom,2,4.00," Node #8",0,HDD,2,,,,4.00,,,,,,40.00,demo.google.com,Cluster-c473761
+VM-848312,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),765,0,693,0,0,72,n1-custom,4,8.00," Node #10",0,HDD,4,,,,8.00,,,,,,151.00,demo.google.com,Cluster-c473761
+VM-2717129,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),3880,0,3729,0,0,151,n1-custom,16,64.00," Node #13",0,HDD,16,,,,64.00,,,,,,314.00,demo.google.com,Cluster-c473761
+VM-3028160,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1071,0,932,0,0,139,n1-custom,4,16.00," Node #7",0,HDD,4,,,,16.00,,,,,,290.00,demo.google.com,Cluster-c862031
+VM-1295378,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),739,0,585,0,0,154,n1-custom,2,12.00," Node #11",0,HDD,2,,,,12.00,,,,,,320.00,demo.google.com,Cluster-c344303
+VM-2600282,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1066,0,932,0,0,134,n1-custom,4,16.00," Node #10",0,HDD,4,,,,16.00,,,,,,280.00,demo.google.com,Cluster-c473761
+VM-2859262,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1148,0,1126,0,0,22,n1-custom,8,7.25," Node #12",0,HDD,8,,,,4.00,,,,,,45.00,demo.google.com,Cluster-c344303
+VM-2444049,PoweredOn,Powered Off,Red Hat Enterprise Linux 7 (64-bit),180,132,0,0,0,48,e2-medium,1,4.00,,0,HDD,1,,,,1.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-1454305,PoweredOn,Powered On,Red Hat Enterprise Linux 6 (64-bit),386,264,0,0,0,122,e2-standard-2,2,8.00,,0,SSD,2,70,1,1,8.00,94,272,262,16,65,60.00,demo.google.com,Cluster-c473761
+VM-122353,Hadoop;PoweredOn,Powered On,Other Linux (64-bit),254,132,0,0,0,122,e2-medium,1,4.00,,0,SSD,2,62,2,1,4.00,61,692,663,63,3026,60.00,demo.google.com,Cluster-c473761
+VM-2957014,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2048,0,932,0,0,1116,n1-custom,4,16.00," Node #9",0,HDD,4,,,,16.00,,,,,,2326.00,demo.google.com,Cluster-c344303
+VM-448619,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),419,0,347,0,0,72,n1-custom,2,4.00," Node #13",0,HDD,2,,,,4.00,,,,,,150.00,demo.google.com,Cluster-c473761
+VM-641263,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),2595,0,1063,0,0,1532,n1-custom,2,28.00," Node #7",0,SSD,2,100,88,69,28.00,100,3561,3560,3207,3732,751.00,demo.google.com,Cluster-c473761
+VM-2859238_replica,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1481,0,1063,0,0,418,n1-custom,2,28.00," Node #5",0,HDD,2,,,,28.00,,,,,,870.00,demo.google.com,Cluster-c472963
+VM-2962951,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),837,0,693,0,0,144,n1-custom,4,8.00," Node #9",0,HDD,4,,,,8.00,,,,,,300.00,demo.google.com,Cluster-c473761
+VM-3226386,PoweredOn,Powered Off,Microsoft Windows Server 2016 (64-bit),1379,0,693,0,0,686,n1-custom,4,8.00," Node #8",0,HDD,4,,,,8.00,,,,,,1430.00,demo.google.com,Cluster-c473761
+VM-15196,PoweredOn,Powered Off,Other Linux (32-bit),132,132,0,0,0,0,e2-medium,1,4.00,,0,HDD,1,,,,0.13,,,,,,1.00,demo.google.com,Cluster-c473761
+VM-1962761,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1726,0,1649,0,0,77,n1-custom,4,40.00," Node #9",0,HDD,4,,,,40.00,,,,,,160.00,demo.google.com,Cluster-c473761
+VM-163498,PoweredOn,Powered Off,Microsoft Windows Server 2008 (32-bit),827,0,347,0,0,480,n1-custom,2,4.00," Node #12",0,HDD,2,,,,4.00,,,,,,1001.00,demo.google.com,Cluster-c473761
+VM-1294234,PoweredOn,Powered Off,Other Linux (32-bit),132,132,0,0,0,0,e2-medium,1,4.00,,0,HDD,1,,,,0.13,,,,,,1.00,demo.google.com,Cluster-c473761
+VM-3166030,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),3270,0,3035,0,0,235,n1-custom,12,56.00," Node #13",0,SSD,12,100,59,41,56.00,100,1794,1145,1787,3956,115.00,demo.google.com,Cluster-c473761
+VM-1764255,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),741,0,693,0,0,48,n1-custom,4,8.00," Node #13",0,HDD,4,,,,8.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-2605107,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),385,0,347,0,0,38,n1-custom,2,4.00," Node #2",0,HDD,2,,,,4.00,,,,,,80.00,demo.google.com,Cluster-c862031
+VM-892325,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1714,0,1637,0,0,77,n1-custom,6,32.00," Node #13",0,HDD,6,,,,32.00,,,,,,160.00,demo.google.com,Cluster-c344303
+VM-2784331,PoweredOn,Powered On,Linux 3.10.0-957.el7.x86_64 CentOS Linux release 7.6.1810 (Core) ,180,132,0,0,0,48,e2-medium,1,4.00,,0,HDD,1,7,2,1,2.00,92,10,3,10,189,100.00,demo.google.com,Cluster-c473761
+VM-122371,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1212,0,1159,0,0,53,n1-custom,6,16.00," Node #8",0,HDD,6,,,,16.00,,,,,,110.00,demo.google.com,Cluster-c473761
+VM-775036,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),722,0,693,0,0,29,n1-custom,4,8.00," Node #12",0,HDD,4,,,,8.00,,,,,,60.00,demo.google.com,Cluster-c862031
+VM-1851743,PoweredOn,Powered Off,Other Linux (64-bit),928,436,0,0,0,492,e2-custom,4,8.00,,0,HDD,4,,,,8.00,,,,,,1024.00,demo.google.com,Cluster-c862031
+VM-122718,Hadoop;PoweredOn;win2008on;windows_power_on,Powered On,Microsoft Windows Server 2008 (32-bit),1460,0,1052,0,0,408,n1-custom,4,20.00," Node #3",0,SSD,4,100,24,14,20.00,100,1692,1686,856,1058,200.00,demo.google.com,Cluster-c473761
+VM-1294232,PoweredOn,Powered Off,Other Linux (32-bit),132,132,0,0,0,0,e2-medium,1,4.00,,0,HDD,1,,,,0.13,,,,,,1.00,demo.google.com,Cluster-c473761
+VM-1991550,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),1218,0,932,0,0,286,n1-custom,4,16.00," Node #3",0,SSD,4,74,17,6,16.00,100,1972,1968,1388,2077,140.00,demo.google.com,Cluster-c473761
+VM-3178933,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2218,0,466,0,0,1752,n1-custom,2,8.00," Node #11",0,HDD,2,,,,8.00,,,,,,3650.00,demo.google.com,Cluster-c473761
+VM-1454307,PoweredOn,Powered On,Red Hat Enterprise Linux 6 (64-bit),293,264,0,0,0,29,e2-standard-2,2,8.00,,0,HDD,2,9,0,0,8.00,23,8,0,8,73,60.00,demo.google.com,Cluster-c473761
+VM-427172,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),385,0,347,0,0,38,n1-custom,2,4.00," Node #3",0,HDD,2,,,,4.00,,,,,,80.00,demo.google.com,Cluster-c473761
+VM-1200373,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),361,0,347,0,0,14,n1-custom,2,4.00," Node #1",0,HDD,2,,,,4.00,,,,,,30.00,demo.google.com,Cluster-c473761
+VM-1991627,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),1401,0,932,0,0,469,n1-custom,4,16.00," Node #4",0,SSD,4,100,43,29,16.00,100,4261,4228,1280,2208,230.00,demo.google.com,Cluster-c473761
+VM-3188949,PoweredOn,Powered Off,Other Linux (32-bit),132,132,0,0,0,0,e2-medium,1,4.00,,0,HDD,1,,,,0.13,,,,,,1.00,demo.google.com,Cluster-c473761
+VM-427165,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),385,0,347,0,0,38,n1-custom,2,4.00," Node #6",0,HDD,2,,,,4.00,,,,,,80.00,demo.google.com,Cluster-c473761
+VM-1486025,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),1591,0,1387,0,0,204,n1-custom,8,16.00," Node #1",0,SSD,8,64,31,22,16.00,100,1438,1395,1405,1774,100.00,demo.google.com,Cluster-c473761
+VM-122687,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 (64-bit),299,0,287,0,0,12,n1-custom,2,2.00," Node #13",0,HDD,1,,,,2.00,,,,,,25.00,demo.google.com,Cluster-c473761
+VM-2753859_replica,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),731,0,693,0,0,38,n1-custom,4,8.00," Node #6",0,HDD,4,,,,8.00,,,,,,80.00,demo.google.com,Cluster-c473761
+VM-2339042,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),376,0,347,0,0,29,n1-custom,2,4.00," Node #11",0,HDD,2,,,,4.00,,,,,,60.00,demo.google.com,Cluster-c862031
+VM-442584,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),833,0,466,0,0,367,n1-custom,2,8.00," Node #3",0,SSD,2,100,14,6,8.00,100,3283,3282,817,1876,180.00,demo.google.com,Cluster-c473761
+VM-869280,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1635,0,932,0,0,703,n1-custom,4,16.00," Node #11",0,HDD,4,,,,16.00,,,,,,1465.00,demo.google.com,Cluster-c473761
+VM-2186534,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),390,0,347,0,0,43,n1-custom,2,4.00," Node #4",0,HDD,2,,,,4.00,,,,,,90.00,demo.google.com,Cluster-c344303
+VM-874035,PoweredOn,Powered Off,FreeBSD (64-bit),228,218,0,0,0,10,e2-custom,2,4.00,,0,HDD,2,,,,4.00,,,,,,20.00,demo.google.com,Cluster-c473761
+VM-603021_replica,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1196,0,1148,0,0,48,n1-custom,8,8.00," Node #4",0,HDD,8,,,,8.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-446044,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),316,0,287,0,0,29,n1-custom,2,2.00," Node #8",0,HDD,1,,,,2.00,,,,,,60.00,demo.google.com,Cluster-c862031
+VM-123078,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),1693,0,1387,0,0,306,n1-custom,8,16.00," Node #12",0,SSD,8,45,23,16,16.00,100,2052,2045,876,1385,150.00,demo.google.com,Cluster-c473761
+VM-2779962,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),421,0,287,0,0,134,n1-custom,2,2.00," Node #9",0,HDD,1,,,,2.00,,,,,,280.00,demo.google.com,Cluster-c862031
+VM-101431,PoweredOn,Powered Off,Other Linux (32-bit),132,132,0,0,0,0,e2-medium,1,4.00,,0,HDD,1,,,,0.13,,,,,,1.00,demo.google.com,Cluster-c473761
+VM-480495,PoweredOn;PowerOn/Win2008R2;wave1;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),1270,0,1148,0,0,122,n1-custom,8,8.00," Node #1",0,SSD,8,43,12,5,8.00,100,803,696,799,737,60.00,demo.google.com,Cluster-c473761
+VM-2717130,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),759,0,693,0,0,66,n1-custom,4,8.00," Node #2",0,HDD,4,,,,8.00,,,,,,137.00,demo.google.com,Cluster-c473761
+VM-907024,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),904,0,585,0,0,319,n1-custom,2,12.00," Node #12",0,HDD,2,,,,12.00,,,,,,665.00,demo.google.com,Cluster-c472963
+VM-2186157,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),722,0,693,0,0,29,n1-custom,4,8.00," Node #11",0,HDD,4,,,,8.00,,,,,,60.00,demo.google.com,Cluster-c473761
+VM-877249,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1196,0,1148,0,0,48,n1-custom,8,8.00," Node #12",0,HDD,8,,,,8.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-3281612,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),770,0,693,0,0,77,n1-custom,4,8.00," Node #13",0,HDD,4,,,,8.00,,,,,,160.00,demo.google.com,Cluster-c473761
+VM-3166252,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),3270,0,3035,0,0,235,n1-custom,12,56.00," Node #9",0,SSD,12,100,64,45,56.00,100,1729,1515,1729,2701,115.00,demo.google.com,Cluster-c473761
+VM-1152114,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),1136,0,932,0,0,204,n1-custom,4,16.00," Node #13",0,SSD,4,100,42,34,16.00,100,801,645,795,1110,100.00,demo.google.com,Cluster-c473761
+VM-2534187,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),1228,0,1126,0,0,102,n1-custom,8,7.25," Node #11",0,SSD,8,8,2,1,4.00,100,232,226,55,1144,50.00,demo.google.com,Cluster-c473761
+VM-3296306,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),1011,0,705,0,0,306,n1-custom,2,16.00," Node #2",0,SSD,2,100,75,45,16.00,100,1791,1642,1038,1428,150.00,demo.google.com,Cluster-c473761
+VM-1938831,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),1058,0,813,0,0,245,n1-custom,4,12.00," Node #13",0,SSD,4,92,17,6,12.00,100,2682,2207,1434,5506,120.00,demo.google.com,Cluster-c473761
+VM-31791,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),2274,0,1387,0,0,887,n1-custom,8,16.00," Node #6",0,SSD,8,100,31,17,16.00,100,3872,3332,2024,861,435.00,demo.google.com,Cluster-c473761
+VM-2791620,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1083,0,932,0,0,151,n1-custom,4,16.00," Node #8",0,HDD,4,,,,16.00,,,,,,315.00,demo.google.com,Cluster-c344303
+VM-442587,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),772,0,466,0,0,306,n1-custom,2,8.00," Node #8",0,SSD,2,100,24,14,8.00,100,5132,5124,668,2738,150.00,demo.google.com,Cluster-c473761
+VM-2058802,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),741,0,693,0,0,48,n1-custom,4,8.00," Node #9",0,HDD,4,,,,8.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-3232100,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),3090,0,3035,0,0,55,n1-custom,12,56.00," Node #12",0,HDD,12,,,,56.00,,,,,,115.00,demo.google.com,Cluster-c473761
+VM-414313,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),306,0,287,0,0,19,n1-custom,2,2.00," Node #10",0,HDD,1,,,,2.00,,,,,,40.00,demo.google.com,Cluster-c862031
+VM-1454306,PoweredOn,Powered On,Red Hat Enterprise Linux 6 (64-bit),293,264,0,0,0,29,e2-standard-2,2,8.00,,0,HDD,2,27,1,1,8.00,95,9,4,9,105,60.00,demo.google.com,Cluster-c473761
+VM-1540023,PoweredOn,Powered Off,Microsoft Windows Server 2016 (64-bit),1618,0,932,0,0,686,n1-custom,4,16.00," Node #9",0,HDD,4,,,,16.00,,,,,,1430.00,demo.google.com,Cluster-c862031
+VM-1406658,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1170,0,1148,0,0,22,n1-custom,8,8.00," Node #10",0,HDD,8,,,,8.00,,,,,,45.00,demo.google.com,Cluster-c344303
+VM-1962777,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1129,0,1052,0,0,77,n1-custom,4,20.00," Node #4",0,HDD,3,,,,20.00,,,,,,160.00,demo.google.com,Cluster-c473761
+VM-1721460,PoweredOn,Powered Off,Ubuntu Linux (64-bit),276,132,0,0,0,144,e2-medium,1,4.00,,0,HDD,1,,,,4.00,,,,,,300.00,demo.google.com,Cluster-c473761
+VM-892357,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1714,0,1637,0,0,77,n1-custom,6,32.00," Node #2",0,HDD,6,,,,32.00,,,,,,160.00,demo.google.com,Cluster-c344303
+VM-603018,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1196,0,1148,0,0,48,n1-custom,8,8.00," Node #7",0,HDD,8,,,,8.00,,,,,,100.00,demo.google.com,Cluster-c862031
+VM-707,PoweredOn,Powered On,CentOS 4/5/6 (32-bit),210,47,0,0,0,163,f1-micro,0.2,0.60,,0,SSD,1,100,1,1,0.25,99,219,214,20,8670,80.00,demo.google.com,Cluster-c473761
+VM-1053701,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1115,0,347,0,0,768,n1-custom,2,4.00," Node #12",0,HDD,2,,,,4.00,,,,,,1600.00,demo.google.com,Cluster-c473761
+VM-3233309,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),3270,0,3035,0,0,235,n1-custom,12,56.00," Node #8",0,SSD,12,100,53,27,56.00,100,1803,1151,1762,1179,115.00,demo.google.com,Cluster-c473761
+VM-3166011,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),3270,0,3035,0,0,235,n1-custom,12,56.00," Node #6",0,SSD,12,100,100,53,56.00,100,1771,1449,1688,1047,115.00,demo.google.com,Cluster-c473761
+VM-2186165,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),731,0,693,0,0,38,n1-custom,4,8.00," Node #5",0,HDD,4,,,,8.00,,,,,,80.00,demo.google.com,Cluster-c473761
+VM-123081,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),1340,0,932,0,0,408,n1-custom,4,16.00," Node #10",0,SSD,4,62,32,9,16.00,100,1077,1077,622,1497,200.00,demo.google.com,Cluster-c473761
+VM-1551662,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),514,0,466,0,0,48,n1-custom,2,8.00," Node #6",0,HDD,2,,,,8.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-1991547,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),1218,0,932,0,0,286,n1-custom,4,16.00," Node #7",0,SSD,4,86,22,7,16.00,100,4918,4911,1371,3115,140.00,demo.google.com,Cluster-c473761
+VM-2183584,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),2713,0,1387,0,0,1326,n1-custom,8,16.00," Node #5",0,SSD,8,100,69,64,16.00,100,3850,2338,1948,1748,650.00,demo.google.com,Cluster-c473761
+VM-3292780,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),389,0,287,0,0,102,n1-custom,2,2.00," Node #11",0,SSD,1,100,94,2,2.00,100,4139,4139,930,5245,50.00,demo.google.com,Cluster-c473761
+VM-3165880,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),3270,0,3035,0,0,235,n1-custom,12,56.00," Node #4",0,SSD,12,100,100,52,56.00,100,2177,1513,2172,8441,115.00,demo.google.com,Cluster-c473761
+VM-2164389,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),325,0,287,0,0,38,n1-custom,2,2.00," Node #3",0,HDD,1,,,,2.00,,,,,,80.00,demo.google.com,Cluster-c344303
+VM-1746557,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),717,0,693,0,0,24,n1-custom,4,8.00," Node #3",0,HDD,4,,,,8.00,,,,,,50.00,demo.google.com,Cluster-c473761
+VM-78398,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),885,0,693,0,0,192,n1-custom,4,8.00," Node #4",0,HDD,4,,,,8.00,,,,,,400.00,demo.google.com,Cluster-c473761
+VM-641243,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),443,0,347,0,0,96,n1-custom,2,4.00," Node #13",0,HDD,2,,,,4.00,,,,,,200.00,demo.google.com,Cluster-c473761
+VM-2451511,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),1795,0,1387,0,0,408,n1-custom,8,16.00," Node #3",0,SSD,8,64,22,17,16.00,100,2229,2045,2229,1081,200.00,demo.google.com,Cluster-c473761
+VM-2899373,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),433,241,0,0,0,192,e2-custom,2,6.00,,0,HDD,2,,,,6.00,,,,,,400.00,demo.google.com,Cluster-c473761
+VM-2431936,PoweredOn,Powered Off,Red Hat Enterprise Linux 5 (32-bit),159,132,0,0,0,27,e2-medium,1,4.00,,0,HDD,1,,,,2.00,,,,,,56.00,demo.google.com,Cluster-c473761
+VM-704404,PoweredOn,Powered Off,Ubuntu Linux (64-bit),561,436,0,0,0,125,e2-custom,4,8.00,,0,HDD,4,,,,7.81,,,,,,260.19,demo.google.com,Cluster-c344303
+VM-515888,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),376,0,347,0,0,29,n1-custom,2,4.00," Node #8",0,HDD,2,,,,4.00,,,,,,60.00,demo.google.com,Cluster-c862031
+VM-3296500,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),1011,0,705,0,0,306,n1-custom,2,16.00," Node #4",0,SSD,2,100,75,53,16.00,100,1342,1342,1267,4489,150.00,demo.google.com,Cluster-c473761
+VM-288630,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),514,0,466,0,0,48,n1-custom,2,8.00," Node #1",0,HDD,2,,,,8.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-3297762,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),429,0,347,0,0,82,n1-custom,2,4.00," Node #9",0,SSD,2,72,6,2,4.00,75,1255,1247,399,358,40.00,demo.google.com,Cluster-c473761
+VM-1279503,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1591,0,406,0,0,1185,n1-custom,2,6.00," Node #11",0,HDD,2,,,,6.00,,,,,,2468.00,demo.google.com,Cluster-c344303
+VM-427187,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),326,0,287,0,0,39,n1-custom,2,2.00," Node #1",0,HDD,1,,,,2.00,,,,,,81.00,demo.google.com,Cluster-c473761
+VM-1912494,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),5921,0,1637,0,0,4284,n1-custom,6,32.00," Node #6",0,SSD,6,100,70,53,32.00,100,5848,5464,4347,1810,2100.00,demo.google.com,Cluster-c473761
+VM-3298975,PoweredOn,Powered Off,Other Linux (32-bit),146,132,0,0,0,14,e2-medium,1,4.00,,0,HDD,1,,,,2.00,,,,,,30.00,demo.google.com,Cluster-c473761
+VM-196663,PoweredOn,Powered Off,CentOS 4/5/6/7 (64-bit),838,132,0,0,0,706,e2-medium,1,4.00,,0,HDD,2,41,2,1,2.00,100,410,362,125,153,1470.00,demo.google.com,Cluster-c344303
+VM-454909,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),385,0,347,0,0,38,n1-custom,2,4.00," Node #10",0,HDD,2,,,,4.00,,,,,,80.00,demo.google.com,Cluster-c473761
+VM-1053699,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),633,0,585,0,0,48,n1-custom,2,12.00," Node #6",0,HDD,2,,,,12.00,,,,,,100.00,demo.google.com,Cluster-c473761
+VM-587917,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2176,0,1864,0,0,312,n1-custom,8,32.00," Node #8",0,HDD,8,,,,32.00,,,,,,650.00,demo.google.com,Cluster-c473761
+VM-2186372,PoweredOn,Powered On,Red Hat Enterprise Linux 7 (64-bit),669,621,0,0,0,48,e2-custom,4,24.00,,0,HDD,4,6,0,0,24.00,15,64,48,16,50,100.00,demo.google.com,Cluster-c473761
+VM-2469555,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),970,0,932,0,0,38,n1-custom,4,16.00," Node #1",0,HDD,4,,,,16.00,,,,,,80.00,demo.google.com,Cluster-c473761

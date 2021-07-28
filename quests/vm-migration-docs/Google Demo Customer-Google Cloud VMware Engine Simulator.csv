@@ -1,0 +1,667 @@
+Google Cloud VMware Engine Simulator for Google Demo Customer
+,
+Applied Filters
+vCenter,demo.google.com
+Datacenter,Datacenter-2
+VM Support Filter,All Supported VMs
+,
+Card Settings
+Maximum CPU Oversubscription,Optimal - Hosts by CPU Demand
+Dedupe / Compression Ratio,3:1
+Storage Faults To Tolerate (FTT) / RAID,FTT 1 (Raid 1)
+Allow VMware Horizon,Yes
+GCP Location,Los Angeles (us-west2)
+Term Length,3 Years
+Secondary Storage Type,Google Cloud Storage
+Secondary Storage Size (GB),"1,024 GB"
+,
+Rightsizing Criteria
+Additional vCPU Headroom,Current vCPU Peak Demand
+Additional vRAM Headroom,Current vRAM Peak Usage
+Additional vSAN Storage Headroom,Current vSAN Storage Configured
+,
+Annual GCVE Cost,$948990
+,
+Cloud Environment Recommendation
+Hosts,"19"
+Host Type,ve1-standard-72
+Host Placement,
+Cluster #1,16 Hosts
+Cluster #2,3 Hosts
+,
+Table Data
+VM Name,Tags,VM State,Guest OS,vCPU,Cores per Socket,vCPU Peak Demand (GHz),vRAM (GB),vRAM Peak Usage (%),Peak IOPS,Peak Reads,Peak Writes,Peak Latency (ms),vDisk Capacity (GB),vDisk Used (GB),Additional Storage (GB),Snapshots,Datastores,Networks,GCP Cluster,GCP VPC,vCenter Name,Cluster Name
+VM-101431,PoweredOn,Powered Off,Other Linux (32-bit),1,1,,0.13,,,,,,1.00,0.84,,0,1,4,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1036344,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,4,,8.00,,,,,,100.00,99.82,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1043050,PoweredOn,Powered Off,Other Linux (32-bit),1,1,,0.13,,,,,,1.00,0.85,,0,1,4,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1043082,PoweredOn;PowerOn/Win2008R2,Powered On,Microsoft Windows Server 2008 R2 (64-bit),8,2,21.43,26.00,100,2263,2085,1156,2661,570.00,529.63,0.00,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1053694,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,18.00,,,,,,501.00,412.95,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1053699,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,12.00,,,,,,100.00,60.47,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1053701,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,1600.00,1549.15,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1053702,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,12.00,,,,,,150.00,142.61,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1074962,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,8.00,,,,,,65.00,47.57,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c472963
+VM-1084859,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),8,4,19.87,32.00,100,6785,6772,361,1137,290.00,316.90,0.00,1,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-109678,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2,2,,8.00,,,,,,100.00,61.70,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1106428,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),1,1,,8.00,,,,,,300.00,281.54,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-112147,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),12,4,,30.00,,,,,,2220.00,2208.15,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1131228,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),1,1,,2.00,,,,,,20.00,11.83,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-113466,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),8,1,,16.00,,,,,,200.00,174.39,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-113488,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2,1,,2.00,,,,,,1335.00,1335.00,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c472963
+VM-113491,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),8,4,,32.00,,,,,,2090.00,2090.00,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c472963
+VM-113492,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1,1,,4.00,,,,,,50.00,50.00,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c472963
+VM-113493,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,4,,8.00,,,,,,325.00,325.00,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c472963
+VM-113501,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2,2,,8.00,,,,,,175.00,65.44,,0,1,2,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-113503,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2,2,,6.00,,,,,,260.00,259.82,,0,1,2,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-113678,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2,1,,32.00,,,,,,400.00,397.07,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-113685,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,4,,8.00,,,,,,620.00,558.52,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-113687,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2,1,,2.00,,,,,,180.00,94.64,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-1145593,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),6,1,,10.00,,,,,,130.00,127.40,,3,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c472963
+VM-1152114,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),4,2,9.86,16.00,100,801,645,795,1110,100.00,93.16,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1200373,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,30.00,28.34,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1205705,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,60.00,44.20,0.00,0,1,2,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-1220472,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2,1,,4.00,,,,,,50.00,35.86,,0,1,7,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122289,Hadoop;PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),2,1,5.64,2.00,100,3918,3904,2002,1668,1000.00,999.96,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122300,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2,2,,12.00,,,,,,370.00,369.78,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122301,Hadoop;PoweredOn,Powered On,CentOS 4/5/6/7 (64-bit),4,4,3.23,4.00,100,666,660,265,4408,4116.00,2761.82,0.00,1,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122302,Hadoop;PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),4,2,11.25,16.00,100,2973,2972,1085,3644,80.00,74.37,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1223024,Hadoop;PoweredOn,Powered On,FreeBSD (64-bit),2,1,2.51,2.00,90,17,6,17,5573,20.00,11.21,0.00,0,1,5,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1223029,Hadoop;PoweredOn,Powered On,FreeBSD (64-bit),2,1,4.62,2.00,73,811,604,225,4859,20.00,12.93,0.00,0,1,5,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122309,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),6,6,,16.00,,,,,,90.00,85.94,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122311,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1,1,,2.00,,,,,,20.00,11.06,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122312,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,4,,16.00,,,,,,500.00,498.12,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122319,Hadoop;PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),8,4,6.57,3.00,100,864,860,673,4691,55.00,55.00,0.00,0,1,4,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122326,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,1,,12.00,,,,,,450.00,449.83,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122331,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 (32-bit),2,1,,4.00,,,,,,30.00,30.22,0.00,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122336,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,1,,4.00,,,,,,110.00,62.76,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122353,Hadoop;PoweredOn,Powered On,Other Linux (64-bit),2,1,2.01,4.00,61,692,663,63,3026,60.00,58.65,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122356,Hadoop;PoweredOn;win2008on;windows_power_on,Powered On,Microsoft Windows Server 2008 (32-bit),1,1,2.69,1.00,100,624,510,305,1067,25.00,24.94,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122359,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2,2,,8.00,,,,,,110.00,99.33,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122371,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),6,6,,16.00,,,,,,110.00,79.75,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122380,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2,2,,12.00,,,,,,430.00,424.54,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122381,Hadoop;PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2003 Standard (32-bit),4,1,3.06,3.00,97,475,471,24,1440,20.00,18.55,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122387,Hadoop;PoweredOn;win2008on;windows_power_on,Powered On,Microsoft Windows Server 2008 (32-bit),1,1,2.93,4.00,94,1551,1536,787,1035,110.00,101.23,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122395,Hadoop;PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),1,1,2.79,3.00,100,1186,819,1053,2217,30.00,29.18,0.00,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122396,Hadoop;PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),2,1,4.78,3.00,100,1261,975,1132,1808,475.00,400.91,0.00,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122398,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),8,4,,8.00,,,,,,60.00,60.00,,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c472963
+VM-122617,Hadoop;PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),8,4,5.83,8.00,100,995,707,990,879,55.00,45.94,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122619,Hadoop;PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),1,1,2.92,2.00,100,1335,1332,1154,14815,50.00,50.25,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122626,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),8,1,,32.00,,,,,,360.00,351.26,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122632,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2,1,,12.00,,,,,,190.00,143.36,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122634,Hadoop;PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),1,1,2.88,2.00,100,782,537,776,1379,50.00,39.76,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122651,Hadoop;PoweredOn;win2008on;windows_power_on,Powered On,Microsoft Windows Server 2008 (32-bit),2,1,5.76,4.00,100,1366,1361,1112,1113,150.00,139.26,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122652,Hadoop;PoweredOn,Powered On,CentOS 4/5/6 (32-bit),1,1,1.68,0.25,100,1809,1806,109,8733,5.00,3.23,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122655,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2003 (64-bit),1,1,,1.00,,,,,,10.00,6.85,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122659,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2,2,,12.00,,,,,,400.00,399.12,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122661,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2,2,,16.00,,,,,,440.00,432.98,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122663,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,420.00,403.99,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122687,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 (64-bit),1,1,,2.00,,,,,,25.00,18.77,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122689,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1,1,,2.00,,,,,,35.00,33.16,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122694,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2,1,,4.00,,,,,,250.00,248.29,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122709,Hadoop;PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),2,2,5.41,4.00,100,2151,2145,1045,2681,70.00,69.89,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122712,Hadoop;PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),2,2,5.76,4.00,100,1108,1054,701,3130,50.00,50.00,0.00,1,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122716,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),6,3,6.75,12.00,100,1588,1346,1064,1665,200.00,198.80,0.00,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122718,Hadoop;PoweredOn;win2008on;windows_power_on,Powered On,Microsoft Windows Server 2008 (32-bit),4,4,10.69,20.00,100,1692,1686,856,1058,200.00,62.71,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122719,Hadoop;PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),2,1,5.90,22.00,100,3796,3665,2214,1289,290.00,268.65,0.00,1,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122730,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2003 (32-bit),1,1,,2.00,,,,,,250.00,249.91,,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122742,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1,1,,2.00,,,,,,360.00,327.38,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122750,Hadoop;PoweredOn,Powered Off,Red Hat Enterprise Linux 5 (64-bit),1,1,,1.00,,,,,,0.10,0.00,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122754,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 (32-bit),1,1,,2.00,,,,,,20.00,11.92,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122760,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2003 Standard (32-bit),1,1,,1.00,,,,,,10.00,4.68,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1229113,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,4,,8.00,,,,,,201.00,200.93,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122980,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1,1,,3.00,,,,,,30.00,29.59,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-123026,PoweredOn,Powered Off,Red Hat Enterprise Linux 5 (32-bit),2,2,3.17,1.00,99,499,334,499,87,20.00,11.14,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-123047,PoweredOn,Powered Off,Microsoft Windows Server 2008 (64-bit),2,2,,32.00,,,,,,570.00,564.21,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-123048,PoweredOn,Powered Off,Microsoft Windows Server 2008 (64-bit),4,4,,32.00,,,,,,280.00,186.74,,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-123049,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2,2,,8.00,,,,,,360.00,353.94,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-123050,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1,1,,8.00,,,,,,190.00,174.63,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-123052,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2,2,,8.00,,,,,,360.00,336.70,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-123054,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2,2,,8.00,,,,,,2050.00,778.74,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-123072,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,1,,16.00,,,,,,400.00,399.93,,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-123078,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),8,8,9.16,16.00,100,2052,2045,876,1385,150.00,140.89,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-123079,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),4,4,7.84,16.00,100,9763,9753,901,1099,350.00,349.92,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-123081,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),4,1,4.91,16.00,100,1077,1077,622,1497,200.00,199.46,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1233262,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,30.00,10.56,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1233270,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,30.00,24.83,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1238299,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),1,1,,8.00,,,,,,80.00,14.34,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1240930,PoweredOn,Powered Off,Oracle Solaris 10 (64-bit),2,1,,2.00,,,,,,20.00,7.83,0.00,0,1,3,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-125422,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),2,2,6.26,8.00,100,653,434,653,716,101.00,79.23,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-125425,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,4,,8.00,,,,,,300.00,299.32,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1255749,PoweredOn,Powered Off,Microsoft Windows Server 2008 (32-bit),2,2,,4.00,,,,,,450.00,448.43,,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1261690,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),2,2,,4.00,,,,,,200.00,67.38,,0,1,1,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-127072,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,8.00,,,,,,110.00,102.67,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1279503,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,6.00,,,,,,2468.00,2337.52,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-128769,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),1,1,2.89,3.00,100,2252,1465,1337,367,50.00,42.20,0.00,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1294222,PoweredOn,Powered Off,Other Linux (32-bit),1,1,,0.13,,,,,,1.00,0.84,,0,1,4,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1294232,PoweredOn,Powered Off,Other Linux (32-bit),1,1,,0.13,,,,,,1.00,0.84,,0,1,4,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1294234,PoweredOn,Powered Off,Other Linux (32-bit),1,1,,0.13,,,,,,1.00,0.84,,0,1,4,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1294236,PoweredOn,Powered Off,Other Linux (32-bit),1,1,,0.13,,,,,,1.00,0.84,,0,1,4,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1295378,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,12.00,,,,,,320.00,318.34,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-1308494,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),10,5,29.14,50.00,100,21624,21547,3412,6538,250.00,250.00,0.00,0,1,6,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1308495,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),8,4,,4.00,,,,,,45.00,25.39,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-1308590,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),8,4,,8.00,,,,,,45.00,25.73,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-1308622,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),8,4,,8.00,,,,,,45.00,26.09,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-1322837,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,150.00,30.22,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1324114,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),4,2,8.01,8.00,100,8443,8437,3129,2013,350.00,349.54,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-134599,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),1,1,,2.00,,,,,,40.00,25.41,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1367529,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),8,4,,8.00,,,,,,45.00,25.80,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-1367533,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),8,4,,4.00,,,,,,45.00,25.82,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-1367551,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),8,4,,8.00,,,,,,45.00,25.77,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-1367553,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),8,4,,8.00,,,,,,45.00,27.64,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-1376240,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,4,,8.00,,,,,,90.00,71.82,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1385264,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,16.00,,,,,,1060.00,992.46,,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1385265,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),16,4,,64.00,,,,,,250.00,216.34,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1399120,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),8,8,3.56,8.00,88,49,15,47,1940,45.00,26.84,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1399121,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),8,8,6.51,8.00,100,105,103,46,3708,45.00,27.24,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1399122,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),8,8,6.48,8.00,82,786,771,136,2316,45.00,27.72,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-140368,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),8,8,,10.00,,,,,,100.00,95.70,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-140371,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,4,,8.00,,,,,,150.00,149.93,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1406570,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),8,4,,8.00,,,,,,45.00,27.17,0.00,0,1,3,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-1406658,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),8,4,,8.00,,,,,,45.00,27.35,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-1428099,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),10,2,,36.00,,,,,,100.00,97.26,,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c472963
+VM-1429567,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),10,5,29.11,64.00,100,11494,11065,5367,102,260.00,193.13,0.00,0,1,4,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-1432840,PoweredOn,Powered Off,Debian GNU/Linux 6 (64-bit),1,1,,0.25,,,,,,2.00,1.53,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1451056,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),1,1,,1.00,,,,,,0.10,0.00,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1454037,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),1,1,,2.00,,,,,,8.00,4.56,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1454057,PoweredOn,Powered On,Red Hat Enterprise Linux 6 (64-bit),2,2,0.53,8.00,98,15,2,15,81,60.00,12.29,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1454238,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),1,1,,2.00,,,,,,20.00,1.25,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1454305,PoweredOn,Powered On,Red Hat Enterprise Linux 6 (64-bit),2,2,2.37,8.00,94,272,262,16,65,60.00,7.19,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1454306,PoweredOn,Powered On,Red Hat Enterprise Linux 6 (64-bit),2,2,0.59,8.00,95,9,4,9,105,60.00,6.88,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1454307,PoweredOn,Powered On,Red Hat Enterprise Linux 6 (64-bit),2,2,0.36,8.00,23,8,0,8,73,60.00,5.27,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1454310,PoweredOn,Powered On,Red Hat Enterprise Linux 6 (64-bit),2,2,2.25,8.00,22,8,0,8,40,60.00,5.44,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1455663,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),8,4,,40.00,,,,,,200.00,191.33,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1455665,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),10,2,,96.00,,,,,,701.00,705.86,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1464285,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,1,,2.00,,,,,,50.00,31.74,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1471027,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,100.00,98.58,0.00,0,1,3,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-1481532,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,4,,16.00,,,,,,1000.00,1003.50,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-1485235,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),8,4,,40.00,,,,,,200.00,221.23,0.00,3,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c472963
+VM-1486025,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),8,2,11.27,16.00,100,1438,1395,1405,1774,100.00,95.92,0.00,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1493143,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,4,,16.00,,,,,,499.87,264.72,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-1495798,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),4,2,7.19,16.00,100,1360,609,1360,1427,100.00,164.93,0.00,1,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1495799,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),4,2,6.89,8.00,100,926,508,811,1093,401.00,400.46,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1515093,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1,1,,8.00,,,,,,301.00,194.35,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-1518278,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),8,4,6.34,8.00,78,107,104,52,2208,45.00,26.67,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-15196,PoweredOn,Powered Off,Other Linux (32-bit),1,1,,0.13,,,,,,1.00,0.94,,0,1,4,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1526576,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,50.00,30.56,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1540021,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),8,4,,76.00,,,,,,2430.00,1830.13,0.00,0,1,2,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-1540023,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,4,,16.00,,,,,,1430.00,1148.37,0.00,0,1,2,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-1540025,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,4,,64.00,,,,,,4995.00,4992.62,0.00,0,1,2,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-1543064,PoweredOn,Powered Off,Debian GNU/Linux 6 (64-bit),1,1,,0.25,,,,,,2.00,1.60,,0,1,2,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-1545961,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1,1,,2.00,,,,,,60.00,59.27,0.00,0,1,3,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-1551662,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,8.00,,,,,,100.00,50.14,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-603021_replica,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),8,2,,8.00,,,,,,100.00,88.44,,3,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-414310_replica,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,50.00,43.97,,5,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-515887_replica,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,1,,4.00,,,,,,100.00,96.74,,3,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-515886_replica,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,16.00,,,,,,100.00,90.74,,3,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-603018_replica,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),8,2,,8.00,,,,,,100.00,88.37,,3,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-515888_replica,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,1,,4.00,,,,,,60.00,56.24,,3,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1205705_replica,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,60.00,44.39,,3,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-515883_replica,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,16.00,,,,,,100.00,81.18,,3,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-475540_replica,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,60.00,53.85,,3,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-446044_replica,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1,1,,2.00,,,,,,60.00,64.15,,3,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-473751_replica,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,250.00,221.53,,3,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1590939,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),2,2,0.56,4.00,100,57,9,50,423,60.00,25.90,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1590940,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),2,2,0.58,4.00,100,57,9,52,1499,60.00,25.84,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1594097,PoweredOn,Powered On,Ubuntu Linux (64-bit),2,2,2.73,2.00,100,1750,632,1281,3027,160.00,132.37,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-160780,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),8,2,,8.00,,,,,,100.00,80.57,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-160783,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),4,4,3.89,8.00,100,635,451,629,3619,150.00,149.96,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1630754,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,8.00,,,,,,60.00,59.57,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-163498,PoweredOn,Powered Off,Microsoft Windows Server 2008 (32-bit),2,2,,4.00,,,,,,1001.00,894.90,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-163500,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,16.00,,,,,,200.00,192.06,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1641542,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,6.00,,,,,,70.00,37.66,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1647888,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),8,2,,32.00,,,,,,91.00,90.52,,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-1659314,PoweredOn,Powered Off,Oracle Solaris 10 (64-bit),2,1,,2.00,,,,,,20.00,7.22,0.00,0,1,3,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-167581,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2,2,,22.00,,,,,,250.00,250.00,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c472963
+VM-167582,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),10,5,,40.00,,,,,,1250.00,1250.00,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c472963
+VM-169416,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),3,3,8.65,6.00,100,2550,2526,968,2633,120.00,119.92,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1699163,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,30.00,29.89,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1699960,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,16.00,,,,,,2251.00,2250.38,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-1714904,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1,1,,8.00,,,,,,80.00,30.12,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-1721307,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,8.00,,,,,,60.00,40.07,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1721309,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,30.00,29.97,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1721311,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,8.00,,,,,,200.00,178.85,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1721460,PoweredOn,Powered Off,Ubuntu Linux (64-bit),1,1,,4.00,,,,,,300.00,26.64,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1726022,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),8,4,,8.00,,,,,,30.00,29.55,,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-1746557,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,8.00,,,,,,50.00,45.54,,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1746558,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,8.00,,,,,,100.00,89.78,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-175067,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,4,,22.00,,,,,,400.00,400.00,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c472963
+VM-1764253,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,16.00,,,,,,101.00,96.48,,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1764255,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,8.00,,,,,,100.00,94.97,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-177781,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),6,6,16.77,32.00,100,1439,1431,1423,1398,1850.00,1255.00,0.00,0,1,5,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1780934,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),12,4,,24.00,,,,,,380.00,363.24,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c472963
+VM-1780998,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,8.00,,,,,,101.00,85.99,0.00,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1780999,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,8.00,,,,,,100.00,89.68,,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1787982,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),8,4,,8.00,,,,,,50.00,30.28,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-1791440,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),8,4,,8.00,,,,,,50.00,29.80,0.00,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-1800797,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,8.00,,,,,,101.00,101.62,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1800798,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,8.00,,,,,,100.00,94.42,,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1817265,PoweredOn,Powered Off,Oracle Solaris 10 (64-bit),2,1,,2.00,,,,,,20.00,7.77,0.00,0,1,3,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-1818686,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),8,2,6.77,8.00,75,172,170,54,1726,50.00,29.49,0.00,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1818689,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),8,2,8.65,8.00,80,541,540,52,2526,50.00,29.09,0.00,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1818776,"",Powered Off,Oracle Solaris 10 (64-bit),2,1,,2.00,,,,,,20.00,7.64,0.00,0,1,3,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-1820913,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,4,,8.00,,,,,,500.00,499.44,,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1820994,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,4,,16.00,,,,,,200.00,199.93,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1821086,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,4,,8.00,,,,,,250.00,245.75,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1827613,PoweredOn,Powered Off,Other Linux (64-bit),4,1,,8.00,,,,,,1024.00,111.26,,1,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-182879,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,2,,8.00,,,,,,100.00,87.18,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1831092,"",Powered Off,Oracle Solaris 10 (64-bit),2,1,,2.00,,,,,,20.00,3.71,0.00,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1831094,PoweredOn,Powered Off,Oracle Solaris 10 (64-bit),2,1,,2.00,,,,,,20.00,4.17,0.00,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-183410,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,10.00,,,,,,300.00,301.52,,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1851743,PoweredOn,Powered Off,Other Linux (64-bit),4,1,,8.00,,,,,,1024.00,111.73,0.00,0,1,2,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-186812,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),3,1,,10.00,,,,,,141.00,128.50,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-122719_replica,Hadoop;PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2,1,,22.00,,,,,,290.00,265.79,,2,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-1880064,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),8,4,7.87,8.00,100,923,778,918,324,60.00,60.00,0.00,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c472963
+VM-1881713,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2003 Standard (32-bit),2,2,5.84,4.00,100,774,620,747,1226,75.01,59.52,0.00,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-188809,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),4,2,6.52,8.00,100,804,342,760,731,100.00,82.34,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-188810,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,4,,8.00,,,,,,201.00,179.33,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1906061,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,20.00,,,,,,351.00,353.56,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1906064,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,20.00,,,,,,90.00,62.21,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1912494,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),6,6,16.95,32.00,100,5848,5464,4347,1810,2100.00,2014.27,0.00,1,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1912506,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2,2,,8.00,,,,,,200.00,195.55,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1912517,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1,1,,2.00,,,,,,35.00,34.04,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1912518,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1,1,,2.00,,,,,,35.00,32.81,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1912536,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),6,2,16.29,8.00,100,2899,2898,2056,3275,320.00,309.20,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1912506_replica,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2,2,,8.00,,,,,,510.00,314.19,,3,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c472963
+VM-1084859_replica,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),8,4,,32.00,,,,,,290.00,246.97,,3,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-1721311_replica,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,8.00,,,,,,200.00,188.63,,3,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-1938831,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),4,4,5.80,12.00,100,2682,2207,1434,5506,120.00,68.57,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1958955,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,8.00,,,,,,151.00,149.63,,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1961695,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),12,4,,24.00,,,,,,380.00,363.24,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c472963
+VM-1962736,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),8,2,,40.00,,,,,,260.00,241.15,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1962747,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,1,,40.00,,,,,,160.00,159.21,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1962761,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,1,,40.00,,,,,,160.00,157.26,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1962777,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),3,3,,20.00,,,,,,160.00,159.21,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-196663,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),2,2,0.96,2.00,100,410,362,125,153,1470.00,1445.98,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-1972858,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),4,2,11.49,16.00,100,999,963,823,1177,40.00,38.20,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1991508,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),4,4,5.09,16.00,100,2324,2321,1384,1134,140.00,107.04,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1991514,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),4,4,10.64,16.00,100,3006,2583,1237,1020,140.00,115.98,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1991518,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),4,4,10.56,16.00,100,3530,1893,3060,4834,140.00,105.26,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1991523,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),4,4,9.70,8.00,100,2741,2733,1426,2439,230.00,160.02,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1991539,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),4,4,10.27,16.00,100,3529,3514,1254,5467,180.00,156.67,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1991540,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),4,4,9.33,16.00,100,2476,2472,1478,22958,140.00,118.75,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1991545,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),4,4,10.88,16.00,100,3384,3374,1183,2250,140.00,100.64,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1991547,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),4,4,8.56,16.00,100,4918,4911,1371,3115,140.00,95.87,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1991550,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),4,4,7.58,16.00,100,1972,1968,1388,2077,140.00,87.03,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1991627,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),4,4,10.86,16.00,100,4261,4228,1280,2208,230.00,220.38,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2010936,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1,1,,3.00,,,,,,30.00,27.16,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2010963,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),6,6,,16.00,,,,,,350.00,347.72,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2011107,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),8,4,,24.00,,,,,,120.00,106.42,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-204675,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,6.00,,,,,,100.00,93.93,,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2058801,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,8.00,,,,,,101.00,64.80,0.00,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2058802,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,8.00,,,,,,100.00,90.02,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-212149,PoweredOn,Powered On,Ubuntu Linux (64-bit),4,4,2.42,4.00,80,833,833,21,4480,80.00,74.25,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-216386,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2,2,,4.00,,,,,,500.00,493.33,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-2163900,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,80.00,54.26,0.00,3,1,2,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-2163905,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,80.00,49.27,0.00,3,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-2163908,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,4,,8.00,,,,,,80.00,63.37,0.00,3,1,2,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-2164214,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,80.00,51.79,0.00,3,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-2164266,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,4,,16.00,,,,,,100.00,84.57,1.00,3,1,2,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-2164267,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,4,,8.00,,,,,,99.87,92.83,0.00,3,1,2,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-2164268,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,4,,8.00,,,,,,80.00,66.55,0.00,3,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-2164273,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,200.00,215.97,0.00,3,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-2164330,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,4,,64.00,,,,,,801.00,744.51,0.00,3,1,2,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-2164389,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1,1,,2.00,,,,,,80.00,56.54,0.00,3,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-2183584,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),8,8,19.95,16.00,100,3850,2338,1948,1748,650.00,164.89,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2183587,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),2,2,5.34,8.00,100,1689,1632,1059,1949,100.00,52.26,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2186157,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,4,,8.00,,,,,,60.00,59.50,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2186160,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,4,,8.00,,,,,,60.00,59.47,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2186165,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,8.00,,,,,,80.00,25.04,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2186371,PoweredOn,Powered On,Red Hat Enterprise Linux 7 (64-bit),4,2,2.44,24.00,8,15,0,15,41,100.00,19.78,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2186372,PoweredOn,Powered On,Red Hat Enterprise Linux 7 (64-bit),4,2,1.31,24.00,15,64,48,16,50,100.00,31.66,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2186373,PoweredOn,Powered On,Red Hat Enterprise Linux 7 (64-bit),4,2,4.91,24.00,98,16,0,16,951,100.00,27.01,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2186374,PoweredOn,Powered On,Red Hat Enterprise Linux 7 (64-bit),4,2,1.02,24.00,97,16,0,16,1231,100.00,17.67,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2186534,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,90.00,70.36,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-2212446,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),8,8,19.27,16.00,100,7124,2958,7085,1476,650.00,166.88,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2235405,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,8.00,,,,,,50.00,47.19,,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-229409,PoweredOn,Powered Off,Other Linux (32-bit),1,1,,0.13,,,,,,1.00,0.89,,0,1,4,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2339042,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,60.00,59.66,0.00,0,1,2,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-2383897,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,8.00,,,,,,101.00,75.01,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2383901,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,8.00,,,,,,100.00,94.20,,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2416912,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,8.00,,,,,,100.00,76.29,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2429147,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),4,2,9.02,6.00,100,924,762,800,1013,100.00,32.14,0.00,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2431936,PoweredOn,Powered Off,Red Hat Enterprise Linux 5 (32-bit),1,1,,2.00,,,,,,56.00,29.21,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2434076,"",Powered Off,Red Hat Enterprise Linux 6 (64-bit),1,1,,1.00,,,,,,200.00,4.64,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-2444049,PoweredOn,Powered Off,Red Hat Enterprise Linux 7 (64-bit),1,1,,1.00,,,,,,100.00,1.66,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2444132,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,50.00,46.54,,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2444133,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,8.00,,,,,,100.00,82.28,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2444291,PoweredOn,Powered On,Red Hat Enterprise Linux 7 (64-bit),4,4,2.18,16.00,60,18,0,18,434,100.00,11.07,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2444293,PoweredOn,Powered Off,Red Hat Enterprise Linux 7 (64-bit),4,4,,16.00,,,,,,100.00,10.96,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2451511,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),8,2,10.75,16.00,100,2229,2045,2229,1081,200.00,135.06,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2461776,PoweredOn,Powered On,Red Hat Enterprise Linux 7 (64-bit),2,2,0.46,8.00,97,17,0,17,1243,500.00,27.55,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2462345,PoweredOn,Powered Off,Red Hat Enterprise Linux 7 (64-bit),2,2,,8.00,,,,,,500.00,12.62,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2466931,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),4,2,11.24,8.00,100,1098,1029,920,1505,101.00,55.93,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2466932,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),4,2,8.02,8.00,100,954,831,914,3301,100.00,89.67,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2469555,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,16.00,,,,,,80.00,78.27,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2471959,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,12.00,,,,,,80.00,29.00,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2471963,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),12,2,,64.00,,,,,,160.00,72.30,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2481206,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,12.00,,,,,,80.00,30.59,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2502780,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,30.00,28.46,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2521655,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),8,4,3.24,4.00,100,495,482,104,1756,50.00,42.92,0.00,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1545961_replica,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1,1,,2.00,,,,,,60.00,58.12,,5,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2534187,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),8,4,2.23,4.00,100,232,226,55,1144,50.00,21.29,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2539196,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),8,4,,64.00,,,,,,2400.00,1050.11,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2548537,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),12,6,,64.00,,,,,,220.00,172.25,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2600282,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,1,,16.00,,,,,,280.00,156.64,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2600452,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),24,6,,32.00,,,,,,100.00,99.75,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2605107,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,80.00,38.83,,3,1,2,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-2615239,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,1,,16.00,,,,,,400.00,56.88,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2615364,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,1,,16.00,,,,,,40.00,14.16,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2631243,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),12,2,,64.00,,,,,,160.00,78.50,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2631600,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,1,,16.00,,,,,,200.00,155.38,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2634976,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),10,2,,96.00,,,,,,701.00,704.72,,3,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c472963
+VM-2635118,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,3.33,4.00,100,57,7,52,209,30.00,28.03,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-2644041,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),8,4,12.16,24.00,100,3297,2283,3297,1689,220.00,115.11,0.00,1,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2644048,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),8,4,10.21,24.00,100,2656,1240,2115,1650,220.00,126.17,,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2659403,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),2,2,1.51,8.00,100,122,9,117,2564,140.00,36.08,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2659409,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),2,2,3.35,8.00,100,229,9,229,2777,140.00,35.58,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2659414,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),4,1,11.16,16.00,81,2398,2385,1448,2533,390.00,37.92,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2659415,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),4,1,5.44,16.00,99,762,102,759,1688,390.00,38.35,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-1295378_replica,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,12.00,,,,,,320.00,315.98,,1,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c472963
+VM-2672126,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,1,,16.00,,,,,,750.00,746.98,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c472963
+VM-2672134,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,1,,16.00,,,,,,1072.00,1069.29,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c472963
+VM-2677718,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),8,4,,16.00,,,,,,30.00,27.65,,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2677744,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),8,4,,16.00,,,,,,30.00,27.61,,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2704876,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,30.00,28.65,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2716965,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,1,,4.00,,,,,,40.00,8.57,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2716982,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,1,,4.00,,,,,,40.00,11.51,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2717121,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,1,,4.00,,,,,,40.00,26.54,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2717129,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),16,8,,64.00,,,,,,314.00,169.65,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2717130,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,8.00,,,,,,137.00,78.13,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2727366,PoweredOn,Powered On,Red Hat Enterprise Linux 7 (64-bit),2,1,1.02,8.00,98,66,0,66,1700,80.00,18.03,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2727376,PoweredOn,Powered On,Red Hat Enterprise Linux 7 (64-bit),2,1,1.68,8.00,98,62,0,62,5489,80.00,65.97,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-274300,PoweredOn,Powered On,SUSE Linux Enterprise 11 (64-bit),1,1,0.47,0.59,99,77,77,25,36,3.00,2.18,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-274809,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),6,6,,16.00,,,,,,100.00,80.20,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-274816,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),6,6,,16.00,,,,,,100.00,85.94,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2752133,PoweredOn,Powered Off,Ubuntu Linux (64-bit),2,1,,4.00,,,,,,19.53,3.13,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2752210,PoweredOn,Powered On,Ubuntu Linux (64-bit),2,1,0.53,4.00,78,12,0,12,2913,19.53,5.41,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2753857,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,8.00,,,,,,80.00,114.51,0.00,1,1,3,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-2753859,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,8.00,,,,,,80.00,79.64,0.00,0,1,2,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-2753857_replica,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,8.00,,,,,,80.00,68.54,,3,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2753859_replica,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,8.00,,,,,,80.00,74.19,,3,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2779962,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1,1,,2.00,,,,,,280.00,246.06,,0,1,2,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-27839,PoweredOn,Powered Off,Other Linux (32-bit),1,1,,0.13,,,,,,1.00,0.92,,0,1,4,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-27841,PoweredOn,Powered Off,Other Linux (32-bit),1,1,2.25,0.13,100,0,0,0,0,1.00,0.89,,0,1,4,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2784331,PoweredOn,Powered On,Linux 3.10.0-957.el7.x86_64 CentOS Linux release 7.6.1810 (Core) ,1,1,0.26,2.00,92,10,3,10,189,100.00,3.27,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2789983,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,8.00,,,,,,315.00,145.13,,0,1,2,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-2791617,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,8.00,,,,,,115.00,66.60,,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-2791618,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,16.00,,,,,,315.00,64.35,,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-2791620,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,16.00,,,,,,315.00,80.58,,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-2834268,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,4,,8.00,,,,,,100.00,92.15,,3,1,2,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-2843498,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,8.00,,,,,,200.00,63.31,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c472963
+VM-2850134,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),12,6,,80.00,,,,,,4600.00,3328.23,,3,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-2857443,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,4,,16.00,,,,,,999.87,1003.31,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-2859232,PoweredOn,Powered On,Red Hat Enterprise Linux 6 (64-bit),2,2,5.54,12.00,100,947,944,224,6666,580.00,477.05,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2859238,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2,1,,28.00,,,,,,870.00,869.78,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-2859246,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2,1,,24.00,,,,,,1305.00,1300.50,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-2859253,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2,2,,8.00,,,,,,500.00,499.83,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-2859256,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1,1,,2.00,,,,,,60.00,59.07,,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-2859260,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2,2,4.72,4.00,100,1015,970,253,64,50.00,46.71,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-2859262,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),8,4,,4.00,,,,,,45.00,27.45,,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-2859238_replica,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2,1,,28.00,,,,,,870.00,834.80,,1,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c472963
+VM-2872248,PoweredOn,Powered On,Other 3.x or later Linux (64-bit),6,6,10.27,14.00,100,998,869,477,6552,250.00,220.17,907.04,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2874035,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,1,,16.00,,,,,,500.00,45.14,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2876287,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),2,2,5.76,8.00,86,886,877,172,1990,65.00,58.12,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2876288,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),2,2,2.98,8.00,64,708,679,566,1397,65.00,52.36,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2876289,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),8,2,12.20,16.00,100,7846,3676,4740,3253,3650.00,2817.15,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2876291,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),12,6,32.43,56.00,100,2628,1132,2623,3374,115.00,114.58,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2876293,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),12,6,,56.00,,,,,,115.00,113.03,0.00,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2880486,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),10,2,19.14,36.00,100,1970,1907,1767,2064,150.00,126.99,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2882132,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),6,2,,16.00,,,,,,140.00,71.74,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-515885_replica,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,16.00,,,,,,100.00,79.64,,3,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-288630,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2,2,,8.00,,,,,,100.00,70.47,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-288636,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,4,,8.00,,,,,,151.00,118.63,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2899373,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),2,2,,6.00,,,,,,400.00,362.14,0.00,1,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2908607,PoweredOn,Powered On,Linux 4.19.52 Other Linux 4.x or later kernel,2,2,5.76,8.00,56,187,173,49,5169,61.00,45.32,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2908762,PoweredOn,Powered Off,Other 2.6.x Linux (32-bit),2,1,,1.00,,,,,,61.00,2.44,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-291688,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,100.00,75.68,,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-292310,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,24.00,,,,,,650.00,466.75,,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-2950524,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),4,2,4.89,16.00,100,342,334,92,1178,50.00,46.42,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2955565,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,50.00,29.45,0.00,0,1,8,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2957012,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,16.00,,,,,,1275.00,1114.57,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-2957014,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,16.00,,,,,,2326.00,2004.22,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-2962951,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,8.00,,,,,,300.00,289.97,,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-29638,PoweredOn;win2008on;windows_power_on,Powered On,Microsoft Windows Server 2008 (32-bit),2,1,5.79,4.00,100,3317,2397,1690,4176,50.00,50.00,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-29655,PoweredOn,Powered Off,Other Linux (32-bit),1,1,,0.13,,,,,,1.00,0.89,,0,1,4,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-29663,PoweredOn,Powered Off,Other Linux (32-bit),1,1,,0.13,,,,,,1.00,0.95,,0,1,4,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-29677,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2003 (32-bit),2,1,3.97,4.00,94,579,554,146,1218,90.00,78.51,0.00,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2998491,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),2,2,0.54,4.00,54,51,8,44,502,30.00,25.23,0.00,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-2998594,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),8,4,,8.00,,,,,,900.00,427.46,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3004731,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),16,8,7.44,16.00,100,956,956,914,1912,201.00,149.54,0.00,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3008472,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),12,4,27.96,24.00,100,2730,1412,2730,2291,210.00,201.98,0.00,0,1,4,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3008490,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),8,4,2.64,4.00,100,253,138,252,1216,50.00,33.44,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3028160,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,16.00,,,,,,290.00,31.25,0.00,0,1,2,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-3053071,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,8.00,,,,,,254.00,155.32,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3054687,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),2,2,5.64,8.00,100,2144,1646,2038,1610,100.00,51.24,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-306002,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),8,8,,16.00,,,,,,200.00,198.20,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3077900,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,8.00,,,,,,30.00,29.28,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3097587,PoweredOn,Powered Off,FreeBSD (64-bit),2,2,,8.00,,,,,,299.00,8.19,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3104113,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1,1,,2.00,,,,,,360.00,64.33,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3111843,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,1,,8.00,,,,,,512.00,163.27,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3111845,PoweredOn,Powered On,"Linux 4.9.194 NAME=Buildroot
+VERSION=2019.02.6
+ID=buildroot
+VERSION_ID=2019.02.6
+PRETTY_NAME=""Buildroot 2019.02.6""
+APPLIANCE_VERSION=""v2.4.0""",2,1,4.12,8.00,100,18,0,18,5637,12.00,1.97,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3113286,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),8,2,,8.00,,,,,,80.00,74.66,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3126974,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,60.00,58.09,0.00,0,1,2,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-3154800,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),12,6,,56.00,,,,,,115.00,113.38,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3154846,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),12,6,,56.00,,,,,,115.00,113.25,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3155028,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),10,5,,40.00,,,,,,1250.00,1222.86,,3,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3165806,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),6,6,,56.00,,,,,,115.00,108.79,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3165880,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),12,6,33.60,56.00,100,2177,1513,2172,8441,115.00,114.72,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3165924,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),12,6,,56.00,,,,,,115.00,114.66,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3165996,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),12,6,34.52,56.00,100,3058,1133,3056,5185,115.00,114.59,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3166011,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),12,6,33.20,56.00,100,1771,1449,1688,1047,115.00,114.72,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3166012,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),12,6,,56.00,,,,,,115.00,114.62,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3166030,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),12,6,33.75,56.00,100,1794,1145,1787,3956,115.00,114.39,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3166088,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),12,6,,56.00,,,,,,115.00,113.99,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3166089,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),12,6,33.58,56.00,100,2446,1380,1981,1011,115.00,114.12,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3166090,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),12,6,32.63,56.00,100,1917,1080,1916,2293,115.00,114.29,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3166252,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),12,6,34.82,56.00,100,1729,1515,1729,2701,115.00,114.46,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3166571,PoweredOn,Powered Off,Other Linux (32-bit),1,1,,0.13,,,,,,1.00,0.89,,0,1,4,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3167564,PoweredOn,Powered Off,Other Linux (32-bit),1,1,,0.13,,,,,,1.00,0.89,,0,1,4,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-316838,PoweredOn,Powered Off,Debian GNU/Linux 6 (64-bit),1,1,,1.00,,,,,,2.00,1.14,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-316849,PoweredOn,Powered Off,Debian GNU/Linux 6 (64-bit),1,1,,1.00,,,,,,22.00,21.57,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-316859,PoweredOn,Powered Off,Debian GNU/Linux 6 (64-bit),1,1,,1.00,,,,,,2.00,1.04,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-316861,PoweredOn,Powered Off,Debian GNU/Linux 6 (64-bit),1,1,,1.00,,,,,,2.00,0.98,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-316862,PoweredOn,Powered Off,Debian GNU/Linux 6 (64-bit),1,1,,1.00,,,,,,2.00,0.98,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-316898,PoweredOn,Powered Off,Debian GNU/Linux 6 (64-bit),1,1,,1.00,,,,,,2.00,1.03,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-316900,PoweredOn,Powered Off,Debian GNU/Linux 6 (64-bit),1,1,,1.00,,,,,,2.00,0.98,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3169289,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,8.00,,,,,,65.00,57.74,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3178933,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,8.00,,,,,,3650.00,1252.42,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-31791,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),8,2,20.26,16.00,100,3872,3332,2024,861,435.00,386.05,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3188801,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),4,2,4.88,8.00,100,1332,1286,110,2459,40.00,27.00,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3188949,PoweredOn,Powered Off,Other Linux (32-bit),1,1,,0.13,,,,,,1.00,0.89,,0,1,4,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3213330,PoweredOn,Powered Off,Ubuntu Linux (64-bit),4,2,,8.00,,,,,,20.00,5.11,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3214649,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),4,2,,8.00,,,,,,50.00,2.27,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3226386,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,4,,8.00,,,,,,1430.00,1135.29,0.00,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3231883,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,8.00,,,,,,65.00,30.37,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3231989,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),1,1,,2.00,,,,,,0.10,0.00,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3232100,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),12,6,,56.00,,,,,,115.00,71.63,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3232119,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),12,6,,56.00,,,,,,115.00,74.51,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3233309,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),12,6,26.97,56.00,100,1803,1151,1762,1179,115.00,114.12,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3266163,PoweredOn,Powered Off,Ubuntu Linux (64-bit),4,4,,7.81,,,,,,260.19,263.21,,3,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3270565,PoweredOn,Powered On,Linux 3.10.0-957.el7.x86_64 CentOS Linux release 7.8.2003 (Core),2,2,3.72,4.00,100,383,156,367,10254,50.00,6.65,0.11,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3277408,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),8,4,,72.00,,,,,,2466.00,1296.21,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3279807,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),12,6,,80.00,,,,,,4600.00,4171.60,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3281612,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,4,,8.00,,,,,,160.00,55.71,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3285700,PoweredOn,Powered Off,Microsoft Windows Server 2003 (64-bit),8,8,,31.99,,,,,,1952.11,1503.03,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3287570,PoweredOn,Powered Off,Microsoft Windows Server 2003 Standard (32-bit),1,1,,0.50,,,,,,20.00,12.14,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3290192,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),16,16,,7.98,,,,,,278.47,190.06,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-3292745,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),4,4,11.51,4.00,100,1846,1817,791,9307,49.87,33.12,0.00,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3292780,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),1,1,2.89,2.00,100,4139,4139,930,5245,50.00,47.42,0.00,2,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3294939,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),8,4,,8.00,,,,,,900.00,440.69,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3296304,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),2,2,5.81,16.00,100,1709,1536,1311,1235,150.00,112.33,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3296306,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),2,2,5.65,16.00,100,1791,1642,1038,1428,150.00,105.73,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3296345,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),2,2,5.84,16.00,100,1748,1747,940,739,150.00,114.06,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3296500,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),2,2,5.62,16.00,100,1342,1342,1267,4489,150.00,113.47,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3296507,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),2,2,5.26,16.00,98,1619,1520,1296,1876,150.00,91.94,0.00,1,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3296509,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),2,2,5.58,16.00,100,1310,1310,918,1033,150.00,54.08,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3296854,PoweredOn,Powered On,Linux 4.7.4Zerto+ Debian GNU/Linux 8.5 (jessie),1,1,2.65,3.00,99,1996,1533,560,1175,374.52,101.30,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3296907,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),2,2,4.13,8.00,98,985,848,980,1472,50.00,45.62,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3296911,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),4,4,11.04,32.00,100,4867,4867,1158,1581,600.00,281.60,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3297124,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),2,2,5.48,16.00,89,1129,1127,440,453,159.87,91.49,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3297133,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),2,2,5.70,16.00,100,1913,1911,1300,3073,300.00,174.05,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3297554,PoweredOn,Powered On,Linux 4.7.4Zerto+ Debian GNU/Linux 8.5 (jessie),1,1,2.18,3.00,98,1948,1948,6,849,12.50,12.50,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3297571,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),2,2,5.35,16.00,100,1918,1824,1169,3414,288.00,270.78,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3297762,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),2,2,3.08,4.00,75,1255,1247,399,358,40.00,33.75,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3297777,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),2,2,2.53,4.00,87,1327,1218,357,85,40.00,33.01,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3298183,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),8,8,18.87,8.00,100,2429,2428,1060,3846,100.00,69.46,0.00,0,1,4,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3298301,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),2,1,3.11,4.00,100,1412,1397,364,392,85.00,74.62,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3298337,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),2,2,3.48,8.00,65,1280,1269,399,977,95.00,76.17,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3298352,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),8,4,8.64,8.00,72,1382,1325,1324,1562,50.00,37.24,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3298359,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),8,4,7.10,4.00,100,3583,1452,3041,2028,90.50,89.50,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3298381,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),8,4,22.00,8.00,100,1430,1296,852,2655,81.00,80.21,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3298667,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),4,4,10.80,32.00,100,4393,4297,2461,1812,501.00,453.55,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3298827,PoweredOn,Powered Off,Other Linux (32-bit),1,1,,2.00,,,,,,30.00,12.10,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3298913,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),4,2,5.44,4.00,100,1717,1653,752,1067,60.00,57.14,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3298938,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),4,4,6.01,8.00,100,1903,1613,1899,291,100.50,79.29,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3298975,PoweredOn,Powered Off,Other Linux (32-bit),1,1,,2.00,,,,,,30.00,0.00,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3298980,PoweredOn,Powered On,Other Linux (32-bit),1,1,0.47,2.00,36,893,867,26,4696,30.00,12.10,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3300384,PoweredOn,Powered On,Linux 4.7.4Zerto+ Debian GNU/Linux 8.5 (jessie),1,1,2.60,3.00,84,2722,2721,7,147,12.50,12.50,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3300385,PoweredOn,Powered On,Linux 4.7.4Zerto+ Debian GNU/Linux 8.5 (jessie),1,1,0.17,3.00,83,96,95,6,5,12.50,12.50,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3300386,PoweredOn,Powered On,Linux 4.7.4Zerto+ Debian GNU/Linux 8.5 (jessie),1,1,0.10,3.00,83,277,262,15,277,12.50,12.50,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3300543,PoweredOn,Powered On,Linux 4.7.4Zerto+ Debian GNU/Linux 8.5 (jessie),1,1,0.24,3.00,82,47,45,4,310,12.50,12.50,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3300550,PoweredOn,Powered On,Linux 4.7.4Zerto+ Debian GNU/Linux 8.5 (jessie),1,1,0.37,3.00,81,279,274,6,10,12.50,12.50,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3300551,PoweredOn,Powered On,Linux 4.7.4Zerto+ Debian GNU/Linux 8.5 (jessie),1,1,2.70,3.00,86,975,810,586,344,1012.53,566.18,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3300577,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,4,3.42,12.00,87,602,590,148,38,300.00,283.18,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3300581,PoweredOn,Powered On,Linux 4.7.4Zerto+ Debian GNU/Linux 8.5 (jessie),1,1,0.50,3.00,80,265,260,6,719,12.50,12.50,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3300830,PoweredOn,Powered On,Red Hat Enterprise Linux 5 (32-bit),2,2,0.57,1.00,41,157,148,63,21,20.00,11.14,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3300832,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2016 (64-bit),2,2,2.93,4.00,100,1668,1542,126,32,50.00,46.68,0.00,1,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-3300877,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),8,4,,8.00,,,,,,408.38,5.95,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-34462,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,2,,8.00,,,,,,120.00,114.77,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-383335,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,4,,8.00,,,,,,160.00,198.70,,1,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-383336,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2,2,,4.00,,,,,,150.00,181.00,,1,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-394946,PoweredOn,Powered On,SUSE Linux Enterprise 11 (64-bit),1,1,0.93,3.52,100,324,320,46,1987,15.00,10.89,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-40218,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),4,4,,8.00,,,,,,210.00,183.60,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-404209,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),2,2,,4.00,,,,,,50.00,2.35,,1,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-410221,PoweredOn,Powered On,CentOS 4/5/6/7 (64-bit),1,1,1.81,2.00,93,65,63,39,746,30.00,9.67,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-411074,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,32.00,,,,,,1050.00,1016.66,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-414301,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,16.00,,,,,,100.00,92.40,1.00,0,1,2,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-414310,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,50.00,48.59,0.00,0,1,2,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-414312,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,50.00,45.60,0.00,0,1,2,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-414313,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1,1,,2.00,,,,,,40.00,39.17,0.00,0,1,2,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-414370,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),2,2,5.99,8.00,100,2024,2017,751,991,200.00,141.77,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-414376,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),2,2,5.48,8.00,100,932,924,472,2495,200.00,158.07,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-424801,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,4,,64.00,,,,,,902.00,834.25,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-427165,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,80.00,51.80,,1,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-427167,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,80.00,43.85,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-427168,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,80.00,45.77,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-427172,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,80.00,51.69,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-427174,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,4,,16.00,,,,,,100.00,93.78,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-427185,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,4,,16.00,,,,,,100.00,80.91,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-427186,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,4,,8.00,,,,,,80.00,79.05,,1,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-427187,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1,1,,2.00,,,,,,81.00,49.41,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-428148,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),2,2,5.83,8.00,100,598,595,83,1107,150.00,29.56,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-428150,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),2,2,5.76,8.00,100,992,786,939,2185,150.00,49.09,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-433972,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,4,,16.00,,,,,,100.00,85.93,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-433973,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,8.00,,,,,,100.00,95.20,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-442584,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),2,2,5.93,8.00,100,3283,3282,817,1876,180.00,160.90,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-442587,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),2,2,5.38,8.00,100,5132,5124,668,2738,150.00,144.67,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-444,PoweredOn,Powered Off,Microsoft Windows Server 2003 Standard (32-bit),1,1,,4.00,,,,,,320.00,323.03,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-444328,PoweredOn,Powered On,Other 2.6.x Linux (64-bit),2,1,2.00,4.00,97,449,413,73,12131,373.00,62.71,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-446044,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1,1,,2.00,,,,,,60.00,59.21,0.00,0,1,2,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-448619,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2,2,,4.00,,,,,,150.00,77.14,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-454902,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,4,,8.00,,,,,,100.00,88.52,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-454909,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,80.00,49.03,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-454918,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,4,,8.00,,,,,,80.00,67.64,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-454929,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,100.00,97.80,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-454931,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,100.00,94.16,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-458,PoweredOn,Powered Off,Microsoft Windows Server 2003 Standard (32-bit),2,1,,8.00,,,,,,500.00,499.22,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-466101,PoweredOn,Powered Off,Oracle Solaris 10 (64-bit),2,1,,2.00,,,,,,20.00,14.38,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-46779,PoweredOn,Powered Off,Red Hat Enterprise Linux 6 (64-bit),6,1,,20.00,,,,,,400.00,297.75,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-473751,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,250.00,221.39,0.00,0,1,2,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-475540,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,60.00,59.12,0.00,0,1,3,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-480495,PoweredOn;PowerOn/Win2008R2;wave1;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),8,4,7.44,8.00,100,803,696,799,737,60.00,40.95,0.00,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-491139,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),8,4,5.95,8.00,100,847,613,843,1301,50.00,41.01,0.00,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-492086,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1,1,,2.00,,,,,,40.00,35.18,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-515883,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,16.00,,,,,,100.00,90.17,0.00,0,1,2,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-515885,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,16.00,,,,,,100.00,90.71,0.00,0,1,2,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-515886,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,16.00,,,,,,100.00,92.36,0.00,0,1,2,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-515887,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,1,,4.00,,,,,,100.00,95.71,0.00,0,1,2,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-515888,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,1,,4.00,,,,,,60.00,55.74,0.00,0,1,2,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-529692,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,8.00,,,,,,100.00,79.79,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-567854,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),8,2,,16.00,,,,,,100.00,98.03,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-567855,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),8,4,,8.00,,,,,,100.00,68.67,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-567856,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,4,,8.00,,,,,,150.00,147.50,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-567857,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,4,,8.00,,,,,,200.00,199.94,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-587917,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),8,2,,32.00,,,,,,650.00,189.56,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-59849,PoweredOn,Powered Off,Other Linux (32-bit),1,1,,0.13,,,,,,1.00,0.84,,0,1,4,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-603018,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),8,2,,8.00,,,,,,100.00,92.47,0.00,0,1,2,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-603021,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),8,2,,8.00,,,,,,100.00,99.07,0.00,0,1,2,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-606042,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,2,,16.00,,,,,,101.00,100.76,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-606043,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,4,,8.00,,,,,,100.00,99.94,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-6066,PoweredOn,Powered Off,Other Linux (32-bit),1,1,,0.13,,,,,,1.00,0.92,,0,1,4,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-613266,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,30.00,,,,,,1097.00,805.45,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-616420,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),2,2,5.60,4.00,100,1376,1374,427,5112,30.00,29.26,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-62797,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),8,2,,16.00,,,,,,101.00,90.63,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-62803,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),4,4,4.09,16.00,100,570,29,570,2946,201.00,200.94,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-62887,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),8,2,,4.00,,,,,,100.00,99.85,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-62889,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,4,,8.00,,,,,,200.00,197.34,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-640366,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),2,2,6.10,16.00,100,7809,4176,7057,2454,1630.00,1205.07,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-64058,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,4,,8.00,,,,,,150.00,143.28,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-64060,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,4,,8.00,,,,,,200.00,140.94,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-641234,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,4,,32.00,,,,,,3309.00,3187.40,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-641243,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,200.00,195.31,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-641245,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,4,,8.00,,,,,,99.87,98.62,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-641247,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,4,,8.00,,,,,,80.00,70.74,,1,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-641263,PoweredOn;PowerOn/Win2008R2;windows_power_on,Powered On,Microsoft Windows Server 2008 R2 (64-bit),2,1,5.70,28.00,100,3561,3560,3207,3732,751.00,539.55,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-651445,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),1,1,,2.00,,,,,,80.00,51.27,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-659384,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),6,2,,32.00,,,,,,1070.00,1049.58,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-692065,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),6,2,14.25,16.00,100,2103,1866,783,1053,120.00,119.41,0.00,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-702,PoweredOn,Powered On,Other Linux (32-bit),1,1,0.35,2.00,99,10,3,10,566,60.00,32.62,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-704404,PoweredOn,Powered Off,Ubuntu Linux (64-bit),4,4,,7.81,,,,,,260.19,257.90,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-707,PoweredOn,Powered On,CentOS 4/5/6 (32-bit),1,1,1.20,0.25,99,219,214,20,8670,80.00,60.81,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-71265,PoweredOn;win2008on;windows_power_on,Powered On,Microsoft Windows Server 2008 (32-bit),6,6,18.39,32.00,100,8696,8654,1440,5713,1000.00,943.98,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-718579,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),8,2,,32.00,,,,,,251.00,249.74,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-718580,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,4,,8.00,,,,,,301.00,239.35,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-727872,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,96.00,,,,,,1100.00,986.76,,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-728342,PoweredOn,Powered Off,Oracle Solaris 10 (64-bit),2,1,,2.00,,,,,,20.00,16.08,0.00,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-729998,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),8,4,3.89,8.00,100,894,434,890,306,210.00,189.29,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c472963
+VM-738447,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),2,2,3.32,4.00,100,884,727,672,1252,51.00,27.30,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-742648,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,100.00,89.65,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-744955,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),8,4,,16.00,,,,,,271.00,220.79,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-758114,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2012 (64-bit),2,2,0.33,4.00,100,44,7,42,328,30.00,23.24,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-775036,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,8.00,,,,,,60.00,59.48,0.00,0,1,2,Cluster #2,VPC #1,demo.google.com,Cluster-c862031
+VM-775041,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),8,8,,8.00,,,,,,100.00,100.00,,0,1,4,Cluster #1,VPC #1,demo.google.com,Cluster-c472963
+VM-78395,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),8,2,,32.00,,,,,,150.00,146.82,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-783970,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,1,,6.00,,,,,,700.00,649.82,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-78398,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,4,,8.00,,,,,,400.00,399.94,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-784,PoweredOn,Powered On,Other Linux (64-bit),8,1,4.04,2.00,100,449,297,245,5900,30.00,23.73,,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-788297,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),8,2,,40.00,,,,,,251.00,250.92,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-789386,PoweredOn,Powered On,Red Hat Enterprise Linux 6 (64-bit),8,8,3.08,4.00,97,1191,1176,608,643,20.00,12.57,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-826262,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,8.00,,,,,,435.00,435.00,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c472963
+VM-841035,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,1,,15.99,,,,,,2370.50,148.38,,1,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-841644,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),8,4,,94.00,,,,,,970.00,671.57,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-842568,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,4,,10.00,,,,,,120.00,109.32,,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-847502,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,4,,16.00,,,,,,120.00,91.53,,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-848311,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,2,,8.00,,,,,,200.00,199.83,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-848312,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,4,,8.00,,,,,,151.00,139.63,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-857193,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,8.00,,,,,,4090.48,2469.78,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-86491,PoweredOn;windows_power_on,Powered On,Microsoft Windows Server 2003 Standard (32-bit),2,1,5.15,2.00,100,6263,5057,2039,2293,40.00,39.86,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-866461,PoweredOn,Powered On,CentOS 4/5/6/7 (64-bit),1,1,0.63,2.00,99,67,4,67,1130,50.00,5.88,0.00,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-867476,PoweredOn,Powered Off,Ubuntu Linux (64-bit),2,1,,4.00,,,,,,12.00,2.07,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-869273,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),16,4,,96.00,,,,,,1815.00,1661.96,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-869280,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,16.00,,,,,,1465.00,314.66,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-874035,PoweredOn,Powered Off,Oracle Solaris 10 (64-bit),2,1,,4.00,,,,,,20.00,12.80,0.00,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-875839,PoweredOn,Powered Off,Oracle Solaris 10 (64-bit),2,1,,4.00,,,,,,20.00,8.88,0.00,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-87717,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),1,1,,4.00,,,,,,500.00,501.79,,0,1,3,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-877249,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),8,2,,8.00,,,,,,100.00,97.07,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-877250,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,4,,8.00,,,,,,201.00,192.29,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-879746,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2,2,,4.00,,,,,,50.00,47.16,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-879748,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2,2,,8.00,,,,,,100.00,100.09,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-887281,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,4.00,,,,,,7753.00,7753.00,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c472963
+VM-888680,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),6,6,,32.00,,,,,,160.00,70.62,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-892325,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),6,6,,32.00,,,,,,160.00,60.75,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-892357,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),6,6,,32.00,,,,,,160.00,86.26,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-892358,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),6,6,,32.00,,,,,,160.00,76.23,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c344303
+VM-907024,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,12.00,,,,,,665.00,665.00,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c472963
+VM-913604,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,2,,8.00,,,,,,100.00,62.31,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-913609,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),4,4,,8.00,,,,,,100.00,99.95,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-914830,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2,2,,8.00,,,,,,100.00,99.20,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-9209,PoweredOn,Powered Off,Microsoft Windows Server 2008 R2 (64-bit),2,1,,8.00,,,,,,150.00,120.30,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-92543,PoweredOn,Powered Off,Ubuntu Linux (64-bit),4,2,,8.00,,,,,,175.00,175.00,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c472963
+VM-931949,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),4,2,,8.00,,,,,,432.00,125.74,,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-980498,PoweredOn,Powered Off,Microsoft Windows Server 2012 (64-bit),2,2,,8.00,,,,,,120.00,113.68,0.00,0,1,2,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-997254,PoweredOn,Powered Off,Other 2.6.x Linux (64-bit),2,2,,4.00,,,,,,32.00,0.05,,0,1,4,Cluster #1,VPC #1,demo.google.com,Cluster-c473761
+VM-997256,PoweredOn,Powered Off,Other 2.6.x Linux (64-bit),2,2,,4.00,,,,,,32.00,0.03,,0,1,1,Cluster #1,VPC #1,demo.google.com,Cluster-c473761

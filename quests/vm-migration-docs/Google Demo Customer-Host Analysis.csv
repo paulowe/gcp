@@ -1,0 +1,20 @@
+Host Analysis for Google Demo Customer
+,
+Applied Filters
+None
+,
+Table Data
+Host Name,Tags,Severity,Server Model,Hardware Compatibility,CPU Series,ESXi Version,ESXi Support by VMware,CPUs,CPU Cores,Installed Memory (GB)
+Host-1033600,eol;eol-vm;esxi6.5incompat;testxyz,Need Attention,IBM System x3550 M3,Compatible,Intel(R) Xeon(R) CPU           E5620  @ 2.40GHz,5.5 U3 VMSA-2018-0004.3,End of Support,2,8,287.96
+Host-1042856,eol;lenovo,Need Attention,Lenovo System x3750 M4,Compatible,Intel(R) Xeon(R) CPU E5-4640 0 @ 2.40GHz,5.5 U3 VMSA-2018-0004.3,End of Support,4,32,511.97
+Host-1180936,eol;esxi6.5incompat,Need Attention,Super Server,Not in HCL,Intel(R) Xeon(R) CPU E5-2699 v4 @ 2.20GHz,5.5 U3 VMSA-2018-0004.3,End of Support,2,44,383.89
+Host-1242241,eol;esxi6.5incompat;sg-toGCP,Need Attention,PowerEdge R610,Compatible,Intel(R) Xeon(R) CPU           X5650  @ 2.67GHz,5.5 U3 VMSA-2018-0004.3,End of Support,2,12,191.99
+Host-1328731,eol;esxi6.5incompat;sg-toGCP,Need Attention,Super Server,Not in HCL,Intel(R) Xeon(R) CPU E5-2687W v4 @ 3.00GHz,5.5 U3 VMSA-2018-0004.3,End of Support,2,24,255.89
+Host-1328766,eol;esxi6.5incompat;sg-toGCP,Need Attention,Super Server,Not in HCL,Intel(R) Xeon(R) CPU E5-2687W v4 @ 3.00GHz,5.5 U3 VMSA-2018-0004.3,End of Support,2,24,255.89
+Host-1428147,eol;sg-toGCP,Need Attention,IBM System x3550 M4,Compatible,Intel(R) Xeon(R) CPU E5-2660 0 @ 2.20GHz,5.5 U3 VMSA-2018-0004.3,End of Support,2,16,383.97
+Host-2959005,eol;sg-toGCP,Need Attention,IBM System x3550 M4,Compatible,Intel(R) Xeon(R) CPU E5-2660 0 @ 2.20GHz,5.5 U3 VMSA-2018-0004.3,End of Support,2,16,383.98
+Host-3005033,eol;sg-toGCP,Need Attention,IBM System x3550 M4,Compatible,Intel(R) Xeon(R) CPU E5-2660 0 @ 2.20GHz,5.5 U3 VMSA-2018-0004.3,End of Support,2,16,143.97
+Host-3123728,eol;sg-toGCP,Need Attention,IBM System x3550 M4,Compatible,Intel(R) Xeon(R) CPU E5-2660 0 @ 2.20GHz,5.5 U3 VMSA-2018-0004.3,End of Support,2,16,287.97
+Host-3166049,eol;sg-toGCP,Need Attention,IBM System x3550 M4,Compatible,Intel(R) Xeon(R) CPU E5-2660 0 @ 2.20GHz,5.5 U3 VMSA-2018-0004.3,End of Support,2,16,191.98
+Host-3299273,eol;esxi6.5incompat,Need Attention,Super Server,Not in HCL,Intel(R) Xeon(R) CPU E5-2699 v4 @ 2.20GHz,5.5 U3 VMSA-2018-0004.3,End of Support,2,44,287.89
+Host-3299343,eol;esxi6.5incompat,Need Attention,Super Server,Not in HCL,Intel(R) Xeon(R) CPU E5-2699 v4 @ 2.20GHz,5.5 U3 VMSA-2018-0004.3,End of Support,2,44,287.89

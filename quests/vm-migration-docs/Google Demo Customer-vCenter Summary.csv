@@ -1,0 +1,8 @@
+vCenter Summary for Google Demo Customer
+,
+Applied Filters
+None
+,
+Table Data
+vCenter Name,Tags,Build,Version,Datacenters,Resource Pools,Clusters,Storage Clusters,Networks,Datastores,Total Hosts,Clustered Hosts,Standalone Hosts,Powered On Hosts,Powered Off Hosts,Hosts in Maintenance Mode,Hosts in Standby Mode,Hosts in Unknown State,Total VMs,Powered On VMs,Powered Off VMs,Suspended VMs,Template VMs,VMs in Unknown State,Avg. Consolidation Ratio (per Host),Virtual Memory (GB),Physical Memory (GB),Virtual CPUs,Physical CPU Cores,vDS
+demo.google.com,test1;VDI,"7460778","5.5",1,19,13,0,182,22,13,13,0,10,0,0,0,3,630,182,447,0,1,0,18.2,2256.60,3855.24,752,312,1

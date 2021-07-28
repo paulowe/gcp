@@ -1,0 +1,642 @@
+Guest OS Analysis for Google Demo Customer
+,
+Applied Filters
+None
+,
+Table Data
+VM Name,Tags,Severity,VM State,Guest OS,End of Support,32/64 bits,vCPU,vRAM (GB),Tools Installed
+VM-101431,PoweredOn,Normal,Powered Off,Other Linux,,32-bit,1,0.13,Installed
+VM-1036344,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,8.00,Installed
+VM-1043050,PoweredOn,Normal,Powered Off,Other Linux,,32-bit,1,0.13,Installed
+VM-1043082,PoweredOn;PowerOn/Win2008R2,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,8,26.00,Installed
+VM-1053694,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,18.00,Installed
+VM-1053699,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,12.00,Installed
+VM-1053701,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-1053702,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,12.00,Installed
+VM-1074962,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-1084859,PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,8,32.00,Installed
+VM-109678,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,2,8.00,Installed
+VM-1106428,PoweredOn,Normal,Powered Off,Red Hat Enterprise Linux 6,30 Nov 2023,64-bit,1,8.00,Installed
+VM-112147,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,12,30.00,Installed
+VM-1131228,PoweredOn,Normal,Powered Off,Red Hat Enterprise Linux 6,30 Nov 2023,64-bit,1,2.00,Installed
+VM-113466,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,8,16.00,Installed
+VM-113488,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,2,2.00,Installed
+VM-113491,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,8,32.00,Installed
+VM-113492,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,1,4.00,Installed
+VM-113493,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,8.00,Installed
+VM-113501,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,2,8.00,Installed
+VM-113503,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,2,6.00,Installed
+VM-113678,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,2,32.00,Installed
+VM-113685,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,8.00,Installed
+VM-113687,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,2,2.00,Installed
+VM-1145593,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,6,10.00,Installed
+VM-1152114,PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,4,16.00,Installed
+VM-1200373,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-1205705,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-1220472,Hadoop;PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,2,4.00,Installed
+VM-122289,Hadoop;PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,2,2.00,Installed
+VM-122300,Hadoop;PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,2,12.00,Installed
+VM-122301,Hadoop;PoweredOn,Noteworthy,Powered On,CentOS 4/5/6/7,,64-bit,4,4.00,Installed
+VM-122302,Hadoop;PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,4,16.00,Installed
+VM-1223024,Hadoop;PoweredOn,Noteworthy,Powered On,FreeBSD,,64-bit,2,2.00,Installed
+VM-1223029,Hadoop;PoweredOn,Noteworthy,Powered On,FreeBSD,,64-bit,2,2.00,Installed
+VM-122309,Hadoop;PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,6,16.00,Installed
+VM-122311,Hadoop;PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,1,2.00,Installed
+VM-122312,Hadoop;PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,16.00,Installed
+VM-122319,Hadoop;PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,8,3.00,Installed
+VM-122326,Hadoop;PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,12.00,Installed
+VM-122331,Hadoop;PoweredOn,Need Attention,Powered Off,Windows Server 2008,14 Jan 2020,32-bit,2,4.00,Installed
+VM-122336,Hadoop;PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,4.00,Installed
+VM-122353,Hadoop;PoweredOn,Normal,Powered On,Other Linux,,64-bit,2,4.00,Installed
+VM-122356,Hadoop;PoweredOn;win2008on;windows_power_on,Need Attention,Powered On,Windows Server 2008,14 Jan 2020,32-bit,1,1.00,Installed
+VM-122359,Hadoop;PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,2,8.00,Installed
+VM-122371,Hadoop;PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,6,16.00,Installed
+VM-122380,Hadoop;PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,2,12.00,Installed
+VM-122381,Hadoop;PoweredOn;windows_power_on,Need Attention,Powered On,Windows Server 2003 Standard,14 Jul 2015,32-bit,4,3.00,Installed
+VM-122387,Hadoop;PoweredOn;win2008on;windows_power_on,Need Attention,Powered On,Windows Server 2008,14 Jan 2020,32-bit,1,4.00,Installed
+VM-122395,Hadoop;PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,1,3.00,Installed
+VM-122396,Hadoop;PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,2,3.00,Installed
+VM-122398,Hadoop;PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,8,8.00,Installed
+VM-122617,Hadoop;PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,8,8.00,Installed
+VM-122619,Hadoop;PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,1,2.00,Installed
+VM-122626,Hadoop;PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,8,32.00,Installed
+VM-122632,Hadoop;PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,2,12.00,Installed
+VM-122634,Hadoop;PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,1,2.00,Installed
+VM-122651,Hadoop;PoweredOn;win2008on;windows_power_on,Need Attention,Powered On,Windows Server 2008,14 Jan 2020,32-bit,2,4.00,Installed
+VM-122652,Hadoop;PoweredOn,Noteworthy,Powered On,CentOS 4/5/6,,32-bit,1,0.25,Installed
+VM-122655,Hadoop;PoweredOn,Need Attention,Powered Off,Windows Server 2003,14 Jul 2015,64-bit,1,1.00,Installed
+VM-122659,Hadoop;PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,2,12.00,Installed
+VM-122661,Hadoop;PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,2,16.00,Installed
+VM-122663,Hadoop;PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-122687,Hadoop;PoweredOn,Need Attention,Powered Off,Windows Server 2008,14 Jan 2020,64-bit,1,2.00,Installed
+VM-122689,Hadoop;PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,1,2.00,Installed
+VM-122694,Hadoop;PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,2,4.00,Installed
+VM-122709,Hadoop;PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,2,4.00,Installed
+VM-122712,Hadoop;PoweredOn;windows_power_on,Noteworthy,Powered On,Windows Server 2016,,64-bit,2,4.00,Installed
+VM-122716,Hadoop;PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,6,12.00,Installed
+VM-122718,Hadoop;PoweredOn;win2008on;windows_power_on,Need Attention,Powered On,Windows Server 2008,14 Jan 2020,32-bit,4,20.00,Installed
+VM-122719,Hadoop;PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,2,22.00,Installed
+VM-122730,Hadoop;PoweredOn,Need Attention,Powered Off,Windows Server 2003,14 Jul 2015,32-bit,1,2.00,Installed
+VM-122742,Hadoop;PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,1,2.00,Installed
+VM-122750,Hadoop;PoweredOn,Need Attention,Powered Off,Red Hat Enterprise Linux 5,31 Mar 2020,64-bit,1,1.00,Installed
+VM-122754,Hadoop;PoweredOn,Need Attention,Powered Off,Windows Server 2008,14 Jan 2020,32-bit,1,2.00,Installed
+VM-122760,Hadoop;PoweredOn,Need Attention,Powered Off,Windows Server 2003 Standard,14 Jul 2015,32-bit,1,1.00,Installed
+VM-1229113,Hadoop;PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,8.00,Installed
+VM-122980,Hadoop;PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,1,3.00,Installed
+VM-123026,PoweredOn,Need Attention,Powered Off,Red Hat Enterprise Linux 5,31 Mar 2020,32-bit,2,1.00,Installed
+VM-123047,PoweredOn,Need Attention,Powered Off,Windows Server 2008,14 Jan 2020,64-bit,2,32.00,Installed
+VM-123048,PoweredOn,Need Attention,Powered Off,Windows Server 2008,14 Jan 2020,64-bit,4,32.00,Installed
+VM-123049,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,2,8.00,Installed
+VM-123050,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,1,8.00,Installed
+VM-123052,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,2,8.00,Installed
+VM-123054,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,2,8.00,Installed
+VM-123072,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,16.00,Installed
+VM-123078,PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,8,16.00,Installed
+VM-123079,PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,4,16.00,Installed
+VM-123081,PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,4,16.00,Installed
+VM-1233262,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-1233270,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-1238299,PoweredOn,Normal,Powered Off,Red Hat Enterprise Linux 6,30 Nov 2023,64-bit,1,8.00,Installed
+VM-1240930,PoweredOn,Need Attention,Powered Off,Oracle Solaris 10,1 Jan 2021,64-bit,2,2.00,Installed
+VM-125422,PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,2,8.00,Installed
+VM-125425,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,8.00,Installed
+VM-1255749,PoweredOn,Need Attention,Powered Off,Windows Server 2008,14 Jan 2020,32-bit,2,4.00,Installed
+VM-1261690,PoweredOn,Normal,Powered Off,Red Hat Enterprise Linux 6,30 Nov 2023,64-bit,2,4.00,Installed
+VM-127072,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-1279503,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,6.00,Installed
+VM-128769,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,1,3.00,Installed
+VM-1294222,PoweredOn,Normal,Powered Off,Other Linux,,32-bit,1,0.13,Installed
+VM-1294232,PoweredOn,Normal,Powered Off,Other Linux,,32-bit,1,0.13,Installed
+VM-1294234,PoweredOn,Normal,Powered Off,Other Linux,,32-bit,1,0.13,Installed
+VM-1294236,PoweredOn,Normal,Powered Off,Other Linux,,32-bit,1,0.13,Installed
+VM-1295378,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,12.00,Installed
+VM-1308494,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,10,50.00,Installed
+VM-1308495,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,8,4.00,Installed
+VM-1308590,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,8,8.00,Installed
+VM-1308622,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,8,8.00,Installed
+VM-1322837,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-1324114,PoweredOn;windows_power_on,Noteworthy,Powered On,Windows Server 2016,,64-bit,4,8.00,Installed
+VM-1331426,on,Normal,Template,Windows Server 2012,10 Jan 2023,64-bit,1,2.00,Installed
+VM-134599,PoweredOn,Normal,Powered Off,Red Hat Enterprise Linux 6,30 Nov 2023,64-bit,1,2.00,Installed
+VM-1367529,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,8,8.00,Installed
+VM-1367533,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,8,4.00,Installed
+VM-1367551,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,8,8.00,Installed
+VM-1367553,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,8,8.00,Installed
+VM-1376240,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-1385264,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,16.00,Installed
+VM-1385265,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,16,64.00,Installed
+VM-1399120,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,8,8.00,Installed
+VM-1399121,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,8,8.00,Installed
+VM-1399122,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,8,8.00,Installed
+VM-140368,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,8,10.00,Installed
+VM-140371,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,8.00,Installed
+VM-1406570,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,8,8.00,Installed
+VM-1406658,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,8,8.00,Installed
+VM-1428099,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,10,36.00,Installed
+VM-1429567,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,10,64.00,Installed
+VM-1432840,PoweredOn,Need Attention,Powered Off,Debian GNU/Linux 6,1 Feb 2016,64-bit,1,0.25,Installed
+VM-1451056,PoweredOn,Normal,Powered Off,Red Hat Enterprise Linux 6,30 Nov 2023,64-bit,1,1.00,Installed
+VM-1454037,PoweredOn,Normal,Powered Off,Red Hat Enterprise Linux 6,30 Nov 2023,64-bit,1,2.00,Installed
+VM-1454057,PoweredOn,Normal,Powered On,Red Hat Enterprise Linux 6,30 Nov 2023,64-bit,2,8.00,Installed
+VM-1454238,PoweredOn,Normal,Powered Off,Red Hat Enterprise Linux 6,30 Nov 2023,64-bit,1,2.00,Installed
+VM-1454305,PoweredOn,Normal,Powered On,Red Hat Enterprise Linux 6,30 Nov 2023,64-bit,2,8.00,Installed
+VM-1454306,PoweredOn,Normal,Powered On,Red Hat Enterprise Linux 6,30 Nov 2023,64-bit,2,8.00,Installed
+VM-1454307,PoweredOn,Normal,Powered On,Red Hat Enterprise Linux 6,30 Nov 2023,64-bit,2,8.00,Installed
+VM-1454310,PoweredOn,Normal,Powered On,Red Hat Enterprise Linux 6,30 Nov 2023,64-bit,2,8.00,Installed
+VM-1455663,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,8,40.00,Installed
+VM-1455665,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,10,96.00,Installed
+VM-1464285,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,2.00,Installed
+VM-1471027,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-1481532,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,16.00,Installed
+VM-1485235,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,8,40.00,Installed
+VM-1486025,PoweredOn;windows_power_on,Noteworthy,Powered On,Windows Server 2016,,64-bit,8,16.00,Installed
+VM-1493143,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,16.00,Installed
+VM-1495798,PoweredOn;windows_power_on,Noteworthy,Powered On,Windows Server 2016,,64-bit,4,16.00,Installed
+VM-1495799,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-1515093,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,1,8.00,Installed
+VM-1518278,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,8,8.00,Installed
+VM-15196,PoweredOn,Normal,Powered Off,Other Linux,,32-bit,1,0.13,Installed
+VM-1526576,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-1540021,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,8,76.00,Installed
+VM-1540023,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,16.00,Installed
+VM-1540025,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,64.00,Installed
+VM-1543064,PoweredOn,Need Attention,Powered Off,Debian GNU/Linux 6,1 Feb 2016,64-bit,1,0.25,Installed
+VM-1545961,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,1,2.00,Installed
+VM-1551662,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,8.00,Installed
+VM-603021_replica,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,8,8.00,Installed
+VM-414310_replica,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-515887_replica,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-515886_replica,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,16.00,Installed
+VM-603018_replica,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,8,8.00,Installed
+VM-515888_replica,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-1205705_replica,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-515883_replica,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,16.00,Installed
+VM-475540_replica,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-446044_replica,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,1,2.00,Installed
+VM-473751_replica,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-1590939,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-1590940,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-1594097,PoweredOn,Noteworthy,Powered On,Ubuntu Linux,,64-bit,2,2.00,Installed
+VM-160780,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,8,8.00,Installed
+VM-160783,PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,4,8.00,Installed
+VM-1630754,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,8.00,Installed
+VM-163498,PoweredOn,Need Attention,Powered Off,Windows Server 2008,14 Jan 2020,32-bit,2,4.00,Installed
+VM-163500,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,16.00,Installed
+VM-1641542,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,6.00,Installed
+VM-1647888,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,8,32.00,Installed
+VM-1659314,PoweredOn,Need Attention,Powered Off,Oracle Solaris 10,1 Jan 2021,64-bit,2,2.00,Installed
+VM-167581,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,2,22.00,Installed
+VM-167582,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,10,40.00,Installed
+VM-169416,PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,3,6.00,Installed
+VM-1699163,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-1699960,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,16.00,Installed
+VM-1714904,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,1,8.00,Installed
+VM-1721307,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-1721309,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-1721311,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,8.00,Installed
+VM-1721460,PoweredOn,Normal,Powered Off,Ubuntu Linux,,64-bit,1,4.00,Installed
+VM-1726022,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,8,8.00,Installed
+VM-1746557,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-1746558,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-175067,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,22.00,Installed
+VM-1764253,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,16.00,Installed
+VM-1764255,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-177781,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,6,32.00,Installed
+VM-1780934,PoweredOn,Normal,Powered Off,Red Hat Enterprise Linux 6,30 Nov 2023,64-bit,12,24.00,Installed
+VM-1780998,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-1780999,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-1787982,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,8,8.00,Installed
+VM-1791440,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,8,8.00,Installed
+VM-1800797,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-1800798,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-1817265,PoweredOn,Need Attention,Powered Off,Oracle Solaris 10,1 Jan 2021,64-bit,2,2.00,Installed
+VM-1818686,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,8,8.00,Installed
+VM-1818689,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,8,8.00,Installed
+VM-1818776,"",Need Attention,Powered Off,Oracle Solaris 10,1 Jan 2021,64-bit,2,2.00,Installed
+VM-1820913,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,8.00,Installed
+VM-1820994,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,16.00,Installed
+VM-1821086,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,8.00,Installed
+VM-1827613,PoweredOn,Normal,Powered Off,Other Linux,,64-bit,4,8.00,Installed
+VM-182879,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,8.00,Installed
+VM-1831092,"",Need Attention,Powered Off,Oracle Solaris 10,1 Jan 2021,64-bit,2,2.00,Installed
+VM-1831094,PoweredOn,Need Attention,Powered Off,Oracle Solaris 10,1 Jan 2021,64-bit,2,2.00,Installed
+VM-183410,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,10.00,Installed
+VM-1851743,PoweredOn,Normal,Powered Off,Other Linux,,64-bit,4,8.00,Installed
+VM-186812,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,3,10.00,Installed
+VM-122719_replica,Hadoop;PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,2,22.00,Installed
+VM-1880064,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,8,8.00,Installed
+VM-1881713,PoweredOn;windows_power_on,Need Attention,Powered On,Windows Server 2003 Standard,14 Jul 2015,32-bit,2,4.00,Installed
+VM-188809,PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,4,8.00,Installed
+VM-188810,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,8.00,Installed
+VM-1906061,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,20.00,Installed
+VM-1906064,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,20.00,Installed
+VM-1912494,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,6,32.00,Installed
+VM-1912506,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,2,8.00,Installed
+VM-1912517,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,1,2.00,Installed
+VM-1912518,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,1,2.00,Installed
+VM-1912536,PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,6,8.00,Installed
+VM-1912506_replica,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,2,8.00,Installed
+VM-1084859_replica,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,8,32.00,Installed
+VM-1721311_replica,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,8.00,Installed
+VM-1938831,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,4,12.00,Installed
+VM-1958955,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-1961695,PoweredOn,Normal,Powered Off,Red Hat Enterprise Linux 6,30 Nov 2023,64-bit,12,24.00,Installed
+VM-1962736,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,8,40.00,Installed
+VM-1962747,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,40.00,Installed
+VM-1962761,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,40.00,Installed
+VM-1962777,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,3,20.00,Installed
+VM-196663,PoweredOn,Normal,Powered Off,Red Hat Enterprise Linux 6,30 Nov 2023,64-bit,2,2.00,Installed
+VM-1972858,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,4,16.00,Installed
+VM-1991508,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,4,16.00,Installed
+VM-1991514,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,4,16.00,Installed
+VM-1991518,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,4,16.00,Installed
+VM-1991523,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-1991539,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,4,16.00,Installed
+VM-1991540,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,4,16.00,Installed
+VM-1991545,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,4,16.00,Installed
+VM-1991547,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,4,16.00,Installed
+VM-1991550,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,4,16.00,Installed
+VM-1991627,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,4,16.00,Installed
+VM-2010936,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,1,3.00,Installed
+VM-2010963,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,6,16.00,Installed
+VM-2011107,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,8,24.00,Installed
+VM-204675,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,6.00,Installed
+VM-2058801,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-2058802,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-212149,PoweredOn,Normal,Powered On,Ubuntu Linux,,64-bit,4,4.00,Installed
+VM-216386,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,2,4.00,Installed
+VM-2163900,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-2163905,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-2163908,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-2164214,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-2164266,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,16.00,Installed
+VM-2164267,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-2164268,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-2164273,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-2164330,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,64.00,Installed
+VM-2164389,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,1,2.00,Installed
+VM-2183584,PoweredOn;windows_power_on,Noteworthy,Powered On,Windows Server 2016,,64-bit,8,16.00,Installed
+VM-2183587,PoweredOn;windows_power_on,Noteworthy,Powered On,Windows Server 2016,,64-bit,2,8.00,Installed
+VM-2186157,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-2186160,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-2186165,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-2186371,PoweredOn,Noteworthy,Powered On,Red Hat Enterprise Linux 7,30 Jun 2027,64-bit,4,24.00,Installed
+VM-2186372,PoweredOn,Noteworthy,Powered On,Red Hat Enterprise Linux 7,30 Jun 2027,64-bit,4,24.00,Installed
+VM-2186373,PoweredOn,Noteworthy,Powered On,Red Hat Enterprise Linux 7,30 Jun 2027,64-bit,4,24.00,Installed
+VM-2186374,PoweredOn,Noteworthy,Powered On,Red Hat Enterprise Linux 7,30 Jun 2027,64-bit,4,24.00,Installed
+VM-2186534,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-2212446,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,8,16.00,Installed
+VM-2235405,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-229409,PoweredOn,Normal,Powered Off,Other Linux,,32-bit,1,0.13,Installed
+VM-2339042,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-2383897,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-2383901,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-2416912,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-2429147,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,4,6.00,Installed
+VM-2431936,PoweredOn,Need Attention,Powered Off,Red Hat Enterprise Linux 5,31 Mar 2020,32-bit,1,2.00,Installed
+VM-2434076,"",Normal,Powered Off,Red Hat Enterprise Linux 6,30 Nov 2023,64-bit,1,1.00,Installed
+VM-2444049,PoweredOn,Normal,Powered Off,Red Hat Enterprise Linux 7,30 Jun 2027,64-bit,1,1.00,Installed
+VM-2444132,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-2444133,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-2444291,PoweredOn,Normal,Powered On,Red Hat Enterprise Linux 7,30 Jun 2027,64-bit,4,16.00,Installed
+VM-2444293,PoweredOn,Normal,Powered Off,Red Hat Enterprise Linux 7,30 Jun 2027,64-bit,4,16.00,Installed
+VM-2451511,PoweredOn;windows_power_on,Noteworthy,Powered On,Windows Server 2016,,64-bit,8,16.00,Installed
+VM-2461776,PoweredOn,Normal,Powered On,Red Hat Enterprise Linux 7,30 Jun 2027,64-bit,2,8.00,Installed
+VM-2462345,PoweredOn,Normal,Powered Off,Red Hat Enterprise Linux 7,30 Jun 2027,64-bit,2,8.00,Installed
+VM-2466931,PoweredOn;windows_power_on,Noteworthy,Powered On,Windows Server 2016,,64-bit,4,8.00,Installed
+VM-2466932,PoweredOn;windows_power_on,Noteworthy,Powered On,Windows Server 2016,,64-bit,4,8.00,Installed
+VM-2469555,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,16.00,Installed
+VM-2471959,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,12.00,Installed
+VM-2471963,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,12,64.00,Installed
+VM-2481206,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,12.00,Installed
+VM-2502780,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-2521655,PoweredOn;windows_power_on,Noteworthy,Powered On,Windows Server 2016,,64-bit,8,4.00,Installed
+VM-1545961_replica,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,1,2.00,Installed
+VM-2534187,PoweredOn;windows_power_on,Noteworthy,Powered On,Windows Server 2016,,64-bit,8,4.00,Installed
+VM-2539196,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,8,64.00,Installed
+VM-2548537,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,12,64.00,Installed
+VM-2600282,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,16.00,Installed
+VM-2600452,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,24,32.00,Installed
+VM-2605107,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-2615239,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,16.00,Installed
+VM-2615364,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,16.00,Installed
+VM-2631243,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,12,64.00,Installed
+VM-2631600,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,16.00,Installed
+VM-2634976,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,10,96.00,Installed
+VM-2635118,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-2644041,PoweredOn;windows_power_on,Noteworthy,Powered On,Windows Server 2016,,64-bit,8,24.00,Installed
+VM-2644048,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,8,24.00,Installed
+VM-2659403,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,2,8.00,Installed
+VM-2659409,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,2,8.00,Installed
+VM-2659414,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,4,16.00,Installed
+VM-2659415,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,4,16.00,Installed
+VM-1295378_replica,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,12.00,Installed
+VM-2672126,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,16.00,Installed
+VM-2672134,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,16.00,Installed
+VM-2677718,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,8,16.00,Installed
+VM-2677744,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,8,16.00,Installed
+VM-2704876,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-2716965,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-2716982,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-2717121,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-2717129,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,16,64.00,Installed
+VM-2717130,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-2727366,PoweredOn,Noteworthy,Powered On,Red Hat Enterprise Linux 7,30 Jun 2027,64-bit,2,8.00,Installed
+VM-2727376,PoweredOn,Noteworthy,Powered On,Red Hat Enterprise Linux 7,30 Jun 2027,64-bit,2,8.00,Installed
+VM-274300,PoweredOn,Normal,Powered On,SUSE Linux Enterprise 11,,64-bit,1,0.59,Installed
+VM-274809,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,6,16.00,Installed
+VM-274816,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,6,16.00,Installed
+VM-2752133,PoweredOn,Normal,Powered Off,Ubuntu Linux,,64-bit,2,4.00,Installed
+VM-2752210,PoweredOn,Normal,Powered On,Ubuntu Linux,,64-bit,2,4.00,Installed
+VM-2753857,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-2753859,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-2753857_replica,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-2753859_replica,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-2779962,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,1,2.00,Installed
+VM-27839,PoweredOn,Normal,Powered Off,Other Linux,,32-bit,1,0.13,Installed
+VM-27841,PoweredOn,Normal,Powered Off,Other Linux,,32-bit,1,0.13,Installed
+VM-2784331,PoweredOn,Noteworthy,Powered On,Linux 3.10.0-957.el7.x86_64 CentOS Linux release 7.6.1810 (Core),,"",1,2.00,Installed
+VM-2789983,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-2791617,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,8.00,Installed
+VM-2791618,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,16.00,Installed
+VM-2791620,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,16.00,Installed
+VM-2834268,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-2843498,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-2850134,PoweredOn,Normal,Powered Off,Red Hat Enterprise Linux 6,30 Nov 2023,64-bit,12,80.00,Installed
+VM-2857443,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,16.00,Installed
+VM-2859232,PoweredOn,Normal,Powered On,Red Hat Enterprise Linux 6,30 Nov 2023,64-bit,2,12.00,Installed
+VM-2859238,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,2,28.00,Installed
+VM-2859246,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,2,24.00,Installed
+VM-2859253,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,2,8.00,Installed
+VM-2859256,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,1,2.00,Installed
+VM-2859260,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,2,4.00,Installed
+VM-2859262,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,8,4.00,Installed
+VM-2859238_replica,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,2,28.00,Installed
+VM-2872248,PoweredOn,Noteworthy,Powered On,Other 3.x or later Linux,,64-bit,6,14.00,Installed
+VM-2874035,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,16.00,Installed
+VM-2876287,PoweredOn;windows_power_on,Noteworthy,Powered On,Windows Server 2016,,64-bit,2,8.00,Installed
+VM-2876288,PoweredOn;windows_power_on,Noteworthy,Powered On,Windows Server 2016,,64-bit,2,8.00,Installed
+VM-2876289,PoweredOn;windows_power_on,Noteworthy,Powered On,Windows Server 2016,,64-bit,8,16.00,Installed
+VM-2876291,PoweredOn;windows_power_on,Noteworthy,Powered On,Windows Server 2016,,64-bit,12,56.00,Installed
+VM-2876293,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,12,56.00,Installed
+VM-2880486,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,10,36.00,Installed
+VM-2882132,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,6,16.00,Installed
+VM-515885_replica,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,16.00,Installed
+VM-288630,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,2,8.00,Installed
+VM-288636,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,8.00,Installed
+VM-2899373,PoweredOn,Normal,Powered Off,Red Hat Enterprise Linux 6,30 Nov 2023,64-bit,2,6.00,Installed
+VM-2908607,PoweredOn,Noteworthy,Powered On,Linux 4.19.52 Other Linux 4.x or later kernel,,"",2,8.00,Installed
+VM-2908762,PoweredOn,Normal,Powered Off,Other 2.6.x Linux,,32-bit,2,1.00,Installed
+VM-291688,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-292310,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,24.00,Installed
+VM-2950524,PoweredOn;windows_power_on,Noteworthy,Powered On,Windows Server 2016,,64-bit,4,16.00,Installed
+VM-2955565,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-2957012,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,16.00,Installed
+VM-2957014,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,16.00,Installed
+VM-2962951,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-29638,PoweredOn;win2008on;windows_power_on,Need Attention,Powered On,Windows Server 2008,14 Jan 2020,32-bit,2,4.00,Installed
+VM-29655,PoweredOn,Normal,Powered Off,Other Linux,,32-bit,1,0.13,Installed
+VM-29663,PoweredOn,Normal,Powered Off,Other Linux,,32-bit,1,0.13,Installed
+VM-29677,PoweredOn;windows_power_on,Need Attention,Powered On,Windows Server 2003,14 Jul 2015,32-bit,2,4.00,Installed
+VM-2998491,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-2998594,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,8,8.00,Installed
+VM-3004731,PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,16,16.00,Installed
+VM-3008472,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,12,24.00,Installed
+VM-3008490,PoweredOn;windows_power_on,Noteworthy,Powered On,Windows Server 2016,,64-bit,8,4.00,Installed
+VM-3028160,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,16.00,Installed
+VM-3053071,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-3054687,PoweredOn;windows_power_on,Noteworthy,Powered On,Windows Server 2016,,64-bit,2,8.00,Installed
+VM-306002,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,8,16.00,Installed
+VM-3077900,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,8.00,Installed
+VM-3097587,PoweredOn,Normal,Powered Off,FreeBSD,,64-bit,2,8.00,Installed
+VM-3104113,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,1,2.00,Installed
+VM-3111843,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,8.00,Installed
+VM-3111845,PoweredOn,Noteworthy,Powered On,"Linux 4.9.194 NAME=Buildroot
+VERSION=2019.02.6
+ID=buildroot
+VERSION_ID=2019.02.6
+PRETTY_NAME=""Buildroot 2019.02.6""
+APPLIANCE_VERSION=""v2.4.0""",,"",2,8.00,Installed
+VM-3113286,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,8,8.00,Installed
+VM-3126974,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-3154800,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,12,56.00,Installed
+VM-3154846,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,12,56.00,Installed
+VM-3155028,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,10,40.00,Installed
+VM-3165806,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,6,56.00,Installed
+VM-3165880,PoweredOn;windows_power_on,Noteworthy,Powered On,Windows Server 2016,,64-bit,12,56.00,Installed
+VM-3165924,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,12,56.00,Installed
+VM-3165996,PoweredOn;windows_power_on,Noteworthy,Powered On,Windows Server 2016,,64-bit,12,56.00,Installed
+VM-3166011,PoweredOn;windows_power_on,Noteworthy,Powered On,Windows Server 2016,,64-bit,12,56.00,Installed
+VM-3166012,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,12,56.00,Installed
+VM-3166030,PoweredOn;windows_power_on,Noteworthy,Powered On,Windows Server 2016,,64-bit,12,56.00,Installed
+VM-3166088,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,12,56.00,Installed
+VM-3166089,PoweredOn;windows_power_on,Noteworthy,Powered On,Windows Server 2016,,64-bit,12,56.00,Installed
+VM-3166090,PoweredOn;windows_power_on,Noteworthy,Powered On,Windows Server 2016,,64-bit,12,56.00,Installed
+VM-3166252,PoweredOn;windows_power_on,Noteworthy,Powered On,Windows Server 2016,,64-bit,12,56.00,Installed
+VM-3166571,PoweredOn,Normal,Powered Off,Other Linux,,32-bit,1,0.13,Installed
+VM-3167564,PoweredOn,Normal,Powered Off,Other Linux,,32-bit,1,0.13,Installed
+VM-316838,PoweredOn,Need Attention,Powered Off,Debian GNU/Linux 6,1 Feb 2016,64-bit,1,1.00,Installed
+VM-316849,PoweredOn,Need Attention,Powered Off,Debian GNU/Linux 6,1 Feb 2016,64-bit,1,1.00,Installed
+VM-316859,PoweredOn,Need Attention,Powered Off,Debian GNU/Linux 6,1 Feb 2016,64-bit,1,1.00,Installed
+VM-316861,PoweredOn,Need Attention,Powered Off,Debian GNU/Linux 6,1 Feb 2016,64-bit,1,1.00,Installed
+VM-316862,PoweredOn,Need Attention,Powered Off,Debian GNU/Linux 6,1 Feb 2016,64-bit,1,1.00,Installed
+VM-316898,PoweredOn,Need Attention,Powered Off,Debian GNU/Linux 6,1 Feb 2016,64-bit,1,1.00,Installed
+VM-316900,PoweredOn,Need Attention,Powered Off,Debian GNU/Linux 6,1 Feb 2016,64-bit,1,1.00,Installed
+VM-3169289,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,8.00,Installed
+VM-3178933,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,8.00,Installed
+VM-31791,PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,8,16.00,Installed
+VM-3188801,PoweredOn;windows_power_on,Noteworthy,Powered On,Windows Server 2016,,64-bit,4,8.00,Installed
+VM-3188949,PoweredOn,Normal,Powered Off,Other Linux,,32-bit,1,0.13,Installed
+VM-3213330,PoweredOn,Normal,Powered Off,Ubuntu Linux,,64-bit,4,8.00,Installed
+VM-3214649,PoweredOn,Normal,Powered Off,Red Hat Enterprise Linux 6,30 Nov 2023,64-bit,4,8.00,Installed
+VM-3226386,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-3231883,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,8.00,Installed
+VM-3231989,PoweredOn,Normal,Powered Off,Red Hat Enterprise Linux 6,30 Nov 2023,64-bit,1,2.00,Installed
+VM-3232100,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,12,56.00,Installed
+VM-3232119,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,12,56.00,Installed
+VM-3233309,PoweredOn;windows_power_on,Noteworthy,Powered On,Windows Server 2016,,64-bit,12,56.00,Installed
+VM-3266163,PoweredOn,Normal,Powered Off,Ubuntu Linux,,64-bit,4,7.81,Installed
+VM-3270565,PoweredOn,Noteworthy,Powered On,Linux 3.10.0-957.el7.x86_64 CentOS Linux release 7.8.2003 (Core),,"",2,4.00,Installed
+VM-3277408,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,8,72.00,Installed
+VM-3279807,PoweredOn,Normal,Powered Off,Red Hat Enterprise Linux 6,30 Nov 2023,64-bit,12,80.00,Installed
+VM-3281612,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-3285700,PoweredOn,Need Attention,Powered Off,Windows Server 2003,14 Jul 2015,64-bit,8,31.99,Installed
+VM-3287570,PoweredOn,Need Attention,Powered Off,Windows Server 2003 Standard,14 Jul 2015,32-bit,1,0.50,Installed
+VM-3290192,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,16,7.98,Installed
+VM-3292745,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,4,4.00,Installed
+VM-3292780,PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,1,2.00,Installed
+VM-3294939,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,8,8.00,Installed
+VM-3296304,PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,2,16.00,Installed
+VM-3296306,PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,2,16.00,Installed
+VM-3296345,PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,2,16.00,Installed
+VM-3296500,PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,2,16.00,Installed
+VM-3296507,PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,2,16.00,Installed
+VM-3296509,PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,2,16.00,Installed
+VM-3296854,PoweredOn,Noteworthy,Powered On,Linux 4.7.4Zerto+ Debian GNU/Linux 8.5 (jessie),,"",1,3.00,Installed
+VM-3296907,PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,2,8.00,Installed
+VM-3296911,PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,4,32.00,Installed
+VM-3297124,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,2,16.00,Installed
+VM-3297133,PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,2,16.00,Installed
+VM-3297554,PoweredOn,Noteworthy,Powered On,Linux 4.7.4Zerto+ Debian GNU/Linux 8.5 (jessie),,"",1,3.00,Installed
+VM-3297571,PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,2,16.00,Installed
+VM-3297762,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-3297777,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-3298183,PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,8,8.00,Installed
+VM-3298301,PoweredOn;windows_power_on,Noteworthy,Powered On,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-3298337,PoweredOn;windows_power_on,Noteworthy,Powered On,Windows Server 2012,10 Jan 2023,64-bit,2,8.00,Installed
+VM-3298352,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,8,8.00,Installed
+VM-3298359,PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,8,4.00,Installed
+VM-3298381,PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,8,8.00,Installed
+VM-3298667,PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,4,32.00,Installed
+VM-3298827,PoweredOn,Normal,Powered Off,Other Linux,,32-bit,1,2.00,Installed
+VM-3298913,PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,4,4.00,Installed
+VM-3298938,PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,4,8.00,Installed
+VM-3298975,PoweredOn,Normal,Powered Off,Other Linux,,32-bit,1,2.00,Installed
+VM-3298980,PoweredOn,Normal,Powered On,Other Linux,,32-bit,1,2.00,Installed
+VM-3300384,PoweredOn,Noteworthy,Powered On,Linux 4.7.4Zerto+ Debian GNU/Linux 8.5 (jessie),,"",1,3.00,Installed
+VM-3300385,PoweredOn,Noteworthy,Powered On,Linux 4.7.4Zerto+ Debian GNU/Linux 8.5 (jessie),,"",1,3.00,Installed
+VM-3300386,PoweredOn,Noteworthy,Powered On,Linux 4.7.4Zerto+ Debian GNU/Linux 8.5 (jessie),,"",1,3.00,Installed
+VM-3300543,PoweredOn,Noteworthy,Powered On,Linux 4.7.4Zerto+ Debian GNU/Linux 8.5 (jessie),,"",1,3.00,Installed
+VM-3300550,PoweredOn,Noteworthy,Powered On,Linux 4.7.4Zerto+ Debian GNU/Linux 8.5 (jessie),,"",1,3.00,Installed
+VM-3300551,PoweredOn,Noteworthy,Powered On,Linux 4.7.4Zerto+ Debian GNU/Linux 8.5 (jessie),,"",1,3.00,Installed
+VM-3300577,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,12.00,Installed
+VM-3300581,PoweredOn,Noteworthy,Powered On,Linux 4.7.4Zerto+ Debian GNU/Linux 8.5 (jessie),,"",1,3.00,Installed
+VM-3300830,PoweredOn,Need Attention,Powered On,Red Hat Enterprise Linux 5,31 Mar 2020,32-bit,2,1.00,Installed
+VM-3300832,PoweredOn;windows_power_on,Noteworthy,Powered On,Windows Server 2016,,64-bit,2,4.00,Installed
+VM-3300877,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,8,8.00,Installed
+VM-34462,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,8.00,Installed
+VM-383335,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,8.00,Installed
+VM-383336,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,2,4.00,Installed
+VM-394946,PoweredOn,Normal,Powered On,SUSE Linux Enterprise 11,,64-bit,1,3.52,Installed
+VM-40218,PoweredOn,Normal,Powered Off,Red Hat Enterprise Linux 6,30 Nov 2023,64-bit,4,8.00,Installed
+VM-404209,PoweredOn,Normal,Powered Off,Red Hat Enterprise Linux 6,30 Nov 2023,64-bit,2,4.00,Installed
+VM-410221,PoweredOn,Normal,Powered On,CentOS 4/5/6/7,,64-bit,1,2.00,Installed
+VM-411074,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,32.00,Installed
+VM-414301,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,16.00,Installed
+VM-414310,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-414312,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-414313,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,1,2.00,Installed
+VM-414370,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,2,8.00,Installed
+VM-414376,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,2,8.00,Installed
+VM-424801,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,64.00,Installed
+VM-427165,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-427167,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-427168,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-427172,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-427174,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,16.00,Installed
+VM-427185,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,16.00,Installed
+VM-427186,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-427187,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,1,2.00,Installed
+VM-428148,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,2,8.00,Installed
+VM-428150,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,2,8.00,Installed
+VM-433972,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,16.00,Installed
+VM-433973,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-442584,PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,2,8.00,Installed
+VM-442587,PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,2,8.00,Installed
+VM-444,PoweredOn,Need Attention,Powered Off,Windows Server 2003 Standard,14 Jul 2015,32-bit,1,4.00,Installed
+VM-444328,PoweredOn,Noteworthy,Powered On,Other 2.6.x Linux,,64-bit,2,4.00,Installed
+VM-446044,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,1,2.00,Installed
+VM-448619,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,2,4.00,Installed
+VM-454902,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-454909,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-454918,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-454929,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-454931,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-458,PoweredOn,Need Attention,Powered Off,Windows Server 2003 Standard,14 Jul 2015,32-bit,2,8.00,Installed
+VM-466101,PoweredOn,Need Attention,Powered Off,Oracle Solaris 10,1 Jan 2021,64-bit,2,2.00,Installed
+VM-46779,PoweredOn,Normal,Powered Off,Red Hat Enterprise Linux 6,30 Nov 2023,64-bit,6,20.00,Installed
+VM-473751,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-475540,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-480495,PoweredOn;PowerOn/Win2008R2;wave1;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,8,8.00,Installed
+VM-491139,PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,8,8.00,Installed
+VM-492086,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,1,2.00,Installed
+VM-515883,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,16.00,Installed
+VM-515885,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,16.00,Installed
+VM-515886,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,16.00,Installed
+VM-515887,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-515888,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-529692,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,8.00,Installed
+VM-567854,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,8,16.00,Installed
+VM-567855,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,8,8.00,Installed
+VM-567856,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,8.00,Installed
+VM-567857,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,8.00,Installed
+VM-587917,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,8,32.00,Installed
+VM-59849,PoweredOn,Normal,Powered Off,Other Linux,,32-bit,1,0.13,Installed
+VM-603018,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,8,8.00,Installed
+VM-603021,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,8,8.00,Installed
+VM-606042,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,16.00,Installed
+VM-606043,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,8.00,Installed
+VM-6066,PoweredOn,Normal,Powered Off,Other Linux,,32-bit,1,0.13,Installed
+VM-613266,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,30.00,Installed
+VM-616420,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-62797,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,8,16.00,Installed
+VM-62803,PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,4,16.00,Installed
+VM-62887,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,8,4.00,Installed
+VM-62889,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,8.00,Installed
+VM-640366,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,2,16.00,Installed
+VM-64058,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,8.00,Installed
+VM-64060,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,8.00,Installed
+VM-641234,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,32.00,Installed
+VM-641243,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-641245,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-641247,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-641263,PoweredOn;PowerOn/Win2008R2;windows_power_on,Need Attention,Powered On,Windows Server 2008 R2,14 Jan 2020,64-bit,2,28.00,Installed
+VM-651445,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,1,2.00,Installed
+VM-659384,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,6,32.00,Installed
+VM-692065,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,6,16.00,Installed
+VM-702,PoweredOn,Normal,Powered On,Other Linux,,32-bit,1,2.00,Installed
+VM-704404,PoweredOn,Normal,Powered Off,Ubuntu Linux,,64-bit,4,7.81,Installed
+VM-707,PoweredOn,Noteworthy,Powered On,CentOS 4/5/6,,32-bit,1,0.25,Installed
+VM-71265,PoweredOn;win2008on;windows_power_on,Need Attention,Powered On,Windows Server 2008,14 Jan 2020,32-bit,6,32.00,Installed
+VM-718579,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,8,32.00,Installed
+VM-718580,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,8.00,Installed
+VM-727872,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,96.00,Installed
+VM-728342,PoweredOn,Need Attention,Powered Off,Oracle Solaris 10,1 Jan 2021,64-bit,2,2.00,Installed
+VM-729998,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,8,8.00,Installed
+VM-738447,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-742648,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-744955,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,8,16.00,Installed
+VM-758114,PoweredOn;windows_power_on,Normal,Powered On,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-775036,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-775041,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,8,8.00,Installed
+VM-78395,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,8,32.00,Installed
+VM-783970,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,6.00,Installed
+VM-78398,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,8.00,Installed
+VM-784,PoweredOn,Normal,Powered On,Other Linux,,64-bit,8,2.00,Installed
+VM-788297,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,8,40.00,Installed
+VM-789386,PoweredOn,Normal,Powered On,Red Hat Enterprise Linux 6,30 Nov 2023,64-bit,8,4.00,Installed
+VM-826262,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-841035,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,15.99,Installed
+VM-841644,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,8,94.00,Installed
+VM-842568,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,10.00,Installed
+VM-847502,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,16.00,Installed
+VM-848311,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,8.00,Installed
+VM-848312,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,8.00,Installed
+VM-857193,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,8.00,Installed
+VM-86491,PoweredOn;windows_power_on,Need Attention,Powered On,Windows Server 2003 Standard,14 Jul 2015,32-bit,2,2.00,Installed
+VM-866461,PoweredOn,Noteworthy,Powered On,CentOS 4/5/6/7,,64-bit,1,2.00,Installed
+VM-867476,PoweredOn,Normal,Powered Off,Ubuntu Linux,,64-bit,2,4.00,Installed
+VM-869273,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,16,96.00,Installed
+VM-869280,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,16.00,Installed
+VM-874035,PoweredOn,Need Attention,Powered Off,Oracle Solaris 10,1 Jan 2021,64-bit,2,4.00,Installed
+VM-875839,PoweredOn,Need Attention,Powered Off,Oracle Solaris 10,1 Jan 2021,64-bit,2,4.00,Installed
+VM-87717,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,1,4.00,Installed
+VM-877249,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,8,8.00,Installed
+VM-877250,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,8.00,Installed
+VM-879746,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,2,4.00,Installed
+VM-879748,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,2,8.00,Installed
+VM-887281,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,4.00,Installed
+VM-888680,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,6,32.00,Installed
+VM-892325,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,6,32.00,Installed
+VM-892357,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,6,32.00,Installed
+VM-892358,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,6,32.00,Installed
+VM-907024,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,12.00,Installed
+VM-913604,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,8.00,Installed
+VM-913609,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,4,8.00,Installed
+VM-914830,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,2,8.00,Installed
+VM-9209,PoweredOn,Need Attention,Powered Off,Windows Server 2008 R2,14 Jan 2020,64-bit,2,8.00,Installed
+VM-92543,PoweredOn,Normal,Powered Off,Ubuntu Linux,,64-bit,4,8.00,Installed
+VM-931949,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,4,8.00,Installed
+VM-980498,PoweredOn,Normal,Powered Off,Windows Server 2012,10 Jan 2023,64-bit,2,8.00,Installed
+VM-997254,PoweredOn,Normal,Powered Off,Other 2.6.x Linux,,64-bit,2,4.00,Installed
+VM-997256,PoweredOn,Normal,Powered Off,Other 2.6.x Linux,,64-bit,2,4.00,Installed
