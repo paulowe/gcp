@@ -138,3 +138,15 @@ We will build
 **VMWare ESXI** VMware ESXi is an enterprise-class, type-1 hypervisor developed by VMware for deploying and serving virtual computers. As a type-1 hypervisor, ESXi is not a software application that is installed on an operating system; instead, it includes and integrates vital OS components, such as a kernel.
 
 
+### HIGH LEVEL OVERVIEW OF THE NETWORKING CONFIGURATION FOR THE ENVIRONMENT
+
+- Your VMware network is connected to a physical on-prem network
+- The on-prem network uses Dedicated Interconnect to route traffic to GCP
+- There is a Shared VPC sending/receiving traffic across the interconnect
+- Each student has a project that is configured as a service project, and can use the Shared VPC from a host project.
+- VMs created in your service project are attached to the Shared VPC
+- There is also a VPN connection from the Shared VPC to an AWS VPC
+
+This is similar to common configurations in the real world, and allows teams to migrate workloads into multiple target projects.
+..
+
