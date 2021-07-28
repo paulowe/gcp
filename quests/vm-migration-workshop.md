@@ -112,3 +112,10 @@ Create a new bucket to store Terraform state. A GCS bucket needs to be globally 
   
   
 
+If you receive an error after terraform init, you can **clean your local terraform state and produce a successful initialization**
+
+```
+rm -rf .terraform
+terraform init
+```
+
