@@ -69,7 +69,7 @@ Next step is to examine four case studies, checking for limitations, estimating 
 
 [Case studies](https://docs.google.com/document/d/1JNlo5bscgMEt8DGBXzQms36TjdMGOy6Tl9xZHLaH4jQ/edit?usp=sharing)
 
-[Sample Migration discovery app questionnaire answers](https://drive.google.com/file/d/1HU0GrvSeAQ9Eb0YdGn9XRW3gU4W36HPC/view?usp=sharing)
+[Sample Application Discovery Questionnaire results doc answers](https://drive.google.com/file/d/1HU0GrvSeAQ9Eb0YdGn9XRW3gU4W36HPC/view?usp=sharing)
 
 
 
