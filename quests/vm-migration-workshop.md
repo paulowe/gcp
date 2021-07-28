@@ -58,4 +58,18 @@ The full analysis document includes
 - Cost comparison of on pre IT vs Public cloud
 
 
- 
+## 3. Set up and use the Application doscvery template for Clients
+
+[Migration Discovery/Application Discovery Sample Quesstionnaire for clients](https://forms.gle/iJp3iyvEXZiCuvX38)
+
+## 4. Analyze four applications, check for limitations, estimate complexity of migration, sort migration waves, and pick a first mover
+We've used CloudPhysics to generate a TCO report, and we've used StratoZone to find both inventory and dependencies. We've completed a questionnaire that application owners and SMEs might use to provide information related to their workloads, and to add domain knowledge to what tools found. All of these things would become part of the deliverables of the discovery phase of our VM migration. After discovery comes assessment.
+
+Next step is to examine four case studies, checking for limitations, estimating migration complexity, and lastly picking a first mover.
+
+[Case studies](https://docs.google.com/document/d/1JNlo5bscgMEt8DGBXzQms36TjdMGOy6Tl9xZHLaH4jQ/edit?usp=sharing)
+
+
+
+
+
