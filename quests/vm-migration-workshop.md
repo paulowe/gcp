@@ -1,4 +1,36 @@
-# VM Migration workshop by Google
+# [VM Migration workshop by Google](https://googlecloud.qwiklabs.com/classrooms/10497/labs/95033)
 
 ## 1. Set GCE rightsizing parameters and explore dependencies with Stratozone
-use StratoZone to get a detailed view of the VMs in the datacenter, what's running on them, and how they are interacting. In addition, configure StratoZone's settings for generating rightsize recommendations for the GCE environment
+
+A. Use StratoZone to get a detailed view of the VMs in the datacenter, what's running on them, and how they are interacting. In addition, configure StratoZone's settings for generating rightsize recommendations for the GCE environment
+
+Stratozone can enable you to :
+- Generate VM inventory details and an overview of what is running where
+
+- Set defaults for the GCE machine mappings and TCO estimations
+
+- Use StratoZone's Dependency+ feature to generate an automated view of machine dependencies
+
+B. Use StratoZone to analyze an existing **vSphere environment**
+
+Analyze provides information about the current environment, and it will work with vSphere, AWS, Azure, GCP, bare metal, etc. Plan then allows the user to plan details of an upcoming migration. Migrate, which isn't currently included with the free-to-partners Google-StratoZone deal, has some actual migration features.
+
+**Assessments** would typically be the starting point in a new data collection. From this tab, the user can create, monitor, and manage data collectors (StratoProbes).
+
+Adding a new assessment (+ button next to Manage Assessments) would send a link to an email address of your choice, and the recipient would download and install the StratoProbe in their respective data center. The StratoProbe would be given **network and credential access to the VMs, to the StratoZone mother ship (hosted in GCP), to vCenter, and SSH/WMI access to the VMs.**
+
+C. Use StratoZone's machine mapping features
+
+When StratoZone investigates machines with SSH/WMI, it **uses netstat to analyze how those machine are communicating with machines over the network.** Over time, it builds up a map of inter-machine communication. (Leave it running for 1 week or more to capture all dependencies)
+
+D. Use StratoZone's Dependency detection features to examine apparent machine relationships
+
+As stated, StratoZone detects dependencies by connecting to machines via SSH/WMI, and using netstat to check network communications over time. It filters out noise and builds views of key VM to VM relationships.
+
+**Unscanned devices are IPs** that are interacting with our web server, but they are unscanned by StratoZone. It could be they are outside the organization, or just that they are in a part that isn't currently under scan. We will need to work with the client to fill in some of the blanks on what these machines are. StratoZone offers a feature for naming these machines so that once they are identified, all diagrams will update with the assigned name. Grouping them for now is a good way to consolidate and simplify the view.
+
+(PRIVATE IPS RIGHT?)
+
+Unknown Subnets is a category of unscanned devices known to be outside any scanned subnets.
+
+
