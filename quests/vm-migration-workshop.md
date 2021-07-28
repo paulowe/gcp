@@ -76,3 +76,21 @@ In the [Migration - Discovery - Data Analysis](https://docs.google.com/document/
 
 
 [Sample scoring sheet for picking your first mover App](https://docs.google.com/spreadsheets/d/1E-vAvMiTJewmq1dZYXDBe6wOpvYSi17WWTRHVkulW2Y/edit?usp=sharing)
+
+## 5. Terraforming GCP
+
+As a best practice, Google recommends that the initial GCP foundation is built using a IaC technology like Terraform.
+
+Next, we will learn how to:
+
+- Configure GCP for Terraform use
+
+- Create and execute Terraform scripts to build key GCP foundational elements
+
+A. Terraform a starter GCP environment
+
+Terraform is a popular open-source tool for defining and provisioning GCP infrastructure (Infrastructure as Code). It uses .tf files to describe the configuration and architectural changes needed for a single application or for an entire data center. As the configuration changes, Terraform is able to determine what changed and create incremental execution plans which can be applied.
+
+The infrastructure Terraform can manage includes low-level components such as compute instances, storage, and networking, as well as high-level components such as DNS entries, SaaS features, etc.
+
+This [GCP Cloud Foundation toolkit](https://github.com/terraform-google-modules) on github has scripts that could be useful when Terraforming your GCP environment. Make sure to check them out!
