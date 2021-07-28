@@ -155,3 +155,10 @@ This is similar to common configurations in the real world, and allows teams to 
 In order for the Migrate for Compute Engine Backend to talk to the Migrate for Compute Engine Manager, it will require a token. You will generate this token in this task. You will also need the latest version of the Migrate for Compute Engine appliance image for VMware
 
 [The Backend virtual appliance](https://cloud.google.com/migrate/compute-engine/docs/4.10/resources/downloads#4101) handles the streaming of data from VM disks to GCP via the Cloud Extensions. It is distributed as an OVF package. Download [Migrate for Compute Engine Backend OVA file](https://cloud.google.com/migrate/compute-engine/docs/4.10/resources/downloads#4101).
+
+### Task 8: Creating Cloud Extension
+A Cloud Extension is a conduit for VM storage between two hosting environments, such as:
+
+Between an on-premises data center and GCP
+Between AWS and GCP
+For more information, see the Cloud Extensions [concept page](https://cloud.google.com/migrate/compute-engine/docs/4.11/concepts/cloud-extensions/overview).
