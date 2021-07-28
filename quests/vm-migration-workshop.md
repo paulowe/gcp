@@ -75,4 +75,4 @@ Next step is to examine four case studies, checking for limitations, estimating 
 In the [Migration - Discovery - Data Analysis](https://docs.google.com/document/d/1OLB5BL_n83cmLU29tUEGj9W4a6BvOkfwI8FFtBLBGZ8/edit?usp=sharing&resourcekey=0-TbshcfB_Jfl1-5nBYi4pyg) guide from Google, they offer good advice on several major sources of complexity worth including in your scoring system.
 
 
-
+[Sample scoring sheet for picking your first mover App](https://docs.google.com/spreadsheets/d/1E-vAvMiTJewmq1dZYXDBe6wOpvYSi17WWTRHVkulW2Y/edit?usp=sharing)
