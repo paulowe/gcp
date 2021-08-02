@@ -1,6 +1,6 @@
 ## Defining Services
 
-1. List Features
+1. List Features - Features can be considered as qualitative requirements. You can express them in the form of user stories
 
 2. User personas
 
