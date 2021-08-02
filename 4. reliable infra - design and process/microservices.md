@@ -38,3 +38,5 @@ Stateful services manage stored data over time
 - Cache state data for faster access
 - Take advantage og GCP managed data services (Firestore, Cloud SQL) AND Memorystore for Cache.
 
+### 12 Factor app
+Use the [12 factor app](https://12factor.net) to design your microservice implementations
