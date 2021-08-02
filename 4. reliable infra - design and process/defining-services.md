@@ -41,3 +41,13 @@ For KPIs to be effective, they must be SMART
 
 5. SLIs SLOs, SLAs
 
+**An SLI** is a quantitative measure of some aspect of the level of service being provided. Examples: Throuhput, Latency, Availability, Error rate
+
+SLIs must be timebound and measurable
+- HTTP GET requests respond within 400MS aggregated per minute
+- Percentage of successful requests over all requests aggregated per minute
+
+**An SLO** is the number of or the goal you want to achieve for a given SLIfo a given duration. Example: 99% avaialbility per year
+
+**An SLA** is an agreement between a service provider and a consumer. It defines the responsibilities for delivering a service. It is a more restricted version of an SLO, we want to define SLAs that provide extra room compared to the SLO.
+
