@@ -4,7 +4,9 @@
 
 2. User personas
 
-3. User stories - Follow the INVEST criteria
+3. User stories - It is a short description of a feature written from the user’s point of view.
+
+User stories Follow the INVEST criteria
 - Independent
 - Negotiable
 - Valuable
@@ -47,7 +49,7 @@ SLIs must be timebound and measurable
 - HTTP GET requests respond within 400MS aggregated per minute
 - Percentage of successful requests over all requests aggregated per minute
 
-**An SLO** is the number of or the goal you want to achieve for a given SLIfo a given duration. Example: 99% avaialbility per year
+**An SLO** is the agreed-upon target for a measurement (or SLI) or range of values you want your service to achieve within a given duration. Example: 99% avaialbility per year
 
 - Avoid ambitious SLOs, start with relatively easy ones and tighten them as you discover more about the system
 - Avoid too many. Have enough SLOs that cover what users care about
