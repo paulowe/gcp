@@ -55,3 +55,7 @@ SLIs must be timebound and measurable
 
 **An SLA** is an agreement between a service provider and a consumer. It defines the responsibilities for delivering a service. It is a more restricted version of an SLO, we want to define SLAs that provide extra room compared to the SLO.
 
+- Penalties apply if SLAs are not met
+- Should have threshold lower than your SLO
+- Should build a Buffer between SLO and SLA such that even if SLO is not met, SLA is not broken
+- All services need an SLOs but not every service need to have SLAs
