@@ -38,5 +38,23 @@ Stateful services manage stored data over time
 - Cache state data for faster access
 - Take advantage og GCP managed data services (Firestore, Cloud SQL) AND Memorystore for Cache.
 
-### 12 Factor app
-Use the [12 factor app](https://12factor.net) to design your microservice implementations
+### 12 Factor app is a set of best practices for building web or SaaS applications
+Use the [12 factor app](https://12factor.net) to design your microservice implementations in order to
+- Maximize portability
+- Deploy to the cloud
+- Enable CI/CD
+- Scale easily
+
+1. Codebase - Use Git (or Cloud Source repos)
+2. Dependencies (Declare and isolated. Use package managers such as NPM as Pip and Maven)
+3. Config
+4. Backing services (Accessed via URLs. So you can swap backing services easily)
+5. Build, release, run (SDE process should be split from this. Allows easily rollbacks and audit trails)
+6. Processes (apps should run as one or more stateless processes)
+7. Port binding (Expose services via port binding)
+8. Concurrency (Scale out via proceeses)
+9. Disposability (Apps should be more reliable than the underlying infrastructure they run on)
+10. Dev/prod parity (Keep dev, staging and production as similar as possible)
+11. Logs (Treat logs as event streams. Write log messages to standard output and aggregate all logs to a single source)
+12. Admin processes (Decouple from the app. Must be automated and repeatable. Use cron jobs, Cloud tasks [GKE] And Cloud Scheduler)
+ 
