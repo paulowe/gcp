@@ -55,10 +55,23 @@ Functions are in the form ```service.collection.verb```
 
 For example
 
-Compute Engine service endpoint : ```https://compute.googleapis.com```
+- Compute Engine service endpoint : ```https://compute.googleapis.com```
+- Collections : instances, instanceGroups, etc
+- Verb : list, get, insert, etc
+- Full GET request to see all your instances:  ```https://compute.googleapis.com/compute/v1/projects/{project}/zones/{zone}/instances```
 
-Collections : instances, instanceGroups, etc
+Use **OpenAPI** to design your REST APIs
 
-Verb : list, get, insert, etc
+## gRPC is a lightweight protocol for fast, binary communication between services or devices
+- Developed at Google and supports many languages
+- gRPC can expose gRPC services using an Envoy proxy in GKE
 
-Full GET request to see all your instances:  ```https://compute.googleapis.com/compute/v1/projects/{project}/zones/{zone}/instances```
+### Tools for managing APIs
+- Cloud Endpoints
+- Apigee
+
+Both services provide tools and support for
+- User auth
+- Monitoring
+- Securing APIs
+- OpenAPI and gRPC
