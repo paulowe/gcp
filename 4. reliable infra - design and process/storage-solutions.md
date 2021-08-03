@@ -70,5 +70,5 @@ Eventually consistent databases update one copy of the data and the rest asynchr
 - Biquery - OLAP
 - Memorystore - fast access to state data in microservices
 
-<img width="800" height="300" alt="storage-flow" src="https://user-images.githubusercontent.com/40435982/128057439-afb2a5a0-7be1-444f-a702-736946547160.PNG">
+<img width="800" height="400" alt="storage-flow" src="https://user-images.githubusercontent.com/40435982/128057439-afb2a5a0-7be1-444f-a702-736946547160.PNG">
 
