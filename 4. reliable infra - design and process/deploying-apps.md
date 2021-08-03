@@ -42,6 +42,7 @@
 - Automatic traffic splitting for switching versions
 <img width="209" alt="app-engine" src="https://user-images.githubusercontent.com/40435982/128086577-d341359d-efa5-4a3e-ba06-b998b587b493.PNG">
 
+### Typical microservcie architecture running on App engine
+<img width="351" alt="app-eng-ms" src="https://user-images.githubusercontent.com/40435982/128087119-64243fd8-9167-46d2-bd6f-578af3eb5aed.PNG">
 
-
-Cloud Functions
+## Cloud Functions
