@@ -59,7 +59,16 @@ Eventually consistent databases update one copy of the data and the rest asynchr
 - Bigtable and Spanner would be too expensive for storing smaller amounts of data
 - Firestore is less expensive per GB, but you also pay for reads and writes
 - Cloud Storage is relatively, cheap but you cant run a database in storage
-- Bigquery storage is relatively cheap but doestn provide fast access to records and you have to pay for running queries
+- Bigquery storage is relatively cheap but doesnt provide fast access to records and you have to pay for running queries
 
 <img width="800" height="400" alt="storage-portfolio" src="https://user-images.githubusercontent.com/40435982/128056356-812afabe-9f78-46da-8151-5ac67f701533.PNG">
+
+- Cloud SQL - Fixed schema; Storage limit of 30TB ; 
+- Cloud Spanner - scales infinitely; global accessibility for Supply chain mgt
+- Firestore - Document datastore; Max document store of 1MB
+- Bigtable - Good for heavy read/write events
+- Biquery - OLAP
+- Memorystore - fast access to state data in microservices
+
+<img width="800" height="300" alt="storage-flow" src="https://user-images.githubusercontent.com/40435982/128057439-afb2a5a0-7be1-444f-a702-736946547160.PNG">
 
