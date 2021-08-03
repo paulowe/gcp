@@ -18,4 +18,6 @@ Resource is an abstract notion of information)
 - REST applications provide consistent, uniform interfaces
 - Caching of immutable representations is appropriate
 
-
+**Public vs Private APIs**
+- JSON is the standard format for external services
+- Use gRPC for private services
