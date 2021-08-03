@@ -81,4 +81,6 @@ Criteria for consideration
 - Offline/online (Appliance cost / no appliance?)
 - Security
 
-<img width="411" alt="transfer-times" src="https://user-images.githubusercontent.com/40435982/128058106-53901f1c-4056-489d-9135-19927dc44e47.PNG">
+<img width="800" height="400" alt="transfer-times" src="https://user-images.githubusercontent.com/40435982/128058106-53901f1c-4056-489d-9135-19927dc44e47.PNG">
+
+Colored cells represents unrealistic timelines
