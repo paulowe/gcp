@@ -15,3 +15,10 @@ Tools for CI pipelines
 - Cloud Build (alternative to Docker build) - Build system executes the steps required to make a deployment package of Docker image. 
 - Build Triggers - Watches a repository for changes in the Git repo and starts the build container (you can configure it to build on any change **or specific changes that match a criteria**)
 - Container registry (Cloud hosted Docker registry) -  A central location to Manage docker images, deployment packages and perform vulnerability analysis
+
+**Binary authorization allows you to enforce deploying only trusted containers into GKE**
+- Step one is to enable binary authorization on GKE cluster
+- Add a policy that requires signed images
+- When image is built, an "attestor" verifies that it was from a trusted repository 
+- Container registry includes a vulnerability scanner that scans containers
+<img width="212" alt="binary-auth" src="https://user-images.githubusercontent.com/40435982/128042228-e77fe917-9845-463b-95c2-5cf1becdceae.PNG">
