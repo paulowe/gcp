@@ -40,3 +40,16 @@ HTTP response codes
 200 - Success
 400 - client errors
 500 - server errors (503 -Server is overloaded)
+
+### All services need URIs
+- Plural nouns for sets (collections) 
+- Singular nouns for individual resources
+- Strive for consistent naming
+- URI is case-insensitive
+- Dont use verbs to identify a resource
+
+## API design
+Google provides an API design guide and API style book (find it and examine Google cloud APIs)
+
+Functions are in the form ```service.collection.verb```
+
