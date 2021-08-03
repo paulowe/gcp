@@ -45,4 +45,8 @@
 ### Typical microservcie architecture running on App engine
 <img width="351" alt="app-eng-ms" src="https://user-images.githubusercontent.com/40435982/128087119-64243fd8-9167-46d2-bd6f-578af3eb5aed.PNG">
 
-## Cloud Functions
+## Cloud Functions is a great way to create loosely-coupled, event-driven microservices
+- Can be triggered by changes in **storage bucket, Pub/sub messages, or web requests**
+- Completely managed, scalable, and inexpensive
+
+![image](https://user-images.githubusercontent.com/40435982/128087459-c06711de-87d9-4e83-ab67-dbf1c02b4cef.png)
