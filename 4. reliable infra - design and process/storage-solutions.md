@@ -8,6 +8,13 @@
 <img width="600" height="100" alt="storage-char" src="https://user-images.githubusercontent.com/40435982/128052494-e9398873-2fac-4e7d-afde-f412f12b6be9.PNG">
 
 All these services are managed, and have industry standard SLAs.
+#### Criteria for each service in you microservice architecture
+- Type of data (structured/unstructured)
+- SQL or NoSQL
+- Strong/Eventual consistency
+- Amount/Size of data (MB, GB, TB, PB, ExB)
+- Read write patterns (Read only, Read/write)
+- Requirements for Scaling and Availability
 
 **1. Availability SLAs** (Cloud Storage, Spanner and Firestore)
 
@@ -54,11 +61,5 @@ Eventually consistent databases update one copy of the data and the rest asynchr
 - Cloud Storage is relatively, cheap but you cant run a database in storage
 - Bigquery storage is relatively cheap but doestn provide fast access to records and you have to pay for running queries
 
-#### Criteria for each service in you microservice architecture
-- Type of data (structured/unstructured)
-- SQL or NoSQL
-- Strong/Eventual consistency
-- Amount/Size of data (MB, GB, TB, PB, ExB)
-- Read write patterns (Read only, Read/write)
-- Requirements for Scaling and Availability
+
 
