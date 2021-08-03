@@ -36,7 +36,9 @@ Stateful services manage stored data over time
 
 ### Store state using backend storage services shared by the frontend server
 - Cache state data for faster access
-- Take advantage og GCP managed data services (Firestore, Cloud SQL) AND Memorystore for Cache.
+- Take advantage og GCP managed data services (Firestore, Cloud SQL) and Memorystore for Cache.
+
+Services should be stateless, and a service like Redis or Memorystore provides a fast caching service to store state. They enable services to be stateless and support scale and high availability
 
 ### 12 Factor app is a set of best practices for building web or SaaS applications
 Use the [12 factor app](https://12factor.net) to design your microservice implementations in order to
@@ -47,7 +49,7 @@ Use the [12 factor app](https://12factor.net) to design your microservice implem
 
 1. Codebase - Use Git (or Cloud Source repos)
 2. Dependencies (Declare and isolated. Use package managers such as NPM as Pip and Maven)
-3. Config
+3. Config (Code and config should be separated, because config varies across deployments but code does not. The true test is whether the repository could be open-sourced without compromising any credentials.)
 4. Backing services (Accessed via URLs. So you can swap backing services easily)
 5. Build, release, run (SDE process should be split from this. Allows easily rollbacks and audit trails)
 6. Processes (apps should run as one or more stateless processes)
