@@ -15,9 +15,10 @@
 - Can configure static or **dynamic routes using BGP** (Border Gateway Protocol)
 
 **B1. Classic VPN Gateway Architecture**
+
 <img width="606" alt="classsic-vpn" src="https://user-images.githubusercontent.com/40435982/128071672-b00c40a4-ca85-4257-b107-8233db2d3977.PNG">
 
-Classic VPN gateways have 
+**Classic VPN gateways have** 
 - Single network interface
 - Sinlge external IP
 - Support tunnels using static/ dynamic routing
