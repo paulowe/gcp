@@ -24,10 +24,10 @@ Resource is an abstract notion of information)
 
 ### Clients acccess services using HTTP requests
 
-VERB: GET, PUT, POST, DELETE
-URI: Uniform Resource Identifier
-Request Header: metadata about the message format (JSON, XML)
-Request body: Contains data to be sent to the server and is optinional if your are requesting for data
+- VERB: GET, PUT, POST, DELETE
+- URI: Uniform Resource Identifier
+- Request Header: metadata about the message format (JSON, XML)
+- Request body: Contains data to be sent to the server and is optinional if your are requesting for data
 
 The HTTP Verb tells the server the action to perform on the resource
 
