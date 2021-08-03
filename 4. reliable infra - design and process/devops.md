@@ -21,4 +21,4 @@ Tools for CI pipelines
 - Add a policy that requires signed images
 - When image is built, an "attestor" verifies that it was from a trusted repository 
 - Container registry includes a vulnerability scanner that scans containers
-<img width="212" alt="binary-auth" src="https://user-images.githubusercontent.com/40435982/128042228-e77fe917-9845-463b-95c2-5cf1becdceae.PNG">
+<img width="400" height="400" alt="binary-auth" src="https://user-images.githubusercontent.com/40435982/128042228-e77fe917-9845-463b-95c2-5cf1becdceae.PNG">
