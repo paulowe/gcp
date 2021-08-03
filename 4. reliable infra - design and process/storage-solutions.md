@@ -5,7 +5,7 @@
 - Store NoSQL data using BigTable or Firestore
 
 ## Key storage characteristics
-<img width="600" height="300" alt="storage-char" src="https://user-images.githubusercontent.com/40435982/128052494-e9398873-2fac-4e7d-afde-f412f12b6be9.PNG">
+<img width="600" height="100" alt="storage-char" src="https://user-images.githubusercontent.com/40435982/128052494-e9398873-2fac-4e7d-afde-f412f12b6be9.PNG">
 
 All these services are managed, and have industry standard SLAs.
 
