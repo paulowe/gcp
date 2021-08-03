@@ -40,8 +40,13 @@ Classic VPN gateways have
 - Must provision your own router in a colocation facility
 - To exchange routes, configure a **BGP session** over the interconnect between Cloud router and On-prem router
 
+<img width="800" alt="dedicated-interconnect" src="https://user-images.githubusercontent.com/40435982/128074222-4b7852f0-9c09-4510-8cb2-eaab4839aa7e.PNG">
+
 **C2. Partner Interconnect
 - Can purchase less bandwidth from 50 Mbps
+- Use this if your data requirements dont warrant a Dedicated interconnect or if you are not nearby a Google PoP
+
+<img width="759" alt="partner-interconnect" src="https://user-images.githubusercontent.com/40435982/128074253-9dafce0a-5c58-43c0-9c46-8f0210d22300.PNG">
 
 Both Interconnect options 
 - allow access to VPC resources using internal RFC1918 ip address space
