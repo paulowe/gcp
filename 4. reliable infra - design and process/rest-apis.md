@@ -21,3 +21,22 @@ Resource is an abstract notion of information)
 **Public vs Private APIs**
 - JSON is the standard format for external services
 - Use gRPC for private services
+
+### Clients acccess services using HTTP requests
+
+VERB: GET, PUT, POST, DELETE
+URI: Uniform Resource Identifier
+Request Header: metadata about the message format (JSON, XML)
+Request body: Contains data to be sent to the server and is optinional if your are requesting for data
+
+The HTTP Verb tells the server the action to perform on the resource
+
+1. GET is used to retrieve data
+2. POST is used to create data
+3. PUT is used to create data or alter existing data (needs to be idempotent, regardless of how many requests sent to the server, the output needs to always be the same)
+4. DELETE is used to remove data
+
+HTTP response codes
+200 - Success
+400 - client errors
+500 - server errors (503 -Server is overloaded)
