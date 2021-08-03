@@ -54,9 +54,11 @@ Eventually consistent databases update one copy of the data and the rest asynchr
 - Cloud Storage is relatively, cheap but you cant run a database in storage
 - Bigquery storage is relatively cheap but doestn provide fast access to records and you have to pay for running queries
 
-#### Criteria
-Type of data (structured/unstructured)
-Size of data
-Read write patterns
-Requirements for Scaling, availability
+#### Criteria for each service in you microservice architecture
+- Type of data (structured/unstructured)
+- SQL or NoSQL
+- Strong/Eventual consistency
+- Amount/Size of data (MB, GB, TB, PB, ExB)
+- Read write patterns (Read only, Read/write)
+- Requirements for Scaling and Availability
 
