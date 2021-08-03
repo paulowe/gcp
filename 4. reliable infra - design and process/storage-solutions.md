@@ -84,3 +84,32 @@ Criteria for consideration
 <img width="800" height="400" alt="transfer-times" src="https://user-images.githubusercontent.com/40435982/128058106-53901f1c-4056-489d-9135-19927dc44e47.PNG">
 
 Colored cells represents unrealistic timelines and you should consider alternative solutions
+
+### For smaller or scheduled data uploads, use the **Cloud Storage Transfer Service**
+
+1. Import online data to GCS
+  - Amazon S3
+  - HTTPS/HTTPS Location
+  - Transfer data betweeen GCS buckets
+2. Scheduled jobs
+  - One time or recurring, import at a scheduled time of day
+  - Options for delete objects not in source or after transfer
+  - Filter on filename or creation date
+
+### For large scale uploads (>1TB) from your data center, use Stroage Transfer Service
+- Install on prem agent on your servers
+- Agent runs in a docker container
+- Set up a connection to Google Cloud
+- Requires a *minimum of 300Mbps bandwidth*
+- Scales to billions of files and hundreds of TBs
+- Secure
+- Automatic retries
+- Logged
+- Easy to monitor through Cloud console
+
+### For even larger amounts of data, use Transfer Appliance
+- Rackable device up to 1PB shipped to your Data center and back to Google cloud
+- Secure and you control the encryption key (AES-256 standard)
+
+### Transfer service for Bigquery
+- Supports exports from your SaaS app , external sources such as AWS Redshift sources to Bigquery
