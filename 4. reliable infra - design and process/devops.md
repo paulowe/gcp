@@ -12,8 +12,8 @@ Each microservice should have its own repository. Now, heres an example of a sim
 
 Tools for CI pipelines
 - Cloud Source repositories - Github integrated on Google cloud. Control access to repos using IAM within you Projects
-- Cloud Build (alternative to Docker build) - Build system executes the steps required to make a deployment package of Docker image. 
 - Build Triggers - Watches a repository for changes in the Git repo and starts the build container (you can configure it to build on any change **or specific changes that match a criteria**)
+- Cloud Build (alternative to Docker build) - Build system executes the steps required to make a deployment package of Docker image. 
 - Container registry (Cloud hosted Docker registry) -  A central location to Manage docker images, deployment packages and perform vulnerability analysis
 
 **Binary authorization allows you to enforce deploying only trusted containers into GKE**
