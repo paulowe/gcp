@@ -53,3 +53,12 @@ Google provides an API design guide and API style book (find it and examine Goog
 
 Functions are in the form ```service.collection.verb```
 
+For example
+
+Compute Engine service endpoint : ```https://compute.googleapis.com```
+
+Collections : instances, instanceGroups, etc
+
+Verb : list, get, insert, etc
+
+Full GET request to see all your instances:  ```https://compute.googleapis.com/compute/v1/projects/{project}/zones/{zone}/instances```
