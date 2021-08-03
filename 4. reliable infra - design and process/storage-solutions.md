@@ -113,3 +113,9 @@ Colored cells represents unrealistic timelines and you should consider alternati
 
 ### Transfer service for Bigquery
 - Supports exports from your SaaS app , external sources such as AWS Redshift sources to Bigquery
+
+
+#### Question:
+You need to store user preferences, product information, and reviews for a website you are building. There won’t be a huge amount of data. What would be a simple, cost-effective, managed solution? (Firestore vs Cloud SQL)
+
+Answer: **Not Cloud SQL; Firestore!** This could be a potential solution, but the flexibility of Firestore as a document store compared to the schema-based Cloud SQL is a better choice for the type of data, in particular for user preferences and reviews. Also the scale of Cloud SQL may be a limitation for peak loads, for instance Black Friday, or if the customer base grows. **Finally, the pricing model is more expensive than Firestore.**
