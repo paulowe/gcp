@@ -9,6 +9,49 @@
 
 All these services are managed, and have industry standard SLAs.
 
-**Availability SLAs** (Cloud Storage, Spanner and Firestore)
+**1. Availability SLAs** (Cloud Storage, Spanner and Firestore)
+
+Availability represents the service uptime
 
 <img width="332" alt="gcs-slas" src="https://user-images.githubusercontent.com/40435982/128052777-89e7e1a3-a6ee-45a9-a026-d83b105a4277.PNG">
+
+Requirements will guide you for storage choice
+
+Availability SLAs are defined **per month**. 
+
+```Monthly uptime % = (Total mins/mo - Downtime mins sufferred/mo ) / Total mins/mo```
+
+**2. Durability represents the odds of losing data**
+
+Preventing data loss is a shared responsibility. Google's responsibility is to ensure durability of data in the event of hardware failure, whereas customer responsibility is to perform backups
+
+- Cloud Storage = 11 9's of durability. Customers need to turn versioning on
+- Disk Cloud SQL - Provides **automated machine backups; point in time recovery; failover server**. Customers should run SQL database backups
+- Spanner and Firestore - Google provides automatic replication; Customers should run export jobs to GCS
+
+**3. The amount of data and number of reads/writes is important when selecting a data storage service**
+
+- Horizontal scaling (Bigtable, Spanner)
+- Vertical scaling (Cloud SQL, Memorystore)
+- Automatic scaling (GCS, Bigquery, Firestore)
+
+**4. Strong consistency**
+
+Strongly consistent databases update all copies of data within a transaction. This ensures everyone gets the latest copy of the data on reads
+- Storage
+- Cloud SQL
+- Spanner
+- Firestore
+
+Eventually consistent databases update one copy of the data and the rest asynchronously
+- Bigtable
+- Memorystore replicas
+
+**5. Calculate total cost per GB when choosing a storage service**
+
+- Bigtable and Spanner would be too expensive for storing smaller amounts of data
+- Firestore is less expensive per GB, but you also pay for reads and writes
+- Cloud Storage is relatively, cheap but you cant run a database in storage
+- Bigquery storage is relatively cheap but doestn provide fast access to records and you have to pay for running queries
+
+
