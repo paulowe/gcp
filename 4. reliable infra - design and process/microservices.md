@@ -13,8 +13,8 @@
 
 **Cons**
 - Increased complexity when communicating between services
-- Increased latency across service boundaries
-- Securin inter-service traffic
+- Increased latency across service boundaries (network latency)
+- Securing inter-service traffic
 - Multiple deployments
 - Must maintain backward compatibility
 
