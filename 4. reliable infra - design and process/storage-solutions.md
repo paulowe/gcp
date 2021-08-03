@@ -61,5 +61,5 @@ Eventually consistent databases update one copy of the data and the rest asynchr
 - Cloud Storage is relatively, cheap but you cant run a database in storage
 - Bigquery storage is relatively cheap but doestn provide fast access to records and you have to pay for running queries
 
-
+<img width="462" alt="storage-portfolio" src="https://user-images.githubusercontent.com/40435982/128056356-812afabe-9f78-46da-8151-5ac67f701533.PNG">
 
