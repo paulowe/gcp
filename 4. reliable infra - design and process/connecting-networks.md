@@ -43,7 +43,7 @@
 
 <img width="800" alt="dedicated-interconnect" src="https://user-images.githubusercontent.com/40435982/128074222-4b7852f0-9c09-4510-8cb2-eaab4839aa7e.PNG">
 
-**C2. Partner Interconnect
+**C2. Partner Interconnect**
 - Can purchase less bandwidth from 50 Mbps
 - Use this if your data requirements dont warrant a Dedicated interconnect or if you are not nearby a Google PoP
 
