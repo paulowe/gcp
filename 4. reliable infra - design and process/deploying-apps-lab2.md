@@ -12,4 +12,9 @@ The --no-promote parameter tells App Engine to continue serving requests with th
 
 3. ```kubectl get nodes``` to list nodes/VMs in your cluster
 
+4. To use Kubernetes Engine, you need to build a Docker image. Enter the following commands to use Cloud Build to create the image and store it in Container Registry:
 
+```
+cd ~/gcp-course/training-data-analyst/courses/design-process/deploying-apps-to-gcp
+gcloud builds submit --tag gcr.io/$DEVSHELL_PROJECT_ID/devops-image:v0.2 .
+```
