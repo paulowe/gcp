@@ -44,9 +44,9 @@ Solution: Intelligent retries
 - Use **truncated exponential backoff pattern to avoid positive feedback overload at the client**. Wait 1 second + random_number_milliseconds and retry; Wait 2 seconds + random_number_milliseconds and retry; and so on before giving up
 - Use **circuit breaker pattern**(a proxy in front of a service that monitors service health) to protect the service from too many retries. For GKE use **Istio** to automatically implement circuit breakers.
 
-When creating a service and you want to protect it from being overloaded by too many client retries in the event of a **partial outage**, use Circuit breaker.
+When creating a service and you want to protect it from being overloaded by too many client retries in the event of a **partial outage**, use **Circuit breaker**  because the circuit breaker will attempt to prevent an operation that is likely to fail and therefore will protect the resource that is in partial outage and hopefully prevent cascading failure.
 
-Truncated exponential backoff attempts a retyr on the expectation that it is likeley to succeed. This will cause problems if there is a partial outage because the retry will not succeed.
+**Truncated exponential** backoff attempts a retyr on the expectation that it is likeley to succeed. This will cause problems if there is a partial outage because the retry will not succeed.
 
 
 ## Use Lazy deletion to reliably recover when users delete data by mistake
