@@ -47,3 +47,4 @@ Solution: Intelligent retries
 ## Use Lazy deletion to reliably recover when users delete data by mistake
 User deletes data -> Trash (< 30 days) -> Soft-deletion phase (protects against any mistakes in the application; < 60 days) -> Hard-deletion (data is gone, can only be restored if there were any backups made)  
 
+
