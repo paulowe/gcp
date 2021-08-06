@@ -1,4 +1,5 @@
-# Security is a shared responsibility
+# 1. Security concepts
+**Security is a shared responsibility**
 
 Principle of least privilege applies to **machines, people and proccesses**. Roles should be assigned to all these entities
 
@@ -9,7 +10,7 @@ Separation of duties
 
 Use multiple projects to separate duties
 
-## Audit Logs regularly
+#### Audit Logs regularly
 - All services write to logs
   - Admin logs
   - Data access logs
@@ -17,11 +18,11 @@ Use multiple projects to separate duties
   - Firewall logs
   - System logs
  
- ## Google cloud meets many third party and government compliance standards worldwide
+ #### Google cloud meets many third party and government compliance standards worldwide
  - But this does not mean that your applications are also certified or runs with these standards
  - Focus on building your applications running on top of Google cloud 
  
- ## Security command center provides access to organizational and project security configuration
+ #### Security command center provides access to organizational and project security configuration
  - Provides a set of actionable recommendations
 
 ## 1. Securing people:
@@ -31,7 +32,7 @@ Use multiple projects to separate duties
 - Roles a re simply a list of permissions
 - Use the console to easily see what permissions are granted to roles
 
-### Use organizational policies and folder to simplify securing environments and managing resources
+#### Use organizational policies and folder to simplify securing environments and managing resources
 - Grant roles to Groups rather than individuals
 - Groups can be more granular than job roles
 - Use multiple groups for better control
@@ -42,13 +43,13 @@ Roles
 - Limit use of "Owner" and "editor" roles
 - Consider hierarchy inheritance when assigning roles
 
-### Identity-Aware Proxy simplifies auhorization to Google cloud applications and VMs
+#### Identity-Aware Proxy simplifies auhorization to Google cloud applications and VMs
 - Works with apps deployed BEHIND THE http(s) load balancer in on App Engine environments, Compute Engine and GKE
 - When configured, it forces users to log in
 - Admins control who can access to app
 - Allows employees to securely access web based apps without needing a VPN
 
-### Identity platform provides authentication as a service
+#### Identity platform provides authentication as a service
 - Proides federated login that integrates with many common providers
 - Use it to provide sign-up and sign-in for your end users' applications
 
@@ -64,7 +65,7 @@ Service accounts can be an identity and a resource
 
 Each SA is assigned a private and public keys with max usage period of 2 weeks
 
-## Network Security
+## 3. Network Security
 - Remove external IPs to prevent access to machines outside their network
 - Use a bastion host to provide access to private machines
 
@@ -78,27 +79,27 @@ Each SA is assigned a private and public keys with max usage period of 2 weeks
 - Add fw rules to control which clients have access to which VMs on which ports.
 - Application level security is the responisbility of the customer
 
-### Control access to APIs using Cloud Endpoints
+#### Control access to APIs using Cloud Endpoints
 - Protect and monitor your public APIs
 - Xontrol who has access to your API (using e.g Auth0)
 - Validate every call with **JSON web tokens** and **Google API keys**
 - Integrates with Identity platform for authentication
 
-### Restrict access to your services to TLS Only
+#### Restrict access to your services to TLS Only
 - All Google Cloud Service endpoints use HTTPS
 - Up to you to configure serice endpoints
 - In the load balancer setup, only create a secure frontend
 
-### Leverage Google cloud network services for DDoS protection
+#### Leverage Google cloud network services for DDoS protection
 - Global load balancers detect attacks and drop them
 - Enabling the CDN will protect backend resources
 
-### Use Google Cloud Armor to create network security policies
+#### Use Google Cloud Armor to create network security policies
 - Can allow or deny access to your resources using known Ip addresses or ranges
 - In Addition to layer 3 and layer 4 security, **Cloud Armor supports layer 7 web applications firewall rules (WAF Rules)**
 - predefined rules for preventing common attacks like SQL injections and cross-site scripting
 - Flexible rules language allows you to allow or deny traffic using **request headers, geographic locations and Ip addresses, cookies**
 ![image](https://user-images.githubusercontent.com/40435982/128532993-d82fcf2d-b056-4e8c-acee-11f35e0bf355.png)
 
-
+## 4. Encryption
 
