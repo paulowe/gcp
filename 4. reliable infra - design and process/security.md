@@ -95,7 +95,7 @@ Each SA is assigned a private and public keys with max usage period of 2 weeks
 
 ### Use Google Cloud Armor to create network security policies
 - Can allow or deny access to your resources using known Ip addresses or ranges
-- **Cloud Armor supports layer 7 web applications firewall rules (WAF Rules)**
+- In Addition to layer 3 and layer 4 security, **Cloud Armor supports layer 7 web applications firewall rules (WAF Rules)**
 - predefined rules for preventing common attacks like SQL injections and cross-site scripting
 - Flexible rules language allows you to allow or deny traffic using **request headers, geographic locations and Ip addresses, cookies**
 
