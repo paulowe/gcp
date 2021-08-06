@@ -1,4 +1,4 @@
-## Managing Version
+## 1. Managing Version
 In a microservice architecture, becareful not to break clients when services are updates
 - Include version in URI
 - Need to deploy new versions with zero downtime
@@ -30,3 +30,7 @@ Startegies to achieve these
 - In GCE, you can create a new instance group and add it as an additional backend for your Load balancers
 - In GKE, create a new pod with the same labels as the existing pods; the service will automatically route a portion of requests to it
 - In App Engine, use traffic splitting
+
+## 2. Cost Planning
+
+![image](https://user-images.githubusercontent.com/40435982/128546222-7ad70371-4898-4e51-932b-fab4a46d62da.png)
