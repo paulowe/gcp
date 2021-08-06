@@ -3,3 +3,5 @@ Whats the difference between Truncated exponential backoff and Circuit breaker (
 Can you explain Cloud Identity aware proxy? And why does it only work for apps deployed BEHIND A HTTPS LB (for GKE, App engine and GCE only)?
 
 Frontend in Google cloud load balancer ?
+
+Difference between Cloud Armor and Firewall rules??
