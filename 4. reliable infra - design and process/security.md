@@ -24,14 +24,14 @@ Use multiple projects to separate duties
  ## Security command center provides access to organizational and project security configuration
  - Provides a set of actionable recommendations
 
-## Securing people:
+## 1. Securing people:
 - To grant people access to your projects, **add them as members** and assign them one or more roles
 - Members are identified by their login
 - Add members to groups for easier management
 - Roles a re simply a list of permissions
 - Use the console to easily see what permissions are granted to roles
 
-## Use organizational policies and folder to simplify securing environments and managing resources
+### Use organizational policies and folder to simplify securing environments and managing resources
 - Grant roles to Groups rather than individuals
 - Groups can be more granular than job roles
 - Use multiple groups for better control
@@ -42,12 +42,19 @@ Roles
 - Limit use of "Owner" and "editor" roles
 - Consider hierarchy inheritance when assigning roles
 
-## Identity-Aware Proxy simplifies auhorization to Google cloud applications and VMs
+### Identity-Aware Proxy simplifies auhorization to Google cloud applications and VMs
 - Works with apps deployed BEHIND THE http(s) load balancer in on App Engine environments, Compute Engine and GKE
 - When configured, it forces users to log in
 - Admins control who can access to app
 - Allows employees to securely access web based apps without needing a VPN
 
-## Identity platform provides authentication as a service
+### Identity platform provides authentication as a service
 - Proides federated login that integrates with many common providers
 - Use it to provide sign-up and sign-in for your end users' applications
+
+## 2. Securing Machines:
+Service accounts can be used for machine or application identities to make authorized API calls
+- Create a service account and grant it one or more roles
+- Can asign that service account to VMs, GKE node pools
+- Those machines run with only the rights granted by the roles
+
