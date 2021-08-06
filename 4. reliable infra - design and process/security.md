@@ -63,3 +63,14 @@ Service accounts can be an identity and a resource
 - Control who can create VMs with the service account so random VMs cannot assume the identity. Here the SA is a **Resource** to be permisisoned and you assign the SA user role to users/members you trust to use the SA
 
 Each SA is assigned a private and public keys with max usage period of 2 weeks
+
+## Network Security
+- Remove external IPs to prevent access to machines outside their network
+- Use a bastion host to provide access to private machines
+
+![image](https://user-images.githubusercontent.com/40435982/128525684-c3838d3e-8328-40c2-a3bf-86f9393586c6.png)
+
+- Can also SSH into internal machines using IAP from console and CLI
+- Use Cloud NAT to provide egress to the internet from internal machines
+
+**All internet traffic should terminate at a load balancer, third party firewall (proxy/WAF), API Gateway, or IAP. That way, internal services cannot be launched and get public IP addresses
