@@ -74,3 +74,12 @@ Each SA is assigned a private and public keys with max usage period of 2 weeks
 - Use Cloud NAT to provide egress to the internet from internal machines
 
 **All internet traffic should terminate at a load balancer, third party firewall (proxy/WAF), API Gateway, or IAP. That way, internal services cannot be launched and get public IP addresses
+- COnifgure firewall rules to allow access to VMs. By default ingress on all ports is denied
+- Add fw rules to control which clients have access to which VMs on which ports.
+- Application level security is the responisbility of the customer
+
+### Control access to APIs using Cloud Endpoints
+- Protect and monitor your public APIs
+- Xontrol who has access to your API
+- Validate every call with **JSON web tokens** and Google API keys
+- Integrates with Identity platform
