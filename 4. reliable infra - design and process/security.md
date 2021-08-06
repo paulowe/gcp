@@ -102,4 +102,15 @@ Each SA is assigned a private and public keys with max usage period of 2 weeks
 ![image](https://user-images.githubusercontent.com/40435982/128532993-d82fcf2d-b056-4e8c-acee-11f35e0bf355.png)
 
 ## 5. Encryption
+Google cloud provides server-side encryption of data at rest by default
 
+- Data Encryption Key uses AES-256 symmetric key
+- The DEK Keys are encrypted by Google using Key Encryption Keys (KEK). This is done so that the DEK can be stored local to the encrypted data for fast decryption.
+- **On the fly decryption** by authorized user access with no visible performance imapact
+- To protect KEKs, Google controls root keys in Cloud KMS
+- Keys are automatically rotated periodically
+
+#### To manage your own keys
+- Customer managed encryption keys are created in the cloud using Cloud Key Management Service (KMS)
+- Create the keys and specify the rotation frequency
+- You can select your keys when creating storage resources like buckets and disks
