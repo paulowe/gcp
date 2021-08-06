@@ -94,6 +94,10 @@ Each SA is assigned a private and public keys with max usage period of 2 weeks
 - Global load balancers detect attacks and drop them
 - Enabling the CDN will protect backend resources
 
+
+**Cloud features for preventing DDoS attacks**
+**HTTP Load Balancing** mitigates and absorbs many Layer 4 and below attacks such as SYN flood, IP fragment floods, and port exhaustion. **Cloud CDN** caches cacheable content at points of presence close to users. In the event of a DDoS attack for cacheable content, the requests are sent to points of presence, not to your servers/infrastructure, thus increasing the likelihood of the attack being absorbed. **Google Cloud Armor** is built for DDoS mitigation, working with Cloud Load Balancing to detect DDoS attacks.
+
 #### Use Google Cloud Armor to create network security policies
 - Can allow or deny access to your resources using known Ip addresses or ranges
 - In Addition to layer 3 and layer 4 security, **Cloud Armor supports layer 7 web applications firewall rules (WAF Rules)**
