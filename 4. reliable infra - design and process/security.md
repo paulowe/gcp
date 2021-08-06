@@ -44,4 +44,10 @@ Roles
 
 ## Identity-Aware Proxy simplifies auhorization to Google cloud applications and VMs
 - Works with apps deployed BEHIND THE http(s) load balancer in on App Engine environments, Compute Engine and GKE
-- 
+- When configured, it forces users to log in
+- Admins control who can access to app
+- Allows employees to securely access web based apps without needing a VPN
+
+## Identity platform provides authentication as a service
+- Proides federated login that integrates with many common providers
+- Use it to provide sign-up and sign-in for your end users' applications
