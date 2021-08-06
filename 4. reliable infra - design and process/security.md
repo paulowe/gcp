@@ -88,3 +88,12 @@ Each SA is assigned a private and public keys with max usage period of 2 weeks
 - All Google Cloud Service endpoints use HTTPS
 - Up to you to configure serice endpoints
 - In the load balancer setup, only create a secure frontend
+
+### Leverage Google cloud network services for DDoS protection
+- Global load balancers detect attacks and drop them
+- Enabling the CDN will protect backend resources
+
+### Use Google Cloud Armor to create network security policies
+- Can allow or deny access to your resources using known Ip addresses or ranges
+
+
