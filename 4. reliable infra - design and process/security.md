@@ -110,7 +110,15 @@ Google cloud provides server-side encryption of data at rest by default
 - To protect KEKs, Google controls root keys in Cloud KMS
 - Keys are automatically rotated periodically
 
-#### To manage your own keys
+#### To manage your own keys (Customer Managed Encryption Keys)
 - Customer managed encryption keys are created in the cloud using Cloud Key Management Service (KMS)
 - Create the keys and specify the rotation frequency
 - You can select your keys when creating storage resources like buckets and disks
+
+#### Customer Supplied encryption keys are created On-prem and provided to Googlr Cloud
+- Use your own keys with Google cloud services
+- CSEK are supplied by the callung application per API-call
+- Only cached in RAM by Google
+- They decrypt a single payload (or column) or block of returned data
+- Supported by Compute Engine (persistent disks) and Cloud Storage
+
