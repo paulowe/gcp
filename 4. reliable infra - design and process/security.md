@@ -98,4 +98,7 @@ Each SA is assigned a private and public keys with max usage period of 2 weeks
 - In Addition to layer 3 and layer 4 security, **Cloud Armor supports layer 7 web applications firewall rules (WAF Rules)**
 - predefined rules for preventing common attacks like SQL injections and cross-site scripting
 - Flexible rules language allows you to allow or deny traffic using **request headers, geographic locations and Ip addresses, cookies**
+![image](https://user-images.githubusercontent.com/40435982/128532993-d82fcf2d-b056-4e8c-acee-11f35e0bf355.png)
+
+
 
