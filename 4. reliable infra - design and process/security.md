@@ -80,6 +80,11 @@ Each SA is assigned a private and public keys with max usage period of 2 weeks
 
 ### Control access to APIs using Cloud Endpoints
 - Protect and monitor your public APIs
-- Xontrol who has access to your API
-- Validate every call with **JSON web tokens** and Google API keys
-- Integrates with Identity platform
+- Xontrol who has access to your API (using e.g Auth0)
+- Validate every call with **JSON web tokens** and **Google API keys**
+- Integrates with Identity platform for authentication
+
+### Restrict access to your services to TLS Only
+- All Google Cloud Service endpoints use HTTPS
+- Up to you to configure serice endpoints
+- In the load balancer setup, only create a secure frontend
