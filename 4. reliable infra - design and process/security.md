@@ -58,3 +58,8 @@ Service accounts can be used for machine or application identities to make autho
 - Can asign that service account to VMs, GKE node pools
 - Those machines run with only the rights granted by the roles
 
+Service accounts can be an identity and a resource
+- **Identity** for your app/service to authenticate (a VM eg running as a service) it so it can make API callspermitted by IAM roles attached to the SA
+- Control who can create VMs with the service account so random VMs cannot assume the identity. Here the SA is a **Resource** to be permisisoned and you assign the SA user role to users/members you trust to use the SA
+
+Each SA is assigned a private and public keys with max usage period of 2 weeks
