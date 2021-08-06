@@ -41,4 +41,7 @@ Roles
 - Grant roles at the smallest scope needed (least privilege)
 - Limit use of "Owner" and "editor" roles
 - Consider hierarchy inheritance when assigning roles
+
+## Identity-Aware Proxy simplifies auhorization to Google cloud applications and VMs
+- Works with apps deployed BEHIND THE http(s) load balancer in on App Engine environments, Compute Engine and GKE
 - 
