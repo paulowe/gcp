@@ -122,3 +122,11 @@ Google cloud provides server-side encryption of data at rest by default
 - They decrypt a single payload (or column) or block of returned data
 - Supported by Compute Engine (persistent disks) and Cloud Storage
 
+#### The Data Loss Prevention API can be used to protect sensitive data by finding it and censoring/obscuring (redacting) it
+- Scans data Cloud Storage BigQuery, or DataStore
+- **Detects many different types of sensitive data** including
+  - Emails
+  - Credit cards
+  - Tax IDs 
+- You can add your own information types
+- Can delete, mask, tokenize, or just identify the location of the sensitive data
