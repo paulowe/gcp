@@ -25,7 +25,7 @@ Use multiple projects to separate duties
  #### Security command center provides access to organizational and project security configuration
  - Provides a set of actionable recommendations
 
-## 1. Securing people:
+## 2. Securing people:
 - To grant people access to your projects, **add them as members** and assign them one or more roles
 - Members are identified by their login
 - Add members to groups for easier management
@@ -53,7 +53,7 @@ Roles
 - Proides federated login that integrates with many common providers
 - Use it to provide sign-up and sign-in for your end users' applications
 
-## 2. Securing Machines:
+## 3. Securing Machines:
 Service accounts can be used for machine or application identities to make authorized API calls
 - Create a service account and grant it one or more roles
 - Can asign that service account to VMs, GKE node pools
@@ -65,7 +65,7 @@ Service accounts can be an identity and a resource
 
 Each SA is assigned a private and public keys with max usage period of 2 weeks
 
-## 3. Network Security
+## 4. Network Security
 - Remove external IPs to prevent access to machines outside their network
 - Use a bastion host to provide access to private machines
 
@@ -101,5 +101,5 @@ Each SA is assigned a private and public keys with max usage period of 2 weeks
 - Flexible rules language allows you to allow or deny traffic using **request headers, geographic locations and Ip addresses, cookies**
 ![image](https://user-images.githubusercontent.com/40435982/128532993-d82fcf2d-b056-4e8c-acee-11f35e0bf355.png)
 
-## 4. Encryption
+## 5. Encryption
 
