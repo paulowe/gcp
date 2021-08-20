@@ -20,6 +20,8 @@
 
 Your project number is the prefix of your service account e.g ```{project-number}-compute@developer.gserviceaccount.com```
 
+
+
 ### Infrastructure regions and health status
 
 ```gcloud compute regions list``` to list available regions and view their health status
