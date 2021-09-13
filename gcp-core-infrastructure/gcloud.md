@@ -10,6 +10,8 @@
 
 ```gcloud config set account 'ACCOUNT' ``` to switch accounts
 
+```gcloud auth activate-service-account --key-file credentials.json``` to assume a service account
+
 ### Project Management
 
 ```gcloud config list project``` list currently active project
