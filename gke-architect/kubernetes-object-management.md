@@ -80,16 +80,27 @@ metadata:
     labels:
         app: nginx
 spec:
+# how many replica pods
     replicas: 3
     template:
        metadata:
           labels:
             app: nginx
-       
        spec:
+       # which container should run within these pods
           containers:
             - name: nginx
+            # which volume should be mounted
               image: nginx:latest
 ```
+
+## Allocating resource quotas
+
+Its probable that you will use a single cluster for multiple projects (informal definition of projects, thing you are working on with colleagues. Each GKE cluster is associated with only 1 GCP project)
+
+Its also essential to maintain resource quotas based on projects, department, or team.
+
+## Namespaces - Abstract one cluster into multiple clusters called Namespaces
+Namespaces help keep things tidy between your various projects (informal). 
 
 
