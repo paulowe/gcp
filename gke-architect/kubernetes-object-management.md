@@ -7,7 +7,7 @@ YAML files are less tedious to edit
 
 ```
 # Required field: Which Kubernetes API version is used to create the object. 
-#The Kubernetes protocol is versioned so as to help maintain backwards compatibility
+# The Kubernetes protocol is versioned so as to help maintain backwards compatibility
 
 apiVersion: apps/v1
 
