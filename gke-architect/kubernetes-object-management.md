@@ -30,7 +30,10 @@ spec:
       image: nginx:latest
 ```
 
-Save YAML files in version control (Best practice).
+## Another Best Practice: Save YAML files in version control repos (Cloud Source Repo).
+
+- This will help you track changes, or back out of changes when necessary
+- Recreate/restore a cluster
 
 **Object names**
 
