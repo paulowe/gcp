@@ -32,11 +32,11 @@ spec:
 
 Save YAML files in version control (Best practice).
 
-### Object names
+**Object names**
 
 All objects are identified by a unique name
 
-### Labels
+**Labels**
 
 Key value pairs with which you tag your objects, during or after their creation. They help organize your objects
 
@@ -45,4 +45,20 @@ For example you can use the ```kubectl``` command to retrieve pods that contain 
 ```kubectl get pods -selector=app=nginx```
 
 ![Screen Shot 2021-10-10 at 1 19 34 PM](https://user-images.githubusercontent.com/40435982/136706462-6660dd37-b09d-41b3-bc6a-8be2f87547eb.png)
+
+## Pods (without controller, inefficient, unamnageable) 
+So one way to run 3 nginx servers would be to define 3 pod objects, each with its own section of YAML. 
+
+Scaling YAML files is inconvenient
+
+![Screen Shot 2021-10-10 at 1 28 22 PM](https://user-images.githubusercontent.com/40435982/136706747-af261b60-ad19-425e-802a-2be90281149c.png)
+
+### Another problem... Pods have a lifecycle, they don't heal/repair themselves. They are meant to be ephemeral and disposable
+
+![Screen Shot 2021-10-10 at 1 30 27 PM](https://user-images.githubusercontent.com/40435982/136706788-1fb23b94-cd59-4cbe-bda9-877f92851ff1.png)
+
+This is another reason why you should not manage pods using individual files
+
+## Pods and Controller Objects
+
 
