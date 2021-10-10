@@ -115,6 +115,10 @@ There are 3 initial namespaces in a cluster:
 - **Kube-public** - For objects publicly readable to all users. Tool for disseminating information to everythiong running in a cluster. 
 
 # Best practice tip: Apply namespaces at the command line level. Its more flexible
+Recall: Namespaces are useful for example for having replication of your production env in dev, or test environments.
+
+If you embed namespaces in your YAML files, this decreases flexibility and usefulness of namespaces
+
 ![Screen Shot 2021-10-10 at 5 32 52 PM](https://user-images.githubusercontent.com/40435982/136713599-482b69d8-dacd-4fe5-99ff-7e33964f0f65.png)
 
 
