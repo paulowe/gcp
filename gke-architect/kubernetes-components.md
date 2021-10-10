@@ -17,13 +17,17 @@ Computers in the **control plane** have the job to coordinate the entire cluster
    *Static data about the  cluster*
    - Configuration data
   
-   *Dynamic data about the cluster
-   - what nodes are part of the cluster*
+   *Dynamic data about the cluster*
+   - what nodes are part of the cluster
    - what pods should be running and
    - where they should be running
     
-
-
+3. kube-scheduler is responsible for scheduling pods onto nodes. To do that, it contnuously monitors and
+   - evaluates requirements of each individual pod
+   - select which node is most suitable 
+ 
+   **BUT** it does NOT do the work of actually launching the pods on the nodes. Instead,
+   - whenever it discovers a pod that doesnt yet have an assignment to a node it chooses a node and writes the name of that node into the pod object.  
 
 # Kubernetes Worker Components
 Nodes - Run pods
