@@ -112,6 +112,9 @@ Namespaces help keep things tidy between your various projects (informal).
 
 Namespaces are useful for example for having replication of your production env in dev, or test environments.
 
+### Namespaces let you implememnt resource quotas across the cluster...
+These quotas define resource consumption limits within a namespace. These quotas apply specifically to the Kubernetes cluster they are defined on and are not the same as the GCP quotas.
+
 There are 3 initial namespaces in a cluster:
 - **Default namespace** - For objects with no other namespace defined.
 - **Kube-system namespace** - For objects created by Kubernetes itself. (ConfigMap, Secrets, Controllers, Deployments)
