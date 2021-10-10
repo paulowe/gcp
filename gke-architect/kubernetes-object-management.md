@@ -57,8 +57,14 @@ Scaling YAML files is inconvenient
 
 ![Screen Shot 2021-10-10 at 1 30 27 PM](https://user-images.githubusercontent.com/40435982/136706788-1fb23b94-cd59-4cbe-bda9-877f92851ff1.png)
 
-This is another reason why you should not manage pods using individual files
+This is another reason why you should not specify pods using individual files. There is a better way to manage your Kubernetes workloads with a better setup that maintains high availability along with horizontal scaling.
 
 ## Pods and Controller Objects
+
+Declare a controller object whose job is to manage the state of the pods
+
+Example of controller objects
+
+![Screen Shot 2021-10-10 at 1 35 16 PM](https://user-images.githubusercontent.com/40435982/136706959-78109053-88fe-4f91-9832-542a572dc206.png)
 
 
