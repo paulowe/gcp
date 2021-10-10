@@ -65,7 +65,14 @@ Declare a controller object whose job is to manage the state of the pods
 
 ![Screen Shot 2021-10-10 at 1 36 13 PM](https://user-images.githubusercontent.com/40435982/136707006-11315fe2-47be-4fec-a99b-80934ffa4000.png)
 
-Example of controller objects
+Examples of Controller objects
+
 ![Screen Shot 2021-10-10 at 1 36 30 PM](https://user-images.githubusercontent.com/40435982/136707021-371d979f-67d8-4b58-962f-bcb509cae4f8.png)
+
+## Deployments ensure that sets pf pods are running
+Example : Use Deployments for long lived software components, like Web servers (especially when we want to manage them as a group)
+
+
+
 
 
