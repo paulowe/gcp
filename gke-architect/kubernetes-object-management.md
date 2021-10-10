@@ -110,7 +110,7 @@ Namespaces help keep things tidy between your various projects (informal).
 
 ![Screen Shot 2021-10-10 at 5 24 39 PM](https://user-images.githubusercontent.com/40435982/136713401-0ecae817-a06b-4113-a41f-20e42c05a2cb.png)
 
-Namespaces are useful for example for having replication of your production env in dev, or test environments.
+Namespaces are also useful when you want to **replicate your production deployment in a dev, or test environment.** Namespaces can do this easily and free of any name collisions
 
 ### Namespaces let you implememnt resource quotas across the cluster...
 These quotas define resource consumption limits within a namespace. These quotas apply specifically to the Kubernetes cluster they are defined on and are not the same as the GCP quotas.
