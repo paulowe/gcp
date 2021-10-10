@@ -63,8 +63,9 @@ This is another reason why you should not specify pods using individual files. T
 
 Declare a controller object whose job is to manage the state of the pods
 
-Example of controller objects
+![Screen Shot 2021-10-10 at 1 36 13 PM](https://user-images.githubusercontent.com/40435982/136707006-11315fe2-47be-4fec-a99b-80934ffa4000.png)
 
-![Screen Shot 2021-10-10 at 1 35 16 PM](https://user-images.githubusercontent.com/40435982/136706959-78109053-88fe-4f91-9832-542a572dc206.png)
+Example of controller objects
+![Screen Shot 2021-10-10 at 1 36 30 PM](https://user-images.githubusercontent.com/40435982/136707021-371d979f-67d8-4b58-962f-bcb509cae4f8.png)
 
 
