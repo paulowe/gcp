@@ -103,4 +103,19 @@ Its also essential to maintain resource quotas based on projects, department, or
 ## Namespaces - Abstract one cluster into multiple clusters called Namespaces
 Namespaces help keep things tidy between your various projects (informal). 
 
+### Object names need only be unique within the same namespace, not across all namespaces
+
+![Screen Shot 2021-10-10 at 5 24 39 PM](https://user-images.githubusercontent.com/40435982/136713401-0ecae817-a06b-4113-a41f-20e42c05a2cb.png)
+
+Namespaces are useful for example for having replication of your production env in dev, or test environments.
+
+There are 3 initial namespaces in a cluster:
+- **Default namespace** - For objects with no other namespace defined.
+- **Kube-system namespace** - For objects created by Kubernetes itself. (ConfigMap, Secrets, Controllers, Deployments)
+- **Kube-public** - For objects publicly readable to all users. Tool for disseminating information to everythiong running in a cluster. 
+
+# Best practice tip: Apply namespaces at the command line level. Its more flexible
+![Screen Shot 2021-10-10 at 5 32 52 PM](https://user-images.githubusercontent.com/40435982/136713599-482b69d8-dacd-4fe5-99ff-7e33964f0f65.png)
+
+
 
