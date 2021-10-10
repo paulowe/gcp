@@ -6,11 +6,17 @@ YAML (Recommended option) or JSON format.
 YAML files are less tedious to edit
 
 ```
-# Required field: Which Kubernetes API version is used to create the object. The Kubernetes protocol is versioned so as to help maintain backwards compatibility
+# Required field: Which Kubernetes API version is used to create the object. 
+#The Kubernetes protocol is versioned so as to help maintain backwards compatibility
+
 apiVersion: apps/v1
+
 # Defines the object you want
 kind: Pod
-# helps identify the object using name, unique id, and an optional namespace. You can define several related objects in the same YAML file (Best practice)
+
+# helps identify the object using name, unique id, and an optional namespace. 
+# You can define several related objects in the same YAML file (Best practice)
+
 metadata:
     name: nginx
     labels:
