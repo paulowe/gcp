@@ -28,3 +28,7 @@ A Pod embodies the environment in which one or more containers live in. Containe
 Containers in the same pod can communicate via Localhost.
 
 Pods are not self-healing
+
+## Desired state compared to current state
+
+The **Kubernetes control plane** will conitnuously monitor and compare states. If they do not match, then it will perform **remediation actions**
