@@ -40,7 +40,7 @@ All objects are identified by a unique name
 
 Key value pairs with which you tag your objects, during or after their creation. They help organize your objects
 
-For example you can use the ```kubectl``` command to retrieve pods running nginx webserver.
+For example you can use the ```kubectl``` command to retrieve pods that contain a label: app with the value of nginx.
 
 ```kubectl get pods -selector=app=nginx```
 
