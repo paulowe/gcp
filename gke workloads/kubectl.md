@@ -121,3 +121,31 @@ kubectl top pods
 source <(kubectl completion bash)
 ```
 kubectl followed by a space and press the Tab key twice outputs **all the possible commands.**
+
+
+# Push a file into a container
+Execute the following command to place the HTML file into the appropriate location within the nginx container in the nginx Pod to be served statically:
+
+```
+kubectl cp ~/test.html $my_nginx_pod:/usr/share/nginx/html/test.html
+```
+ You need to have created deployment with an image to the pod.
+ 
+ ## Expose pod for testing
+ ```
+ kubectl expose pod $my_nginx_pod --port 80 --type LoadBalancer
+
+ ```
+## Services
+ view details about services in the cluster:
+ 
+![Screen Shot 2021-10-23 at 10 27 46 PM](https://user-images.githubusercontent.com/40435982/138577678-11906cc1-9763-4b4f-8a5a-47a5b13565df.png)
+
+- **The kubernetes service** is one of the default services created or used by the cluster. 
+- **The nginx service** that you created is also displayed.
+
+You may need to re-run this command several times before the External IP address is displayed.
+
+![Screen Shot 2021-10-23 at 10 30 42 PM](https://user-images.githubusercontent.com/40435982/138577754-ac8f37af-3a07-4cfa-b7c1-fb6d5dd151b2.png)
+
+
