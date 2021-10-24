@@ -56,4 +56,17 @@ kubectl exec [POD_NAME] -- [command]
 kubectl exec demo -- ls /
 ```
 
+- Allows you to pass the terminal's standard input (stdin) to the container. You can use this to debug apps, e.g install dependncies to solve an issue. But remmeber to redploy container image. Do not make temporary fixes in env because once terminal session is over it will be ephmeneral
+
+## View Logs of a Pod 
+
+```
+kubectl logs [POD_NAME]
+```
+
+**If Pod has multiple container, use the -c flag to show logs for a specific container in the pod**
+
+Pod logs include application generated :
+- stderr : Error messages
+- stdout : Standard output on the console
 
