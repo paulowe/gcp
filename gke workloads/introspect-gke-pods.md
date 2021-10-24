@@ -37,7 +37,7 @@ Some container images include a shell environment that you can launch. This shel
 
 **bash** : ```kubectl exec -it new-nginx /bin/bash```
 
-## PORT FORWARDING FROM CLOUD SHELL TO THE NGINX POD (FROM PORT 10081 OF CLOUD SHELL vm TO PORT 80 IF THE NGINX CONTAINER
+## PORT FORWARDING FROM CLOUD SHELL TO THE NGINX POD (FROM PORT 10081 OF CLOUD SHELL VIRTUAL MACHINE TO PORT 80 OF THE NGINX CONTAINER
 ```kubectl port-forward new-nginx 10081:80```
 
 ![Screen Shot 2021-10-23 at 10 43 44 PM](https://user-images.githubusercontent.com/40435982/138578115-183a92ee-65c0-4cf5-a58f-dbca58152ace.png)
@@ -45,4 +45,16 @@ Some container images include a shell environment that you can launch. This shel
 This is a foreground process, so you need to open another Cloud Shell instance to test.
 
 ![Screen Shot 2021-10-23 at 10 43 08 PM](https://user-images.githubusercontent.com/40435982/138578102-ae0864ba-9180-4c29-b25c-e9b51536dc52.png)
+
+# Pod LOGS
+
+ **Stream new logs as they arrive** (and also include timestamps) for the new-nginx Pod:
+
+```
+kubectl logs new-nginx -f --timestamps
+```
+
+![Screen Shot 2021-10-23 at 10 45 38 PM](https://user-images.githubusercontent.com/40435982/138578164-74b7b5d9-bc30-48f8-8a1f-95e4126b59e5.png)
+
+
 
