@@ -12,6 +12,7 @@ kubectl get pod my-test-app -o=yaml #great practice for recreating envs
 kubectl get pod my-test-app -o=wide #for more column information 
 ```
 
+
 ## Introspection - Gather info about the cluster's Pods, Services and other engines running in the cluster
 
 ```
@@ -76,4 +77,30 @@ Pod logs include application generated :
 
 
 ![Screen Shot 2021-10-23 at 9 39 06 PM](https://user-images.githubusercontent.com/40435982/138576552-0bb6b293-a925-4c5f-9c56-b903bf0bb952.png)
+
+## inspect a GKE cluster - kubectl cluster-info
+
+![Screen Shot 2021-10-23 at 9 43 41 PM](https://user-images.githubusercontent.com/40435982/138576666-b1fe5bb7-8a48-46a2-9cad-e679b2c1e47c.png)
+
+## Show Active context
+
+```kubectl config current-context``` to sho which cluster we are connected to.
+
+## Show all contexts/clusters
+kubectl config get-contexts
+
+## Switch context/cluster. Note context naming convention as well...
+```
+kubectl config use-context gke_${GOOGLE_CLOUD_PROJECT}_us-central1-a_standard-cluster-1
+```
+You may have **more than one cluster in a project.** You can use this approach to switching the active context when your kubeconfig file has the credentials and configuration for several clusters already populated. 
+
+This approach requires 
+- the full name of the cluster, which includes 
+    - the gke prefix, 
+    - the project ID, 
+    - the location, and 
+    - the display name, 
+    - **all concatenated with underscores.**
+
 
