@@ -103,4 +103,17 @@ This approach requires
     - the display name, 
     - **all concatenated with underscores.**
 
+# View Resource usage across nodes
+```
+kubectl top nodes
+```
+# View Resource usage across all deployed Pods in the cluster
+```
+kubectl top pods
+```
 
+## Enable Kubectl Autocompletion
+```
+source <(kubectl completion bash)
+```
+kubectl followed by a space and press the Tab key twice outputs **all the possible commands.**
