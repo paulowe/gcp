@@ -70,3 +70,10 @@ Pod logs include application generated :
 - stderr : Error messages
 - stdout : Standard output on the console
 
+## Kubeconfig
+
+![Screen Shot 2021-10-23 at 9 39 40 PM](https://user-images.githubusercontent.com/40435982/138576560-3f72b447-a508-4ad3-b551-4b133c983fde.png)
+
+
+![Screen Shot 2021-10-23 at 9 39 06 PM](https://user-images.githubusercontent.com/40435982/138576552-0bb6b293-a925-4c5f-9c56-b903bf0bb952.png)
+
