@@ -48,6 +48,10 @@ Container Information
 - Restart counts,
 - Restart policy (always)
 
+
+![Screen Shot 2021-10-23 at 10 03 32 PM](https://user-images.githubusercontent.com/40435982/138577275-91f13942-3c7b-42aa-8d28-eb217f728db3.png)
+
+ 
 What is Image pull backoff?
 
 ## Troubleshoot an application, connectivity, etc: exec command
