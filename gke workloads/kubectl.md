@@ -12,6 +12,10 @@ kubectl get pod my-test-app -o=yaml #great practice for recreating envs
 kubectl get pod my-test-app -o=wide #for more column information 
 ```
 
+## Configure kubectl tab completion in Cloud Shell
+```
+source <(kubectl completion bash)
+```
 
 ## Introspection - Gather info about the cluster's Pods, Services and other engines running in the cluster
 
