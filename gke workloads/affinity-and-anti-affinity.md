@@ -84,3 +84,20 @@ with label key: value of app:webserver.
 This is a strong but still soft preference,
 because the weight of this podAntiAffinity rule has the highest possible value of 100,
 but the rule is still preferredDuringScheduling. 
+
+### Using Topology Keys for Affinity/Anti-Affinity Rules
+Using topologyKeys, you can also specify affinity and non-affinity rules at a higher
+level than just specific nodes. 
+
+For example, to ensure that Pods are not co-located in
+the same zone, not just the same node, you define a topologyKey to specify that a
+podAntiAffinity rule should apply at the zone topology level.
+
+You can use topologyKey to specify topology domains, such as 
+- node, 
+- zone, and
+- region.
+
+The Pod shown above has a podAntiAffinity rule with topologyKey set so that it prefers 
+not to be scheduled in the same zone that’s already running at least one Pod with
+label key: and value of app:webserver. 
