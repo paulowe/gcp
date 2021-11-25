@@ -1,3 +1,5 @@
+# NODE AFFINITY
+
 ## 1. Use NodeSelector
 
 For a Pod to run on a specific node, that node **must match all the labels present under
@@ -65,3 +67,11 @@ such as resource requests, resource limits, and other nodeAffinity rules, such a
 ‘preferredDuringSchedulingIgnoredDuringExecution’ is also added to this total score.
 The scheduler then assigns the Pod to the node with the highest total score.
 
+# POD AFFINITY
+## Pod Affinity Rules
+A Pod that is required or prefers to run on the same node as other Pods can be
+configured with podAffinity rules.
+
+## Pod Anti-Affinity Rules
+Pods that must not, or should not, be scheduled on
+the same node as other Pods can be configured with podAntiAffinity rules
