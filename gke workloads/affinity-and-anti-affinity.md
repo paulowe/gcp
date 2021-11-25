@@ -117,8 +117,10 @@ app:webserver aren’t allowed in the same zone.
 preference has an affinity rule where it prefers to have other Pods with label
 app:cache on the same node.
 
-The cache Pods, however, prefer to be scheduled on the same node as a web server
-but have a hard requirement that prevents multiple cache Pods from being deployed
+The cache Pods, however, 
+- prefer to be scheduled on the same node as a web server
+but have 
+- a hard requirement that prevents multiple cache Pods from being deployed
 in the same zone.
 
 The resulting distribution has the two web server Pods repelling each other at the
