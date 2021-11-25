@@ -1,4 +1,6 @@
-# NODE AFFINITY AND POD AFFINITY ARE BOTH CONFIGURED ON PODS
+# NODE AFFINITY AND POD AFFINITY, TOLERATIONS ARE CONFIGURED ON PODS
+# TAINTS ARE CONFIGURED ON NODES
+
 In this lesson, we'll see how to control the scheduling of Pods based on node selector,
 node affinity, Pod affinity, Pod anti-affinity, and taints with tolerations. 
 
