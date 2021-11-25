@@ -1,4 +1,6 @@
-# NODE AFFINITY
+# NODE AFFINITY AND POD AFFINITY ARE BOTH CONFIGURED ON PODS
+
+# NODE AFFINITY (selecting type of node. e.g Node Pools)
 
 ## 1. Use NodeSelector
 
@@ -67,7 +69,7 @@ such as resource requests, resource limits, and other nodeAffinity rules, such a
 ‘preferredDuringSchedulingIgnoredDuringExecution’ is also added to this total score.
 The scheduler then assigns the Pod to the node with the highest total score.
 
-# POD AFFINITY
+# POD AFFINITY (Application purposes. Maybe preventing Private and Public apps on same node.)
 ## Pod Affinity Rules
 A Pod that is required or prefers to run on the same node as other Pods can be
 configured with podAffinity rules.
