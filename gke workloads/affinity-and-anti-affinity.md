@@ -101,3 +101,26 @@ You can use topologyKey to specify topology domains, such as
 The Pod shown above has a podAntiAffinity rule with topologyKey set so that it prefers 
 not to be scheduled in the same zone that’s already running at least one Pod with
 label key: and value of app:webserver. 
+
+# EXAMPLE
+
+Here’s an example that combines Pod affinity and anti-affinity.
+
+Pod number 1, with
+label app:webserver, **has both a hard requirement and a soft preference.**
+
+In this Web server Pod,
+- the hard requirement has an anti-affinity rule saying that other Pods with the label
+app:webserver aren’t allowed in the same zone. 
+
+- On the other hand, the soft
+preference has an affinity rule where it prefers to have other Pods with label
+app:cache on the same node.
+
+The cache Pods, however, prefer to be scheduled on the same node as a web server
+but have a hard requirement that prevents multiple cache Pods from being deployed
+in the same zone.
+
+The resulting distribution has the two web server Pods repelling each other at the
+zone level, and attracting cache Pods at the node level. Both cache Pods also repel
+each other at the zone level and attract web server Pods at the node level. 
