@@ -21,3 +21,25 @@ This grace period is defined for each Pod.
 **If these Pods are managed by a replication controller such as a ReplicaSet or
 StatefulSet, they’ll be rescheduled on the remaining nodes**. Otherwise, the Pods won’t
 be restarted elsewhere.
+
+Let’s look at some best practices for working with autoscaled clusters.
+
+1. First, don’t run Compute Engine autoscaling for managed instance groups on these
+nodes. The GKE autoscaler is separate from Compute Engine autoscaling.
+
+2. Don’t manually resize a node pool using a gcloud command when the cluster
+autoscaler is enabled. This might lead to cluster instability and result in the cluster
+having wrong node pool sizes.
+
+3. Don’t modify autoscaled nodes manually. All nodes in a node pool should have the
+same capacity, labels, and system Pods. In addition, if you change the labels for one
+node directly using kubectl, the changes won’t be propagated to the other nodes in
+the node pool.
+
+4. Do specify correct resource requests for Pods. This will allow Pods to work efficiently
+with the cluster autoscaler. If you don’t know the resource needs of Pods, measure
+them under a test load.
+
+5. Finally, do use PodDisruptionBudgets. It’s expected that the Pods belonging to the
+controller can be safely terminated and relocated. If your application cannot tolerate
+such disruption, maintain your application’s availability using PodDisruptionBudgets. 
