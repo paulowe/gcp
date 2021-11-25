@@ -103,8 +103,8 @@ not to be scheduled in the same zone that’s already running at least one Pod w
 label key: and value of app:webserver. 
 
 # EXAMPLE
-
 Here’s an example that combines Pod affinity and anti-affinity.
+![image](https://user-images.githubusercontent.com/40435982/143488835-06b66778-03ef-4d53-88e0-5a0acb8496b2.png)
 
 Pod number 1, with
 label app:webserver, **has both a hard requirement and a soft preference.**
