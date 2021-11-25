@@ -75,3 +75,12 @@ configured with podAffinity rules.
 ## Pod Anti-Affinity Rules
 Pods that must not, or should not, be scheduled on
 the same node as other Pods can be configured with podAntiAffinity rules
+
+![image](https://user-images.githubusercontent.com/40435982/143486506-6da70c18-a686-4f37-8605-9b527207db3d.png)
+
+This Pod strongly prefers not to be scheduled on the same node as Pods
+with label key: value of app:webserver. 
+
+This is a strong but still soft preference,
+because the weight of this podAntiAffinity rule has the highest possible value of 100,
+but the rule is still preferredDuringScheduling. 
