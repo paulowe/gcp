@@ -1,4 +1,5 @@
-Create a deployment
+### Create a deployment
+
 ![image](https://user-images.githubusercontent.com/40435982/143502253-c2d60da7-7cc9-42b8-9d31-35928949d0b0.png)
 
 ```
@@ -19,17 +20,17 @@ Creats a HorizontalPodAutoscaler object that sets the max num replicas to 4, min
 The command above creates a HorizontalPodAutoscaler object that targets a specified resource, called the scale target, and scales it as needed. 
 The autoscaler periodically adjusts the number of replicas of the scale target to match the average CPU utilization that you specify when creating the autoscaler
 
-High level information about HPA
+### High level information about HPA
 ```
 kubectl get hpa [name-deployment-hpa]
 ```
 
-Detailed information about HPA
+### Detailed information about HPA
 ```
 kubectl describe hpa [name-deployment-hpa]
 ```
 
-## Deploy New node pool with 2 preemptible VMs
+### Deploy New node pool with 2 preemptible VMs
 ```
 gcloud container node-pools create "temp-pool-1" \
 --cluster=$my_cluster --zone=$my_zone \
