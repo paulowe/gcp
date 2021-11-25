@@ -21,4 +21,4 @@ be used to constrain against
 
 Affinity and Node Anti-affinity **rules won’t prevent a Pod from being
 launched if the preferences cannot be met**. Think of these as allowing you to set soft
-preferences
+preferences (preferredDuuringSchedulingIgnoredDuringExecution) in addition to hard requirements (requiredDuringSchedulingIgnoredDuringExecution)
