@@ -1,4 +1,4 @@
-## Cluster Scaling
+## Cluster Scaling Theory
 
 The Node Pool count represents the number of
 nodes in the node pool per zone.
@@ -43,3 +43,7 @@ them under a test load.
 5. Finally, do use PodDisruptionBudgets. It’s expected that the Pods belonging to the
 controller can be safely terminated and relocated. If your application cannot tolerate
 such disruption, maintain your application’s availability using PodDisruptionBudgets. 
+
+## Autoscaling and HorizontalPodAutoScaler
+
+
