@@ -1,4 +1,8 @@
 ### The kubectl command syntax has several parts
+##### Access to your cluster for kubectl
+```
+gcloud container clusters get-credentials $my_cluster --zone $my_zone
+```
 
 ```
 kubectl [command] [TYPE] [NAME] [flags]
