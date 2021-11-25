@@ -1,4 +1,11 @@
 # NODE AFFINITY AND POD AFFINITY ARE BOTH CONFIGURED ON PODS
+In this lesson, we'll see how to control the scheduling of Pods based on node selector,
+node affinity, Pod affinity, Pod anti-affinity, and taints with tolerations. 
+
+Using these,
+Pods can be distributed across the zones, co-located with Pods they need to remain
+close to, scheduled on nodes with certain features, or prevented from running on
+nodes that are unsuitable
 
 # NODE AFFINITY (selecting type of node. e.g Node Pools)
 
