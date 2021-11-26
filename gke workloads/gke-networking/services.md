@@ -1,4 +1,7 @@
 ## Services
 Services give Pods a stable IP address
 and name that remains the same through updates, upgrades, scalability changes, and
-even Pod failures.
+even Pod failures. 
+
+Services are a dependable way to locate the
+applications running in your cluster
