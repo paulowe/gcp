@@ -40,3 +40,21 @@ gcloud container node-pools create "temp-pool-1" \
 ```
 kubectl get nodes -l temp=true
 ```
+
+### Command to rollback the environment to the deployment identifies in history as revision 2
+```
+'kubectl rollout undo deployment --to-revision=2'
+```
+
+### You have autoscaling enabled on your cluster. What conditions are required for the autoscaler to decide to delete a node?
+If a node is underutilized and running Pods can be run on other Nodes
+
+### What status or event is used by the GKE autoscaler to decide when scaleout is required and a new node needs to be added?
+When the scheduler cannot schedule a Pod due to resource constraints and the Pod has been marked as unschedulable.
+
+### You are configuring the rollout strategy for your Deployment that contains 8 Pods. You need to specify a Deployment property that will ensure at least 75% of the desired number of Pods is always running at the same time. What property and value should you set for the deployment to ensure that this is the case? 
+maxUnavailable=25%
+
+### How do you configure a Kubernetes Job so that Pods are retained after completion
+Configure the cascade flag for the Job with a value of false.
+
