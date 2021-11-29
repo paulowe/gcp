@@ -33,6 +33,10 @@ In GKE service discovery through DNS can be
 - Server based (KubeDNS Server)
 - Pod based (kube-dns, for service discovery within pods, lower latency)
 
+## What is the difference between a Service of type ClusterIP and one of type NodePort?
+In addition to exposing the service at a particular cluster IP address, a NodePort Service also exposes the service on every node at a particular port number.
+
+
 ### Service Discovery through Istio (Open source, Google, IBM, Envoy @ Lyft ) - Best Practice, Optional GKE
 
 A service mesh provides an infrastructure layer that is **configurable for microservices
