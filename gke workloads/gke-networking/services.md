@@ -20,3 +20,6 @@ In GKE, this range is automatically managed for you, and by default contains ove
 4,000 addresses per cluster.
 
 ![image](https://user-images.githubusercontent.com/40435982/143530549-34eb2500-4f41-49e9-90a7-3dfe75d3aebb.png)
+
+### Service Discovery through KubeDNS Server
+![image](https://user-images.githubusercontent.com/40435982/143922553-ab38bff0-faca-4acb-ae65-e071c9a9ab7b.png)
