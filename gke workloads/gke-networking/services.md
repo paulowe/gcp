@@ -21,7 +21,18 @@ In GKE, this range is automatically managed for you, and by default contains ove
 
 ![image](https://user-images.githubusercontent.com/40435982/143530549-34eb2500-4f41-49e9-90a7-3dfe75d3aebb.png)
 
-### Service Discovery through KubeDNS Server
+### Service Discovery through Environment Variables - Default, Open source Kubernetes
+Not good. When variables are changed, only new Pods launched after the change will see those changes
+
+### Service Discovery through KubeDNS Server - Better Practice, Default GKE
 ![image](https://user-images.githubusercontent.com/40435982/143922553-ab38bff0-faca-4acb-ae65-e071c9a9ab7b.png)
 
-### Service Discovery through Istio (Open source, Google, IBM, Visual)
+In GKE service discovery through DNS can be 
+- Server based (KubeDNS Server)
+- Pod based (kube-dns, for service discovery within pods, lower latency)
+
+### Service Discovery through Istio (Open source, Google, IBM, Envoy @ Lyft ) - Best Practice, Optional GKE
+
+A service mesh provides an infrastructure layer that is configurable for microservices
+applications. Istio is a service mesh to aid in service discovery, control, and visibility in
+your microservices deployments. 
