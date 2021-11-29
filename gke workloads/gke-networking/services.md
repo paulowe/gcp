@@ -61,19 +61,37 @@ These Services build conceptually on one another, adding functionality with each
 step. 
 
 #### ClusterIP
+You have frontend Pods that must be able to locate the backend
+Pods.
+
+When you create the Service, the cluster control plane assigns a virtual IP
+address—also known as ClusterIP—from a reserved pool of Alias IP addresses in the
+cluster’s VPC. 
+
+This IP address won’t change throughout the lifespan of the Service.
+
+Internal front end pods use this IP address to locate backend services.
+![image](https://user-images.githubusercontent.com/40435982/143935659-1608926e-8821-410b-bc41-9d5fc5e1e384.png)
+
 ###### Best practice: Always create service before its corresponding workloads (Pods)
 
 ##### Setting up Cluster IP service
-Kind (Service object)
-Type (default is ClusterIP)
-Selector for pod deployments it should monitor 
-Ports
+- Kind (Service object)
+- Type (default is ClusterIP)
+- Selector for pod deployments it should monitor 
+- Ports. in comes internal (vpc-bound) traffic through -> {port} parameter -> and it remaps the traffic as it delivers it to -> {targetPort} where the Pods and containers are running
 
-in comes external traffic through -> {port} parameter -> and it remaps the traffic as it delivers it to -> {targetPort} where the Pods and containers are running
+![image](https://user-images.githubusercontent.com/40435982/143935758-dc3640cf-f256-43f8-891a-a91c48583aa2.png)
 
-Qn what if my Pods run containers that expose different ports for incoming traffic?
-
+Qn: what if my Pods run containers that expose different ports for incoming traffic?
 
 #### NodePort
+In addition to the setup of the internal ClusterIP Service, a specific port is exposed for
+external traffic on every node. This port—also known as nodePort —is automatically
+allocated from the range 30,000 to 32767
+
+![image](https://user-images.githubusercontent.com/40435982/143933716-f9c9cdaf-7208-49b3-9ae0-13189b230b09.png)
+
+![image](https://user-images.githubusercontent.com/40435982/143934831-d592ee32-860a-4f78-87f9-a6d9e7e63f82.png)
 
 #### LoadBalancer
