@@ -20,7 +20,7 @@ In GKE, this range is automatically managed for you, and by default contains ove
 4,000 addresses per cluster.
 
 ![image](https://user-images.githubusercontent.com/40435982/143530549-34eb2500-4f41-49e9-90a7-3dfe75d3aebb.png)
-
+## Setting Up Services
 ### Service Discovery through Environment Variables - Default, Open source Kubernetes
 Not good. When variables are changed, only new Pods launched after the change will see those changes
 
@@ -33,6 +33,41 @@ In GKE service discovery through DNS can be
 
 ### Service Discovery through Istio (Open source, Google, IBM, Envoy @ Lyft ) - Best Practice, Optional GKE
 
-A service mesh provides an infrastructure layer that is configurable for microservices
-applications. Istio is a service mesh to aid in service discovery, control, and visibility in
-your microservices deployments. 
+A service mesh provides an infrastructure layer that is **configurable for microservices
+applications.** 
+
+Istio is a service mesh to aid in 
+- service discovery, 
+- control, and 
+- visibility in your microservices deployments. 
+
+#### How are the Pods for which a Service provides an endpoint determined?
+Using a label selector
+
+#### What is the purpose of Services?
+To provide a static, load-balanced front end for transient Pods.
+
+#### a Pod can connect to a Service running in a different namespace in its cluster
+True. Kubernetes DNS allows a mechanism for cross-namespace service discovery by offering fully-qualified domain names.
+
+## Kubernetes Service Types and Load Balancers
+### Service Types
+There are three principal types of Services: 
+1. ClusterIP, 
+2. NodePort, and 
+3. LoadBalancer
+
+These Services build conceptually on one another, adding functionality with each
+step. 
+
+#### ClusterIP
+Kind (Service object)
+Type (default is ClusterIP)
+Selector for pod deployments it should monitor 
+Port that target containers are using
+
+##### Best practice: Always create service before its corresponding workloads (Pods)
+
+#### NodePort
+
+#### LoadBalancer
