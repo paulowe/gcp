@@ -100,8 +100,20 @@ When you create a LoadBalancer Service, GKE automatically provisions a Google
 Cloud network load balancer for inbound access to the Services from outside the
 cluster. 
 
-Traffic will be directed to the IP address of the network load balancer, and the
+Traffic will be directed to the IP address of the **network load balancer**, and the
 load balancer forwards the traffic on to the nodes for this Service.
 
 When you specify kind: Service with type: LoadBalancer in the resource
 manifest, GKE creates a Service of type LoadBalancer
+
+GKE makes appropriate Google Cloud API calls to create either 
+- an external network load balancer (DEFAULT) or 
+- an internal TCP/UDP load balancer. GKE creates an internal TCP/UDP load balancer
+when you add the networking.gke.io/load-balancer-type: "Internal"
+annotation; otherwise, GKE creates an external network load balancer.
+
+
+![image](https://user-images.githubusercontent.com/40435982/143939617-9632d9f7-fa6d-4713-a0cd-6da5e1d8f549.png)
+
+
+
