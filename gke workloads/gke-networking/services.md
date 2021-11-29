@@ -61,12 +61,18 @@ These Services build conceptually on one another, adding functionality with each
 step. 
 
 #### ClusterIP
+###### Best practice: Always create service before its corresponding workloads (Pods)
+
+##### Setting up Cluster IP service
 Kind (Service object)
 Type (default is ClusterIP)
 Selector for pod deployments it should monitor 
-Port that target containers are using
+Ports
 
-##### Best practice: Always create service before its corresponding workloads (Pods)
+in comes external traffic through -> {port} parameter -> and it remaps the traffic as it delivers it to -> {targetPort} where the Pods and containers are running
+
+Qn what if my Pods run containers that expose different ports for incoming traffic?
+
 
 #### NodePort
 
