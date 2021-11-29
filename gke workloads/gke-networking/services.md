@@ -3,6 +3,12 @@ Services give Pods a stable IP address
 and name that remains the same through updates, upgrades, scalability changes, and
 even Pod failures. 
 
+Virtual IP is durable
+
+The range of IP addresses reserved for services is managed for you in GKE and by default contains 4000 IPs
+
+![image](https://user-images.githubusercontent.com/40435982/143908666-f1d95e59-938d-4eaf-89fb-fca13c185d75.png)
+
 Services are a dependable way to locate the
 applications running in your cluster
 
