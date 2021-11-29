@@ -95,3 +95,13 @@ allocated from the range 30,000 to 32767
 ![image](https://user-images.githubusercontent.com/40435982/143934831-d592ee32-860a-4f78-87f9-a6d9e7e63f82.png)
 
 #### LoadBalancer
+
+When you create a LoadBalancer Service, GKE automatically provisions a Google
+Cloud network load balancer for inbound access to the Services from outside the
+cluster. 
+
+Traffic will be directed to the IP address of the network load balancer, and the
+load balancer forwards the traffic on to the nodes for this Service.
+
+When you specify kind: Service with type: LoadBalancer in the resource
+manifest, GKE creates a Service of type LoadBalancer
