@@ -23,3 +23,5 @@ In GKE, this range is automatically managed for you, and by default contains ove
 
 ### Service Discovery through KubeDNS Server
 ![image](https://user-images.githubusercontent.com/40435982/143922553-ab38bff0-faca-4acb-ae65-e071c9a9ab7b.png)
+
+### Service Discovery through Istio (Open source, Google, IBM, Visual)
