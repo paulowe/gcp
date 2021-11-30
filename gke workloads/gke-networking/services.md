@@ -121,5 +121,21 @@ annotation; otherwise, GKE creates an external network load balancer.
 
 ![image](https://user-images.githubusercontent.com/40435982/143939617-9632d9f7-fa6d-4713-a0cd-6da5e1d8f549.png)
 
+## Ingress
+Used to provide external access to one or more Services.
+
+Defines rules. Ingress resource decides how to route incoming requests based on the host name and resource path requested
+
+![image](https://user-images.githubusercontent.com/40435982/144127723-fea35303-6d74-49ff-ab05-d33afccc8d8a.png)
+
+Ingress supports multiple host names for the same IP address.
+![image](https://user-images.githubusercontent.com/40435982/144127781-856895a4-38fa-4875-a6bb-e3b373748087.png)
+
+Additional Ingress Features
+● TLS termination.
+● Multiple SSL certificates.
+● HTTP/2 and gRPC.
+● Multi-cluster and multi-region support.
+
 
 
