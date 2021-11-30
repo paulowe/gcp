@@ -12,6 +12,7 @@ Can alleviate the double hop dilemma.
 ![image](https://user-images.githubusercontent.com/40435982/144129400-12d04903-7cab-48bb-8ed9-b7c17d546a06.png)
 
 ## How?
+
 Suppose that the lowest possible latency is most important. You can configure the
 LoadBalancer Service to force kube-proxy to choose a Pod local to the Node that
 received the client traffic. To do that, set the externalTrafficPolicy field to “Local” in the
