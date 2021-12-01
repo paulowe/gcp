@@ -151,3 +151,26 @@ Note: The kubectl switches used here in conjunction with the run command are imp
   ## Restricting egress 
 When restricting egress, that is, the configuring which outgoing traffic from your pod is allowed you should remember to 
 allow port 53 which is used for *DNS resolution*
+
+```
+kind: NetworkPolicy
+apiVersion: networking.k8s.io/v1
+metadata:
+  name: foo-allow-to-hello
+spec:
+  policyTypes:
+  - Egress
+  podSelector:
+    matchLabels:
+      app: foo
+  egress:
+  - to:
+    - podSelector:
+        matchLabels:
+          app: hello
+  - to:
+    ports:
+    - protocol: UDP
+      port: 53
+      
+```
