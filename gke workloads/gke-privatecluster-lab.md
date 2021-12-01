@@ -1,3 +1,6 @@
+## Private clusters
+You might use private clusters to provide services such as internal APIs that are meant only to be accessed by resources inside your network. For example, the resources might be private tools that only your company uses. Or they might be backend services accessed by your frontend services, and perhaps only those frontend services are accessed directly by external customers or users. In such cases, private clusters are a good way to reduce the surface area of attack for your application.
+
 ```
 gcloud container clusters describe private-cluster --region us-central1-a
 ``` 
@@ -144,3 +147,6 @@ status: PROVISIONING
 subnetwork: default
 zone: us-central1-a
 ```
+
+# Network policy (for inter-pod networking restriction)
+In this task, you create a cluster network policy to restrict communication between the Pods. A zero-trust zone is important to prevent lateral attacks within the cluster when an intruder compromises one of the Pods.
