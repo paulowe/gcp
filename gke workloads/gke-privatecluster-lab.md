@@ -130,3 +130,24 @@ zone: us-central1-a
 
 # Network policy (for inter-pod networking restriction)
 In this task, you create a cluster network policy to restrict communication between the Pods. A zero-trust zone is important to prevent lateral attacks within the cluster when an intruder compromises one of the Pods.
+
+## Open a shell in your Pod
+```
+kubectl run test-1 --labels app=foo --image=alpine --restart=Never --rm --stdin --tty
+```
+
+Note: The kubectl switches used here in conjunction with the run command are important to note.
+
+--stdin ( alternatively -i ) creates an interactive session attached to STDIN on the container.
+
+--tty ( alternatively -t ) allocates a TTY for each container in the pod.
+
+--rm instructs Kubernetes to treat this as a temporary Pod that will be removed as soon as it completes its startup task. As this is an interactive session it will be removed as soon as the user exits the session.
+
+--label ( alternatively -l ) adds a set of labels to the pod.
+
+--restart defines the restart policy for the Pod
+
+  ## Restricting egress 
+When restricting egress, that is, the configuring which outgoing traffic from your pod is allowed you should remember to 
+allow port 53 which is used for *DNS resolution*
