@@ -138,4 +138,29 @@ Additional Ingress Features
 ● Multi-cluster and multi-region support.
 
 
+### Create an ingress resource
+Ingress is a Kubernetes resource that encapsulates a collection of rules and configuration for routing external HTTP(S) traffic to internal services
+
+When you create an ingress resource in your cluster, GKE creates an HTTP(S) load balancer and configures it to route traffic to your application.
+
+![image](https://user-images.githubusercontent.com/40435982/144334949-92e9e02c-eef9-48c7-8744-6ae980f30dea.png)
+
+The kubernetes.io/ingress.global-static-ip-name annotation allows you to specify a named reserved ip-address that the Ingress resource will use when creating the Google Cloud Global HTTP(S) load balancer for the Ingress resource.
+
+When you deploy this manifest, Kubernetes creates an ingress resource on your cluster. The ingress controller running in your cluster is responsible for creating an HTTP(S) load balancer to route all external HTTP traffic (on port 80) to the web NodePort service and the LoadBalancer service that you exposed.
+
+![image](https://user-images.githubusercontent.com/40435982/144335422-22847d28-dab4-4a91-84b7-69a528414826.png)
+
+As you can see Ingress resource can route HTTP traffic to any one of our deployed services (Nodeport and Network Lb)
+![image](https://user-images.githubusercontent.com/40435982/144333177-25ceb088-426a-41a8-95c3-891d7f5fc59e.png)
+![image](https://user-images.githubusercontent.com/40435982/144334073-10adb0c1-6446-421c-b858-8f732d02f4a2.png)
+
+Difference between ClusterIP, NodePort and LoadBalancer is in the ports
+- ClusterIP Uses 80/TCP
+- NodePort uses 80:30100/TCP
+- LoadBalancer uses 80:30262/TCP
+
+TCP Load Balancer == Network Load balancer
+
+
 
