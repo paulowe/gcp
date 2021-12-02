@@ -133,8 +133,8 @@ Ingress supports multiple host names for the same IP address.
 
 Additional Ingress Features
 ● TLS termination.
-● Multiple SSL certificates.
-● HTTP/2 and gRPC.
+● Manage Multiple SSL certificates in one place.
+● HTTP/2 and gRPC - For micrsoervices based applications that depend on communication with one another (duhh) pods use gRPC (which uses the HTTP/2 standard) to create performant, low latency, scalable communications between your pods.
 ● Multi-cluster and multi-region support.
 
 
