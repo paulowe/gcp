@@ -1,6 +1,9 @@
 ## Services
 ![image](https://user-images.githubusercontent.com/40435982/143942941-0f132813-037b-4947-a4c1-98598d2f2940.png)
 
+### Best choice (New): Container native load balancing using Network Endpoint Groups
+![image](https://user-images.githubusercontent.com/40435982/144496507-b30dc41c-d159-49a1-b222-c888b211ab17.png)
+
 Services give Pods a stable IP address
 and name that remains the same through updates, upgrades, scalability changes, and
 even Pod failures. 
