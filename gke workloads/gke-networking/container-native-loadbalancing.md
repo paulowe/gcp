@@ -11,7 +11,10 @@ Can alleviate the double hop dilemma.
 #### Advantages
 ![image](https://user-images.githubusercontent.com/40435982/144129400-12d04903-7cab-48bb-8ed9-b7c17d546a06.png)
 
-## How?
+### Best choice (New): Container native load balancing using Network Endpoint Groups
+![image](https://user-images.githubusercontent.com/40435982/144496507-b30dc41c-d159-49a1-b222-c888b211ab17.png)
+
+## Ok Choice; Set external-traffic policy to Local
 
 Suppose that the lowest possible latency is most important. You can configure the
 LoadBalancer Service to force kube-proxy to choose a Pod local to the Node that
