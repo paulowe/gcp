@@ -25,3 +25,5 @@ forwarded from node to node, the source client IP address is preserved and direc
 visible to the destination Pod.
 
 ![image](https://user-images.githubusercontent.com/40435982/144134090-100a89a9-3f1e-4226-8abf-d9c99b0642c2.png)
+
+## You are designing a GKE solution. One of your requirements is that network traffic load balancing should be directed to Pods directly, instead of balanced across nodes. What change can you make to your environment?
