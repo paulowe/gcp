@@ -1,4 +1,4 @@
-[Next -> Volumes 2]()
+[Next -> Volumes 2](https://github.com/paulowe/gcp/blob/main/gke%20workloads/gke_persistent_storage/volumes2.md)
 ## Volumes are attached to Pods, not Nodes
 Ephemeral volumes
 
