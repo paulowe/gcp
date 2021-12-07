@@ -10,9 +10,21 @@ Persistent volumes
 ## Volumes allow containers within a pod to share data and are necessary for Pods to be stateful
 
 
-#### Volume types 
-- Persistent Disk - Long lived (same as GCE Persistent Disk)
-- EmptyDir - Temporary, Short-lived, used to exchange data between containers using file system
-- Networked volumes (such as NFS, Iscazzi)
+### Volume types 
+##### 1 .Persistent Disk - Long lived (same as GCE Persistent Disk)
+
+##### 2. EmptyDir - An empty directory that allows the containers within the Pod to read and write to and from it.
+    - Temporary, Short-lived
+    - Used to exchange data between containers using file system
+    - Deleted if the Pod is removed from a node 
+    - Kubernetes creates emptyDir volumes from the node’s local disk, or by using a memory-backed file system
+    
+    **Example of EmptyDir volume objects**
+    
+    - ConfigMap
+    - 
+
+
+##### 3. Networked volumes (such as NFS, Iscazzi)
 
 
