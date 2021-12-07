@@ -20,13 +20,13 @@ Persistent volumes
     - Kubernetes creates emptyDir volumes from the node’s local disk, or by using a memory-backed file system
     
    **Example of EmptyDir volume objects** 
-- **ConfigMap** - The configMap resource provides a way to inject application configuration data
-into Pods from Kubernetes
-- **Secrets** -  use Secrets to store sensitive
-information, such as passwords, tokens, and ssh keys. Just like ConfigMap, a
+- **ConfigMap** - The configMap resource provides a way to **inject application configuration data
+into Pods** from Kubernetes
+- **Secrets -  use Secrets to store sensitive
+information, such as passwords, tokens, and ssh keys**. Just like ConfigMap, a
 Secret Volume is created to pass sensitive information to the Pods. These
-Secret Volumes are backed by in-memory file systems, so the Secrets are 
-never written to non-volatile storage. And it’s a common practice to obfuscate
+Secret Volumes are **backed by in-memory file systems, so the Secrets are 
+never written to non-volatile storage**. And it’s a common practice to obfuscate
 the values that go into secrets using the familiar base64 encoding
 
 
