@@ -11,9 +11,9 @@ Persistent volumes
 
 
 ### Volume types 
-##### 1 .Persistent Disk - Long lived (same as GCE Persistent Disk)
+#### 1 .Persistent Disk - Long lived (same as GCE Persistent Disk)
 
-##### 2. EmptyDir - An empty directory that allows the containers within the Pod to read and write to and from it.
+#### 2. EmptyDir - An empty directory that allows the containers within the Pod to read and write to and from it.
     - Temporary, Short-lived
     - Used to exchange data between containers using file system
     - Deleted if the Pod is removed from a node 
@@ -22,9 +22,14 @@ Persistent volumes
    **Example of EmptyDir volume objects** 
 - **ConfigMap** - The configMap resource provides a way to inject application configuration data
 into Pods from Kubernetes
-- 
+- **Secrets** -  use Secrets to store sensitive
+information, such as passwords, tokens, and ssh keys. Just like ConfigMap, a
+Secret Volume is created to pass sensitive information to the Pods. These
+Secret Volumes are backed by in-memory file systems, so the Secrets are 
+never written to non-volatile storage. And it’s a common practice to obfuscate
+the values that go into secrets using the familiar base64 encoding
 
 
-##### 3. Networked volumes (such as NFS, Iscazzi)
+#### 3. Networked volumes (such as NFS, Iscazzi)
 
 
