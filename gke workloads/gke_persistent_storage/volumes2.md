@@ -60,8 +60,10 @@ the storage type details inside the Pod specification.
   
 **2. PersistentVolumeClaim (PVC)**
   -  Requests made by pod to use PV
-  
-    PV storage class name and PVC storage class name must match for them to be bound together.
+    
+    For PV & PVC to be bound together:
+    - PV storage class name and PVC storage class name must match 
+    - PV access mode and PVC access modes must match
 
 ### Storage classes
 Storage classes are parameters for a class of storage for which **persistent volumes are dynmically provisoned**. They are choices for how persistent volumes are backed.
