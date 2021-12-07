@@ -40,7 +40,18 @@ another, there’s a risk of error.
 To address this problem, Kubernetes provides an
 abstraction called **Persistent Volumes**. 
 
-### Best practice: Use Persistent Volumes
+### Best practice: Use PersistentVolumes abstraction 
 This abstraction lets a Pod claim a Volume of a
 certain size, or of a certain name, from a pool of storage without forcing you to define
 the storage type details inside the Pod specification.
+
+#### PersistentVolumes Has Two components
+1. PersistentVolume (PV)
+2. PersistentVolumeClaim (PVC)
+
+### Storage classes
+Storage classes are parameters for a class of storage for which **persistent volumes are dynmically provisoned**. They are choices for how persistent volumes are backed.
+
+#### Left (Example PV definition) Right (Default StorageClass used if PVC doesnt define one) 
+![image](https://user-images.githubusercontent.com/40435982/144953831-0c284bb1-c513-429e-825a-8fcd20c2cac1.png)
+
