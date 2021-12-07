@@ -13,7 +13,8 @@ Persistent volumes
 
 ### Volume types 
 #### 1. Persistent Disk - Long lived (same as GCE Persistent Disk)
-
+    - Physical storage (backed by Persisten Disks) defined at the Pod-level (cannot dynamically provision, must be created before Pod creation)
+    - Physical storage (backed by Persistent Disks) managed at the Cluster level using PersistentVolume and PersistenVolumeClaims (dynamic provisioning)
 #### 2. EmptyDir - An empty directory that allows the containers within the Pod to read and write to and from it.
     - Temporary, Short-lived
     - Used to exchange data between containers using file system
@@ -46,6 +47,6 @@ is the Filestore managed service
 In order to mount the Volume to a container, the Volume name and mount path must
 be specified under the volumeMounts field for the container. 
 
-##### The container will onlystart when all the volumes are ready to be mounted.
+##### The container will only start when all the volumes are ready to be mounted.
 
 ![image](https://user-images.githubusercontent.com/40435982/144948263-78672511-7acb-4896-ada1-8a1334604c95.png)
