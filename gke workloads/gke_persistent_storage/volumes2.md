@@ -65,6 +65,9 @@ the storage type details inside the Pod specification.
     - PV storage class name and PVC storage class name must match 
     - PV access mode and PVC access modes must match
 
+
+![image](https://user-images.githubusercontent.com/40435982/144957351-0125652c-9553-45a1-86d1-a531ae6a94ee.png)
+
 ### Storage classes
 Storage classes are parameters for a class of storage for which **persistent volumes are dynmically provisoned**. They are choices for how persistent volumes are backed.
 
