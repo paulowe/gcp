@@ -16,7 +16,7 @@ long-lived or not, **Volumes are tied to the lifecycle of the Pods where they’
 
 ### A. Not good practice: Pod-level Volume definition of Persistent disk
 
-First a 100-GB (volume capacity) Compute Engine Persistent Disk is created using a gcloud command. Before this Persistent Disk can be used by any Pod, someone or some process must create it, and that person or process must have Compute Engine administration rights
+First a 100-GB (volume capacity) Compute Engine Persistent Disk **must be created** using a gcloud command. **Before this Persistent Disk can be used by any Pod, someone or some process must create it**, and that person or process must have Compute Engine administration rights
 
 ![image](https://user-images.githubusercontent.com/40435982/144950083-40998901-ef31-4c8b-a760-3284d307b3e8.png)
 
@@ -99,6 +99,10 @@ In general it is good practice to delte PVC if underying PV is no longer require
 Configure your storageClass to use replication type : regional-pd. If a zonal outage occurs, Kubernetes can fail over WORKLOADS THAT USE THE VOLUME.
 
 HA stateful workloads that use PV in GKE.
+
+## Pod failure
+#### What happens if a Pod fails while it is using a persistent volume
+The volumes are unmounted from the failing Pod, and they continue to exist with their last contents.
 
 ## You can use PVs for OTHER Controllers beyond Pods: Deployments and StatefulSets 
 
