@@ -30,7 +30,7 @@ never written to non-volatile storage**. And it’s a common practice to obfusca
 the values that go into secrets using the familiar base64 encoding
 
 
-### A Volume is a directory that’s accessible to the containers in a Pod
+#### A Volume is a directory that’s accessible to the containers in a Pod
 At its core, a Volume is just a directory that is accessible to the containers in a Pod.
 How that directory is created, the medium that backs it, and its contents are
 determined by the particular Volume type used.
@@ -40,3 +40,9 @@ could be anywhere. In Google Cloud, the lowest-overhead way to serve NFS volumes
 is the Filestore managed service
 
 #### 3. Networked volumes (such as NFS, Iscazzi)
+![image](https://user-images.githubusercontent.com/40435982/144947609-a15728d8-f481-43da-aa93-3cf3d8457bfe.png)
+
+In order to mount the Volume to a container, the Volume name and mount path must
+be specified under the volumeMounts field for the container. 
+
+##### The container will onlystart when all the volumes are ready to be mounted.
