@@ -46,12 +46,19 @@ certain size, or of a certain name, from a pool of storage without forcing you t
 the storage type details inside the Pod specification.
 
 #### PersistentVolumes Has Two components
-1. PersistentVolume (PV)
+1. PersistentVolume (PV) 
+  -  Compute Engine Persistent Disks managed at the cluster level
+  -  Independent of the pod's lifecycle
+  -  Manually or dynamically provisioned
 2. PersistentVolumeClaim (PVC)
+  -  Requests made by pod to use PV
+  -  Defines Storage class, Volume Size, and Access mode
+  
+    PV storage class name and PVC storage class name must match for them to be bound together.
 
 ### Storage classes
 Storage classes are parameters for a class of storage for which **persistent volumes are dynmically provisoned**. They are choices for how persistent volumes are backed.
 
-#### Left (Example PV definition) Right (Default StorageClass used if PVC doesnt define one) 
+#### Left (Example PV definition) Right (Default StorageClass name (standard) used if PVC doesnt define one) 
 ![image](https://user-images.githubusercontent.com/40435982/144953831-0c284bb1-c513-429e-825a-8fcd20c2cac1.png)
 
