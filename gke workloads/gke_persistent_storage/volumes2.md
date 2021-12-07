@@ -53,25 +53,67 @@ the storage type details inside the Pod specification.
   -  Independent of the pod's lifecycle
   -  Manually or dynamically provisioned
 
-  Access Modes determin how the Volume will read or write
+  Access Modes determine how the Volume will read or write
   - ReadWriteOnce (most applications, sinlge node)
   - ReadOnlyMany (for static data, many nodes)
   - ReadWriteMany (GCE PD dont support this. Only NFS does, Many nodes)
-  
+
+
+● ReadWriteOnce mounts the Volume as read-write to a single node.
+● ReadOnlyMany mounts a Volume as read-only to many nodes.
+● ReadWriteMany mounts Volumes as read-write to many nodes. 
+
+Deployment replicas can share an existing Persistent Volume using a ReadOnlyMany or ReadWriteMany access mode
+
+#### Deadlock condition: ReadWriteOnce, isn’t recommended for Deployments, because the replicas need to attach and reattach to Persistent Volumes dynamically.
+
 **2. PersistentVolumeClaim (PVC)**
   -  Requests made by pod to use PV
     
     For PV & PVC to be bound together:
     - PV storage class name and PVC storage class name must match 
     - PV access mode and PVC access modes must match
+    - PVC must request within size (<=) AVAILABLE capacity of the PV
 
-
-![image](https://user-images.githubusercontent.com/40435982/144957351-0125652c-9553-45a1-86d1-a531ae6a94ee.png)
 
 ### Storage classes
 Storage classes are parameters for a class of storage for which **persistent volumes are dynmically provisoned**. They are choices for how persistent volumes are backed.
 
 #### Left (Example PV definition) Right (Default StorageClass name (standard) used if PVC doesnt define one) 
 ![image](https://user-images.githubusercontent.com/40435982/144953831-0c284bb1-c513-429e-825a-8fcd20c2cac1.png)
+
+## What happens when if there isn't a PV to satisfy a PVC?
+- Kubernetes will try to dynamically provision a new one
+- If a matching already exists, Kubernetes will bind it to the claim.
+- Dynamic provisioining only works if it is enabled for the cluster
+
+
+## By default, deleting a PVC will ALSO delete the provisioned PV
+![image](https://user-images.githubusercontent.com/40435982/144957890-6cf1941a-452b-4204-9d0e-2f91ed8cd26d.png)
+
+If you want to retain the PV, configure persistentVolumeReclaimPolicy to **Retain**
+
+In general it is good practice to delte PVC if underying PV is no longer required.. Duuhhh?
+
+## Availability for PV
+Configure your storageClass to use replication type : regional-pd. If a zonal outage occurs, Kubernetes can fail over WORKLOADS THAT USE THE VOLUME.
+
+HA stateful workloads that use PV in GKE.
+
+## You can use PVs for OTHER Controllers beyond Pods: Deployments and StatefulSets 
+
+Deployments can only share state using ReadOnlyMany or ReadWriteMany (NFS)
+
+## PV with AccessMode ReadWriteOnce + Deployment = Deadlock
+StatefulSets resolve this deadlock. Whenever your application needs to maintain state in
+Persistent Volumes, managing it with a StatefulSet rather than a Deployment is the
+way to go.
+
+## StatefulSets
+ StatefulSets run and maintain a set of
+Pods, just like Deployments do. A StatefulSet object defines a desired state, and its
+controller achieves it. However, unlike Deployments, StatefulSets maintain a
+**persistent identity for each Pod.**
+
 
 
