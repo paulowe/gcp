@@ -19,10 +19,10 @@ Persistent volumes
     - Deleted if the Pod is removed from a node 
     - Kubernetes creates emptyDir volumes from the node’s local disk, or by using a memory-backed file system
     
-    **Example of EmptyDir volume objects**
-    
-    - ConfigMap
-    - 
+   **Example of EmptyDir volume objects** 
+- **ConfigMap** - The configMap resource provides a way to inject application configuration data
+into Pods from Kubernetes
+- 
 
 
 ##### 3. Networked volumes (such as NFS, Iscazzi)
