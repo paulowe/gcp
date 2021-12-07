@@ -11,11 +11,13 @@ long-lived or not, **Volumes are tied to the lifecycle of the Pods where they’
 ## 3. Persistent Disk Volume type
 
 **Persistent Disks are network-based block storage that can provide durable storage.**
+### A: Pod level Volumes vs. B: Cluster level Persistent Volumes
+![image](https://user-images.githubusercontent.com/40435982/144956085-cb13ba2f-47c8-4f1c-936d-4ba2fd17f1f6.png)
 
-- First a 100-GB Compute Engine Persistent Disk is created using a gcloud command. Before this Persistent Disk can be used by any Pod, someone or some process must
-create it, and that person or process must have Compute Engine administration rights
+### A. Not good practice: Pod-level Volume definition of Persistent disk
 
-### Not good practice: Pod-level definition of Persistent disk
+First a 100-GB (volume capacity) Compute Engine Persistent Disk is created using a gcloud command. Before this Persistent Disk can be used by any Pod, someone or some process must create it, and that person or process must have Compute Engine administration rights
+
 ![image](https://user-images.githubusercontent.com/40435982/144950083-40998901-ef31-4c8b-a760-3284d307b3e8.png)
 
 **PdName**  must correspond to a Compute Engine Persistent Disk that **has already been
@@ -40,7 +42,7 @@ another, there’s a risk of error.
 To address this problem, Kubernetes provides an
 abstraction called **Persistent Volumes**. 
 
-### Best practice: Use PersistentVolumes abstraction 
+### B: Best practice: Use PersistentVolumes abstraction 
 This abstraction lets a Pod claim a Volume of a
 certain size, or of a certain name, from a pool of storage without forcing you to define
 the storage type details inside the Pod specification.
