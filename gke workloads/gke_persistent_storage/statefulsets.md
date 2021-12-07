@@ -25,3 +25,9 @@ Override sequential behavior set pod management policy to Parallel
 
 ## 5. Specify Volume claim templates. 
 ![image](https://user-images.githubusercontent.com/40435982/144962715-b471c123-f60c-4363-8dcf-a7fd5c096caa.png)
+
+## How can I make a headless Service to bring together the Pods in a StatefulSet?
+By specifying None for the cluster IP in the Service definition
+
+## How are the Pods that make up a StatefulSet distinguished from one another?
+By an ordinal index at the end of their names
