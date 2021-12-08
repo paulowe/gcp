@@ -31,3 +31,6 @@ By specifying None for the cluster IP in the Service definition
 
 ## How are the Pods that make up a StatefulSet distinguished from one another?
 By an ordinal index at the end of their names
+
+## A stateful set consists of four Pods that are named Demo-0, Demo-1, Demo-2 and Demo-3. The StatefulSet originally only had two replica Pods but this was recently increased to four replicas. An update is being rolled out to this StatefulSet using the RollingUpdate updateStrategy type. Which Pod will be the last member of the StatefulSet to be updated?
+Demo-0
