@@ -1,4 +1,40 @@
-# Pods refer to ConfigMap in 3 ways
+# ConfigMaps decouple configuration from Pods
+- Prevents configuration drift
+- Single source of truth
+
+## Use cases for ConfigMap
+Using configMap, you can make the
+following available inside Containers: 
+- configuration files, 
+- command-line arguments,
+- environment variables, 
+- port numbers, and 
+- other configuration artifacts 
+
+# A. Creating configMaps
+
+## 1. Using Literal values in kubectl create configmap command
+![image](https://user-images.githubusercontent.com/40435982/145127129-7eeebe33-c2d0-46c2-83a8-05537f75340f.png)
+
+## 2. Using Files in kubectl create configmap command
+![image](https://user-images.githubusercontent.com/40435982/145127332-9207b441-7c17-44a7-b917-9dd7c44a8dc3.png)
+
+Note:
+- You can have more than one config file
+- Check these files into your source code control system, to **maintain their versioning
+and history** of configurations
+
+
+## 3. Creating a ConfigMap using a directory
+Instead of specifying each file from the same directory, you can simply use the
+directory name directly.
+
+**All files within a directory are added to the ConfigMap.**
+
+## 4. Using a Manifest and applying it using kubectly apply command
+![image](https://user-images.githubusercontent.com/40435982/145127769-9d8d0f7b-0074-4cf6-bbaf-213454b344f8.png)
+
+# B. Pods refer to ConfigMap in 3 ways
 
 ## 1. Environment variable
 ![image](https://user-images.githubusercontent.com/40435982/145124988-69a7e995-d8a3-47a0-90e7-24965d09efa8.png)
