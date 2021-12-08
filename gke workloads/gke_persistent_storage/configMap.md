@@ -74,3 +74,10 @@ microservice to provide its value to Pods
 Roughly on the order of seconds or minutes
 
 ### How frequently does the kubelet refresh the values of ConfigMaps stored in environment variables inside Pods?
+Never
+
+### You have created a ConfigMap and want to make the data available to your application. Where should you configure the directory path parameters in the Pod manifest to allow your application to access the data as files?
+spec.containers.volumeMounts
+
+
+
