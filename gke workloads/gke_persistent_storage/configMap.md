@@ -36,13 +36,16 @@ directory name directly.
 
 # B. Pods refer to ConfigMap in 3 ways
 
-## 1. Environment variable
+## 1. Environment variable (kubelet does not refresh COnfigMap values stored this)
 ![image](https://user-images.githubusercontent.com/40435982/145124988-69a7e995-d8a3-47a0-90e7-24965d09efa8.png)
 
 Here, a single ConfigMap is used in the Pod as a container environment variable.
 Within an env field, a container environment variable is named as VARIABLE_DEMO.
 The values are retrieved using configMapKeyRef.
 Multiple variables can be added from the same or different ConfigMapss
+
+#### How frequently does the kubelet refresh the values of ConfigMaps stored in environment variables inside Pods?
+Never. The values of environment variables are inserted into a Pod at the time of the Pod's birth; the kubelet has no way to reach into the Pod and modify these values later.
 
 ## 2. In Pod commands
 ![image](https://user-images.githubusercontent.com/40435982/145125074-366681b1-30ea-4342-90d4-fa7d93b4f5d7.png)
