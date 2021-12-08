@@ -19,3 +19,14 @@ with a ConfigMap named demo.
 The result: a ConfigMap Volume is created for this Pod. All the data from the
 ConfigMap is stored in this ConfigMap Volume as files, and then this Volume is
 mounted to the container using the mountPath directory.
+
+Each node’s Kubelet periodically syncs with
+ConfigMap to keep the ConfigMap Volume updated
+
+When a ConfigMap Volume is already mounted and the source ConfigMap is
+changed, the projected keys are **eventually** (seconds-minutes) updated
+
+## For frequently changing configuration variables
+ If you have a piece of configuration
+data that will change more rapidly than that, you should probably implement a
+microservice to provide its value to Pods
