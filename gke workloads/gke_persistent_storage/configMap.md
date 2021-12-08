@@ -66,3 +66,8 @@ changed, the projected keys are **eventually** (seconds-minutes) updated
  If you have a piece of configuration
 data that will change more rapidly than that, you should probably implement a
 microservice to provide its value to Pods
+
+### How frequently does the kubelet refresh the values of ConfigMaps mounted as volumes inside Pods?
+Roughly on the order of seconds or minutes
+
+### How frequently does the kubelet refresh the values of ConfigMaps stored in environment variables inside Pods?
