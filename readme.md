@@ -172,5 +172,6 @@ Stackdriver
 ### Designing Reliable Systems
 
 ### Security
+![image](https://user-images.githubusercontent.com/40435982/146492496-7d8523e4-4931-4b79-86aa-5c247c540834.png)
 
 ### Maintenance and Monitoring
