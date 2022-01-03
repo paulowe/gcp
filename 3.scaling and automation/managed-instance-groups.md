@@ -1,6 +1,6 @@
 [Next](https://github.com/paulowe/gcp/blob/main/3.scaling%20and%20automation/https-load-balancing.md)
 # Managed Instance Groups
-
+m
 - Deploy identical instances based on instance template
 - Instance group can be resized
 - Manager ensures all instances are RUNNING
