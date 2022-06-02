@@ -11,6 +11,7 @@ Global infrastructure
 [Cloud Load Balancing](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/cloud-load-balancer.md)
 
 Shared Responsibility Model
+<img src="captures/sharedresponsibility.png" />
 
 [Pricing innovations](https://github.com/paulowe/gcp/blob/main/gcp-core-infrastructure/pricing.md)
 
